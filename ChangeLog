@@ -128,7 +128,7 @@
 	* config.guess (sei:*:*:seiux): Detect SEIUX running on MIPS-based
 	workstations manufactured by Sumitomo Electric Industries.
 	* config.sub (sei, -sei*): Handle.
-	
+
 2003-06-13  Svein E. Seldal  <Svein.Seldal@solidas.com>
 
 	* config.sub (c4x, tic4x): Re-arrange and fix.
@@ -332,7 +332,7 @@
 
 	* config.guess: Detect Concurrent PowerMaxion.
 	Reported by Lloyd Goldston <lloyd.goldston@sed.redstone.army.mil>.
-	
+
 	* config.guess: Detect Convergent 3B1 machines (running AT&T UNIX).
 	Reported by Bruce Lilly <blilly@erols.com>.
 
@@ -376,7 +376,7 @@
 2002-07-03  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Execute $dummy, not ./$dummy, throughout.
-	
+
 	* config.guess (set_cc_for_build): Create a chmod 700 directory in
 	/tmp (or $TMPDIR, if set) to store temporary files generated for
 	use by the C compiler. This should resist the /tmp symbolic link
@@ -392,7 +392,7 @@
 	* config.sub: Accept freebsd-gnu system name.
 
 2002-06-21  J"orn Rennecke <joern.rennecke@superh.com>
-	
+
 	* config.sub: Add support for sh[12], sh3e, sh[1234]le, sh3ele,
 	shle, sh[1234]le, sh3ele.
 
@@ -540,7 +540,7 @@
 	* config.guess (i*86:Linux:*:*): Fixed: export LANG=C before
 	running ld so that linker output can be assumed to be in English,
 	and it works with non-default locales.
-	
+
 2002-01-10  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Update Per Bothner's mail address.
@@ -548,7 +548,7 @@
 2002-01-02  Douglas B. Rupp  <rupp@gnat.com>
 
 	* config.sub (alpha64*): New basic_machine.
-	
+
 2002-01-02  Ben Elliston  <bje@redhat.com>
 
 	From Sigbjorn Skjaeret <cisc@c2i.net>.
