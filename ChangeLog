@@ -1,3 +1,7 @@
+2000-02-08  John W. Eaton  <jwe@bevo.che.wisc.edu>
+
+	* config.sub: Recognize sv1-cray as a basic_machine type.
+
 2000-02-07  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Replace sub-minor system version number with an

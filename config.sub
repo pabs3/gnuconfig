@@ -215,7 +215,7 @@ case $basic_machine in
 	      | mips64el-* | mips64orion-* | mips64orionel-* \
 	      | mips64vr4100-* | mips64vr4100el-* | mips64vr4300-* | mips64vr4300el-* \
 	      | mipstx39-* | mipstx39el-* | mcore-* \
-	      | f301-* | armv*-* | t3e-* \
+	      | f301-* | armv*-* | sv1-* | t3e-* \
 	      | m88110-* | m680[01234]0-* | m683?2-* | m68360-* | z8k-* | d10v-* \
 	      | thumb-* | v850-* | d30v-* | tic30-* | c30-* | fr30-* )
 		;;
@@ -737,6 +737,10 @@ case $basic_machine in
 		;;
 	sun386 | sun386i | roadrunner)
 		basic_machine=i386-sun
+		;;
+	sv1)
+		basic_machine=sv1-cray
+		os=-unicos
 		;;
 	symmetry)
 		basic_machine=i386-sequent
