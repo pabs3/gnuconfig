@@ -1,5 +1,9 @@
+2003-10-03  Chris Demetriou  <cgd@broadcom.com>
+
+	* config.sub (mipsisa64r2*): Add.
+
 2003-10-03  Ben Elliston  <bje@wasabisystems.com>
-	    Joachim Schmitz <schmitz@hp.com>
+	    Joachim Schmitz  <schmitz@hp.com>
 
 	* config.guess (NSR-*:NONSTOP_KERNEL:*:*): Recognise NSR-Y.
 
