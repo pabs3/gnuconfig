@@ -595,6 +595,9 @@ case $basic_machine in
 	np1)
 		basic_machine=np1-gould
 		;;
+	nsr-tandem)
+		basic_machine=nsr-tandem
+		;;
 	op50n-* | op60c-*)
 		basic_machine=hppa1.1-oki
 		os=-proelf
@@ -992,6 +995,9 @@ case $os in
 		;;
 	-ns2 )
 	        os=-nextstep2
+		;;
+	-nsk)
+		os=-nsk
 		;;
 	# Preserve the version number of sinix5.
 	-sinix5.*)

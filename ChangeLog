@@ -1,3 +1,9 @@
+2000-03-20  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect the NonStop Kernel on Tandem
+	machines. Suggested by Kelly F. Hickel <kfh@mqsoftware.com>.
+	* config.sub: Handle nsr-tandem and -nsk aliases.
+
 2000-02-29  Peter van der Veen  <peterv@qnx.com>
 
 	* config.guess: Add support for QNX Neutrino.
