@@ -1,3 +1,8 @@
+2000-08-31  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Correctly detect Sony NEWS-OS 6.x.
+	From Kimio Ishii <ishii@sm.sony.co.jp>.
+
 2000-08-06  Philip Blundell  <philb@gnu.org>
 
 	* config.sub: Accept `-conix*' as a valid OS.  Accept `armv*' as a
