@@ -1,9 +1,9 @@
 #! /bin/sh
-# Configuration validation subroutine script, version 1.1.
+# Configuration validation subroutine script.
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000
 #   Free Software Foundation, Inc.
 
-version='2000-11-15'
+timestamp='2000-11-23'
 
 # This file is (in principle) common to ALL GNU software.
 # The presence of a machine in this file suggests that SOME GNU software
@@ -60,17 +60,22 @@ Usage: $0 [OPTION] CPU-MFR-OPSYS
 Canonicalize a configuration name.
 
 Operation modes:
-  -h, --help               print this help, then exit
-  -V, --version            print version number, then exit"
+  -h, --help         print this help, then exit
+  -t, --time-stamp   print date of last modification, then exit
+
+Report bugs and patches to <config-patches@gnu.org>.
+
+Copyright (C) 1992, 93, 94, 95, 96, 97, 98, 99, 2000
+Free Software Foundation, Inc.  See the source for copying conditions."
 
 help="
 Try \`$me --help' for more information."
 
 # Parse command line
 while test $# -gt 0 ; do
-  case "$1" in
-    --version | --vers* | -V )
-       echo "$version" ; exit 0 ;;
+  case $1 in
+    --time-stamp | --time* | -t )
+       echo "$timestamp" ; exit 0 ;;
     --help | --h* | -h )
        echo "$usage"; exit 0 ;;
     -- )     # Stop option processing
@@ -78,9 +83,7 @@ while test $# -gt 0 ; do
     - )	# Use stdin as input.
        break ;;
     -* )
-       exec >&2
-       echo "$me: invalid option $1"
-       echo "$help"
+       echo "$me: invalid option $1$help"
        exit 1 ;;
 
     *local*)
@@ -1326,7 +1329,7 @@ exit 0
 
 # Local variables:
 # eval: (add-hook 'write-file-hooks 'time-stamp)
-# time-stamp-start: "version='"
+# time-stamp-start: "timestamp='"
 # time-stamp-format: "%:y-%02m-%02d"
 # time-stamp-end: "'"
 # End:

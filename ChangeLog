@@ -1,3 +1,18 @@
+2000-11-23  Ben Elliston  <bje@redhat.com>
+
+	Patches from Akim Demaille <akim@epita.fr>.
+	* config.sub (version): Rename from this ..
+	(timestamp): .. to this.
+	(usage): Replace --version with --time-stamp. Add additional help
+	and copyleft notice.
+	(time-stamp-start): Replace with "timestamp=".
+	* config.guess (version): Rename from this ..
+	(timestamp): .. to this.
+	(usage): Replace --version with --time-stamp. Add additional help
+	and copyleft notice.
+	(CC_FOR_BUILD): Rework this logic.
+	(time-stamp-start): Replace with "timestamp=".
+
 2000-11-21  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect EMX on OS/2. Reported by Ilya Zakharevich
