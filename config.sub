@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
 #   2000, 2001, 2002 Free Software Foundation, Inc.
 
-timestamp='2002-01-02'
+timestamp='2002-02-01'
 
 # This file is (in principle) common to ALL GNU software.
 # The presence of a machine in this file suggests that SOME GNU software
@@ -242,7 +242,7 @@ case $basic_machine in
 	| mipsisa32 \
 	| mn10200 | mn10300 \
 	| ns16k | ns32k \
-	| openrisc \
+	| openrisc | or32 \
 	| pdp10 | pdp11 | pj | pjl \
 	| powerpc | powerpc64 | powerpc64le | powerpcle | ppcbe \
 	| pyramid \
@@ -713,6 +713,10 @@ case $basic_machine in
 	op50n-* | op60c-*)
 		basic_machine=hppa1.1-oki
 		os=-proelf
+		;;
+	or32 | or32-*)
+		basic_machine=or32-unknown
+		os=-coff
 		;;
 	OSE68000 | ose68000)
 		basic_machine=m68000-ericsson
@@ -1258,6 +1262,9 @@ case $basic_machine in
 		;;
 	mips*-*)
 		os=-elf
+		;;
+	or32-*)
+		os=-coff
 		;;
 	*-tti)	# must be before sparc entry or we get the wrong os.
 		os=-sysv3

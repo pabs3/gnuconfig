@@ -1,3 +1,7 @@
+2002-01-31  Ivan Guzvinec  <ivang@opencores.org>
+
+	* config.sub: Add support for or32.
+
 2002-01-26  Andy Olson  <andrew.olson@lmco.com>
 
 	* config.guess (*:QNX:*:*): Report i386-* rather than x86pc-*.
