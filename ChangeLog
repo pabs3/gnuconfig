@@ -1,3 +1,7 @@
+2000-05-19  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Recognise hppa64 as a valid cpu type. From Jeff Law.
+
 2000-05-10  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Recognise bs2000-siemens as a basic_machine type.
