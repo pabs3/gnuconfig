@@ -1,3 +1,9 @@
+2003-07-02  Robert Millan  <rmh@debian.org>
+
+	* config.guess (*:GNU/FreeBSD:*:*): Prefix GNU/FreeBSD triplet
+	with a "k" to indicate the system is based on FreeBSD's kernel and
+	not the whole OS.
+
 2003-06-17  Ben Elliston  <bje@wasabisystems.com>
 
 	From by Stephen Thomas <stephen.thomas@superh.com>:
