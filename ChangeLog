@@ -1,3 +1,8 @@
+2000-03-27  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect Ascend Embedded/OS, which is really BSDI.
+	From Assar Westerlund <assar@sics.se>.
+
 2000-03-20  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect the NonStop Kernel on Tandem
