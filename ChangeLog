@@ -1,5 +1,7 @@
 2001-10-04  Ben Elliston  <bje@redhat.com>
 
+	* config.sub: Handle viac3 as an i586-class CPU.
+
 	* config.sub: Handle simso-wrs (Wind River's VxWorks Solaris
 	simulator target). From dpovey@dstc.qut.edu.au.
 
