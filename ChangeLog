@@ -1,5 +1,13 @@
 2002-11-30  Ben Elliston  <bje@redhat.com>
 
+	From Stefan Neis <neis@kobil.de>:
+	* config.guess: Reorder entries so that hosts with a different
+	operating system won't be misdetected as System V simply because
+	their version number happens to be 3.2, 4.* or 5.  This is needed
+	for OS/2, at least, which is currently at version 4.52.
+
+2002-11-30  Ben Elliston  <bje@redhat.com>
+
 	From Joel Baker <lucifer@lightbearer.com>:
 	* config.guess: Append "-gnu" to triplet on Debian/NetBSD systems.
 	* config.sub: Recognise netbsd*-gnu*.
