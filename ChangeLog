@@ -1,3 +1,7 @@
+2001-06-05  Tomislav Greguric  <greguric@stud.uni-frankfurt.de>
+
+	* config.guess: Add 2001 to copyright notice issued for -v.
+
 2001-06-01  Ben Elliston  <bje@redhat.com>
 
 	* config.guess (i*86:Linux:*:*): Examine the list of supported
