@@ -1,5 +1,8 @@
 2000-06-13  Ben Elliston  <bje@redhat.com>
 
+	* config.sub: Recognise sh3 and sh4 aliases. From Kazumoto Kojima
+	<kkojima@rr.iij4u.or.jp>.
+
 	* config.sub: Per Bothner is not the author.
 
 2000-06-10  Hans-Peter Nilsson  <hp@axis.com>

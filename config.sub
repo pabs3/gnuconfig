@@ -211,7 +211,8 @@ case $basic_machine in
 		| hppa64 \
 		| alpha | alphaev[4-8] | alphaev56 | alphapca5[67] \
 		| alphaev6[78] \
-		| we32k | ns16k | clipper | i370 | sh | powerpc | powerpcle \
+		| we32k | ns16k | clipper | i370 | sh | sh[34] \
+		| powerpc | powerpcle \
 		| 1750a | dsp16xx | pdp11 | mips16 | mips64 | mipsel | mips64el \
 		| mips64orion | mips64orionel | mipstx39 | mipstx39el \
 		| mips64vr4300 | mips64vr4300el | mips64vr4100 | mips64vr4100el \
@@ -892,6 +893,9 @@ case $basic_machine in
 		;;
 	we32k)
 		basic_machine=we32k-att
+		;;
+	sh3 | sh4)
+		base_machine=sh-unknown
 		;;
 	sparc | sparcv9)
 		basic_machine=sparc-sun
