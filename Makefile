@@ -11,3 +11,6 @@ upload:
 	cp config.guess.directive.asc config.sub.directive.asc
 	ftp -a -u $(UPLOAD) config.{guess,sub}{,.sig,.directive.asc}
 	rm config.{guess,sub}{.sig,.directive.asc}
+
+check:
+	cd testsuite && sh config-sub.sh

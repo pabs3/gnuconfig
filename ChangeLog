@@ -1,3 +1,9 @@
+2004-06-25  Ben Elliston  <bje@gnu.org>
+
+	* Makefile (check): New target.
+	* testsuite/config-sub.sh: New test.
+	* testsuite/config-sub.data: New file.
+
 2004-06-24  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update copyright years.
