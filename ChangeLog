@@ -1,3 +1,8 @@
+2001-02-24  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Match Linux x86 systems explicitly.  Allow unknown
+	architectures to fall through to the default case.
+
 2001-02-23  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: More Linux cleanup. Match more in the top-level
