@@ -1,3 +1,9 @@
+2000-10-23  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect NonStop-UX on Compaq MIPS machines.
+	* config.sub: Handle aliases for mips-compaq-nonstopux.
+	From Tom Bates <tom.bates@compaq.com>.
+
 2000-10-12  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect GNU/Linux on HP PA-RISC systems.
