@@ -178,7 +178,18 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
 		;;
 	esac
 	# The OS release
-	release=`echo ${UNAME_RELEASE}|sed -e 's/[-_].*/\./'`
+	# Debian GNU/NetBSD machines have a different userland, and
+	# thus, need a distinct triplet. However, they do not need
+	# kernel version information, so it can be replaced with a
+	# suitable tag, in the style of linux-gnu.
+	case "${UNAME_VERSION}" in
+	    Debian*)
+		release='-gnu'
+		;;
+	    *)
+		release=`echo ${UNAME_RELEASE}|sed -e 's/[-_].*/\./'`
+		;;
+	esac
 	# Since CPU_TYPE-MANUFACTURER-KERNEL-OPERATING_SYSTEM:
 	# contains redundant information, the shorter form:
 	# CPU_TYPE-MANUFACTURER-OPERATING_SYSTEM is used.
