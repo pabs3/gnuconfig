@@ -1,5 +1,10 @@
 2004-06-22  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Cray fixes from Wendy Palm <wendyp@cray.com>.
+	* config.sub: Likewise.
+
+2004-06-22  Ben Elliston  <bje@gnu.org>
+
 	Reported by Hans-Peter Nilsson <hp@bitrange.com>:
 	* config.sub: Correctly handle mmix-knuth and mmix-knuth-mmixware.
 
