@@ -1,3 +1,10 @@
+2004-08-27  Hans-Peter Nilsson  <hp@axis.com>
+
+	* config.sub: Handle crisv32, alias etraxfs.
+	* config.guess (crisv32:Linux:*:*): Handle.
+	* testsuite/config-sub.data: Add test case.
+	* testsuite/config-guess.data: Likewise.
+
 2004-08-22  Ben Elliston  <bje@gnu.org>
 
 	* Makefile (check): Run config-guess.sh tests as well.
