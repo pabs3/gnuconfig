@@ -1,3 +1,7 @@
+2001-01-10  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect LynxOS 3.x on PowerPC architectures.
+
 2001-01-07  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Recognise openrisc-*-*.
