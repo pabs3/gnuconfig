@@ -285,7 +285,7 @@ case $basic_machine in
 	| avr-* \
 	| bs2000-* \
 	| c[123]* | c30-* | [cjt]90-* | c54x-* \
-	| clipper-* | cray2-* | cydra-* \
+	| clipper-* | cydra-* \
 	| d10v-* | d30v-* \
 	| elxsi-* \
 	| f30[01]-* | f700-* | fr30-* | fx80-* \
@@ -311,7 +311,7 @@ case $basic_machine in
 	| t3e-* | tahoe-* | thumb-* | tic30-* | tic54x-* | tic80-* | tron-* \
 	| v850-* | v850e-* | vax-* \
 	| we32k-* \
-	| x86-* | x86_64-* | xmp-* | xps100-* | xscale-* | xstormy16-* \
+	| x86-* | x86_64-* | xps100-* | xscale-* | xstormy16-* \
 	| xtensa-* \
 	| ymp-* \
 	| z8k-*)
@@ -397,16 +397,8 @@ case $basic_machine in
 		basic_machine=c38-convex
 		os=-bsd
 		;;
-	cray | ymp)
-		basic_machine=ymp-cray
-		os=-unicos
-		;;
-	cray2)
-		basic_machine=cray2-cray
-		os=-unicos
-		;;
-	[cjt]90)
-		basic_machine=${basic_machine}-cray
+	cray | ymp | sv1 | [cj]90)
+		basic_machine=j90-cray
 		os=-unicos
 		;;
 	crds | unos)
@@ -878,16 +870,12 @@ case $basic_machine in
 	sun386 | sun386i | roadrunner)
 		basic_machine=i386-sun
 		;;
-	sv1)
-		basic_machine=sv1-cray
-		os=-unicos
-		;;
 	symmetry)
 		basic_machine=i386-sequent
 		os=-dynix
 		;;
-	t3e)
-		basic_machine=t3e-cray
+	t3d | t3e | t90)
+		basic_machine=${basic_machine}-cray
 		os=-unicos
 		;;
 	tic54x | c54x*)
@@ -953,10 +941,6 @@ case $basic_machine in
 	windows32)
 		basic_machine=i386-pc
 		os=-windows32-msvcrt
-		;;
-	xmp)
-		basic_machine=xmp-cray
-		os=-unicos
 		;;
         xps | xps100)
 		basic_machine=xps100-honeywell

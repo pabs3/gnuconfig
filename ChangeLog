@@ -1,3 +1,11 @@
+2002-02-15  Wendy Palm  <wendyp@cray.com>
+
+	* config.guess (CRAY*X-MP:*:*:*, CRAY-2:*:*:*): Remove, as we know
+	they no longer exist in the field.
+	* config.sub (cray2, xmp): Likewise.
+	(cray, ymp, [cj]90-cray): basic_machine is now j90-cray.
+	(sv1-cray, cray-t3e, cray-t3d, cray-t90): New basic machine patterns.
+
 2002-02-15  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Accept m68060.
