@@ -1,3 +1,8 @@
+2001-03-05  Pavel Roskin  <proski@gnu.org>
+
+	* config.guess: Never use `rm' without `-f' since it may be
+	interactive.
+
 2001-02-24  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Match Linux x86 systems explicitly.  Allow unknown
