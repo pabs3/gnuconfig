@@ -1,3 +1,8 @@
+2000-11-08  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect sparc-unknown-linux-gnu. Reported by Peter
+	Storkey <pstorkey@primex.com>.
+
 2000-11-02  Per Lundberg  <plundis@chaosdev.org>
 
 	* config.sub: Add support for the *-storm-chaos OS.
