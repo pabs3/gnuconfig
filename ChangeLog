@@ -1,3 +1,9 @@
+2002-03-04  Ben Elliston  <bje@redhat.com>
+
+	From Kevin Ryde <user42@zip.com.au>:
+	* config.sub (sparclet-*-*): Accept any vendor.
+	(sparc86x): Expand to sparc86x-unknown-none.
+
 2002-03-04  Adrian Bunk  <bunk@fs.tum.de>
 
 	* config.guess (*:NetBSD:*:*): Use "sysctl -n hw.machine_arch"
