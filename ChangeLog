@@ -1,3 +1,8 @@
+2000-02-15  Philip Blundell  <philb@gnu.org>
+
+	* config.guess: Distinguish arm-*-linux-gnuoldld from
+	arm*-linux-gnu.
+
 2000-02-15  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Handle avr. From Denis Chertykov <denisc@overta.ru>.

@@ -660,7 +660,7 @@ EOF
 		exit 0
 		;;
 	  elf32arm*)
-		echo "${UNAME_MACHINE}-unknown-linux-gnu"
+		echo "${UNAME_MACHINE}-unknown-linux-gnuoldld"
 		exit 0
 		;;
 	  armelf_linux*)
