@@ -1,3 +1,7 @@
+2004-02-16  Brad Smith  <brad@comstyle.com>
+
+	* config.guess: Recognize OpenBSD on AMD64 and CATS hardware.
+
 2004-02-11  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.sub (abacus): Add.
