@@ -1,3 +1,8 @@
+2004-06-22  Robert Millan  <robertmh@gnu.org>
+
+	* config.guess (*:FreeBSD:*:*): Remove check for glibc (unneeded
+	since GNU/kFreeBSD systems match *:GNU/*:*:* instead).
+
 2004-06-22  Stanley F. Quayle <stan@stanq.com>
 
 	* config.guess (*:*VMS:*:*): New entry. Replaces
