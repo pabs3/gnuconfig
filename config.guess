@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
 #   2000, 2001, 2002 Free Software Foundation, Inc.
 
-timestamp='2002-07-23'
+timestamp='2002-08-19'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1081,6 +1081,9 @@ EOF
 	exit 0 ;;
     SX-5:SUPER-UX:*:*)
 	echo sx5-nec-superux${UNAME_RELEASE}
+	exit 0 ;;
+    SX-6:SUPER-UX:*:*)
+	echo sx6-nec-superux${UNAME_RELEASE}
 	exit 0 ;;
     Power*:Rhapsody:*:*)
 	echo powerpc-apple-rhapsody${UNAME_RELEASE}
