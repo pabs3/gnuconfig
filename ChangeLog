@@ -1,3 +1,8 @@
+2001-08-09  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect Alpha ev68 on OSF/1 and Linux.
+	From Ken Whaley <ken@believe.com>.
+ 
 2001-08-04  Darrell Hamilton  <Darrell_Hamilton@labcorp.com>
 
 	* config.guess: Unisys places the host id in ${UNAME_SYSTEM}
