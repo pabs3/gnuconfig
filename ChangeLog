@@ -1,3 +1,20 @@
+2002-11-13  Ben Elliston  <bje@redhat.com>
+
+	* config.sub (windows32): Remove bad idea.
+
+2002-11-13  Werner Lemberg  <wl@gnu.org>
+
+	* config.sub: Add -mks*.
+
+2002-11-13  Jeff Conrad  <jeff_conrad@msn.com>
+
+	* config.guess: Detect MKS running on Windows {95,98,NT}.
+
+2002-11-13  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect PowerMAX OS on Concurrent Synergy machines.
+	Reported by Sam Williams <sam.williams@hs.utc.com>.
+
 2002-11-08  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect m68k-diab-dnix.
