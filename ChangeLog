@@ -1,3 +1,8 @@
+2001-10-04  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Handle simso-wrs (Wind River's VxWorks Solaris
+	simulator target). From dpovey@dstc.qut.edu.au.
+
 2001-09-14  H.J. Lu  <hjl@gnu.org>
 
 	* config.sub: Support avr-vendor-*.
