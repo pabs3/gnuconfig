@@ -1,3 +1,8 @@
+2001-02-13  Kevin Ryde  <user42@zip.com.au>
+
+	* config.sub: Recognise t90, c90, j90 without -cray. Preserve t90
+	and j90--don't transform to c90.
+
 2001-02-13  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: More Linux clean-up.

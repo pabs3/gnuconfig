@@ -368,8 +368,8 @@ case $basic_machine in
 		basic_machine=cray2-cray
 		os=-unicos
 		;;
-	[ctj]90-cray)
-		basic_machine=c90-cray
+	[cjt]90)
+		basic_machine=${basic_machine}-cray
 		os=-unicos
 		;;
 	crds | unos)
