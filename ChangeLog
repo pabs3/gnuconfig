@@ -1,3 +1,9 @@
+2004-11-17  Ian Lance Taylor  <ian@wasabisystems.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Recognize xscalee[bl].
+	* testsuite/config-sub.data: Add xscale, xscalee[bl] cases.
+
 2004-11-12  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:z/VM:*:*): Add new case.
