@@ -1,8 +1,17 @@
 2001-12-12  Ben Elliston  <bje@redhat.com>
 
-	* config.guess: Speed up detection of x86 Linux systems by using
-	just the C preprocessor rather than assembling and linking a final
-	executable.
+	* config.guess (i*86:Linux:*:*): Minor simplification: have the
+	preprocessor emit shell assignments and just eval the output.
+
+2001-12-12  H.J. Lu  <hjl@gnu.org>
+
+	* config.guess (mips:Linux:*:*): Re-work.
+
+2001-12-12  Ben Elliston  <bje@redhat.com>
+
+	* config.guess (i*86:Linux:*:*): Speed up detection of x86 Linux
+	systems by using just the C preprocessor rather than assembling
+	and linking a final executable.
 
 2001-12-12  Jason Thorpe  <thorpej@wasabisystems.com>
 

@@ -765,10 +765,21 @@ EOF
 	echo ${UNAME_MACHINE}-unknown-linux-gnu
 	exit 0 ;;
     mips:Linux:*:*)
-	case `sed -n '/^byte/s/^.*: \(.*\) endian/\1/p' < /proc/cpuinfo` in
-	  big)    echo mips-unknown-linux-gnu && exit 0 ;;
-	  little) echo mipsel-unknown-linux-gnu && exit 0 ;;
-	esac
+	eval $set_cc_for_build
+	sed 's/^	//' << EOF >$dummy.c
+	#if defined(__MIPSEL__) || defined(__MIPSEL) || defined(_MIPSEL) || defined(MIPSEL) 
+	CPU=mipsel 
+	#else
+	#if defined(__MIPSEB__) || defined(__MIPSEB) || defined(_MIPSEB) || defined(MIPSEB) 
+	CPU=mips
+	#else
+	CPU=
+	#endif
+	#endif 
+EOF
+	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep ^CPU=`
+	rm -f $dummy.c
+	test x"${CPU}" != x && echo "${CPU}-pc-linux-gnu" && exit 0
 	;;
     ppc:Linux:*:*)
 	echo powerpc-unknown-linux-gnu
@@ -846,19 +857,20 @@ EOF
 	#ifdef __ELF__
 	# ifdef __GLIBC__
 	#  if __GLIBC__ >= 2
-	gnu
+	LIBC=gnu
 	#  else
-	gnulibc1
+	LIBC=gnulibc1
 	#  endif
 	# else
-	gnulibc1
+	LIBC=gnulibc1
 	# endif
 	#else
-	gnuaout
+	LIBC=gnuaout
 	#endif
 EOF
-	libc=`$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep ^gnu` && test -n $libc && rm -f $dummy.c && echo "${UNAME_MACHINE}-pc-linux-$libc" && exit 0
+	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep ^LIBC=`
 	rm -f $dummy.c
+	test x"${LIBC}" != x && echo "${UNAME_MACHINE}-pc-linux-${LIBC}" && exit 0
 	test x"${TENTATIVE}" != x && echo "${TENTATIVE}" && exit 0
 	;;
     i*86:DYNIX/ptx:4*:*)
