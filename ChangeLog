@@ -1,3 +1,9 @@
+2003-01-30  Ben Elliston  <bje@redhat.com>
+
+	* config.guess (alpha:OSF1:*:*): Use /usr/sbin/psrinfo -v to
+	detect the Alpha CPU type, not an assembled program requiring
+	$CC_FOR_BUILD.
+
 2003-01-28  Nick Clifton  <nickc@redhat.com>
 
 	* config.sub: Add sh2e support.
