@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001
 #   Free Software Foundation, Inc.
 
-timestamp='2001-01-01'
+timestamp='2001-01-07'
 
 # This file is (in principle) common to ALL GNU software.
 # The presence of a machine in this file suggests that SOME GNU software
@@ -231,7 +231,7 @@ case $basic_machine in
 		| mips64vr4300 | mips64vr4300el | mips64vr4100 | mips64vr4100el \
 		| mips64vr5000 | miprs64vr5000el | mcore \
 		| sparc | sparclet | sparclite | sparc64 | sparcv9 | v850 | c4x \
-		| thumb | d10v | d30v | fr30 | avr)
+		| thumb | d10v | d30v | fr30 | avr | openrisc)
 		basic_machine=$basic_machine-unknown
 		;;
 	m6811 | m68hc11 | m6812 | m68hc12)

@@ -1,3 +1,7 @@
+2001-01-07  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Recognise openrisc-*-*.
+
 2000-12-21  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect HP-UX on IA-64 hosts.  From Jonathan
