@@ -1,7 +1,7 @@
 2000-12-15  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect AIX version 5. Contributed by
-	mcnichol@austin.ibm.com.
+	Dan McNichol <mcnichol@austin.ibm.com>.
 
 	* config.sub: Accept f301 for Fujitsu machines.
 	Reported by Pavel Roskin <proski@gnu.org>.
