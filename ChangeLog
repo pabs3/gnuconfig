@@ -1,3 +1,7 @@
+2001-07-02  Graham Stott <grahams@redhat.com>
+ 
+	* config.sub (basic_machine): Fix typo for mips64vr5000el.
+
 2001-06-29  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Remove stale libc1 tests on PowerPC Linux.
