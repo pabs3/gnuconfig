@@ -1,3 +1,8 @@
+2001-03-14  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect ELF-based m68k Linux systems. Reported by
+	Michael Fedrowitz <michael.fedrowitz@informatik.uni-ulm.de>.
+
 2001-03-09  H.J. Lu  <hjl@gnu.org> 
 
 	* config.sub: Recognize s390/s390x as valid $basic_machine.
