@@ -1,3 +1,9 @@
+2002-01-22  Nicola Pero  <nicola@brainstorm.co.uk>
+
+	* config.guess (i*86:Linux:*:*): Fixed: export LANG=C before
+	running ld so that linker output can be assumed to be in English,
+	and it works with non-default locales.
+	
 2002-01-10  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Update Per Bothner's mail address.
