@@ -1,3 +1,8 @@
+2001-07-12  Keith Thompson  <kst@sdsc.edu>
+
+	* config.guess: Strip trailing sub-version number from
+	$UNAME_RELEASE on Cray YMP or Cray [A-Z]90 models.
+
 2001-07-09  Mark Klein  <mklein@dis.com>
 
 	* config.guess: Update MPE/iX to handle A and N class HPe3000.
