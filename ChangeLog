@@ -1,3 +1,7 @@
+2001-02-16  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Recognise [cjt]90-*. From Kevin Ryde.
+
 2001-02-13  David Edelsohn  <edelsohn@gnu.org>
 
 	* config.guess (ia64:AIX): New case.
