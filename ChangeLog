@@ -1,3 +1,8 @@
+2002-11-30  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Add "SDS2" to machines that run NCR System V UNIX.
+	Reported by <agustinsanchez@prodigy.net.mx>.
+
 2002-11-13  Ben Elliston  <bje@redhat.com>
 
 	* config.sub (windows32): Remove bad idea.
