@@ -1,3 +1,14 @@
+2004-10-25  Ben Elliston  <bje@gnu.org>
+
+	Reported by Monty Solomon <monty@roscom.com>:
+	* config.guess (*:XENIX:*:SysV): New.
+	* testsuite/config-guess.data: Add a test case.
+
+2004-10-25  Ben Elliston  <bje@gnu.org>
+
+	Reported by Martin Hammer <martin.hammer@siemens.com>:
+	* config.guess (DRS?6000:isis:4.2*:7*): New pattern.
+
 2004-09-07  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (frv:Linux:*:*): New.
