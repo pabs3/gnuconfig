@@ -1,3 +1,8 @@
+2004-06-22  Ben Elliston  <bje@gnu.org>
+
+	Reported by Hans-Peter Nilsson <hp@bitrange.com>:
+	* config.sub: Correctly handle mmix-knuth and mmix-knuth-mmixware.
+
 2004-06-21  Ben Elliston  <bje@gnu.org>
 
 	* Makefile: New file.
