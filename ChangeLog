@@ -1,3 +1,8 @@
+2000-02-15  Richard Henderson  <rth@cygnus.com>
+
+	* config.guess (alpha-osf, alpha-linux): Detect ev67.
+	* config.sub: Accept alphaev6[78], alphaev8.
+
 2000-02-15  Philip Blundell  <philb@gnu.org>
 
 	* config.guess: Distinguish arm-*-linux-gnuoldld from
