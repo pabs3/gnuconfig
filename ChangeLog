@@ -1,3 +1,8 @@
+2000-05-10  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Recognise bs2000-siemens as a basic_machine type.
+	From Jean-Frederic Clere <jfrederic.clere@fujitsu.siemens.se>.
+
 2000-05-07  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Mac OS X will never return "Mac OS" as a uname
