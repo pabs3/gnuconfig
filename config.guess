@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001
 #   Free Software Foundation, Inc.
 
-timestamp='2001-03-16'
+timestamp='2001-03-30'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1029,13 +1029,13 @@ EOF
     3[34]??:*:4.0:* | 3[34]??,*:*:4.0:*)
         /bin/uname -p 2>/dev/null | grep 86 >/dev/null \
           && echo i486-ncr-sysv4 && exit 0 ;;
-    m68*:LynxOS:2.*:*)
+    m68*:LynxOS:2.*:* | m68*:LynxOS:3.0*:*)
 	echo m68k-unknown-lynxos${UNAME_RELEASE}
 	exit 0 ;;
     mc68030:UNIX_System_V:4.*:*)
 	echo m68k-atari-sysv4
 	exit 0 ;;
-    i?86:LynxOS:2.*:* | i?86:LynxOS:3.[01]*:*)
+    i?86:LynxOS:2.*:* | i?86:LynxOS:3.[01]*:* | i?86:LynxOS:4.0*:*)
 	echo i386-unknown-lynxos${UNAME_RELEASE}
 	exit 0 ;;
     TSUNAMI:LynxOS:2.*:*)
@@ -1044,7 +1044,7 @@ EOF
     rs6000:LynxOS:2.*:*)
 	echo rs6000-unknown-lynxos${UNAME_RELEASE}
 	exit 0 ;;
-    PowerPC:LynxOS:2.*:* | PowerPC:LynxOS:3.[01]*:*)
+    PowerPC:LynxOS:2.*:* | PowerPC:LynxOS:3.[01]*:* | PowerPC:LynxOS:4.0*:*)
 	echo powerpc-unknown-lynxos${UNAME_RELEASE}
 	exit 0 ;;
     SM[BE]S:UNIX_SV:*:*)

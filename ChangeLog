@@ -1,3 +1,7 @@
+2001-03-30  Peter Buckingham  <pbuckingham@lnxw.com>
+
+	* config.guess: Update LynxOS version numbers.
+
 2001-03-30  Alexandre Oliva  <aoliva@redhat.com>
 
 	* config.sub: Make sure to match an already-canonicalized
