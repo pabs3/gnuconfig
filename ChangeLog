@@ -1,3 +1,9 @@
+2001-12-12  Jason Thorpe  <thorpej@wasabisystems.com>
+
+	* config.guess: Simplify assignment of machine for NetBSD targets,
+	and make it match the convention that NetBSD uses.  List all
+	NetBSD architectures that require "elf" at the end of the OS name.
+
 2001-12-10  Lars Brinkhoff  <lars@nocrew.org>
 
 	* config.sub: Recognize a few PDP-10 aliases.
