@@ -1,3 +1,7 @@
+2002-06-19  Denis Chertykov  <denisc@overta.ru>
+
+	*  (config.sub): Add ip2k support.
+
 2002-06-19  J"orn Rennecke <joern.rennecke@superh.com>
 
 	* config.sub: Accept sh64le and sh64le-*.
