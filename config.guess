@@ -101,7 +101,8 @@ trap 'exit 1' 1 2 15
 # This shell variable is my proudest work .. or something. --bje
 
 set_cc_for_build='tmpdir=${TMPDIR-/tmp}/config-guess-$$ ;
-(mkdir $tmpdir && chmod 700 $tmpdir) || (echo "$me: cannot create $tmpdir" >&2 && exit 1) ;
+(old=`umask` && umask 077 && mkdir $tmpdir && umask $old && unset old)
+   || (echo "$me: cannot create $tmpdir" >&2 && exit 1) ;
 dummy=$tmpdir/dummy ;
 files="$dummy.c $dummy.o $dummy.rel $dummy" ;
 trap '"'"'rm -f $files; rmdir $tmpdir; exit 1'"'"' 1 2 15 ;
@@ -323,6 +324,10 @@ EOF
     NILE*:*:*:dcosx)
 	echo pyramid-pyramid-svr4
 	exit 0 ;;
+    DSR?6000:UNIX_SV:4.2*:7*)
+	case `/usr/bin/uname -p` in
+	    sparc) echo sparc-icl-nx7 && exit 0 ;;
+	esac ;;
     sun4H:SunOS:5.*:*)
 	echo sparc-hal-solaris2`echo ${UNAME_RELEASE}|sed -e 's/[^.]*//'`
 	exit 0 ;;

@@ -1,10 +1,20 @@
 2002-07-03  Ben Elliston  <bje@redhat.com>
 
-	* config.guess: Execute $dummy, not ./$dummy, throughout.
+	* config.guess: Use umask to create temporary directly safely.
+	Using mkdir and chmod introduces a race.
 
+2002-07-03  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect ICL NX version 7 running on ICL/Fujitsu DRS
+	6000 machines. Reported by Henrik N. Spuur Hansen <hnsh@mera.dk>.
+
+2002-07-03  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Execute $dummy, not ./$dummy, throughout.
+	
 	* config.guess (set_cc_for_build): Create a chmod 700 directory in
 	/tmp (or $TMPDIR, if set) to store temporary files generated for
-	use by the C compiler.  This should resist the /tmp symbolic link
+	use by the C compiler. This should resist the /tmp symbolic link
 	race vulnerability reported by Lawrence Teo.
 
 2002-07-03  Ben Elliston  <bje@redhat.com>
