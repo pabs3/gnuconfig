@@ -1,3 +1,8 @@
+2001-07-31  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect Stratus VOS operating system.
+	* config.sub: Handle aliases for such.
+
 2001-07-30  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect STOP operating system on x86 CPUs.
