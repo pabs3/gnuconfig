@@ -1,3 +1,10 @@
+2003-06-04  Ben Elliston  <bje@wasabisystems.com>
+
+	* config.guess (set_cc_for_build): Allow insecure temporary
+	filenames to be generated on systems without mktemp(1) or $RANDOM,
+	but issue a warning to standard error.  Suggested by Hans-Peter
+	Nilsson.
+
 2003-05-24  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.sub: Handle $os values of -nx6 and -nx7.
