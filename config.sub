@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001
 #   Free Software Foundation, Inc.
 
-timestamp='2001-04-20'
+timestamp='2001-05-11'
 
 # This file is (in principle) common to ALL GNU software.
 # The presence of a machine in this file suggests that SOME GNU software
@@ -271,8 +271,8 @@ case $basic_machine in
 	      | alphaev6[78]-* \
 	      | we32k-* | cydra-* | ns16k-* | pn-* | np1-* | xps100-* \
 	      | clipper-* | orion-* \
-	      | sparclite-* | pdp10-* | pdp11-* | sh-* | powerpc-* | powerpcle-* \
-	      | sparc64-* | sparcv9-* | sparcv9b-* | sparc86x-* \
+	      | sparclite-* | pdp10-* | pdp11-* | sh-* | sh[34]-* | sh[34]eb-* \
+	      | powerpc-* | powerpcle-* | sparc64-* | sparcv9-* | sparcv9b-* | sparc86x-* \
 	      | mips16-* | mips64-* | mipsel-* \
 	      | mips64el-* | mips64orion-* | mips64orionel-* \
 	      | mips64vr4100-* | mips64vr4100el-* | mips64vr4300-* | mips64vr4300el-* \
