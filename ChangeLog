@@ -1,3 +1,7 @@
+2003-10-16  Bernardo Innocenti  <bernie@develer.com>
+
+	* config.sub (linux-uclibc, uclinux-uclibc): Handle.
+
 2003-10-16  Ben Elliston  <bje@wasabisystems.com>
 
 	Reported by Todd Humphrey <thump@isl.net>:
