@@ -1,3 +1,8 @@
+2003-05-22  Ben Elliston  <bje@wasabisystems.com>
+
+	* config.guess: Detect ICL NX version 6 running on ICL/Fujitsu DRS
+	6000 machines. Reported by <alpha1@alpha1teclabs.com>.
+
 2003-05-19  Hans-Peter Nilsson  <hp@axis.com>
 
 	* config.guess (cris:Linux:*:*): New case.
