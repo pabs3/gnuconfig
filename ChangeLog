@@ -1,3 +1,10 @@
+2003-01-02  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Fix mipstx39-* and mipstx39el-* handling (typo).
+
+	From Dmitry Diky <diwil@mail.ru>:
+	* config.sub (basic_machine): Add msp430 and msp430-*.
+
 2003-01-02  Chris Demetriou  <cgd@broadcom.com>
 
 	* config.sub (mipsisa32r2*): Add.
