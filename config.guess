@@ -666,6 +666,10 @@ EOF
 		echo "${UNAME_MACHINE}-pc-linux-gnuaout"
 		exit 0
 		;;
+	  elf_i?86)
+		echo "${UNAME_MACHINE}-pc-linux"
+		exit 0
+		;;
 	  i?86coff)
 		echo "${UNAME_MACHINE}-pc-linux-gnucoff"
 		exit 0
