@@ -1,4 +1,9 @@
 2004-01-05  Ben Elliston  <bje@wasabisystems.com>
+	    Joachim Schmitz  <schmitz@hp.com>
+
+	* config.guess: Handle NSR-? to accept any CPU type.
+
+2004-01-05  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.sub: Handle amd64-*.
 
