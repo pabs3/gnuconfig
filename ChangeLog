@@ -1,3 +1,11 @@
+2003-02-22  Ben Elliston  <bje@redhat.com>
+
+	Revert the following due to the demise of MicroBSD:
+
+        2003-01-03  Scott Kamp  <dingo@microbsd.net>
+	* config.guess: Detect MicroBSD operating system on i386 CPUs.
+	* config.sub: Handle aliases for such.
+
 2003-02-03  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Handle -kaos*.
