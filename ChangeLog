@@ -1,3 +1,7 @@
+2004-06-11  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (luna88k:OpenBSD:*:*): New.
+
 2004-03-12  Kazuhiro Inaoka  <inaoka.kazuhiro@renesas.com>
 
 	* config.guess (m32r*:Linux:*:*): New case.
