@@ -1,5 +1,12 @@
 2002-07-03  Ben Elliston  <bje@redhat.com>
 
+	* config.guess (set_cc_for_build): Create a chmod 700 directory in
+	/tmp (or $TMPDIR, if set) to store temporary files generated for
+	use by the C compiler.  This should resist the /tmp symbolic link
+	race vulnerability reported by Lawrence Teo.
+
+2002-07-03  Ben Elliston  <bje@redhat.com>
+
 	* config.sub: Handle freebsd*. From Bruno Haible.
 
 2002-07-01  Bruno Haible  <bruno@clisp.org>
