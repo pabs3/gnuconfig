@@ -518,6 +518,10 @@ case $basic_machine in
 	mips3*)
 		basic_machine=`echo $basic_machine | sed -e 's/mips3/mips64/'`-unknown
 		;;
+	mmix*)
+		basic_machine=mmix-knuth
+		os=-mmixware
+		;;
 	monitor)
 		basic_machine=m68k-rom68k
 		os=-coff
@@ -928,7 +932,7 @@ case $os in
 		;;
 	-sim | -es1800* | -hms* | -xray | -os68k* | -none* | -v88r* \
 	      | -windows* | -osx | -abug | -netware* | -os9* | -beos* \
-	      | -macos* | -mpw* | -magic* | -mon960* | -lnews*)
+	      | -macos* | -mpw* | -magic* | -mmixware* | -mon960* | -lnews*)
 		;;
 	-mac*)
 		os=`echo $os | sed -e 's|mac|macos|'`

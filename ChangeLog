@@ -1,3 +1,8 @@
+2000-02-07  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Add support for mmix and mmixware. From Hans-Peter
+	Nilsson <hp@bitrange.com>.
+
 2000-02-06  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Include <stdio.h> when compiling test programs
