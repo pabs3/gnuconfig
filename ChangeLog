@@ -1,3 +1,8 @@
+2002-05-29  Paul Eggert  <eggert@twinsun.com>
+
+	* config.guess: Don't use egrep, as POSIX 1003.1-2001 no longer
+	requires egrep.  Use grep instead.
+
 2002-05-28  Kuang Hwa Lin <kuang@sbcglobal.net>
 
 	* config.sub: Add DLX support.
