@@ -1,3 +1,8 @@
+2004-01-24  Ben Elliston  <bje@wasabisystems.com>
+
+	From Brett E. Wynkoop <wynkoop@wynn.com>:
+	* config.guess (m68k:machten:*:*): Handle.
+
 2004-01-20  Jeroen Ruigrok van der Werven  <asmodai@dragonflybsd.org>
 
 	* config.guess: Fix DragonFly entry to really work.
