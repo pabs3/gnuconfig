@@ -1,3 +1,8 @@
+2003-11-03  Jim Tison  <jtison@us.ibm.com>
+	    Ulrich Weigand  <uweigand@de.ibm.com>
+
+	* config.sub (tpf, -tpf*): Recognize.
+
 2003-10-16  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.guess (5000:UNIX_System_V:4.*:*): Detect the Fujitsu
