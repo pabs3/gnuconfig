@@ -1,3 +1,9 @@
+2001-06-26  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: On MIPS Linux, use /proc/cpuinfo to determine
+	the endian mode of the CPU, rather than compiling and running
+	a small C program.
+
 2001-06-12  John Wolfe  <jlw@sco.com>
 
 	* config.guess: Standardize triplet for UnixWare 7 and Open
