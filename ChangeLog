@@ -1,3 +1,8 @@
+2000-12-07  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Add more detail to version information.
+	* config.guess: Likewise.
+
 2000-12-06  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Add --version option.
