@@ -712,8 +712,7 @@ EOF
 		exit 0
 		;;
 	  elf_i?86)
-		echo "${UNAME_MACHINE}-pc-linux"
-		exit 0
+		TENTATIVE="${UNAME_MACHINE}-pc-linux-gnu"
 		;;
 	  i?86coff)
 		echo "${UNAME_MACHINE}-pc-linux-gnucoff"
@@ -900,6 +899,7 @@ EOF
 EOF
 	  $CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null && ./$dummy "${UNAME_MACHINE}" && rm $dummy.c $dummy && exit 0
 	  rm -f $dummy.c $dummy
+	  test x"${TENTATIVE}" != x && echo "${TENTATIVE}" && exit 0
 	fi ;;
 # ptx 4.0 does uname -s correctly, with DYNIX/ptx in there.  earlier versions
 # are messed up and put the nodename in both sysname and nodename.
