@@ -1,3 +1,8 @@
+2004-03-12  Ben Elliston  <bje@wasabisystems.com>
+
+	From Jens Petersen  <petersen@redhat.com>:
+	* config.sub: Handle sparcv8.
+
 2004-03-03  Ben Elliston  <bje@wasabisystems.com>
 
 	From Tom Smith <smith@cag.lkg.hp.com>:
