@@ -1,3 +1,9 @@
+2004-09-07  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (frv:Linux:*:*): New.
+	* testsuite/config-sub.data: Add cris-linux, frv-linux.
+	* testsuite/config-guess.data: Add frv-linux-unknown-gnu case.
+
 2004-08-27  Hans-Peter Nilsson  <hp@axis.com>
 
 	* config.sub: Handle crisv32, alias etraxfs.

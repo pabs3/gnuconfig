@@ -1,2 +1,3 @@
 i386	1.6	NetBSD	GENERIC	i386-unknown-netbsdelf1.6
-crisv32	2.6.6	Linux	ingored	crisv32-axis-linux-gnu
+crisv32	2.6.6	Linux	ignored	crisv32-axis-linux-gnu
+frv	2.4.24	Linux	ignored	frv-unknown-linux-gnu
