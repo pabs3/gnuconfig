@@ -1,4 +1,8 @@
 2000-02-03  Ben Elliston  <bje@redhat.com>
 
+	* config.guess: Handle versions of DJGPP's uname(1) command which
+	return the exact machine type and not just `pc'. From Laurynas
+	Biveinis <lauras@softhome.net>.
+
 	* config.guess: Import from autoconf source tree.
 	* config.sub: Likewise.	

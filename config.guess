@@ -859,7 +859,11 @@ EOF
 		echo ${UNAME_MACHINE}-pc-sysv32
 	fi
 	exit 0 ;;
+    i?86:*DOS:*:*)
+	echo ${UNAME_MACHINE}-pc-msdosdjgpp
+	exit 0 ;;
     pc:*:*:*)
+	# Left here for compatibility:
         # uname -m prints for DJGPP always 'pc', but it prints nothing about
         # the processor, so we play safe by assuming i386.
 	echo i386-pc-msdosdjgpp
