@@ -1,3 +1,7 @@
+2003-06-06  Douglas B Rupp  <rupp@gnat.com>
+
+	* config.guess: Recognize Interix 4.
+
 2003-06-04  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.guess (set_cc_for_build): Allow insecure temporary
