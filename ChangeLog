@@ -1,3 +1,8 @@
+2001-09-13  Ben Elliston  <bje@redhat.com>
+
+	* config.guess (*-*-openbsd): Reorganise and clean up.
+	Contributed by brad@openbsd.org.
+
 2001-09-12  Ben Elliston  <bje@redhat.com>
 
 	* config.guess (sparc*-*-netbsd): Properly match 32-bit NetBSD/sparc64
