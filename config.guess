@@ -1034,12 +1034,15 @@ EOF
 		UNAME_MACHINE=pc
 	fi
 	echo `uname -p`-${UNAME_MACHINE}-nto-qnx
-	exit 0;;
+	exit 0 ;;
     *:QNX:*:4*)
 	echo i386-pc-qnx
 	exit 0 ;;
     NSR-W:NONSTOP_KERNEL:*:*)
 	echo nsr-tandem-nsk${UNAME_RELEASE}
+	exit 0 ;;
+    BS2000:POSIX*:*:*)
+	echo bs2000-siemens-sysv
 	exit 0 ;;
 esac
 
