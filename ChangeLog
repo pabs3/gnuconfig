@@ -1,3 +1,9 @@
+2001-06-12  John Wolfe  <jlw@sco.com>
+
+	* config.guess: Standardize triplet for UnixWare 7 and Open
+	UNIX 8.0, improve processor detection and maintain "sysv5"
+	prefix on third segment.
+
 2001-06-08  Christopher Faylor  <cgf@redhat.com>
 
 	* config.sub: Add support for Sun Chorus.
