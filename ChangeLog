@@ -1,3 +1,7 @@
+2002-06-21  Dave Brolley  <brolley@redhat.com>
+
+	* config.sub: Add support for frv.
+
 2002-06-20  Chris Demetriou  <cgd@broadcom.com>
 
 	* config.sub: Add Broadcom SiByte SB-1 processor support
