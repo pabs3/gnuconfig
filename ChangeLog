@@ -1,3 +1,8 @@
+2000-11-15  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Differentiate Cray T3D and T3E. From Kevin Ryde
+	<user42@zip.com.au>.
+
 2000-11-10  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Map pentiumpro and pentiumii aliases onto i686-pc.
