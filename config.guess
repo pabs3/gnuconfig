@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001
 #   Free Software Foundation, Inc.
 
-timestamp='2001-06-27'
+timestamp='2001-06-28'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -805,49 +805,17 @@ EOF
 	echo powerpc-unknown-linux-gnu${LIBC}
 	exit 0 ;;
     alpha:Linux:*:*)
-	cat <<EOF >$dummy.s
-	  .data
-	  \$Lformat:
-		.byte 37,100,45,37,120,10,0	# "%d-%x\n"
-	   .text
-		.globl main
-		.align 4
-		.ent main
-	    main:
-		.frame \$30,16,\$26,0
-		ldgp \$29,0(\$27)
-		.prologue 1
-		.long 0x47e03d80 # implver \$0
-		lda \$2,-1
-		.long 0x47e20c21 # amask \$2,\$1
-		lda \$16,\$Lformat
-		mov \$0,\$17
-		not \$1,\$18
-		jsr \$26,printf
-		ldgp \$29,0(\$26)
-		mov 0,\$16
-		jsr \$26,exit
-		.end main
-EOF
-	LIBC=""
-	eval $set_cc_for_build
-	$CC_FOR_BUILD $dummy.s -o $dummy 2>/dev/null
-	if test "$?" = 0 ; then
-		case `./$dummy` in
-		0-0)	UNAME_MACHINE="alpha" ;;
-		1-0)	UNAME_MACHINE="alphaev5" ;;
-		1-1)    UNAME_MACHINE="alphaev56" ;;
-		1-101)	UNAME_MACHINE="alphapca56" ;;
-		2-303)	UNAME_MACHINE="alphaev6" ;;
-		2-307)	UNAME_MACHINE="alphaev67" ;;
-		esac
-		objdump --private-headers $dummy | \
-		  grep ld.so.1 > /dev/null
-		if test "$?" = 0 ; then
-			LIBC="libc1"
-		fi
-	fi
-	rm -f $dummy.s $dummy
+	case `sed -n '/^cpu model/s/^.*: \(.*\)/\1/p' < /proc/cpuinfo` in
+	  EV5)   UNAME_MACHINE=alphaev5 ;;
+	  EV56)  UNAME_MACHINE=alphaev56 ;;
+	  PCA56) UNAME_MACHINE=alphapca56 ;;
+	  PCA57) UNAME_MACHINE=alphapca56 ;;
+	  EV6)   UNAME_MACHINE=alphaev6 ;;
+	  EV67)  UNAME_MACHINE=alphaev67 ;;
+	  EV68*) UNAME_MACHINE=alphaev67 ;;
+        esac
+	objdump --private-headers /bin/sh | grep ld.so.1 >/dev/null
+	if test "$?" = 0 ; then LIBC="libc1" ; else LIBC="" ; fi
 	echo ${UNAME_MACHINE}-unknown-linux-gnu${LIBC}
 	exit 0 ;;
     parisc:Linux:*:* | hppa:Linux:*:*)
@@ -929,9 +897,10 @@ EOF
 	rm -f $dummy.c $dummy
 	test x"${TENTATIVE}" != x && echo "${TENTATIVE}" && exit 0
 	;;
-# ptx 4.0 does uname -s correctly, with DYNIX/ptx in there.  earlier versions
-# are messed up and put the nodename in both sysname and nodename.
     i*86:DYNIX/ptx:4*:*)
+	# ptx 4.0 does uname -s correctly, with DYNIX/ptx in there.
+	# earlier versions are messed up and put the nodename in both
+	# sysname and nodename.
 	echo i386-sequent-sysv4
 	exit 0 ;;
     i*86:UNIX_SV:4.2MP:2.*)

@@ -1,3 +1,8 @@
+2001-06-28  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: On Alpha Linux, use /proc/cpuinfo to determine
+	the CPU model, rather than assembling a small test program.
+
 2001-06-27  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Do not unconditionally run the script fragment
