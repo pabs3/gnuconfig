@@ -1,3 +1,7 @@
+2000-02-29  Ossama Othman  <ossama@ece.uci.edu>
+
+	* config.sub: Add support for QNX Neutrino.
+
 2000-02-24  Nick Clifton  <nickc@cygnus.com>
 
 	* config.sub: Support an OS of "wince".
