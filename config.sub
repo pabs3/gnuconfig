@@ -235,7 +235,7 @@ case $basic_machine in
 	| h8300 | h8500 | hppa | hppa1.[01] | hppa2.0 | hppa2.0[nw] | hppa64 \
 	| i370 | i860 | i960 | ia64 \
 	| m32r | m68000 | m68k | m88k | mcore \
-	| mips16 | mips64 | mips64el | mips64orion | mips64orionel \
+	| mips | mips16 | mips64 | mips64el | mips64orion | mips64orionel \
 	| mips64vr4100 | mips64vr4100el | mips64vr4300 \
 	| mips64vr4300el | mips64vr5000 | mips64vr5000el \
 	| mipsbe | mipseb | mipsel | mipsle | mipstx39 | mipstx39el \
@@ -604,14 +604,6 @@ case $basic_machine in
 	*mint | -mint[0-9]* | *MiNT | *MiNT[0-9]*)
 		basic_machine=m68k-atari
 		os=-mint
-		;;
-	mipsel*-linux*)
-		basic_machine=mipsel-unknown
-		os=-linux-gnu
-		;;
-	mips*-linux*)
-		basic_machine=mips-unknown
-		os=-linux-gnu
 		;;
 	mips3*-*)
 		basic_machine=`echo $basic_machine | sed -e 's/mips3/mips64/'`
@@ -984,13 +976,6 @@ case $basic_machine in
 		;;
 	op60c)
 		basic_machine=hppa1.1-oki
-		;;
-	mips)
-		if [ x$os = x-linux-gnu ]; then
-			basic_machine=mips-unknown
-		else
-			basic_machine=mips-mips
-		fi
 		;;
 	romp)
 		basic_machine=romp-ibm

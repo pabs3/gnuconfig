@@ -1,4 +1,10 @@
 2002-02-22  Ben Elliston  <bje@redhat.com>
+	    Thiemo Seufer <seufer@csv.ica.uni-stuttgart.de>
+
+	* config.sub (case $basic_machine): Add mips and clean up other
+	Linux specific cases. Now `config.sub mips` yields mips-unknown-elf.
+
+2002-02-22  Ben Elliston  <bje@redhat.com>
 
 	From Kevin Ryde <user42@zip.com.au>:
 	* config.sub (sv1-*, ymp-*, c90-*): Preserve CPU type in output.
