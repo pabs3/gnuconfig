@@ -462,6 +462,14 @@ EOF
     i?86:AIX:*:*)
 	echo i386-ibm-aix
 	exit 0 ;;
+    ia64:AIX:*:*)
+	if [ -x /usr/bin/oslevel ] ; then
+		IBM_REV=`/usr/bin/oslevel`
+	else
+		IBM_REV=${UNAME_VERSION}.${UNAME_RELEASE}
+	fi
+	echo ${UNAME_MACHINE}-ibm-aix${IBM_REV}
+	exit 0 ;;
     *:AIX:2:3)
 	if grep bos325 /usr/include/stdio.h >/dev/null 2>&1; then
 		sed 's/^		//' << EOF >$dummy.c
@@ -484,9 +492,9 @@ EOF
 		echo rs6000-ibm-aix3.2
 	fi
 	exit 0 ;;
-    *:AIX:*:4)
+    *:AIX:*:[45])
 	IBM_CPU_ID=`/usr/sbin/lsdev -C -c processor -S available | head -1 | awk '{ print $1 }'`
-	if /usr/sbin/lsattr -EHl ${IBM_CPU_ID} | grep POWER >/dev/null 2>&1; then
+	if /usr/sbin/lsattr -El ${IBM_CPU_ID} | grep ' POWER' >/dev/null 2>&1; then
 		IBM_ARCH=rs6000
 	else
 		IBM_ARCH=powerpc
@@ -494,22 +502,9 @@ EOF
 	if [ -x /usr/bin/oslevel ] ; then
 		IBM_REV=`/usr/bin/oslevel`
 	else
-		IBM_REV=4.${UNAME_RELEASE}
+		IBM_REV=${UNAME_VERSION}.${UNAME_RELEASE}
 	fi
 	echo ${IBM_ARCH}-ibm-aix${IBM_REV}
-	exit 0 ;;
-    *:AIX:*:5)
-	case "`lsattr -El proc0 -a type -F value`" in
-	    PowerPC*) IBM_ARCH=powerpc
-		      IBM_MANUF=ibm ;;
-	    Itanium)  IBM_ARCH=ia64
-		      IBM_MANUF=unknown ;;
-	    POWER*)   IBM_ARCH=power
-		      IBM_MANUF=ibm ;;
-	    *)        IBM_ARCH=powerpc
-		      IBM_MANUF=ibm ;;
-	esac
-	echo ${IBM_ARCH}-${IBM_MANUF}-aix${UNAME_VERSION}.${UNAME_RELEASE}
 	exit 0 ;;
     *:AIX:*:*)
 	echo rs6000-ibm-aix

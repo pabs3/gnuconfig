@@ -1,3 +1,11 @@
+2001-02-13  David Edelsohn  <edelsohn@gnu.org>
+
+	* config.guess (ia64:AIX): New case.
+	(*:AIX): Expand AIX V4 case to include V5.  Remove unnecessary `H'
+	option from lsattr.  Check for string "POWER" with prepended space
+	to distinguish from PowerPC_POWER3.  Use ${UNAME_VERSION} instead
+	of assuming "4" to match the expanded case.
+
 2001-02-13  Kevin Ryde  <user42@zip.com.au>
 
 	* config.sub: Recognise t90, c90, j90 without -cray. Preserve t90
