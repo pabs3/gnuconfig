@@ -1,3 +1,7 @@
+2002-02-01  Ben Elliston  <bje@redhat.com>
+
+	* config.sub (sh64, sh64-*): Add new machine.
+
 2002-01-31  Ivan Guzvinec  <ivang@opencores.org>
 
 	* config.sub: Add support for or32.

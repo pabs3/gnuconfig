@@ -246,7 +246,7 @@ case $basic_machine in
 	| pdp10 | pdp11 | pj | pjl \
 	| powerpc | powerpc64 | powerpc64le | powerpcle | ppcbe \
 	| pyramid \
-	| sh | sh[34] | sh[34]eb | shbe | shle \
+	| sh | sh[34] | sh[34]eb | shbe | shle | sh64 \
 	| sparc | sparc64 | sparclet | sparclite | sparcv9 | sparcv9b \
 	| strongarm \
 	| tahoe | thumb | tic80 | tron \
@@ -305,7 +305,7 @@ case $basic_machine in
 	| powerpc-* | powerpc64-* | powerpc64le-* | powerpcle-* | ppcbe-* \
 	| pyramid-* \
 	| romp-* | rs6000-* \
-	| sh-* | sh[34]-* | sh[34]eb-* | shbe-* | shle-* \
+	| sh-* | sh[34]-* | sh[34]eb-* | shbe-* | shle-* | sh64-* \
 	| sparc-* | sparc64-* | sparc86x-* | sparclite-* \
 	| sparcv9-* | sparcv9b-* | strongarm-* | sv1-* \
 	| t3e-* | tahoe-* | thumb-* | tic30-* | tic54x-* | tic80-* | tron-* \
@@ -1009,6 +1009,9 @@ case $basic_machine in
 		;;
 	sh3 | sh4 | sh3eb | sh4eb)
 		basic_machine=sh-unknown
+		;;
+	sh64)
+		basic_machine=sh64-unknown
 		;;
 	sparc | sparcv9 | sparcv9b)
 		basic_machine=sparc-sun
