@@ -1,3 +1,7 @@
+2003-07-04  Ben Elliston  <bje@wasabisystems.com>
+
+	* config.sub: Handle -kfreebsd*. From Robert Millan.
+
 2003-07-02  Robert Millan  <rmh@debian.org>
 
 	* config.guess (*:GNU/FreeBSD:*:*): Prefix GNU/FreeBSD triplet
