@@ -1,3 +1,7 @@
+2004-06-21  Ben Elliston  <bje@gnu.org>
+
+	* Makefile: New file.
+
 2004-06-11  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (pegasos:OpenBSD:*:*): Remove.
