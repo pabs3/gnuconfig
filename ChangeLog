@@ -1,3 +1,8 @@
+2003-06-06  Ben Elliston  <bje@wasabisystems.com>
+
+	* config.sub: Recognise pentium3 and pentium4.  From Kelley Cook
+	<kcook34@ford.com>.
+
 2003-06-06  Douglas B Rupp  <rupp@gnat.com>
 
 	* config.guess: Recognize Interix 4.
