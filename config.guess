@@ -772,6 +772,8 @@ EOF
 EOF
 	  $CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null && ./$dummy "${UNAME_MACHINE}" && rm $dummy.c $dummy && exit 0
 	  rm -f $dummy.c $dummy
+	elif test "${UNAME_MACHINE}" = "s390"; then
+	  echo s390-ibm-linux && exit 0
 	else
 	  # Either a pre-BFD a.out linker (linux-gnuoldld)
 	  # or one that does not give us useful --help.
