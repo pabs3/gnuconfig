@@ -1,3 +1,8 @@
+2001-06-29  John Wolfe  <jlw@sco.com>
+
+	* config.guess: Correct UnixWare 7 and Open UNIX 8.0 change;
+	test for i586 must be a string that ends with "Pentium".
+
 2001-06-28  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: On Alpha Linux, use /proc/cpuinfo to determine
