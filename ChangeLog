@@ -1,3 +1,7 @@
+2001-06-08  Christopher Faylor  <cgf@redhat.com>
+
+	* config.sub: Add support for Sun Chorus.
+
 2001-06-05  Tomislav Greguric  <greguric@stud.uni-frankfurt.de>
 
 	* config.guess: Add 2001 to copyright notice issued for -v.
