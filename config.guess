@@ -769,7 +769,7 @@ EOF
 	echo ${UNAME_MACHINE}-pc-pw32
 	exit 0 ;;
     x86:Interix*:3*)
-	echo i386-pc-interix3
+	echo i586-pc-interix3
 	exit 0 ;;
     [345]86:Windows_95:* | [345]86:Windows_98:* | [345]86:Windows_NT:*)
 	echo i${UNAME_MACHINE}-pc-mks
@@ -778,7 +778,7 @@ EOF
 	# How do we know it's Interix rather than the generic POSIX subsystem?
 	# It also conflicts with pre-2.0 versions of AT&T UWIN. Should we
 	# UNAME_MACHINE based on the output of uname instead of i386?
-	echo i386-pc-interix
+	echo i586-pc-interix
 	exit 0 ;;
     i*:UWIN*:*)
 	echo ${UNAME_MACHINE}-pc-uwin
