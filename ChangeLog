@@ -1,0 +1,4 @@
+2000-02-03  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Import from autoconf source tree.
+	* config.sub: Likewise.	
