@@ -1,3 +1,7 @@
+2001-08-02  Alan Modra  <amodra@bigpond.net.au>
+
+	* config.sub: Sort basic cpu patterns.  Combine hppa patterns.
+
 2001-08-01  Alan Modra  <amodra@bigpond.net.au>
 
 	* config.sub: Recognise powerpc64, powerpc64le, ppc64 variations.
