@@ -1,3 +1,7 @@
+2001-12-10  Lars Brinkhoff  <lars@nocrew.org>
+
+	* config.sub: Recognize a few PDP-10 aliases.
+
 2001-12-03  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Recognise the Nucleus family of operating systems.
