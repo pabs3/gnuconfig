@@ -1,3 +1,7 @@
+2001-03-09  H.J. Lu  <hjl@gnu.org> 
+
+	* config.sub: Recognize s390/s390x as valid $basic_machine.
+
 2001-03-05  Pavel Roskin  <proski@gnu.org>
 
 	* config.guess: Never use `rm' without `-f' since it may be
