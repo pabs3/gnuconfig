@@ -1,7 +1,7 @@
 2001-09-12  Ben Elliston  <bje@redhat.com>
 
-	* config.guess: Fix NetBSD detection on SPARC. From Matthew Green
-	<mrg@eterna.com.au>.
+	* config.guess (sparc*-*-netbsd): Properly match 32-bit NetBSD/sparc64
+	as sparc-unknown-netbsd. From Matthew Green <mrg@eterna.com.au>.
 
 2001-09-07  Ben Elliston  <bje@redhat.com>
 
