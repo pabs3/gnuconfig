@@ -1,3 +1,9 @@
+2003-10-16  Ben Elliston  <bje@wasabisystems.com>
+
+	Reported by Todd Humphrey <thump@isl.net>:
+	* config.guess (*:OS400:*:*): Detect OS/400 on AS/400 machines.
+	* config.sub (os400, -os400*): Recognise.
+
 2003-10-07  Robert Millan  <robertmh@gnu.org>
 	    Ben Elliston  <bje@wasabisystems.com>
 
@@ -30,8 +36,8 @@
 
 2003-07-17  Ben Elliston  <bje@wasabisystems.com>
 
+	Reported as missing by Doug Evans:
 	* config.sub: Handle iq2000 and iq2000-*.
-	Reported as missing by Doug Evans.
 
 2003-07-15  Alexandre Oliva  <aoliva@redhat.com>
 
