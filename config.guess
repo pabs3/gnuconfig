@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001
 #   Free Software Foundation, Inc.
 
-timestamp='2001-01-17'
+timestamp='2001-02-13'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -33,10 +33,6 @@ timestamp='2001-01-17'
 #
 # The plan is that this can be called by configure scripts if you
 # don't specify an explicit build system type.
-#
-# Only a few systems have been added to this list; please add others
-# (but try to keep the structure clean).
-#
 
 me=`echo "$0" | sed -e 's,.*/,,'`
 
@@ -759,8 +755,25 @@ EOF
     i*86:Minix:*:*)
 	echo ${UNAME_MACHINE}-pc-minix
 	exit 0 ;;
+    s390:Linux:*:*)
+	echo ${UNAME_MACHINE}-ibm-linux
+	exit 0 ;;
+    x86_64:Linux:*:*)
+	echo x86_64-unknown-linux-gnu
+	exit 0 ;;
+    parisc:Linux:*:* | hppa:Linux:*:*)
+	# Look for CPU level
+	case `grep '^cpu[^a-z]*:' /proc/cpuinfo 2>/dev/null | cut -d' ' -f2` in
+	  PA7*) echo hppa1.1-unknown-linux-gnu ;;
+	  PA8*) echo hppa2.0-unknown-linux-gnu ;;
+	  *)    echo hppa-unknown-linux-gnu ;;
+	esac
+	exit 0 ;;
+    parisc64:Linux:*:* | hppa64:Linux:*:*)
+	echo hppa64-unknown-linux-gnu
+	exit 0 ;;
+	
     *:Linux:*:*)
-
 	# The BFD linker knows what the default object file format is, so
 	# first see if it will tell us. cd to the root directory to prevent
 	# problems with other programs or directories called `ld' in the path.
@@ -925,26 +938,6 @@ EOF
 EOF
 	  $CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null && ./$dummy "${UNAME_MACHINE}" && rm $dummy.c $dummy && exit 0
 	  rm -f $dummy.c $dummy
-	elif test "${UNAME_MACHINE}" = "s390"; then
-	  echo s390-ibm-linux && exit 0
-	elif test "${UNAME_MACHINE}" = "x86_64"; then
-	  echo x86_64-unknown-linux-gnu && exit 0
-	elif test "${UNAME_MACHINE}" = "parisc64" -o "${UNAME_MACHINE}" = "hppa64"; then
-	  echo hppa64-unknown-linux-gnu && exit 0
-	elif test "${UNAME_MACHINE}" = "parisc" -o "${UNAME_MACHINE}" = "hppa"; then
-	  # Look for CPU level
-	  case `grep '^cpu[^a-z]*:' /proc/cpuinfo 2>/dev/null | cut -d' ' -f2` in
-	    PA7*)
-		echo hppa1.1-unknown-linux-gnu
-		;;
-	    PA8*)
-		echo hppa2.0-unknown-linux-gnu
-		;;
-	    *)
-		echo hppa-unknown-linux-gnu
-		;;
-	  esac
-	  exit 0
 	else
 	  # Either a pre-BFD a.out linker (linux-gnuoldld)
 	  # or one that does not give us useful --help.
