@@ -1,8 +1,12 @@
+2000-02-24  Nick Clifton  <nickc@cygnus.com>
+
+	* config.sub: Support an OS of "wince".
+
 2000-02-15  Andrew Cagney  <cagney@cygnus.com>
 
 	* config.guess: Rewrite NetBSD code.  Return *-*-netbsdelf* for
 	ELF systems and *-*-netbsd* for all others.  Provide a guideline
-	for how to match a NetBSD tupple.
+	for how to match a NetBSD tuple.
 
 2000-02-15  Richard Henderson  <rth@cygnus.com>
 
