@@ -1,3 +1,8 @@
+2000-06-10  Hans-Peter Nilsson  <hp@axis.com>
+
+	* config.sub (os): Recognize axis as manufacturer.
+	(basic_machine): Recognize cris and etrax* as cris-axis.
+
 2000-05-31  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Accept athlon as an i686 variant. From Philipp
