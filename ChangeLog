@@ -1,5 +1,10 @@
 2000-04-06  Ben Elliston  <bje@redhat.com>
 
+	* config.guess: Define _HPUX_SOURCE for the HP-UX test program.
+	From Bruno Haible <haible@ilog.fr>.
+
+2000-04-06  Ben Elliston  <bje@redhat.com>
+
 	* config.guess: Detect Apple's Darwin operating system.
 	* config.sub: Handle an appropriate alias. From Assar Westerlund.
 	
