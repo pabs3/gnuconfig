@@ -1,3 +1,8 @@
+2000-05-27  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Handle GNU/Linux on Hitachi SuperH. From Niibe
+	Yutaka <gniibe@chroot.org>.
+
 2000-05-19  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Recognise hppa64 as a valid cpu type. From Jeff Law.

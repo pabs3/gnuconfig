@@ -726,6 +726,10 @@ EOF
 		echo powerpc-unknown-linux-gnu${LIBC}
 		exit 0
 		;;
+	  shelf_linux)
+		echo "${UNAME_MACHINE}-unknown-linux-gnu"
+		exit 0
+		;;
 	esac
 
 	if test "${UNAME_MACHINE}" = "alpha" ; then
