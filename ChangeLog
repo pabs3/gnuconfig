@@ -1,3 +1,8 @@
+2001-09-04  Eric Christopher  <echristo@redhat.com>
+	    Jason Eckhardt  <jle@redhat.com> 
+
+	* config.sub: Add support for mipsisa32.
+
 2001-09-04  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Move eval $set_cc_for_build in most cases, to
