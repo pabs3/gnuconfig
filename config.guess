@@ -956,7 +956,7 @@ EOF
 	fi
 	exit 0 ;;
     i*86:*:5:[78]*)
-	case `/bin/uname -X | grep ^Machine` in
+	case `/bin/uname -X | grep "^Machine"` in
 	    *486*)	     UNAME_MACHINE=i486 ;;
 	    *Pentium*)	     UNAME_MACHINE=i586 ;;
 	    *Pent*|*Celeron) UNAME_MACHINE=i686 ;;
