@@ -32,7 +32,7 @@
 	Reported by Dennis Grevenstein <dennis@pcde.inka.de>:
 	* config.guess (sei:*:*:seiux): Detect SEIUX running on MIPS-based
 	workstations manufactured by Sumitomo Electric Industries.
-	* config.sub (sei, -sei*): Handle. 
+	* config.sub (sei, -sei*): Handle.
 	
 2003-06-13  Svein E. Seldal  <Svein.Seldal@solidas.com>
 
@@ -340,7 +340,7 @@
 2002-05-16  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect PowerMAX OS on Concurrent Night Hawk.
-	* config.sub: Handle -powermax*. 
+	* config.sub: Handle -powermax*.
 
 2002-05-02  Ben Elliston  <bje@redhat.com>
 
@@ -500,7 +500,7 @@
 
 2001-12-03  Bob Wilson  <bwilson@tensilica.com>
 
-	* config.sub: Add support for Xtensa targets. 
+	* config.sub: Add support for Xtensa targets.
 
 2001-11-30  Ben Elliston  <bje@redhat.com>
 
@@ -520,7 +520,7 @@
 2001-11-08  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Handle 3487/3488 machines for NCR SysV UNIX.
-	Contributed by Melvin M. Bagaforo <mbagaforo@makro.com.ph>. 
+	Contributed by Melvin M. Bagaforo <mbagaforo@makro.com.ph>.
 
 2001-11-07  Adrian von Bidder  <avbidder@acter.ch>
 
@@ -528,7 +528,7 @@
 
 2001-11-07  D.J. Barrow  <djbarrow@de.ibm.com>
 
-        * config.sub: Added S/390 31 and 64 bit target. 
+        * config.sub: Added S/390 31 and 64 bit target.
 
 2001-11-06  John Marshall  <jmarshall@acm.org>
 
@@ -544,7 +544,7 @@
 	* config.guess: Add "SKA40" as a machine type for NCR SysV UNIX.
 	From Rudi Heitbaum <rheitbaum@tattersalls.com.au>.
 
-2001-10-05  Rodney Brown  <rbrown64@csc.com.au> 
+2001-10-05  Rodney Brown  <rbrown64@csc.com.au>
 
 	* config.guess (9000/[34678]??:HP-UX:*:*): Unconditionally try
 	/usr/bin/getconf which is available on HP-UX 10.20. Reindent.
@@ -579,7 +579,7 @@
 	* config.sub: Add mipseb alias.
 
 2001-09-04  Eric Christopher  <echristo@redhat.com>
-	    Jason Eckhardt  <jle@redhat.com> 
+	    Jason Eckhardt  <jle@redhat.com>
 
 	* config.sub: Add support for mipsisa32.
 
@@ -611,7 +611,7 @@
 
 	* config.guess: Detect Alpha ev68 on OSF/1 and Linux.
 	From Ken Whaley <ken@believe.com>.
- 
+
 2001-08-04  Darrell Hamilton  <Darrell_Hamilton@labcorp.com>
 
 	* config.guess: Unisys places the host id in ${UNAME_SYSTEM}
@@ -637,7 +637,7 @@
 	From Hans Edwards <Hans.Edwards@getronicsgov.com>.
 
 2001-07-27  Niibe Yutaka  <gniibe@m17n.org>
- 
+
         * config.sub: Recognize sh3eb and sh4eb (big endian) aliases.
 
 2001-07-19  Ben Elliston  <bje@redhat.com>
@@ -654,7 +654,7 @@
 	* config.guess: Update MPE/iX to handle A and N class HPe3000.
 
 2001-07-02  Graham Stott  <grahams@redhat.com>
- 
+
 	* config.sub (basic_machine): Fix typo for mips64vr5000el.
 
 2001-06-29  Ben Elliston  <bje@redhat.com>
@@ -767,7 +767,7 @@
 	* config.guess: Detect ELF-based m68k Linux systems. Reported by
 	Michael Fedrowitz <michael.fedrowitz@informatik.uni-ulm.de>.
 
-2001-03-09  H.J. Lu  <hjl@gnu.org> 
+2001-03-09  H.J. Lu  <hjl@gnu.org>
 
 	* config.sub: Recognize s390/s390x as valid $basic_machine.
 
@@ -807,7 +807,7 @@
 
 	* config.guess: More Linux cleanup.
 
-2001-02-13  Martin Schwidefsky  <schwidefsky@de.ibm.com> 
+2001-02-13  Martin Schwidefsky  <schwidefsky@de.ibm.com>
 
 	* config.guess: Add Linux target for S/390x.
 	* config.sub: Likewise.
