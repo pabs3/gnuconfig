@@ -822,6 +822,12 @@ case $basic_machine in
 		basic_machine=a29k-amd
 		os=-udi
 		;;
+	sb1)
+		basic_machine=mipsisa64sb1-unknown
+		;;
+	sb1el)
+		basic_machine=mipsisa64sb1el-unknown
+		;;
 	sequent)
 		basic_machine=i386-sequent
 		;;
