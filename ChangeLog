@@ -1,3 +1,9 @@
+2005-01-11  Inderpreet Singh  <inderpreetb@noida.hcltech.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Handle maxq target.
+	* testsuite/config-sub.data: Add maxq and maxq-elf tests.
+
 2004-11-30  Melissa Mears  <asterisk@graces.dricas.com>
 
 	* config.sub: Handle xbox alias.

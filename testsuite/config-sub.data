@@ -26,3 +26,5 @@ xscale				xscale-unknown-none
 xscaleeb			xscaleeb-unknown-none
 xscaleel			xscaleel-unknown-none
 xbox				i686-pc-mingw32
+maxq				maxq-unknown-none
+maxq-elf			maxq-unknown-elf
