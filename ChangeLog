@@ -1,3 +1,8 @@
+2003-08-18  Andreas Krennmair <krennmair@lizenzfrei.at>
+
+	* config.guess: Add detection for diet libc.
+	* config.sub: Handle linux-dietlibc.
+
 2003-07-29  Ben Elliston  <bje@wasabisystems.com>
 
 	* NEWS: New draft file.
