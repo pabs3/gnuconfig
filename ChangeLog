@@ -1,3 +1,7 @@
+2000-04-22  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Fix a syntax error in the DG/UX test.
+
 2000-04-06  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Define _HPUX_SOURCE for the HP-UX test program.
