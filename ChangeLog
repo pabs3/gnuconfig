@@ -1,3 +1,8 @@
+2003-05-09  Ben Elliston  <bje@wasabisystems.com>
+
+	* config.guess (SHG2:*:4.0:3.0): Handle NCR System V UNIX machine.
+	Reported by Raj Mannar <rajman@ureach.com>.
+
 2003-05-09  Andreas Jaeger  <aj@suse.de>
 
 	* config.sub (maybe_os): Add alias amd64 for x86_64.
