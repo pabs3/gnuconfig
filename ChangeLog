@@ -1,3 +1,7 @@
+2002-12-17  John David Anglin  <dave@hiauly1.hia.nrc.ca>
+
+	* config.guess (hppa*): Remove tmpdir when CC_FOR_BUILD is set.
+
 2002-12-11  Ben Elliston  <bje@redhat.com>
 	    Dave Anglin  <dave.anglin@nrc.ca>
 	    Ross Alexander  <ross.alexander@uk.neceur.com>
