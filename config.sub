@@ -1126,8 +1126,10 @@ case $os in
 			;;
 		esac
 		;;
+	-nto-qnx*)
+		;;
 	-nto*)
-		os=-nto-qnx
+		os=`echo $os | sed -e 's|nto|nto-qnx|'`
 		;;
 	-sim | -es1800* | -hms* | -xray | -os68k* | -none* | -v88r* \
 	      | -windows* | -osx | -abug | -netware* | -os9* | -beos* \
