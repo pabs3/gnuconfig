@@ -1,3 +1,9 @@
+2002-12-23  Ben Elliston  <bje@redhat.com>
+
+	* config.guess (set_cc_for_build): Rework to do more secure tmp
+	directory creation.  Remove temporary files and tmp directory on
+	exit; remove redundant rm(1) and rmdir(1) commands throughout.
+
 2002-12-17  John David Anglin  <dave@hiauly1.hia.nrc.ca>
 
 	* config.guess (hppa*): Remove tmpdir when CC_FOR_BUILD is set.
