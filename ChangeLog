@@ -1,5 +1,9 @@
 2004-06-11  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (pegasos:OpenBSD:*:*): Remove.
+
+2004-06-11  Ben Elliston  <bje@gnu.org>
+
 	From Wouter Verhelst <wouter@grep.be>:
 	* config.guess (M68*:*:R3V[5678]:*): Detect R3V8.
 
