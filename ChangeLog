@@ -1,3 +1,8 @@
+2001-12-03  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Recognise the Nucleus family of operating systems.
+	From <Takahiko_Kawasaki@cii.csk.co.jp>.
+
 2001-12-03  Bob Wilson  <bwilson@tensilica.com>
 
 	* config.sub: Add support for Xtensa targets. 
