@@ -1,3 +1,8 @@
+2001-03-30  Alexandre Oliva  <aoliva@redhat.com>
+
+	* config.sub: Make sure to match an already-canonicalized
+	machine name (eg. mn10300-unknown-elf).
+
 2001-03-19  Philip Blundell  <philb@gnu.org>
 
 	* config.sub: Allow tic80 as machine type.  Allow company name for
