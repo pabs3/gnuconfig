@@ -1,3 +1,8 @@
+2004-02-16  Thorsten Glaser  <x86@ePost.de>
+
+	* config.guess (*:MirBSD:*:*, macppc:MirBSD:*:*): Handle.
+	* config.sub: Handle -mirbsd*.
+
 2004-02-16  Brad Smith  <brad@comstyle.com>
 
 	* config.guess: Recognize OpenBSD on AMD64 and CATS hardware.
