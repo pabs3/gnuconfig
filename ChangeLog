@@ -1,5 +1,10 @@
 2000-04-22  Ben Elliston  <bje@redhat.com>
 
+	* config.guess: Do not differentiate FreeBSD systems that use the
+	ELF object file format. From David O'Brien <obrien@freebsd.org>.
+
+2000-04-22  Ben Elliston  <bje@redhat.com>
+
 	* config.guess: Detect Siemens BS2000 machines. From Jean-Frederic
 	Clere <jfrederic.clere@fujitsu.siemens.se>.
 
