@@ -4,6 +4,9 @@
 	with a C++ compiler.  Function prototypes are mandatory in C++.
 	From Ossama Othman <othman@cs.wustl.edu>.
 
+	* config.guess: Fix a regression in PowerPC Linux detection.
+	From Franz Sirl.
+
 2000-02-03  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Handle versions of DJGPP's uname(1) command which

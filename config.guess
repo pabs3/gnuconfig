@@ -668,7 +668,7 @@ EOF
 		echo "${UNAME_MACHINE}-unknown-linux-gnuaout"
 		exit 0
 		;;
-	  elf32ppc)
+	  elf32ppc | elf32ppclinux)
 		# Determine Lib Version
 		cat >$dummy.c <<EOF
 #include <features.h>
