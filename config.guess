@@ -885,6 +885,9 @@ EOF
     s390:Linux:*:* | s390x:Linux:*:*)
 	echo ${UNAME_MACHINE}-ibm-linux
 	exit 0 ;;
+    sh64*:Linux:*:*)
+    	echo ${UNAME_MACHINE}-unknown-linux-gnu
+	exit 0 ;;
     sh*:Linux:*:*)
 	echo ${UNAME_MACHINE}-unknown-linux-gnu
 	exit 0 ;;

@@ -1,9 +1,15 @@
 2003-06-17  Ben Elliston  <bje@wasabisystems.com>
 
+	From by Stephen Thomas <stephen.thomas@superh.com>:
+	* config.guess (sh64*:*:*:Linux): New case.
+	* config.sub (sh64): Map to sh64-unknown.
+
+2003-06-17  Ben Elliston  <bje@wasabisystems.com>
+
+	Reported by Dennis Grevenstein <dennis@pcde.inka.de>:
 	* config.guess (sei:*:*:seiux): Detect SEIUX running on MIPS-based
 	workstations manufactured by Sumitomo Electric Industries.
 	* config.sub (sei, -sei*): Handle. 
-	Reported by Dennis Grevenstein <dennis@pcde.inka.de>.
 	
 2003-06-13  Svein E. Seldal  <Svein.Seldal@solidas.com>
 

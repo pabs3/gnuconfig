@@ -858,6 +858,9 @@ case $basic_machine in
 		basic_machine=sh-hitachi
 		os=-hms
 		;;
+	sh64)
+		basic_machine=sh64-unknown
+		;;
 	sparclite-wrs | simso-wrs)
 		basic_machine=sparclite-wrs
 		os=-vxworks
