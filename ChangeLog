@@ -1,3 +1,8 @@
+2001-11-16  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Accept "-atheos*" as a valid OS.
+	From Taco Witte <T.C.Witte@phys.uu.nl>.
+
 2001-11-08  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Handle 3487/3488 machines for NCR SysV UNIX.
