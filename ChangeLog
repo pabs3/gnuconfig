@@ -1,3 +1,9 @@
+2001-04-20  Tyson Dowd  <trd@cs.mu.oz.au>
+	    Fergus Henderson  <fjh@cs.mu.oz.au>
+
+	* config.guess: Replace i?86 with i*86 to match newer Pentiums.
+	* config.sub: Likewise.
+
 2001-03-30  Peter Buckingham  <pbuckingham@lnxw.com>
 
 	* config.guess: Update LynxOS version numbers.
