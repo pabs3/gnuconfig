@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000
 #   Free Software Foundation, Inc.
 
-timestamp='2000-12-20'
+timestamp='2000-12-21'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -598,6 +598,10 @@ EOF
 	fi ;;
 	esac
 	echo ${HP_ARCH}-hp-hpux${HPUX_REV}
+	exit 0 ;;
+    ia64:HP-UX:*:*)
+	HPUX_REV=`echo ${UNAME_RELEASE}|sed -e 's/[^.]*.[0B]*//'`
+	echo ia64-hp-hpux${HPUX_REV}
 	exit 0 ;;
     3050*:HI-UX:*:*)
 	sed 's/^	//' << EOF >$dummy.c

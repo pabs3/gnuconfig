@@ -1,3 +1,8 @@
+2000-12-21  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect HP-UX on IA-64 hosts.  From Jonathan
+	Thackray <jon@thackray.org>.
+
 2000-12-20  Pavel Roskin  <proski@gnu.org>
 
 	* config.sub: Handle mint with version number as recognized OS.
