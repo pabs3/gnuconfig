@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
 #   2000, 2001, 2002 Free Software Foundation, Inc.
 
-timestamp='2002-01-22'
+timestamp='2002-01-23'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -876,7 +876,11 @@ EOF
 	LIBC=gnulibc1
 	# endif
 	#else
+	#ifdef __INTEL_COMPILER
+	LIBC=gnu
+	#else
 	LIBC=gnuaout
+	#endif
 	#endif
 EOF
 	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep ^LIBC=`

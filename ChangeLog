@@ -1,3 +1,9 @@
+2002-01-23  Ben Elliston  <bje@redhat.com>
+
+	* config.guess (i*86:Linux:*:*): Specifically handle the Intel icc
+	compiler, which doesn't define __ELF__.  Submitted by Erik Lindahl
+	<lindahl@stanford.edu>.
+
 2002-01-22  Nicola Pero  <nicola@brainstorm.co.uk>
 
 	* config.guess (i*86:Linux:*:*): Fixed: export LANG=C before
