@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
 #   2000, 2001, 2002 Free Software Foundation, Inc.
 
-timestamp='2002-08-19'
+timestamp='2002-08-23'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -988,6 +988,9 @@ EOF
     mini*:CTIX:SYS*5:*)
 	# "miniframe"
 	echo m68010-convergent-sysv
+	exit 0 ;;
+    mc68k:UNIX:SYSTEM5:3.51m)
+	echo m68k-convergent-sysv
 	exit 0 ;;
     M68*:*:R3V[567]*:*)
 	test -r /sysV68 && echo 'm68k-motorola-sysv' && exit 0 ;;
