@@ -1,3 +1,7 @@
+2001-08-21  matthew green  <mrg@eterna.com.au>
+
+	* config.guess (sparc*:NetBSD:*): Use $MACHINE_ARCH, not $MACHINE.
+
 2001-08-13  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Handle complete system name for elxsi.
