@@ -1,3 +1,7 @@
+2003-01-02  Chris Demetriou  <cgd@broadcom.com>
+
+	* config.sub (mipsisa32r2*): Add.
+
 2002-12-23  Ben Elliston  <bje@redhat.com>
 
 	* config.guess (set_cc_for_build): Rework to do more secure tmp
