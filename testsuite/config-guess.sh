@@ -11,7 +11,8 @@ rc=0
 export PATH=`pwd`:$PATH
 IFS="	" # tab
 
-while read machine release system version triplet ; do
+sed 's/		*/	/g' < config-guess.data |
+ while read machine release system version triplet ; do
   sed \
     -e "s/@MACHINE@/$machine/" \
     -e "s/@RELEASE@/$release/" \
@@ -30,7 +31,7 @@ while read machine release system version triplet ; do
     continue
   fi
   $verbose && echo "PASS: $triplet"
-done < config-guess.data 
+done
 
 if test $rc -eq 0 ; then
   $verbose || echo "PASS: config.guess checks"

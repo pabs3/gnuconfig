@@ -1,5 +1,10 @@
 2004-10-25  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.sh: Reduce recurring tabs into a single
+	tab, to allow the test data to be better aligned in columns.
+
+2004-10-25  Ben Elliston  <bje@gnu.org>
+
 	Reported by Monty Solomon <monty@roscom.com>:
 	* config.guess (*:XENIX:*:SysV): New.
 	* testsuite/config-guess.data: Add a test case.
