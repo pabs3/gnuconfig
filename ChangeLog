@@ -1,3 +1,8 @@
+2001-02-23  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: More Linux cleanup. Match more in the top-level
+	case statement and less by groking the output of ld.
+
 2001-02-16  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Recognise [cjt]90-*. From Kevin Ryde.
@@ -17,7 +22,7 @@
 
 2001-02-13  Ben Elliston  <bje@redhat.com>
 
-	* config.guess: More Linux clean-up.
+	* config.guess: More Linux cleanup.
 
 2001-02-13  Martin Schwidefsky  <schwidefsky@de.ibm.com> 
 
