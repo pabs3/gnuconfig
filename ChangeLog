@@ -1,3 +1,7 @@
+2001-08-23  Geoffrey Keating  <geoffk@redhat.com>
+
+	* config.sub: Add stormy16-elf.
+
 2001-08-21  matthew green  <mrg@eterna.com.au>
 
 	* config.guess (sparc*:NetBSD:*): Use $MACHINE_ARCH, not $MACHINE.
