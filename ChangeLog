@@ -1,3 +1,7 @@
+2002-03-20  Ben Elliston  <bje@redhat.com>
+
+	* config.guess (set_cc_for_build): Add c99 to list of candidates.
+
 2002-03-12  J.T. Conklin  <jtc@acorntoolworks.com>
 
 	* config.guess: Add OS release to QNX config strings.
