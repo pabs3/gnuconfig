@@ -1,3 +1,10 @@
+2004-03-03  Ben Elliston  <bje@wasabisystems.com>
+
+	From Tom Smith <smith@cag.lkg.hp.com>:
+	* config.guess: Version suffixes are equally significant on Tru64
+	V4.* and V5.*, so do not ignore them on V5.*.  Handle a version
+	prefix of "P" (patched kernel).
+
 2004-02-23  Tal Agmon  <Tal.Agmon@nsc.com>
 
 	* config.sub: Add support for National Semiconductor CRX target.
