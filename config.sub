@@ -1,9 +1,9 @@
 #! /bin/sh
 # Configuration validation subroutine script.
-#   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000
+#   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001
 #   Free Software Foundation, Inc.
 
-timestamp='2000-12-20'
+timestamp='2001-01-01'
 
 # This file is (in principle) common to ALL GNU software.
 # The presence of a machine in this file suggests that SOME GNU software
