@@ -13,4 +13,4 @@ upload:
 	rm config.{guess,sub}{.sig,.directive.asc}
 
 check:
-	cd testsuite && sh config-sub.sh
+	cd testsuite && (sh config-sub.sh; sh config-guess.sh) && rm uname

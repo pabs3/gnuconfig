@@ -1,3 +1,11 @@
+2004-08-22  Ben Elliston  <bje@gnu.org>
+
+	* Makefile (check): Run config-guess.sh tests as well.
+	* testsuite/config-guess.sh: New test.
+	* testsuite/config-guess.data: New file.
+	* testsuite/uname.in: Likewise.
+	* testsuite/config-sub.data (amd64-unknown-freebsd5.2): New case.
+
 2004-08-13  Brad Smith  <brad@comstyle.com>
 
 	* config.guess (*:OpenBSD:*:*): Remove defunct MIPS machines.
