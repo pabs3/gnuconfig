@@ -323,7 +323,7 @@ case $basic_machine in
 	| mipsisa64sr71k-* | mipsisa64sr71kel-* \
 	| mipstx39-* | mipstx39el-* \
 	| msp430-* \
-	| none-* | np1-* | ns16k-* | ns32k-* \
+	| none-* | np1-* | nv1-* | ns16k-* | ns32k-* \
 	| orion-* \
 	| pdp10-* | pdp11-* | pj-* | pjl-* | pn-* | power-* \
 	| powerpc-* | powerpc64-* | powerpc64le-* | powerpcle-* | ppcbe-* \
@@ -720,6 +720,10 @@ case $basic_machine in
 	np1)
 		basic_machine=np1-gould
 		;;
+	nv1)
+		basic_machine=nv1-cray
+		os=-unicosmp
+		;;
 	nsr-tandem)
 		basic_machine=nsr-tandem
 		;;
@@ -904,10 +908,6 @@ case $basic_machine in
 	symmetry)
 		basic_machine=i386-sequent
 		os=-dynix
-		;;
-	t3d)
-		basic_machine=alpha-cray
-		os=-unicos
 		;;
 	t3e)
 		basic_machine=alphaev5-cray

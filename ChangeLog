@@ -1,6 +1,16 @@
 2003-01-02  Ben Elliston  <bje@redhat.com>
 
+	From Wendy Palm <wendyp@cray.com>:
+	* config.guess (CRAY*T3D:*:*:*): Remove.
+	(*:UNICOS/mp:*:*): New system.
+	* config.sub (t3d): Remove.
+	(nv1): Add.
+
+2003-01-02  Ben Elliston  <bje@redhat.com>
+
 	* config.sub: Fix mipstx39-* and mipstx39el-* handling (typo).
+
+2003-01-02  Ben Elliston  <bje@redhat.com>
 
 	From Dmitry Diky <diwil@mail.ru>:
 	* config.sub (basic_machine): Add msp430 and msp430-*.
