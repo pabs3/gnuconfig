@@ -1,5 +1,8 @@
 2000-06-13  Ben Elliston  <bje@redhat.com>
 
+	* config.guess: Detect Minix on x86 machines.
+	* config.sub: Recognise i286. From <michael@moria.de>.
+
 	* config.sub: Recognise sh3 and sh4 aliases. From Kazumoto Kojima
 	<kkojima@rr.iij4u.or.jp>.
 
