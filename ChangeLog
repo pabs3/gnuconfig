@@ -1,5 +1,8 @@
 2001-04-20  Ben Elliston  <bje@redhat.com>
 
+	* config.sub: Handle sparcv9b.
+	From Dave Miller <davem@redhat.com>.
+
 	* config.guess: Detect PowerMAX OS on PowerPC.
 
 2001-04-20  Tyson Dowd  <trd@cs.mu.oz.au>
