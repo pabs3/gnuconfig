@@ -258,7 +258,7 @@ EOF
 	eval $set_cc_for_build
 	$CC_FOR_BUILD $dummy.s -o $dummy 2>/dev/null
 	if test "$?" = 0 ; then
-		case `./$dummy` in
+		case `$dummy` in
 			0-0)
 				UNAME_MACHINE="alpha"
 				;;
@@ -430,7 +430,7 @@ EOF
 	}
 EOF
 	$CC_FOR_BUILD $dummy.c -o $dummy \
-	  && ./$dummy `echo "${UNAME_RELEASE}" | sed -n 's/\([0-9]*\).*/\1/p'` \
+	  && $dummy `echo "${UNAME_RELEASE}" | sed -n 's/\([0-9]*\).*/\1/p'` \
 	  && rm -f $dummy.c $dummy && rmdir $tmpdir && exit 0
 	rm -f $dummy.c $dummy && rmdir $tmpdir
 	echo mips-mips-riscos${UNAME_RELEASE}
@@ -513,7 +513,7 @@ EOF
 			exit(0);
 			}
 EOF
-		$CC_FOR_BUILD $dummy.c -o $dummy && ./$dummy && rm -f $dummy.c $dummy && rmdir $tmpdir && exit 0
+		$CC_FOR_BUILD $dummy.c -o $dummy && $dummy && rm -f $dummy.c $dummy && rmdir $tmpdir && exit 0
 		rm -f $dummy.c $dummy && rmdir $tmpdir
 		echo rs6000-ibm-aix3.2.5
 	elif grep bos324 /usr/include/stdio.h >/dev/null 2>&1; then
@@ -612,7 +612,7 @@ EOF
                   exit (0);
               }
 EOF
-		    (CCOPTS= $CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null) && HP_ARCH=`./$dummy`
+		    (CCOPTS= $CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null) && HP_ARCH=`$dummy`
 		    if test -z "$HP_ARCH"; then HP_ARCH=hppa; fi
 		    rm -f $dummy.c $dummy && rmdir $tmpdir
 		fi ;;
@@ -650,7 +650,7 @@ EOF
 	  exit (0);
 	}
 EOF
-	$CC_FOR_BUILD $dummy.c -o $dummy && ./$dummy && rm -f $dummy.c $dummy && rmdir $tmpdir && exit 0
+	$CC_FOR_BUILD $dummy.c -o $dummy && $dummy && rm -f $dummy.c $dummy && rmdir $tmpdir && exit 0
 	rm -f $dummy.c $dummy && rmdir $tmpdir
 	echo unknown-hitachi-hiuxwe2
 	exit 0 ;;
@@ -1266,7 +1266,7 @@ main ()
 }
 EOF
 
-$CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null && ./$dummy && rm -f $dummy.c $dummy && rmdir $tmpdir && exit 0
+$CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null && $dummy && rm -f $dummy.c $dummy && rmdir $tmpdir && exit 0
 rm -f $dummy.c $dummy && rmdir $tmpdir
 
 # Apollos put the system type in the environment.
