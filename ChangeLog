@@ -1,3 +1,7 @@
+2001-11-06  John Marshall  <jmarshall@acm.org>
+
+	* config.sub: Accept "-palmos*" as a valid OS.
+
 2001-11-07  Geoffrey Keating  <geoffk@redhat.com>
 
 	* config.sub: Change 'stormy16' to 'xstormy16' in the two places
