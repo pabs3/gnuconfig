@@ -1,5 +1,10 @@
 2004-06-11  Ben Elliston  <bje@gnu.org>
 
+	From Wouter Verhelst <wouter@grep.be>:
+	* config.guess (M68*:*:R3V[5678]:*): Detect R3V8.
+
+2004-06-11  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (luna88k:OpenBSD:*:*): New.
 
 2004-03-12  Kazuhiro Inaoka  <inaoka.kazuhiro@renesas.com>
