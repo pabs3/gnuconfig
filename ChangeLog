@@ -1,3 +1,8 @@
+2002-02-18  Jim Meyering  <meyering@lucent.com>
+
+	* config.guess: Don't use `head -1'; it's no longer portable.
+	Use `sed 1q' instead.
+
 2002-02-15  Ben Elliston  <bje@redhat.com>
 
 	* config.sub (rtmk*, rtmk-nova*): Recognise.
