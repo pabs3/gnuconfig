@@ -1,3 +1,9 @@
+2004-06-22  Stanley F. Quayle <stan@stanq.com>
+
+	* config.guess (*:*VMS:*:*): New entry. Replaces
+	Alpha:OpenVMS:*. Recognize and advertise all VMS flavors as dec
+	manufacturer.
+
 2004-06-22  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Cray fixes from Wendy Palm <wendyp@cray.com>.
