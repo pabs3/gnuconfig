@@ -1,3 +1,9 @@
+2000-10-03  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Do not hold ld's output in a shell variable; feed
+	the output directly into the command pipline to avoid a limitation
+	in variable lengths in ash(1). From Pavel Roskin <proski@gnu.org>.
+
 2000-09-11  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Handle nsk*.
