@@ -446,6 +446,9 @@ EOF
     Motorola:PowerMAX_OS:*:*)
 	echo powerpc-motorola-powermax
 	exit 0 ;;
+    Motorola:*:4.3:PL8-*)
+	echo powerpc-harris-powermax
+	exit 0 ;;
     Night_Hawk:*:*:PowerMAX_OS)
 	echo powerpc-harris-powermax
 	exit 0 ;;

@@ -1,5 +1,8 @@
 2002-08-23  Ben Elliston  <bje@redhat.com>
 
+	* config.guess: Detect Concurrent PowerMaxion.
+	Reported by Lloyd Goldston <lloyd.goldston@sed.redstone.army.mil>.
+	
 	* config.guess: Detect Convergent 3B1 machines (running AT&T UNIX).
 	Reported by Bruce Lilly <blilly@erols.com>.
 
