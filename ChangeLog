@@ -1,5 +1,10 @@
 2000-12-20  Pavel Roskin  <proski@gnu.org>
 
+	* config.sub: Handle mint with version number as recognized OS.
+	Contributed by Tomas Berndtsson <tomas@nocrew.org>.
+
+2000-12-20  Pavel Roskin  <proski@gnu.org>
+
 	* config.guess: Detect Fujitsu f700 machines.
 	* config.sub: Handle f700 and f700-fujitsu.
 
