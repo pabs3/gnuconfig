@@ -1042,6 +1042,9 @@ EOF
     BS2000:POSIX*:*:*)
 	echo bs2000-siemens-sysv
 	exit 0 ;;
+    DS/*:UNIX_System_V:*:*)
+	echo ${UNAME_MACHINE}-${UNAME_SYSTEM}-${UNAME_RELEASE}
+	exit 0 ;;
 esac
 
 #echo '(No uname command or uname output not recognized.)' 1>&2

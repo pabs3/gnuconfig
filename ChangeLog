@@ -1,3 +1,8 @@
+2000-04-30  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Handle Fujitsu UXP/DS. From Fu-Chuan Tsai
+	<fchtsai@ms23.hinet.net>.
+
 2000-04-26  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Handle an ld emulation of elf_i?86. From Bruce
