@@ -1,3 +1,8 @@
+2001-07-30  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect STOP operating system on x86 CPUs.
+	From Hans Edwards <Hans.Edwards@getronicsgov.com>.
+
 2001-07-27  Niibe Yutaka  <gniibe@m17n.org>
  
         * config.sub: Recognize sh3eb and sh4eb (big endian) aliases.
