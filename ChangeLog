@@ -9,7 +9,8 @@
 
 2001-11-30  Ben Elliston  <bje@redhat.com>
 
-	* config.sub: Recognise NEC v850e. From Miles Bader <miles@lsi.nec.co.jp>.
+	* config.sub: Recognise NEC v850e. From Miles Bader
+	<miles@lsi.nec.co.jp>.
 
 2001-11-26  Ben Elliston  <bje@redhat.com>
 
