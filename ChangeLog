@@ -1,3 +1,13 @@
+2001-06-27  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Do not unconditionally run the script fragment
+	to set $CC_FOR_BUILD. Put the script in the shell variable
+	$set_cc_for_build and only evaluate it before $CC_FOR_BUILD is
+	referenced. (Poor man's function inlining!)
+
+	In future, the goal will be to reduce the dependence on a C
+	compiler to detect system types by utilising other means.
+
 2001-06-26  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: On MIPS Linux, use /proc/cpuinfo to determine

@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001
 #   Free Software Foundation, Inc.
 
-timestamp='2001-06-26'
+timestamp='2001-06-27'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -95,25 +95,25 @@ trap 'rm -f $dummy.c $dummy.o $dummy.rel $dummy; exit 1' 1 2 15
 # Historically, `CC_FOR_BUILD' used to be named `HOST_CC'. We still
 # use `HOST_CC' if defined, but it is deprecated.
 
-case $CC_FOR_BUILD,$HOST_CC,$CC in
- ,,)    echo "int dummy(){}" > $dummy.c
+set_cc_for_build='case $CC_FOR_BUILD,$HOST_CC,$CC in
+ ,,)    echo "int dummy(){}" > $dummy.c ;
 	for c in cc gcc c89 ; do
-	  ($c $dummy.c -c -o $dummy.o) >/dev/null 2>&1
+	  ($c $dummy.c -c -o $dummy.o) >/dev/null 2>&1 ;
 	  if test $? = 0 ; then
-	     CC_FOR_BUILD="$c"; break
-	  fi
-	done
-	rm -f $dummy.c $dummy.o $dummy.rel
+	     CC_FOR_BUILD="$c"; break ;
+	  fi ;
+	done ;
+	rm -f $dummy.c $dummy.o $dummy.rel ;
 	if test x"$CC_FOR_BUILD" = x ; then
-	  CC_FOR_BUILD=no_compiler_found
+	  CC_FOR_BUILD=no_compiler_found ;
 	fi
 	;;
  ,,*)   CC_FOR_BUILD=$CC ;;
  ,*,*)  CC_FOR_BUILD=$HOST_CC ;;
-esac
+esac'
 
 # This is needed to find uname on a Pyramid OSx when run in the BSD universe.
-# (ghazi@noc.rutgers.edu 8/24/94.)
+# (ghazi@noc.rutgers.edu 1994-08-24)
 if (test -f /.attbin/uname) >/dev/null 2>&1 ; then
 	PATH=$PATH:/.attbin ; export PATH
 fi
@@ -150,6 +150,7 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
 	# to ELF recently, or will in the future.
 	case "${UNAME_MACHINE}" in
 	    i386|sparc|amiga|arm*|hp300|mvme68k|vax|atari|luna68k|mac68k|news68k|next68k|pc532|sun3*|x68k)
+		eval $set_cc_for_build
 		if echo __ELF__ | $CC_FOR_BUILD -E - 2>/dev/null \
 			| grep __ELF__ >/dev/null
 		then
@@ -204,6 +205,7 @@ main:
 	jsr \$26,exit
 	.end main
 EOF
+	eval $set_cc_for_build
 	$CC_FOR_BUILD $dummy.s -o $dummy 2>/dev/null
 	if test "$?" = 0 ; then
 		case `./$dummy` in
@@ -406,6 +408,7 @@ EOF
 	  exit (-1);
 	}
 EOF
+	eval $set_cc_for_build
 	$CC_FOR_BUILD $dummy.c -o $dummy \
 	  && ./$dummy `echo "${UNAME_RELEASE}" | sed -n 's/\([0-9]*\).*/\1/p'` \
 	  && rm -f $dummy.c $dummy && exit 0
@@ -486,6 +489,7 @@ EOF
 			exit(0);
 			}
 EOF
+		eval $set_cc_for_build
 		$CC_FOR_BUILD $dummy.c -o $dummy && ./$dummy && rm -f $dummy.c $dummy && exit 0
 		rm -f $dummy.c $dummy
 		echo rs6000-ibm-aix3.2.5
@@ -586,6 +590,7 @@ EOF
                   exit (0);
               }
 EOF
+	eval $set_cc_for_build
 	(CCOPTS= $CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null ) && HP_ARCH=`./$dummy`
 	if test -z "$HP_ARCH"; then HP_ARCH=hppa; fi
 	rm -f $dummy.c $dummy
@@ -623,6 +628,7 @@ EOF
 	  exit (0);
 	}
 EOF
+	eval $set_cc_for_build
 	$CC_FOR_BUILD $dummy.c -o $dummy && ./$dummy && rm -f $dummy.c $dummy && exit 0
 	rm -f $dummy.c $dummy
 	echo unknown-hitachi-hiuxwe2
@@ -789,6 +795,7 @@ main(argc, argv)
 }
 EOF
 	LIBC=""
+	eval $set_cc_for_build
 	$CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null
 	if test "$?" = 0 ; then
 		./$dummy | grep 1\.99 > /dev/null
@@ -823,6 +830,7 @@ EOF
 		.end main
 EOF
 	LIBC=""
+	eval $set_cc_for_build
 	$CC_FOR_BUILD $dummy.s -o $dummy 2>/dev/null
 	if test "$?" = 0 ; then
 		case `./$dummy` in
@@ -916,6 +924,7 @@ EOF
   return 0;
 }
 EOF
+	eval $set_cc_for_build
 	$CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null && ./$dummy "${UNAME_MACHINE}" && rm -f $dummy.c $dummy && exit 0
 	rm -f $dummy.c $dummy
 	test x"${TENTATIVE}" != x && echo "${TENTATIVE}" && exit 0
@@ -1265,6 +1274,7 @@ main ()
 }
 EOF
 
+eval $set_cc_for_build
 $CC_FOR_BUILD $dummy.c -o $dummy 2>/dev/null && ./$dummy && rm -f $dummy.c $dummy && exit 0
 rm -f $dummy.c $dummy
 
