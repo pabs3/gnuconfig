@@ -1,3 +1,8 @@
+2002-02-15  Ben Elliston  <bje@redhat.com>
+
+	* config.sub (rtmk*, rtmk-nova*): Recognise.
+	From Johan Rydberg <jrydberg@rtmk.org>.
+
 2002-02-15  Wendy Palm  <wendyp@cray.com>
 
 	* config.guess (CRAY*X-MP:*:*:*, CRAY-2:*:*:*): Remove, as we know
