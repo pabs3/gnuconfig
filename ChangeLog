@@ -1,3 +1,7 @@
+2002-01-02  Douglas B. Rupp  <rupp@gnat.com>
+
+	* config.sub (alpha64*): New basic_machine. 
+	
 2002-01-02  Ben Elliston  <bje@redhat.com>
 
 	From Sigbjorn Skjaeret <cisc@c2i.net>.
