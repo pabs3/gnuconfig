@@ -1082,7 +1082,7 @@ EOF
     *:QNX:*:4*)
 	echo i386-pc-qnx
 	exit 0 ;;
-    NSR-W:NONSTOP_KERNEL:*:*)
+    NSR-[KW]:NONSTOP_KERNEL:*:*)
 	echo nsr-tandem-nsk${UNAME_RELEASE}
 	exit 0 ;;
     BS2000:POSIX*:*:*)

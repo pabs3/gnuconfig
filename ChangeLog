@@ -1,3 +1,8 @@
+2000-09-05  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Handle Tandem NSR-K machines.
+	Reported by Andres Junge <ajunge@adexus.cl>.
+
 2000-09-05  Paul Sokolovsky  <Paul.Sokolovsky@technologist.com>
 
 	* config.guess: Detect the PW32 POSIX-on-Win32 environment.
