@@ -1,3 +1,7 @@
+2004-07-02  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Add i386-elf to i786-elf.
+
 2004-06-30  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Add more new tests.
