@@ -1,3 +1,7 @@
+2004-11-12  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.sh: Use , and not / as the sed delimiter.
+
 2004-11-12  Andris Pavenis <pavenis@latnet.lv>
 
 	* config.sub (djgpp): Alias to i586-pc-msdosdjgpp.

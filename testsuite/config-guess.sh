@@ -14,10 +14,10 @@ IFS="	" # tab
 sed 's/		*/	/g' < config-guess.data |
  while read machine release system version triplet ; do
   sed \
-    -e "s/@MACHINE@/$machine/" \
-    -e "s/@RELEASE@/$release/" \
-    -e "s/@SYSTEM@/$system/" \
-    -e "s/@VERSION@/$version/" < uname.in > uname
+    -e "s,@MACHINE@,$machine," \
+    -e "s,@RELEASE@,$release," \
+    -e "s,@SYSTEM@,$system," \
+    -e "s,@VERSION@,$version," < uname.in > uname
   chmod +x uname
   output=`sh ../config.guess 2>/dev/null`
   if test $? != 0 ; then
