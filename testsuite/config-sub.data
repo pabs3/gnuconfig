@@ -28,3 +28,5 @@ xscaleel			xscaleel-unknown-none
 xbox				i686-pc-mingw32
 maxq				maxq-unknown-none
 maxq-elf			maxq-unknown-elf
+amd64-cygwin			x86_64-pc-cygwin
+x86_64-cygwin			x86_64-pc-cygwin

@@ -804,6 +804,9 @@ EOF
     i*:UWIN*:*)
 	echo ${UNAME_MACHINE}-pc-uwin
 	exit 0 ;;
+    amd64:CYGWIN*:*:*)
+	echo x86_64-unknown-cygwin
+	exit 0 ;;
     p*:CYGWIN*:*)
 	echo powerpcle-unknown-cygwin
 	exit 0 ;;

@@ -1,5 +1,11 @@
 2005-02-10  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (amd64:CYGWIN*:*:*): New.
+	* testsuite/config-sub.data: Add amd64-cygwin, x86_64-cygwin.
+	* testsuite/config-guess.data: Add x86_64-unknown-cygwin test.
+
+2005-02-10  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Update copyright years.
 	* config.sub: Likewise.
 

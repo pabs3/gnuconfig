@@ -1,5 +1,5 @@
-i386	1.6		NetBSD	GENERIC	i386-unknown-netbsdelf1.6
-crisv32	2.6.6		Linux	ignored	crisv32-axis-linux-gnu
-frv	2.4.24		Linux	ignored	frv-unknown-linux-gnu
-3	2.3.3		XENIX	SysV	i386-pc-xenix
-2064	ignored		z/VM	ignored	s390-ibm-zvmoe
+crisv32	2.6.6			Linux		ignored	crisv32-axis-linux-gnu
+frv	2.4.24			Linux		ignored	frv-unknown-linux-gnu
+3	2.3.3			XENIX		SysV	i386-pc-xenix
+2064	ignored			z/VM		ignored	s390-ibm-zvmoe
+amd64	1.5.12(0.116/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
