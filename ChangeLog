@@ -1,3 +1,7 @@
+2000-09-11  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Handle nsk*.
+
 2000-09-11  Philip Blundell  <philb@gnu.org>
 
 	* config.sub: Fix mistake in change of 2000-08-06.

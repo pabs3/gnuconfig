@@ -1052,7 +1052,7 @@ case $os in
 	-ns2 )
 	        os=-nextstep2
 		;;
-	-nsk)
+	-nsk*)
 		os=-nsk
 		;;
 	# Preserve the version number of sinix5.
