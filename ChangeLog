@@ -1,3 +1,9 @@
+2001-01-17  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect HI-UX on Hitachi SR8000 machines. It has
+	been difficult to discover what type of CPU is in this machine,
+	so we'll punt on hppa1.1 for now.
+
 2001-01-14  Pavel Roskin  <proski@gnu.org>
 
 	* config.guess: Don't use $version in the error message. Use
