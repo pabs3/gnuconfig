@@ -1,3 +1,7 @@
+2000-10-09  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Typo fix for sh{3,4} case.
+
 2000-10-08  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Handle 8-way NCR 4300s -- uname(1) returns 3446A.

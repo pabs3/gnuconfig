@@ -3,7 +3,7 @@
 #   Copyright (C) 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000
 #   Free Software Foundation, Inc.
 
-version='2000-09-11'
+version='2000-10-09'
 
 # This file is (in principle) common to ALL GNU software.
 # The presence of a machine in this file suggests that SOME GNU software
@@ -908,7 +908,7 @@ case $basic_machine in
 		basic_machine=we32k-att
 		;;
 	sh3 | sh4)
-		base_machine=sh-unknown
+		basic_machine=sh-unknown
 		;;
 	sparc | sparcv9)
 		basic_machine=sparc-sun
