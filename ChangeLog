@@ -1,3 +1,8 @@
+2001-08-23  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect AtheOS on x86 systems.
+	Based on info provided by Taco Witte <tcwitte@wish.net>.
+
 2001-08-23  Geoffrey Keating  <geoffk@redhat.com>
 
 	* config.sub: Add stormy16-elf.
