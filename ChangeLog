@@ -1,3 +1,8 @@
+2002-11-08  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect m68k-diab-dnix.
+	* config.sub: Handle -dnix*.
+
 2002-10-21  Paul Eggert  <eggert@twinsun.com>
 
 	* config.guess (CC_FOR_BUILD): Put "-o outputfile" before any
