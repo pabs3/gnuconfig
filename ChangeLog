@@ -1,3 +1,15 @@
+2001-06-01  Ben Elliston  <bje@redhat.com>
+
+	* config.guess (i*86:Linux:*:*): Examine the list of supported
+	targets, not the list of supported emulations when capturing
+	the output of "ld --help".  This causes problems on systems
+	where GNU ld is built with support for all targets. Adjust
+	cases in the switch accordingly.
+
+	* config.guess: Other small Linux cleanups. Remove unnecessary
+	logic for setting $VENDOR, since UNAME_MACHINE will always be
+	i*86 in this case.
+
 2001-05-30  Mo DeJong  <mdejong@redhat.com>
 
 	* config.sub: Handle windows32 and runtimes.
