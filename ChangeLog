@@ -1,3 +1,8 @@
+2004-11-30  Melissa Mears  <asterisk@graces.dricas.com>
+
+	* config.sub: Handle xbox alias.
+	* testsuite/config-sub.data: Add xbox case.
+
 2004-11-17  Ian Lance Taylor  <ian@wasabisystems.com>
 	    Ben Elliston  <bje@gnu.org>
 
