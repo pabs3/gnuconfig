@@ -1,3 +1,10 @@
+2002-10-21  Paul Eggert  <eggert@twinsun.com>
+
+	* config.guess (CC_FOR_BUILD): Put "-o outputfile" before any
+	operands.  POSIX 1003.1-2001 says that "c99 file.c -o file" is not
+	supported; you must put all options before all operands, e.g. "c99
+	-o file file.c".
+
 2002-09-05  Svein E. Seldal  <Svein.Seldal@solidas.com>
 
 	* config.sub: Add tic4x target.
