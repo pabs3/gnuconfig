@@ -1,3 +1,10 @@
+2000-07-27  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Use "unknown" for the manufacturer field of Amiga
+	systems, not "cbm". Contributed by Ruediger Kuhlmann
+	<ruediger.kuhlmann@stud.uni-karlsruhe.de>.
+	* config.sub: Likewise.
+
 2000-07-24  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect Plan 9.
