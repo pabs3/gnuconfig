@@ -755,7 +755,7 @@ EOF
     i*86:Minix:*:*)
 	echo ${UNAME_MACHINE}-pc-minix
 	exit 0 ;;
-    s390:Linux:*:*)
+    s390:Linux:*:* | s390x:Linux:*:*)
 	echo ${UNAME_MACHINE}-ibm-linux
 	exit 0 ;;
     x86_64:Linux:*:*)

@@ -1,3 +1,8 @@
+2001-02-09  Martin Schwidefsky  <schwidefsky@de.ibm.com> 
+
+	* config.guess: Add Linux target for S/390x.
+	* config.sub: Likewise.
+
 2001-02-13  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Rework detection of many Linux platforms, where
