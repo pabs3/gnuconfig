@@ -1,3 +1,8 @@
+2003-10-16  Ben Elliston  <bje@wasabisystems.com>
+
+	* config.guess (5000:UNIX_System_V:4.*:*): Detect the Fujitsu
+	VPP5000.  Reported by Naoki Yoshida <naoki@th.nao.ac.jp>.
+
 2003-10-16  Bernardo Innocenti  <bernie@develer.com>
 
 	* config.sub (linux-uclibc, uclinux-uclibc): Handle.
