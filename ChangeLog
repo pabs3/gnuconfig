@@ -1,3 +1,7 @@
+2003-07-29  Ben Elliston  <bje@wasabisystems.com>
+
+	* NEWS: New draft file.
+
 2003-07-17  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.sub: Handle iq2000 and iq2000-*.  Reported missing by
