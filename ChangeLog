@@ -1,3 +1,7 @@
+2003-01-22  Fabio Alemagna  <falemagn@aros.org>
+
+	* config.sub: Handle -aros*.
+
 2003-01-10  Stuart Hastings  <stuart@apple.com>
 
 	* config.guess: Make i686 the default for Darwin/x86.
