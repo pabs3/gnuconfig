@@ -1,3 +1,7 @@
+2001-07-19  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect Linux on the PPC64 architecture.
+
 2001-07-12  Keith Thompson  <kst@sdsc.edu>
 
 	* config.guess: Strip trailing sub-version number from
