@@ -1,3 +1,8 @@
+2004-08-13  Brad Smith  <brad@comstyle.com>
+
+	* config.guess (*:OpenBSD:*:*): Remove defunct MIPS machines.
+	(sgi:OpenBSD:*:*): Emit mips64, not mipseb.
+
 2004-08-11  Paul Eggert  <eggert@cs.ucla.edu>
 
 	* config.guess (*:Darwin:*:*): If uname -p reports "unknown",
