@@ -1,3 +1,8 @@
+2000-11-10  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Search for a working C compiler if CC_FOR_BUILD is
+	not specified. From Kevin Ryde <user42@zip.com.au>.
+
 2000-11-08  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect sparc-unknown-linux-gnu. Reported by Peter
