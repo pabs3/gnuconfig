@@ -1,3 +1,8 @@
+2003-10-03  Ben Elliston  <bje@wasabisystems.com>
+	    Joachim Schmitz <schmitz@hp.com>
+
+	* config.guess (NSR-*:NONSTOP_KERNEL:*:*): Recognise NSR-Y.
+
 2003-08-18  Andreas Krennmair <krennmair@lizenzfrei.at>
 
 	* config.guess: Add detection for diet libc.
@@ -9,8 +14,8 @@
 
 2003-07-17  Ben Elliston  <bje@wasabisystems.com>
 
-	* config.sub: Handle iq2000 and iq2000-*.  Reported missing by
-	Doug Evans.
+	* config.sub: Handle iq2000 and iq2000-*.
+	Reported as missing by Doug Evans.
 
 2003-07-15  Alexandre Oliva  <aoliva@redhat.com>
 
