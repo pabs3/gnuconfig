@@ -1,3 +1,8 @@
+2002-01-26  Andy Olson  <andrew.olson@lmco.com>
+
+	* config.guess (*:QNX:*:*): Report i386-* rather than x86pc-*.
+	Discussed with and approved by <peterv@qnx.com>.
+
 2002-01-23  Ben Elliston  <bje@redhat.com>
 
 	* config.guess (i*86:Linux:*:*): Specifically handle the Intel icc

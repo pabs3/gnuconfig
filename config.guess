@@ -1067,8 +1067,10 @@ EOF
     *:procnto*:*:* | *:QNX:[0123456789]*:*)
 	if test "${UNAME_MACHINE}" = "x86pc"; then
 		UNAME_MACHINE=pc
+		echo i386-${UNAME_MACHINE}-nto-qnx
+	else
+		echo `uname -p`-${UNAME_MACHINE}-nto-qnx
 	fi
-	echo `uname -p`-${UNAME_MACHINE}-nto-qnx
 	exit 0 ;;
     *:QNX:*:4*)
 	echo i386-pc-qnx
