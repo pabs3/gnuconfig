@@ -1,3 +1,8 @@
+2002-06-21  J"orn Rennecke <joern.rennecke@superh.com>
+	
+	* config.sub: Add support for sh[12], sh3e, sh[1234]le, sh3ele,
+	shle, sh[1234]le, sh3ele.
+
 2002-06-21  Dave Brolley  <brolley@redhat.com>
 
 	* config.sub: Add support for frv.
