@@ -103,8 +103,6 @@ UNAME_RELEASE=`(uname -r) 2>/dev/null` || UNAME_RELEASE=unknown
 UNAME_SYSTEM=`(uname -s) 2>/dev/null` || UNAME_SYSTEM=unknown
 UNAME_VERSION=`(uname -v) 2>/dev/null` || UNAME_VERSION=unknown
 
-UNAME_SYSTEM=foo
-
 dummy=dummy-$$
 trap 'rm -f $dummy.c $dummy.o $dummy; exit 1' 1 2 15
 
