@@ -1,3 +1,7 @@
+2001-05-24  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Remove duplicate z8k entry.
+
 2001-05-11  Yaegashi Takeshi  <t@keshi.org>
 
 	* config.sub: Handle sh[34]-* and sh[34]eb-*.
