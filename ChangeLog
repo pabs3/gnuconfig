@@ -1,3 +1,8 @@
+2001-01-31  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Handle hppa64-linux systems. From Alan Modra
+	<alan@linuxcare.com.au>.
+
 2001-01-29  Michael Sokolov  <msokolov@ivan.Harhan.ORG>
 
 	* config.guess: Specifically identify 4.3BSD and 4.3BSD-Reno in
