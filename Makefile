@@ -6,4 +6,5 @@ upload:
 	gpg --detach-sign config.sub
 	echo "directory: config" | gpg --clearsign > config.guess.directive
 	cp config.guess.directive config.sub.directive
-	echo ftp -a -u $(UPLOAD) config.{guess,sub}{,.sig,.directive.asc}
+	ftp -a -u $(UPLOAD) config.{guess,sub}{,.sig,.directive}
+	rm config.{guess,sub}{,.sig,.directive}
