@@ -1,3 +1,7 @@
+2002-01-10  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Update Per Bothner's mail address.
+
 2002-01-02  Douglas B. Rupp  <rupp@gnat.com>
 
 	* config.sub (alpha64*): New basic_machine.
