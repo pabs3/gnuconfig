@@ -1,5 +1,12 @@
 2004-11-12  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (*:z/VM:*:*): Add new case.
+	* config.sub (os): Add case for -zvmoe.
+	* testsuite/config-guess.data: Add a test case.
+	* testsuite/config-sub.data: Likewise.
+
+2004-11-12  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-guess.sh: Use , and not / as the sed delimiter.
 
 2004-11-12  Andris Pavenis <pavenis@latnet.lv>
