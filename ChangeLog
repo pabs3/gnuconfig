@@ -1,3 +1,7 @@
+2003-06-12  Bernard Giroud  <bernard.giroud@creditlyonnais.ch>
+
+	* config.guess (Alpha*:OpenVMS:*:*): New entry.
+
 2003-06-06  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.sub: Recognise pentium3 and pentium4.  From Kelley Cook
