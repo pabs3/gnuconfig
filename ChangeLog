@@ -1,3 +1,8 @@
+2000-05-02  Akim Demaille  <akim@epita.fr>
+
+	* config.guess: Add --help and --version options. Add Emacs hooks.
+	* config.sub: Likewise.
+
 2000-05-27  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Handle GNU/Linux on Hitachi SuperH. From Niibe
@@ -51,7 +56,7 @@
 
 	* config.guess: Detect Apple's Darwin operating system.
 	* config.sub: Handle an appropriate alias. From Assar Westerlund.
-	
+
 2000-03-27  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect Ascend Embedded/OS, which is really BSDI.
@@ -111,7 +116,7 @@
 
 	* config.guess: Replace sub-minor system version number with an
 	`X' on certain Cray platforms. From Keith Thompson <kst@sdsc.edu>.
-	
+
 	* config.sub: Add support for mmix and mmixware. From Hans-Peter
 	Nilsson <hp@bitrange.com>.
 
@@ -131,4 +136,4 @@
 	Biveinis <lauras@softhome.net>.
 
 	* config.guess: Import from autoconf source tree.
-	* config.sub: Likewise.	
+	* config.sub: Likewise.
