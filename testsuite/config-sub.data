@@ -20,3 +20,4 @@ amd64-unknown-freebsd5.2	x86_64-unknown-freebsd5.2
 cris-linux			cris-axis-linux-gnu
 crisv32-linux			crisv32-axis-linux-gnu
 frv-linux			frv-unknown-linux-gnu
+djgpp				i586-pc-msdosdjgpp

@@ -1,3 +1,8 @@
+2004-11-12  Andris Pavenis <pavenis@latnet.lv>
+
+	* config.sub (djgpp): Alias to i586-pc-msdosdjgpp.
+	* testsuite/config-sub.data: Add a test case.
+	
 2004-10-25  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh: Reduce recurring tabs into a single
