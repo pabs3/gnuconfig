@@ -1,3 +1,8 @@
+2000-09-05  Paul Sokolovsky  <Paul.Sokolovsky@technologist.com>
+
+	* config.guess: Detect the PW32 POSIX-on-Win32 environment.
+	* config.sub: Handle pw32 aliases.
+
 2000-08-31  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Correctly detect Sony NEWS-OS 6.x.
