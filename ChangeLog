@@ -1,3 +1,9 @@
+2002-12-11  Ben Elliston  <bje@redhat.com>
+	    Dave Anglin  <dave.anglin@nrc.ca>
+	    Ross Alexander  <ross.alexander@uk.neceur.com>
+
+	* config.guess (*:HP-UX:*:*): Detect 64-bit compiler.
+
 2002-11-30  J.T. Conklin  <jtc@acorntoolworks.com>
 
 	* config.sub (-nto-qnx*): New $os pattern.
