@@ -1,3 +1,13 @@
+2002-06-20  Chris Demetriou  <cgd@broadcom.com>
+
+	* config.sub: Add Broadcom SiByte SB-1 processor support
+	(mipsisa64sb1, mipsisa64sb1el).  Add little-endian variants of
+	mipsisa32 and mipsisa64 (mipsisa32el and mipsisa64el,
+	respectively).  Sort MIPS entries and split their lines a bit more
+	logically.  Make sure that all of the MIPS entries in the "without
+	company name" target list are echoed in the "with company name"
+	list.
+
 2002-06-19  Denis Chertykov  <denisc@overta.ru>
 
 	*  (config.sub): Add ip2k support.
