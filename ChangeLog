@@ -1,3 +1,7 @@
+2001-06-29  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Remove stale libc1 tests on PowerPC Linux.
+
 2001-06-29  John Wolfe  <jlw@sco.com>
 
 	* config.guess: Correct UnixWare 7 and Open UNIX 8.0 change;
