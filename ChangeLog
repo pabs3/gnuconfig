@@ -1,3 +1,8 @@
+2001-01-14  Pavel Roskin  <proski@gnu.org>
+
+	* config.guess: Don't use $version in the error message. Use
+	$timestamp instead. Minor changes in the error text.
+
 2001-01-12  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Delete $dummy.rel after compiling test programs on
