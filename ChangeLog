@@ -1,5 +1,9 @@
 2005-02-10  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.data: Add craynv-cray-unicosmp2.5.X case.
+
+2005-02-10  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-sub.sh (run_config_sub): New function. Compute
 	$rc within the function and return it.
 	* testsuite/config-guess.sh (run_config_guess): Likewise.
