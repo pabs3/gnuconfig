@@ -1,3 +1,9 @@
+2000-05-30  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Fix a syntax error introduced by yesterday's
+	changes. Correct a spelling mistake. From Steven G. Johnson
+	<stevenj@gil-galad.mit.edu>.
+
 2000-05-02  Akim Demaille  <akim@epita.fr>
 
 	* config.guess: Add --help and --version options. Add Emacs hooks.
