@@ -93,7 +93,7 @@ fi
 
 
 dummy=dummy-$$
-trap 'rm -f $dummy.c $dummy.o $dummy; exit 1' 1 2 15
+trap 'rm -f $dummy.c $dummy.o $dummy.rel $dummy; exit 1' 1 2 15
 
 # CC_FOR_BUILD -- compiler used by this script.
 # Historically, `CC_FOR_BUILD' used to be named `HOST_CC'. We still
@@ -107,7 +107,7 @@ case $CC_FOR_BUILD,$HOST_CC,$CC in
 	     CC_FOR_BUILD="$c"; break
 	  fi
 	done
-	rm -f $dummy.c $dummy.o
+	rm -f $dummy.c $dummy.o $dummy.rel
 	if test x"$CC_FOR_BUILD" = x ; then
 	  CC_FOR_BUILD=no_compiler_found
 	fi

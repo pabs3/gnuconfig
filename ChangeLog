@@ -1,5 +1,9 @@
 2001-01-12  Ben Elliston  <bje@redhat.com>
 
+	* config.guess: Delete $dummy.rel after compiling test programs on
+	PDP-10 systems whose compilers produce this output file. From Lars
+	Brinkhoff <lars@nocrew.org>.
+
 	* config.sub: Handle EMX on OS/2. From Pavel Roskin.
 
 2001-01-12  Ben Elliston  <bje@redhat.com>
