@@ -1,3 +1,7 @@
+2001-12-13  Douglas B. Rupp  <rupp@gnat.com>
+
+	* config.guess: Recognize x86 Interix version 3.
+
 2001-12-12  Ben Elliston  <bje@redhat.com>
 
 	* config.guess (i*86:Linux:*:*): Minor simplification: have the
