@@ -1,3 +1,8 @@
+2000-12-15  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Accept f301 for Fujitsu machines.
+	Reported by Pavel Roskin <proski@gnu.org>.
+
 2000-12-07  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Add more detail to version information.
