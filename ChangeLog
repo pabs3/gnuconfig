@@ -1,3 +1,9 @@
+2001-08-04  Darrell Hamilton  <Darrell_Hamilton@labcorp.com>
+
+	* config.guess: Unisys places the host id in ${UNAME_SYSTEM}
+	which is too unique to flag this system.  Detect it with *
+	instead.
+
 2001-08-02  Alan Modra  <amodra@bigpond.net.au>
 
 	* config.sub: Sort basic cpu patterns.  Combine hppa patterns.
