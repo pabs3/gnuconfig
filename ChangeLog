@@ -1,3 +1,8 @@
+2000-10-12  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect GNU/Linux on HP PA-RISC systems.
+	From David Huggins-Daines <dhd@linuxcare.com>.
+
 2000-10-09  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Typo fix for sh{3,4} case.
