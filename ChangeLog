@@ -1,3 +1,7 @@
+2004-02-23  Tal Agmon  <Tal.Agmon@nsc.com>
+
+	* config.sub: Add support for National Semiconductor CRX target.
+
 2004-02-16  Thorsten Glaser  <x86@ePost.de>
 
 	* config.guess (*:MirBSD:*:*, macppc:MirBSD:*:*): Handle.
