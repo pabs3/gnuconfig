@@ -1,3 +1,9 @@
+2001-01-29  Michael Sokolov  <msokolov@ivan.Harhan.ORG>
+
+	* config.guess: Specifically identify 4.3BSD and 4.3BSD-Reno in
+	the original VAX UNIX detection logic based on the BSD define in
+	<sys/param.h>.
+
 2001-01-17  Pavel Roskin  <proski@gnu.org>
 
 	* config.sub: Removed cases that cannot match. Vendor changed
