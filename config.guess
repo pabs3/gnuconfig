@@ -1200,6 +1200,9 @@ EOF
     *:QNX:*:4*)
 	echo i386-pc-qnx
 	exit 0 ;;
+    NSE-?:NONSTOP_KERNEL:*:*)
+	echo nse-tandem-nsk${UNAME_RELEASE}
+	exit 0 ;;
     NSR-?:NONSTOP_KERNEL:*:*)
 	echo nsr-tandem-nsk${UNAME_RELEASE}
 	exit 0 ;;

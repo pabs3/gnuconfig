@@ -1,4 +1,10 @@
 2005-02-10  Ben Elliston  <bje@gnu.org>
+	    J Shepherd  <jashepherd@usa.net>
+
+	* config.guess (NSE-?:NONSTOP_KERNEL:*:*): New.
+	* testsuite/config-guess.data: Test for nse-tandem-nsk.
+
+2005-02-10  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.data: Add craynv-cray-unicosmp2.5.X case.
 

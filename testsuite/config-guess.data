@@ -4,3 +4,4 @@ frv	2.4.24			Linux		ignored	frv-unknown-linux-gnu
 2064	ignored			z/VM		ignored	s390-ibm-zvmoe
 amd64	1.5.12(0.116/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
 crayx1	2.5.20			UNICOS/mp	ignored	craynv-cray-unicosmp2.5.X
+NSE-N	1.0			NONSTOP_KERNEL	ignored	nse-tandem-nsk1.0
