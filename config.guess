@@ -289,6 +289,9 @@ EOF
     *:[Aa]miga[Oo][Ss]:*:*)
 	echo ${UNAME_MACHINE}-unknown-amigaos
 	exit 0 ;;
+    *:[Mm]orph[Oo][Ss]:*:*)
+	echo ${UNAME_MACHINE}-unknown-morphos
+	exit 0 ;;
     *:OS/390:*:*)
 	echo i370-ibm-openedition
 	exit 0 ;;

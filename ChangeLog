@@ -1,3 +1,9 @@
+2002-01-02  Ben Elliston  <bje@redhat.com>
+
+	From Sigbjorn Skjaeret <cisc@c2i.net>.
+	* config.guess: Add detection for MorphOS.
+	* config.sub: Handle morphos*.
+
 2002-01-02  H.J. Lu  <hjl@gnu.org>
 
 	* config.guess (mips:Linux:*:*): Undef CPU, mips and mipsel first.
