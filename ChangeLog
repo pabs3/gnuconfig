@@ -3,6 +3,9 @@
 	* config.guess: Search for a working C compiler if CC_FOR_BUILD is
 	not specified. From Kevin Ryde <user42@zip.com.au>.
 
+	* config.guess: Set CPU architecture to "hppa" by default, in case
+	tests fail to produce a result. From Kevin Ryde.
+
 2000-11-08  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect sparc-unknown-linux-gnu. Reported by Peter
