@@ -1018,12 +1018,6 @@ EOF
     *:Rhapsody:*:*)
 	echo ${UNAME_MACHINE}-apple-rhapsody${UNAME_RELEASE}
 	exit 0 ;;
-    Power*:Mac*OS:*:*)
-	echo powerpc-apple-macos${UNAME_RELEASE}
-	exit 0 ;;
-    *:Mac*OS:*:*)
-	echo ${UNAME_MACHINE}-apple-macos${UNAME_RELEASE}
-	exit 0 ;;
     *:Darwin:*:*)
 	echo `uname -p`-apple-darwin${UNAME_RELEASE}
 	exit 0 ;;
