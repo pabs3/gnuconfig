@@ -1,3 +1,9 @@
+2001-03-19  Philip Blundell  <philb@gnu.org>
+
+	* config.sub: Allow tic80 as machine type.  Allow company name for
+	h8500 and pj targets; add `unknown' component when canonicalising
+	h8500-*, pj-* and pjl-*.
+
 2001-03-16  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect Linux on SPARC64.
