@@ -1,4 +1,8 @@
-2001-07-02  Graham Stott <grahams@redhat.com>
+2001-07-09  Mark Klein  <mklein@dis.com>
+
+	* config.guess: Update MPE/iX to handle A and N class HPe3000.
+
+2001-07-02  Graham Stott  <grahams@redhat.com>
  
 	* config.sub (basic_machine): Fix typo for mips64vr5000el.
 
