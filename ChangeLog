@@ -1,3 +1,8 @@
+2002-05-22  Jason Thorpe  <thorpej@wasabisystems.com>
+
+	* config.guess: Add case for "armeb" in NetBSD section.
+	* config.sub: Allow "armeb" as a valid CPU type.
+
 2002-05-16  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect PowerMAX OS on Concurrent Night Hawk.
