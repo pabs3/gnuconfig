@@ -1,3 +1,7 @@
+2003-05-24  Ben Elliston  <bje@wasabisystems.com>
+
+	* config.sub: Handle $os values of -nx6 and -nx7.
+
 2003-05-22  Ben Elliston  <bje@wasabisystems.com>
 
 	* config.guess: Detect ICL NX version 6 running on ICL/Fujitsu DRS
