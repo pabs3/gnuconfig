@@ -71,7 +71,7 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
 	# Netbsd (nbsd) targets should (where applicable) match one or
 	# more of the tupples: *-*-netbsdelf*, *-*-netbsdaout*,
 	# *-*-netbsdecoff* and *-*-netbsd*.  For targets that recently
-	# switched to ELF, *-*-netbsd* would select select the old
+	# switched to ELF, *-*-netbsd* would select the old
 	# object file format.  This provides both forward
 	# compatibility and a consistent mechanism for selecting the
 	# object file format.
