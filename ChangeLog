@@ -1,3 +1,7 @@
+2000-07-06  Andrew Cagney  <cagney@b1.cygnus.com>
+
+	* config.sub: Recognise d30v as a valid basic_machine.
+
 2000-06-28  Ben Elliston  <bje@redhat.com>
 
 	* config.sub: Recognise Motorola 68HC11/12 targets. From Stephane
