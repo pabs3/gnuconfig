@@ -1,3 +1,8 @@
+2001-11-07  Geoffrey Keating  <geoffk@redhat.com>
+
+	* config.sub: Change 'stormy16' to 'xstormy16' in the two places
+	it appears.
+
 2001-10-05  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Add "SKA40" as a machine type for NCR SysV UNIX.
