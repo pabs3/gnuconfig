@@ -1,3 +1,7 @@
+2001-09-04  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Add mipseb alias.
+
 2001-09-04  Eric Christopher  <echristo@redhat.com>
 	    Jason Eckhardt  <jle@redhat.com> 
 
