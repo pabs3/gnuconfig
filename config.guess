@@ -553,10 +553,13 @@ EOF
 	      -e y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
 	exit 0 ;;
     CRAY*TS:*:*:*)
-	echo t90-cray-unicos${UNAME_RELEASE}
+	echo t90-cray-unicos${UNAME_RELEASE} | sed -e 's/\.[^.]*$/.X/'
 	exit 0 ;;
     CRAY*T3E:*:*:*)
-	echo alpha-cray-unicosmk${UNAME_RELEASE}
+	echo alpha-cray-unicosmk${UNAME_RELEASE} | sed -e 's/\.[^.]*$/.X/'
+	exit 0 ;;
+    CRAY*SV1:*:*:*)
+	echo sv1-cray-unicos${UNAME_RELEASE} | sed -e 's/\.[^.]*$/.X/'    
 	exit 0 ;;
     CRAY-2:*:*:*)
 	echo cray2-cray-unicos
