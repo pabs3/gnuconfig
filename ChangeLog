@@ -1,3 +1,9 @@
+2001-01-12  Ben Elliston  <bje@redhat.com>
+
+	* config.guess: Detect common kernels running on various PDP-10
+	architectures. Contributed by Lars Brinkhoff <lars@nocrew.org>.
+	* config.sub: Handle PDP-10.
+
 2001-01-10  Ben Elliston  <bje@redhat.com>
 
 	* config.guess: Detect LynxOS 3.x on PowerPC architectures.
