@@ -1,5 +1,7 @@
 2000-02-15  Ben Elliston  <bje@redhat.com>
 
+	* config.sub: Handle avr. From Denis Chertykov <denisc@overta.ru>.
+
 	* config.guess: Detect GNU/Linux on IBM S/390 machines.
 	* config.sub: Handle s390-*. From Adam J. Thornton
 	<adam@phoenix.princeton.edu>.
