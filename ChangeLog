@@ -1,3 +1,11 @@
+2003-02-03  Ben Elliston  <bje@redhat.com>
+
+	* config.sub: Handle -kaos*.
+
+2003-02-03  Charles Lepple  <clepple@ghz.cc>
+
+	* config.sub: Handle TI tic55x-* and tic6x-* targets.
+
 2003-01-30  Ben Elliston  <bje@redhat.com>
 
 	* config.guess (alpha:OSF1:*:*): Use /usr/sbin/psrinfo -v to
