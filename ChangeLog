@@ -1,5 +1,8 @@
 2000-11-15  Ben Elliston  <bje@redhat.com>
 
+	* config.sub: Expand `power' to `power-ibm-aix' for consistency.
+	From Kevin Ryde.
+
 	* config.guess: Differentiate Cray T3D and T3E. From Kevin Ryde
 	<user42@zip.com.au>.
 
