@@ -425,6 +425,10 @@ case $basic_machine in
 		basic_machine=tron-gmicro
 		os=-sysv
 		;;
+	go32)
+		basic_machine=i386-pc
+		os=-go32
+		;;
 	h3050r* | hiux*)
 		basic_machine=hppa1.1-hitachi
 		os=-hiuxwe2
@@ -524,18 +528,6 @@ case $basic_machine in
 		basic_machine=i386-unknown
 		os=-vsta
 		;;
-	i386-go32 | go32)
-		basic_machine=i386-unknown
-		os=-go32
-		;;
-	i386-mingw32 | mingw32)
-		basic_machine=i386-unknown
-		os=-mingw32
-		;;
-	i[34567]86-pw32 | pw32)
-		basic_machine=i586-unknown
-		os=-pw32
-		;;
 	iris | iris4d)
 		basic_machine=mips-sgi
 		case $os in
@@ -560,6 +552,10 @@ case $basic_machine in
 	merlin)
 		basic_machine=ns32k-utek
 		os=-sysv
+		;;
+	mingw32)
+		basic_machine=i386-pc
+		os=-mingw32
 		;;
 	miniframe)
 		basic_machine=m68000-convergent
@@ -591,7 +587,7 @@ case $basic_machine in
 		os=-coff
 		;;
 	msdos)
-		basic_machine=i386-unknown
+		basic_machine=i386-pc
 		os=-msdos
 		;;
 	mvs)
@@ -729,6 +725,10 @@ case $basic_machine in
 		;;
 	ps2)
 		basic_machine=i386-ibm
+		;;
+	pw32)
+		basic_machine=i586-unknown
+		os=-pw32
 		;;
 	rom68k)
 		basic_machine=m68k-rom68k
