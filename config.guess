@@ -983,6 +983,12 @@ EOF
     *:Rhapsody:*:*)
 	echo ${UNAME_MACHINE}-apple-rhapsody${UNAME_RELEASE}
 	exit 0 ;;
+    Power*:Mac*OS:*:*)
+	echo powerpc-apple-macos${UNAME_RELEASE}
+	exit 0 ;;
+    *:Mac*OS:*:*)
+	echo ${UNAME_MACHINE}-apple-macos${UNAME_RELEASE}
+	exit 0 ;;
     *:QNX:*:4*)
 	echo i386-qnx-qnx${UNAME_VERSION}
 	exit 0 ;;
