@@ -1,3 +1,7 @@
+2002-01-02  H.J. Lu  <hjl@gnu.org>
+
+	* config.guess (mips:Linux:*:*): Undef CPU, mips and mipsel first.
+
 2001-12-13  Douglas B. Rupp  <rupp@gnat.com>
 
 	* config.guess: Recognize x86 Interix version 3.
