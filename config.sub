@@ -1074,7 +1074,7 @@ case $os in
 	      | -interix* | -uwin* | -rhapsody* | -darwin* | -opened* \
 	      | -openstep* | -oskit* | -conix* | -pw32* | -nonstopux* \
 	      | -storm-chaos* | -tops10* | -tenex* | -tops20* | -its* \
-	      | -os2* | -vos* | -palmos*)
+	      | -os2* | -vos* | -palmos* | -uclinux*)
 	# Remember, each alternative MUST END IN *, to match a version number.
 		;;
 	-qnx*)
