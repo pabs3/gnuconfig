@@ -1,3 +1,8 @@
+2003-11-20  Kristian Van Der Vliet  <vanders@liqwyd.com>
+
+	* config.guess (i*86:syllable:*:*): New.
+	* config.sub (-syllable*): Likewise.
+
 2003-11-18  Jeroen Ruigrok van der Werven  <asmodai@dragonflybsd.org>
 
 	* config.guess (*:DRAGONFLY:*:*): New.
