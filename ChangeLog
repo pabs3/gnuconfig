@@ -1,3 +1,9 @@
+2002-11-30  Maciej W. Rozycki  <macro@ds2.pg.gda.pl>
+
+	* config.guess (mips64:Linux:*:*): Recognize.
+	(mips:Linux:*:*): Recognize as mips-unknown-linux-gnu instead of
+	mips-pc-linux-gnu.
+
 2002-11-30  Douglas B Rupp  <rupp@gnat.com>
 
 	* config.guess: Make default Interix arch "i586".
