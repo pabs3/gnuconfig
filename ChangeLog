@@ -1,3 +1,7 @@
+2003-01-28  Nick Clifton  <nickc@redhat.com>
+
+	* config.sub: Add sh2e support.
+
 2003-01-22  Fabio Alemagna  <falemagn@aros.org>
 
 	* config.sub: Handle -aros*.
