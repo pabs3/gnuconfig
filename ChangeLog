@@ -1,3 +1,8 @@
+2004-03-12  Kazuhiro Inaoka  <inaoka.kazuhiro@renesas.com>
+
+	* config.guess (m32r*:Linux:*:*): New case.
+	* config.sub: Handle m32rle.
+
 2004-03-12  Ben Elliston  <bje@wasabisystems.com>
 
 	From Jens Petersen  <petersen@redhat.com>:
