@@ -1,3 +1,12 @@
+2003-05-09  Andreas Jaeger  <aj@suse.de>
+
+	* config.sub (maybe_os): Add alias amd64 for x86_64.
+
+2003-05-09  Ben Elliston  <bje@wasabisystems.com>
+
+	From Robert Millan <zeratul2@wanadoo.es>
+	* config.guess (*:GNU/FreeBSD:*:*): Handle.
+
 2003-02-22  Ben Elliston  <bje@redhat.com>
 
 	Revert the following due to the demise of MicroBSD:
