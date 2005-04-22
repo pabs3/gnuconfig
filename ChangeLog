@@ -1,4 +1,10 @@
 2005-04-22  Ben Elliston  <bje@gnu.org>
+	    Bernd Schmidt  <bernds_cb1@t-online.de>
+
+	* config.sub (bfin): New target.
+	* testsuite/config-sub.data: Test bfin-elf.
+
+2005-04-22  Ben Elliston  <bje@gnu.org>
 	    Dave Miller  <davem@davemloft.net>
 
 	* config.sub (sparc64b): Handle.
