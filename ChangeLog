@@ -1,3 +1,9 @@
+2005-04-22  Paul Green  <Paul.Green@stratus.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Add Stratus VOS IA32 systems.
+	* testsuite/config-guess.data: Add a testcase.
+
 2005-04-22  Ben Elliston  <bje@gnu.org>
 	    Bernd Schmidt  <bernds_cb1@t-online.de>
 
