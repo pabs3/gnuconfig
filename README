@@ -1,0 +1,13 @@
+The GNU Project's new "cryptographically signed upload" scripts do not
+presently allow maintainers to overwrite existing files in-place on
+ftp.gnu.org.  As a result, I was only able to upload signed copies of
+config.guess and config.sub once!
+
+For now, please fetch them from the following URLs:
+
+ http://savannah.gnu.org/cgi-bin/viewcvs/*checkout*/config/config/config.guess
+ http://savannah.gnu.org/cgi-bin/viewcvs/*checkout*/config/config/config.sub
+
+Thanks,
+
+Ben Elliston <bje@gnu.org>
