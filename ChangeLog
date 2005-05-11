@@ -1,3 +1,7 @@
+2005-05-12  Nick Burrett <nick@sqrt.co.uk>
+
+	* config.guess: Add a missing newline to arm-acorn-riscix string.
+
 2005-04-22  Paul Green  <Paul.Green@stratus.com>
 	    Ben Elliston  <bje@gnu.org>
 
