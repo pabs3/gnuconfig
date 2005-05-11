@@ -34,3 +34,5 @@ sparc64-linux			sparc64-unknown-linux-gnu
 sparc64b-linux			sparc64b-unknown-linux-gnu
 bfin-elf			bfin-unknown-elf
 bfin				bfin-unknown-none
+arm-riscos			arm-unknown-riscos
+arm-unknown-riscos		arm-unknown-riscos

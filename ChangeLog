@@ -1,4 +1,11 @@
-2005-05-12  Nick Burrett <nick@sqrt.co.uk>
+2005-05-12  Nick Burrett  <nick@sqrt.co.uk>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (arm:riscos:*:*): New configuration.
+	* testsuite/config-sub.data: New tests.
+	* testsuite/config-guess.data: Likewise.
+
+2005-05-12  Nick Burrett  <nick@sqrt.co.uk>
 
 	* config.guess: Add a missing newline to arm-acorn-riscix string.
 
