@@ -1,5 +1,10 @@
 2005-05-12  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Update Free Software Foundation address.
+	* config.sub: Likewise.
+
+2005-05-12  Ben Elliston  <bje@gnu.org>
+
 	* uname: Similar to the last change, remove all exit commands and
 	let the script exit with the exit code of the last command.
 
