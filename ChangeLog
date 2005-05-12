@@ -1,3 +1,8 @@
+2005-05-12  Ben Elliston  <bje@gnu.org>
+
+	* uname: Similar to the last change, remove all exit commands and
+	let the script exit with the exit code of the last command.
+
 2005-05-12  Paul Eggert  <eggert@CS.UCLA.EDU>
 
 	Explanation for this subtle change:
