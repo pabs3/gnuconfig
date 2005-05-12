@@ -1,3 +1,21 @@
+2005-05-12  Paul Eggert  <eggert@CS.UCLA.EDU>
+
+	Explanation for this subtle change:
+
+	From: Paul Eggert <eggert@CS.UCLA.EDU>
+	To: config-patches@gnu.org
+	Subject: config.guess, config.sub misdiagnose write errors
+	
+	config.guess and config.sub sometimes mishandle write errors to
+	stdout: they either ignore the errors, or output invalid
+	diagnostics when they occur.  For a simple (albeit unrealistic)
+	example, on my Solaris 8 (sparc) host, the command "config.guess
+	>&-" exits with status 0; it should exit with status 1, due to the
+	write failure.
+	
+	* config.guess: Don't exit with an explicit exit code of 0.
+	* config.sub: Likewise.
+
 2005-05-12  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i*86:skyos:*:*): New.

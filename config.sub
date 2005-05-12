@@ -83,11 +83,11 @@ Try \`$me --help' for more information."
 while test $# -gt 0 ; do
   case $1 in
     --time-stamp | --time* | -t )
-       echo "$timestamp" ; exit 0 ;;
+       echo "$timestamp" ; exit ;;
     --version | -v )
-       echo "$version" ; exit 0 ;;
+       echo "$version" ; exit ;;
     --help | --h* | -h )
-       echo "$usage"; exit 0 ;;
+       echo "$usage"; exit ;;
     -- )     # Stop option processing
        shift; break ;;
     - )	# Use stdin as input.
@@ -99,7 +99,7 @@ while test $# -gt 0 ; do
     *local*)
        # First pass through any local machine types.
        echo $1
-       exit 0;;
+       exit ;;
 
     * )
        break ;;
@@ -1559,7 +1559,7 @@ case $basic_machine in
 esac
 
 echo $basic_machine$os
-exit 0
+exit
 
 # Local variables:
 # eval: (add-hook 'write-file-hooks 'time-stamp)
