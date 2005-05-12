@@ -1,3 +1,9 @@
+2005-05-12  Noah Misch  <noah@cs.caltech.edu>
+
+	* config.guess (9000/[34678]??:HP-UX:*:*): Discard stderr of `cc
+	-E -'; HP `cc' emits an error for it but still preprocesses
+	standard input as expected.  Add comment.
+
 2005-05-12  Nick Burrett  <nick@sqrt.co.uk>
 	    Ben Elliston  <bje@gnu.org>
 

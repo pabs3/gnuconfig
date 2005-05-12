@@ -653,7 +653,18 @@ EOF
 	then
 	    # avoid double evaluation of $set_cc_for_build
 	    test -n "$CC_FOR_BUILD" || eval $set_cc_for_build
-	    if echo __LP64__ | (CCOPTS= $CC_FOR_BUILD -E -) | grep __LP64__ >/dev/null
+	    
+	    # hppa2.0w-hp-hpux* has a 64-bit kernel and a compiler generating
+	    # 32-bit code.  hppa64-hp-hpux* has the same kernel and a compiler
+	    # generating 64-bit code.  GNU and HP use different nomenclature:
+	    #
+	    # $ CC_FOR_BUILD=cc ./config.guess
+	    # => hppa2.0w-hp-hpux11.23
+	    # $ CC_FOR_BUILD="cc +DA2.0w" ./config.guess
+	    # => hppa64-hp-hpux11.23
+
+	    if echo __LP64__ | (CCOPTS= $CC_FOR_BUILD -E - 2>/dev/null) |
+		grep __LP64__ >/dev/null
 	    then
 		HP_ARCH="hppa2.0w"
 	    else
