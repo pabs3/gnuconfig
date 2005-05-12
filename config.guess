@@ -1279,6 +1279,9 @@ EOF
     *:XENIX:*:SysV)
 	echo i386-pc-xenix
 	exit 0 ;;
+    i*86:skyos:*:*)
+	echo ${UNAME_MACHINE}-pc-skyos`echo ${UNAME_RELEASE}` | sed -e 's/ .*$//'
+	exit 0 ;;
 esac
 
 #echo '(No uname command or uname output not recognized.)' 1>&2

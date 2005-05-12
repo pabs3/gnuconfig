@@ -1,3 +1,10 @@
+2005-05-12  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (i*86:skyos:*:*): New.
+	* config.sub (case $os): Handle "-skyos*" as a valid OS.
+	* testsuite/config-guess.data: Add a test case.
+	* testsuite/config-sub.data: Likewise.
+
 2005-05-12  Tim Rice  <tim@multitalents.net>
 
 	* config.guess: Add support for SCO OpenServer 6.
