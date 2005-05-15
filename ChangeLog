@@ -1,3 +1,9 @@
+2005-05-15  Ben Elliston  <bje@gnu.org>
+
+	Reported by Sam Steingold <sds@gnu.org>:
+	* config.guess (i*:windows32*:*): New.
+	* testsuite/config-guess.data: Add a corresponding test case.
+
 2005-05-15  Paul Eggert  <eggert@cs.ucla.edu>
 
 	* config.guess: Fix remaining problematic uses of "exit 0" (and

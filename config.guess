@@ -805,7 +805,7 @@ EOF
     i*:CYGWIN*:*)
 	echo ${UNAME_MACHINE}-pc-cygwin
 	exit ;;
-    i*:MINGW*:*)
+    i*:MINGW*:* | i*:windows32*:*)
 	echo ${UNAME_MACHINE}-pc-mingw32
 	exit ;;
     i*:PW*:*)
