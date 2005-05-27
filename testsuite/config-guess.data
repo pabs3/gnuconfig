@@ -9,4 +9,4 @@ i386	ignored			VOS		ignored	i386-stratus-vos
 arm	ignored			RISCOS		ignored	arm-unknown-riscos
 arm	ignored			riscos		ignored	arm-unknown-riscos
 i586	5.0.0			skyos		ignored	i586-pc-skyos5.0.0
-i786	ignored			windows32	ignored	i786-pc-mingw32
+i786-pc	ignored			windows32	ignored	i786-pc-mingw32
