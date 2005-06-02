@@ -1,3 +1,8 @@
+2005-06-02  Aldy Hernandez  <aldyh@redhat.com>
+
+	* config.sub (ms1, ms1-*): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2005-06-02  Jim Blandy  <jimb@redhat.com>
 
 	* config.sub (m32c, m32c-*): New.

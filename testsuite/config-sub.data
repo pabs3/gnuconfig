@@ -37,5 +37,7 @@ bfin				bfin-unknown-none
 arm-riscos			arm-unknown-riscos
 arm-unknown-riscos		arm-unknown-riscos
 i586-skyos			i586-pc-skyos
-m32c-elf			m32c-unknown-elf
 m32c				m32c-unknown-none
+m32c-elf			m32c-unknown-elf
+ms1				ms1-unknown-none
+ms1-elf				ms1-unknown-elf
