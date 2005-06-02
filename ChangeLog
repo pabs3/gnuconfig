@@ -1,3 +1,8 @@
+2005-06-02  Jim Blandy  <jimb@redhat.com>
+
+	* config.sub (m32c, m32c-*): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2005-05-27  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i*:windows32*:*): uname -m includes "-pc", so no
