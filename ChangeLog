@@ -1,3 +1,8 @@
+2005-06-30  Mike Frysinger <vapier@gentoo.org>
+
+	* config.sub (mips64vr5900, mips64vr5900el): New machines.
+	* testsuite/config-sub.data: Add test cases.
+
 2005-06-30  Brad Smith  <brad@comstyle.com>
 
 	* config.guess: Simplify OpenBSD support.

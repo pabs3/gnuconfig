@@ -41,3 +41,7 @@ m32c				m32c-unknown-none
 m32c-elf			m32c-unknown-elf
 ms1				ms1-unknown-none
 ms1-elf				ms1-unknown-elf
+mips64vr5900-elf		mips64vr5900-unknown-elf
+mips64vr5900el-elf		mips64vr5900el-unknown-elf
+mips64vr5900			mips64vr5900-unknown-elf
+mips64vr5900el			mips64vr5900el-unknown-elf
