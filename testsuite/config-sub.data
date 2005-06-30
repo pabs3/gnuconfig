@@ -47,3 +47,5 @@ mips64vr5900			mips64vr5900-unknown-elf
 mips64vr5900el			mips64vr5900el-unknown-elf
 sh64				sh64-unknown-none
 sh64-elf			sh64-unknown-elf
+openrisc-linux			or32-unknown-linux-gnu
+or32-linux			or32-unknown-linux-gnu
