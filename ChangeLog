@@ -1,3 +1,8 @@
+2005-06-30  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (sh64): Remove duplicate entry.
+	* testsuite/config-sub.data: Add test case for sh64.
+
 2005-06-30  Mike Frysinger <vapier@gentoo.org>
 
 	* config.sub (mips64vr5900, mips64vr5900el): New machines.
