@@ -1,3 +1,9 @@
+2005-07-04  Ben Elliston  <bje@gnu.org>
+
+	Mostly authored by Paul Mundt:
+	* config.sub: Handle sh2a/sh4a.
+	* testsuite/config-sub.data: Add test cases.
+
 2005-07-01  Robert Millan  <robertmh@gnu.org>
 
 	* config.sub: Deprecate "openrisc" in favour of "or32".
