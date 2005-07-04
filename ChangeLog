@@ -1,6 +1,6 @@
 2005-07-04  Ben Elliston  <bje@gnu.org>
+	    Paul Mundt  <lethal@linux-sh.org>
 
-	Mostly authored by Paul Mundt:
 	* config.sub: Handle sh2a/sh4a.
 	* testsuite/config-sub.data: Add test cases.
 
