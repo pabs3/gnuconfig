@@ -1,3 +1,7 @@
+2005-07-08  Ben Elliston  <bje@au.ibm.com>
+
+	* Makefile (SHELL): Remove override.
+
 2005-07-04  Ben Elliston  <bje@gnu.org>
 	    Paul Mundt  <lethal@linux-sh.org>
 

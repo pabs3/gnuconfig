@@ -1,4 +1,3 @@
-SHELL=/usr/pkg/bin/bash
 UPLOAD=ftp://ftp-upload.gnu.org/incoming/ftp/
 
 all:
