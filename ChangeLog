@@ -1,3 +1,8 @@
+2005-07-08  Michael Haubenwallner  <michael.haubenwallner@salomon.at>
+
+	* config.guess: Let set_cc_for_build evaluate only once to avoid
+	creation of more than one tmpdir without removing the old one.
+
 2005-07-08  Ben Elliston  <bje@gnu.org>
 
 	* config.sub: Add support for Haiku.
