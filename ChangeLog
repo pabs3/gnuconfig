@@ -1,4 +1,10 @@
-2005-07-08  Ben Elliston  <bje@au.ibm.com>
+2005-07-08  Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Add support for Haiku.
+	* testsuite/config-sub.data: Add test cases for i386, SPARC and
+	PowerPC Haiku.
+
+2005-07-08  Ben Elliston  <bje@gnu.org>
 
 	* Makefile (SHELL): Remove override.
 

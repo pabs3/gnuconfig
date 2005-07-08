@@ -67,3 +67,6 @@ sh2le-elf			sh2le-unknown-elf
 sh3le-elf			sh3le-unknown-elf
 sh4le-elf			sh4le-unknown-elf
 sh3ele-elf			sh3ele-unknown-elf
+i386-haiku			i386-pc-haiku
+sparc-haiku			sparc-unknown-haiku
+powerpc-haiku			powerpc-unknown-haiku
