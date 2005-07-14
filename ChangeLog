@@ -1,3 +1,8 @@
+2005-07-14  Robert Millan  <robertmh@gnu.org>
+
+	* config.guess (or32:Linux:*:*): Detect.
+	* testsuite/config-guess.data: Add test case.
+
 2005-07-08  Michael Haubenwallner  <michael.haubenwallner@salomon.at>
 
 	* config.guess: Let set_cc_for_build evaluate only once to avoid
