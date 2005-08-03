@@ -1,3 +1,9 @@
+2005-08-03  Ben Elliston  <bje@gnu.org>
+
+	Reported by Kulkin Alexey <kulkin@yandex.ru>:
+	* config.guess (x86_64:CYGWIN*:*:*): New case.
+	* testsuite/config-guess.data: Add test case.
+
 2005-07-14  Robert Millan  <robertmh@gnu.org>
 
 	* config.guess (or32:Linux:*:*): Detect.
