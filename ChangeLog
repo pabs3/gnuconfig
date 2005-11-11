@@ -1,5 +1,9 @@
 2005-11-11  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.data: Add test case for Linux PPC64.
+
+2005-11-11  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (x86:Interix*:[345]*): Handle Interix version 5.
 	* testsuite/config-guess.data: Add test case.
 
