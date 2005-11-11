@@ -1,3 +1,8 @@
+2005-11-11  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (x86:Interix*:[345]*): Handle Interix version 5.
+	* testsuite/config-guess.data: Add test case.
+
 2005-09-19  Gerben Wierda <Gerben.Wierda@rna.nl>
 
 	* config.guess (*:Darwin:*:*): Don't treat *86 specifically.
