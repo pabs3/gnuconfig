@@ -1,5 +1,11 @@
 2005-12-11  Ben Elliston  <bje@gnu.org>
 
+	From Shaun Jackman <sjackman@gmail.com>:
+	* config.sub: Add the KERNEL-OS combination linux-newlib*.
+	* testsuite/config-sub.data: Add a test for i386-linux-newlib.
+
+2005-12-11  Ben Elliston  <bje@gnu.org>
+
 	Reported by Leif Ekblad <leif@rdos.net>:
 	* config.guess (i*86:rdos:*:*): New.
 	* config.sub: Handle rdos.

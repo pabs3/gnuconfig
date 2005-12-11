@@ -76,3 +76,4 @@ mt				mt-unknown-none
 mt-elf				mt-unknown-elf
 rdos				i386-pc-rdos
 i586-rdos			i586-pc-rdos
+i386-linux-newlib		i386-pc-linux-newlib
