@@ -74,3 +74,5 @@ i386-pc-sco6			i386-pc-sco5v6
 i386-pc-sco5v6			i386-pc-sco5v6
 mt				mt-unknown-none
 mt-elf				mt-unknown-elf
+rdos				i386-pc-rdos
+i586-rdos			i586-pc-rdos

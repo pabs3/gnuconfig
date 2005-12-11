@@ -1,3 +1,11 @@
+2005-12-11  Ben Elliston  <bje@gnu.org>
+
+	Reported by Leif Ekblad <leif@rdos.net>:
+	* config.guess (i*86:rdos:*:*): New.
+	* config.sub: Handle rdos.
+	* testsuite/config-guess.data: Add test case for RDOS.
+	* testsuite/config-sub.data: Likewise.
+
 2005-12-09  Ben Elliston  <bje@gnu.org>
 
 	Reported by Jan-Benedict Glaw <jbglaw@lug-owl.de>:
