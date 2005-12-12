@@ -1,3 +1,11 @@
+2005-12-13  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
+
+	* config.guess (mips:Linux:*:*, mips64:Linux:*:*, i*86:Linux:*:*):
+	Fix quoting of eval command line, allow for preprocessor to insert
+	white space between C tokens.
+	(i*86:Linux:*:*): Handle Portland Group pgcc like Intel icc; it
+	doesn't define __ELF__ either.
+
 2005-12-11  Ben Elliston  <bje@gnu.org>
 
 	From Shaun Jackman <sjackman@gmail.com>:

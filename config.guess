@@ -851,7 +851,7 @@ EOF
 	#endif
 	#endif
 EOF
-	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep ^CPU=`
+	eval "`$CC_FOR_BUILD -E $dummy.c 2>/dev/null | sed -n '/^CPU/{s: ::g;p;}'`"
 	test x"${CPU}" != x && { echo "${CPU}-unknown-linux-gnu"; exit; }
 	;;
     mips64:Linux:*:*)
@@ -870,7 +870,7 @@ EOF
 	#endif
 	#endif
 EOF
-	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep ^CPU=`
+	eval "`$CC_FOR_BUILD -E $dummy.c 2>/dev/null | sed -n '/^CPU/{s: ::g;p;}'`"
 	test x"${CPU}" != x && { echo "${CPU}-unknown-linux-gnu"; exit; }
 	;;
     or32:Linux:*:*)
@@ -967,7 +967,7 @@ EOF
 	LIBC=gnulibc1
 	# endif
 	#else
-	#ifdef __INTEL_COMPILER
+	#if defined(__INTEL_COMPILER) || defined(__PGI)
 	LIBC=gnu
 	#else
 	LIBC=gnuaout
@@ -977,7 +977,7 @@ EOF
 	LIBC=dietlibc
 	#endif
 EOF
-	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep ^LIBC=`
+	eval "`$CC_FOR_BUILD -E $dummy.c 2>/dev/null | sed -n '/^LIBC/{s: ::g;p;}'`"
 	test x"${LIBC}" != x && {
 		echo "${UNAME_MACHINE}-pc-linux-${LIBC}"
 		exit
