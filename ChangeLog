@@ -1,3 +1,9 @@
+2005-12-22  Ben Elliston  <bje@gnu.org>
+
+	From John Williams <jwilliams@itee.uq.edu.au>:
+	* config.sub (mb, microblaze): New basic_machine.
+	* testsuite/config-sub.data: New tests.
+
 2005-12-13  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
 
 	* config.guess (mips:Linux:*:*, mips64:Linux:*:*, i*86:Linux:*:*):
