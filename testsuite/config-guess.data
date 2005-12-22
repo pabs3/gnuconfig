@@ -16,3 +16,4 @@ x86	5.0			Interix		ignored	i586-pc-interix5
 ppc64	2.6.9-22		Linux		ignored	powerpc64-unknown-linux-gnu
 vax	2.6.15			Linux		ignored	vax-dec-linux-gnu
 i586	ignored			rdos		ignored	i586-pc-rdos
+pc98	7.0			FreeBSD		ignored	i386-unknown-freebsd7.0

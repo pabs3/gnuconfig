@@ -1,3 +1,11 @@
+2005-12-23  Ben Elliston  <bje@gnu.org>
+
+	From Takahashi Yoshihiro <nyan@jp.FreeBSD.org>:
+	* config.guess (pc98:FreeBSD:*:*) Add special case.
+	* config.sub (pc98, pc98-*): New.
+	* testsuite/config-guess.data: Add test case.
+	* testsuite/config-sub.data: Ditto.
+
 2005-12-22  Ben Elliston  <bje@gnu.org>
 
 	From John Williams <jwilliams@itee.uq.edu.au>:

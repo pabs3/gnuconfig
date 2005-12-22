@@ -11,6 +11,7 @@ i386-linux			i386-pc-linux-gnu
 i386-netbsd			i386-pc-netbsd
 i386-openbsd			i386-pc-openbsd
 i386-freebsd			i386-pc-freebsd
+pc98-freebsd			i386-pc-freebsd
 i386-elf			i386-pc-elf
 i486-elf			i486-pc-elf
 i586-elf			i586-pc-elf
