@@ -1,3 +1,10 @@
+2006-01-02  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:SolidBSD:*:*): New.
+	* config.sub (-solidbsd*): New.
+	* testsuite/config-guess.data: Add test case.
+	* testsuite/config-sub.data: Ditto.
+
 2005-12-23  Ben Elliston  <bje@gnu.org>
 
 	From Takahashi Yoshihiro <nyan@jp.FreeBSD.org>:
