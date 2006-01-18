@@ -1,3 +1,8 @@
+2006-01-19  Robert Millan  <robertmh@gnu.org>
+
+	* testsuite/config-guess.data: Add test case for GNU/kFreeBSD.
+	* testsuite/config-sub.data: Add test case for amd64-kfreebsd5.4-gnu.
+
 2006-01-02  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:SolidBSD:*:*): New.

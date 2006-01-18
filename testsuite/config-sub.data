@@ -81,3 +81,4 @@ i386-linux-newlib		i386-pc-linux-newlib
 mb-elf				mb-unknown-elf
 microblaze-elf			microblaze-unknown-elf
 i386-solidbsd			i386-pc-solidbsd
+amd64-kfreebsd5.4-gnu		x86_64-pc-kfreebsd5.4-gnu
