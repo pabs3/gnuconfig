@@ -1,3 +1,8 @@
+2006-01-30  Ralf Wildenhues <Ralf.Wildenhues@gmx.de>
+
+	* config.guess (set_cc_for_build): Do not pass `-q' to mktemp.
+	Reported by Bruce Korb <bkorb@gnu.org>.
+
 2006-01-19  Robert Millan  <robertmh@gnu.org>
 
 	* testsuite/config-guess.data: Add test case for GNU/kFreeBSD.
