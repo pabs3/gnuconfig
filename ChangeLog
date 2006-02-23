@@ -1,3 +1,8 @@
+2006-02-23  Dan Nicolaescu  <dann@ics.uci.edu>
+
+	* config.guess (i*86:Linux:*:*): Recognise the Sun Studio compiler
+	by handling #if defined(__sun).
+
 2006-02-23  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Handle i*:MSYS_NT-*:*:* for MSYS/Mingw.
