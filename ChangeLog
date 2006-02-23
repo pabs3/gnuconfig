@@ -1,3 +1,12 @@
+2006-02-23  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (x86:Interix*:[345]*): Retain full Interix version.
+	* testsuite/config-guess.data: Update Interix test(s).
+
+2006-02-23  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.data: Tweak MSYS_NT-5.1 test.
+
 2006-02-23  Dan Nicolaescu  <dann@ics.uci.edu>
 
 	* config.guess (i*86:Linux:*:*): Recognise the Sun Studio compiler
