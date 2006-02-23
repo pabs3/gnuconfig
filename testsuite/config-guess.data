@@ -19,3 +19,4 @@ i586	ignored			rdos		ignored	i586-pc-rdos
 pc98	7.0			FreeBSD		ignored	i386-unknown-freebsd7.0
 i586	1.0			SolidBSD	ignored	i586-unknown-solidbsd1.0
 i686	5.4-1-686		GNU/kFreeBSD	ignored	i686-unknown-kfreebsd5.4-gnu
+i686	1.0.10(0.46/3/2)	MSYS_NT-5.1	ignored	i686-pc-mingw
