@@ -1,5 +1,15 @@
 2006-02-23  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (EM64T:Interix:*:*): New case.
+	* testsuite/config-guess.data: Add test case.
+
+2006-02-23  Mike Frysinger  <vapier@gentoo.org>
+
+	* config.sub (nios, nios2): New.
+	* testsuite/config-sub.data: Add test cases.
+
+2006-02-23  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (x86:Interix*:[345]*): Retain full Interix version.
 	* testsuite/config-guess.data: Update Interix test(s).
 

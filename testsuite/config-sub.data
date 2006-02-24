@@ -82,3 +82,7 @@ mb-elf				mb-unknown-elf
 microblaze-elf			microblaze-unknown-elf
 i386-solidbsd			i386-pc-solidbsd
 amd64-kfreebsd5.4-gnu		x86_64-pc-kfreebsd5.4-gnu
+nios				nios-unknown-none
+nios2				nios2-unknown-none
+nios-elf			nios-unknown-elf
+nios2-elf			nios2-unknown-elf
