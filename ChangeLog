@@ -1,3 +1,9 @@
+2006-02-27  David S. Miller  <davem@sunset.davemloft.net>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (sparcv9v, sparc64v): Recognise SUN4V-based SPARCs.
+	* testsuite/config-sub.data: Add test cases.
+
 2006-02-27  Ben Elliston  <bje@gnu.org>
 
 	* config.guess, config.sub: Add 2006 to copyright years.
