@@ -1,3 +1,7 @@
+2006-03-06  Ben Elliston  <bje@gnu.org>
+
+	* uname: Exit with exit code 0.
+
 2006-02-27  David S. Miller  <davem@sunset.davemloft.net>
 	    Ben Elliston  <bje@gnu.org>
 
