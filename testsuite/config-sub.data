@@ -61,6 +61,7 @@ sh2e-elf			sh2e-unknown-elf
 sh3e-elf			sh3e-unknown-elf
 sh3eb-elf			sh3eb-unknown-elf
 sh4eb-elf			sh4eb-unknown-elf
+sheb-elf			sheb-unknown-elf
 shbe-elf			shbe-unknown-elf
 shle-elf			shle-unknown-elf
 sh1le-elf			sh1le-unknown-elf
