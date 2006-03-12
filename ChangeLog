@@ -1,3 +1,12 @@
+2006-03-13  Ben Elliston  <bje@gnu.org>
+
+	Revert these patches at Earnie Boyd's request:
+
+	* testsuite/config-guess.data: Tweak MSYS_NT-5.1 test.
+
+	* config.guess: Handle i*:MSYS_NT-*:*:* for MSYS/Mingw.
+	* testsuite/config-guess.data: Add test case.
+
 2006-03-07  Mike Frysinger  <vapier@gentoo.org>
 
         * config.sub (sheb, sheb-*): Handle these in addition to shbe.
