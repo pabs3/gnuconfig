@@ -1,3 +1,9 @@
+2006-04-26  Bruno Haible  <bruno@clisp.org>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (amd64:FreeBSD:*:*) Detect as x86_64.
+	* testsuite/config-guess.data: Add test case.
+
 2006-03-13  Ben Elliston  <bje@gnu.org>
 
 	Revert these patches at Earnie Boyd's request:
