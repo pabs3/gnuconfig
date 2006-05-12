@@ -1,3 +1,8 @@
+2006-05-13  Bruno Haible  <bruno@clisp.org>
+
+	* config.guess: Change support for Sun C/C++ 5.9 on Linux/x86 to
+	use compiler-specific predefines other than __sun.
+
 2006-05-12  Ben Elliston  <bje@gnu.org>
 
 	* config.sub (spu): New.

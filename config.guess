@@ -989,7 +989,7 @@ EOF
 	LIBC=gnulibc1
 	# endif
 	#else
-	#if defined(__INTEL_COMPILER) || defined(__PGI) || defined(__sun)
+	#if defined(__INTEL_COMPILER) || defined(__PGI) || defined(__SUNPRO_C) || defined(__SUNPRO_CC)
 	LIBC=gnu
 	#else
 	LIBC=gnuaout
