@@ -1,3 +1,9 @@
+2006-05-13  Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Specify -elf as the default OS for spu.
+	(c4x-* | tic4x-*): Tidy formatting.
+	* testsuite/config-sub.data: Update tests.
+
 2006-05-13  Bruno Haible  <bruno@clisp.org>
 
 	* config.guess: Change support for Sun C/C++ 5.9 on Linux/x86 to

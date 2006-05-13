@@ -91,5 +91,6 @@ sparcv9v-elf			sparcv9v-unknown-elf
 sparc64v-elf			sparc64v-unknown-elf
 sparcv9v-solaris2.9		sparcv9v-unknown-solaris2.9
 sparc64v-solaris2.9		sparc64v-unknown-solaris2.9
-spu				spu-unknown-none
+spu				spu-unknown-elf
 spu-elf				spu-unknown-elf
+spu-linux			spu-unknown-linux-gnu
