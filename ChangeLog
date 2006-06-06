@@ -1,3 +1,11 @@
+2006-06-06  Ben Elliston  <bje@gnu.org>
+
+	From H??vard Skinnemoen <hskinnemoen@atmel.com>:
+	* config.guess (avr32*:Linux:*:*): New.
+	* config.sub (avr32, avr32-*): Likewise.
+	* testsuite/config-guess.data: Add test case.
+	* testsuite/config-sub.data: Likewise.
+
 2006-05-13  Ben Elliston  <bje@gnu.org>
 
 	* config.sub: Specify -elf as the default OS for spu.
