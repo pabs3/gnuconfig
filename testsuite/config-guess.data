@@ -23,3 +23,4 @@ EM64T	5.2			Interix		ignored	x86_64-unknown-interix5.2
 amd64	5.2			FreeBSD		ignored	x86_64-unknown-freebsd5.2
 avr32	2.6.15			Linux		ignored	avr32-unknown-linux-gnu
 x86	6.0			Interix		ignored	i586-pc-interix6.0
+macppc	1.0			MirBSD		ignored	powerpc-unknown-mirbsd1.0

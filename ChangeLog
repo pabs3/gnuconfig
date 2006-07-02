@@ -1,5 +1,10 @@
 2006-07-02  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (macppc:MirBSD:*:*): Fix typo.
+	* testsuite/config-guess.data: Add test case.
+
+2006-07-02  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Handle Interix 6.
 	* testsuite/config-guess.data: Add test case.
 
