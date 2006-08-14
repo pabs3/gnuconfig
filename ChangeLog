@@ -1,6 +1,12 @@
-2006-08-14  Ben Elliston  <bje@gnu.org>
+2006-08-14  Thiemo Seufer  <ths@mips.com>
+	    Nigel Stephens  <nigel@mips.com>
+	    David Ung  <davidu@mips.com>
 
-	From Vijay K. Munjal <vijaykumarm1@KPITCummins.com>:
+	* config.sub (sde): New.
+	* testsuite/config-sub.data: Add test cases.
+
+2006-08-14  Vijay K. Munjal <vijaykumarm1@KPITCummins.com>
+
 	* config.sub (xc16x, xc16x-*): New.
 	* testsuite/config-sub.data: Add test cases.
 
