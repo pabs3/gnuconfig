@@ -97,3 +97,5 @@ spu-elf				spu-unknown-elf
 spu-linux			spu-unknown-linux-gnu
 avr32				avr32-unknown-none
 avr32-linux			avr32-unknown-linux-gnu
+xc16x				xc16x-unknown-none
+xc16x-elf			xc16x-unknown-elf

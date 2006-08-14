@@ -1,3 +1,9 @@
+2006-08-14  Ben Elliston  <bje@gnu.org>
+
+	From Vijay K. Munjal <vijaykumarm1@KPITCummins.com>:
+	* config.sub (xc16x, xc16x-*): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2006-07-02  Masaki MURANAKA  <monaka@monami-software.com>
 
 	* config.sub (toppers-*): New.
