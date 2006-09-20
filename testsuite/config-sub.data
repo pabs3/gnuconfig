@@ -101,3 +101,5 @@ xc16x				xc16x-unknown-none
 xc16x-elf			xc16x-unknown-elf
 sde-elf				mipsisa32-sde-elf
 mips-sde-elf			mips-sde-elf
+score				score-unknown-elf
+score-elf			score-unknown-elf
