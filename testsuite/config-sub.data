@@ -103,3 +103,5 @@ sde-elf				mipsisa32-sde-elf
 mips-sde-elf			mips-sde-elf
 score				score-unknown-elf
 score-elf			score-unknown-elf
+sh5el-elf			sh5le-unknown-elf
+sh5el-netbsd			sh5le-unknown-netbsd
