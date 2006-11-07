@@ -1,3 +1,8 @@
+2006-11-08  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (authenticamd:Interix*:[3456]*): Another AMD64.
+	* testsuite/config-guess.data: Add test case.
+
 2006-11-07  Steve Woodford  <scw@NetBSD.org>
 	    Ben Elliston  <bje@gnu.org>
 
