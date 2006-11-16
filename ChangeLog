@@ -1,3 +1,9 @@
+2006-11-15  Ben Elliston  <bje@gnu.org>
+
+	From Josselin Mouette <joss@debian.org>:
+	* config.guess (SX-8:SUPER-UX:*:*): New.
+	* testsuite/config-guess.data: Add test case.
+
 2006-11-08  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (authenticamd:Interix*:[3456]*): Another AMD64.
