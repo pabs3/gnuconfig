@@ -26,3 +26,4 @@ x86	6.0			Interix		ignored	i586-pc-interix6.0
 macppc	1.0			MirBSD		ignored	powerpc-unknown-mirbsd1.0
 authenticamd	6.0		Interix		ignored	x86_64-unknown-interix6.0
 SX-8	1.0			SUPER-UX	ignored	sx8-nec-superux1.0
+SX-7	1.0			SUPER-UX	ignored	sx7-nec-superux1.0

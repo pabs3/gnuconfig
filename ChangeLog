@@ -1,3 +1,8 @@
+2006-11-30  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (SX-7:SUPER-UX:*:*): New.
+	* testsuite/config-guess.data: Add test case.
+
 2006-11-15  Ben Elliston  <bje@gnu.org>
 
 	From Josselin Mouette <joss@debian.org>:
