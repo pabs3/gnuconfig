@@ -1,3 +1,9 @@
+2006-12-08  Kazu Hirata  <kazu@codesourcery.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Recognize fido and fido-*.
+	* testsuite/config-sub.data: Add test cases.
+
 2006-11-30  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (SX-7:SUPER-UX:*:*): New.

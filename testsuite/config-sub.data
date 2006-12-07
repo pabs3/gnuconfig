@@ -105,3 +105,5 @@ score				score-unknown-elf
 score-elf			score-unknown-elf
 sh5el-elf			sh5le-unknown-elf
 sh5el-netbsd			sh5le-unknown-netbsd
+fido-elf			fido-unknown-elf
+fido				fido-unknown-none
