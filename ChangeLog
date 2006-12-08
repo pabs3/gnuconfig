@@ -1,3 +1,9 @@
+2006-12-08  Bob Wilson  <bob.wilson@acm.org>
+
+	* config.guess (xtensa:Linux:*:*): New.
+	* testsuite/config-guess.data: Add test case.
+	* testsuite/config-sub.data: Add xtensa-elf and xtensa-linux.
+
 2006-12-08  Kazu Hirata  <kazu@codesourcery.com>
 	    Ben Elliston  <bje@gnu.org>
 

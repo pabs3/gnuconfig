@@ -107,3 +107,5 @@ sh5el-elf			sh5le-unknown-elf
 sh5el-netbsd			sh5le-unknown-netbsd
 fido-elf			fido-unknown-elf
 fido				fido-unknown-none
+xtensa-elf			xtensa-unknown-elf
+xtensa-linux			xtensa-unknown-linux-gnu
