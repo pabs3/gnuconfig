@@ -1,3 +1,9 @@
+2006-12-22  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (i*:MINGW:*:*): Rename from this ..
+	(*:MINGW:*:*): .. to this.
+	* testsuite/config-guess.data: Add test cases.
+
 2006-12-08  Bob Wilson  <bob.wilson@acm.org>
 
 	* config.guess (xtensa:Linux:*:*): New.
