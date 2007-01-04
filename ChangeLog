@@ -1,3 +1,9 @@
+2007-01-04  Ben Elliston  <bje@gnu.org>
+
+	From Alexander Boettcher <alex@kaffe.org> via Dalibor Topic:
+	* config.sub: Recognise -drops*.
+	* testsuite/config-sub.data: Add a test.
+
 2006-12-22  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i*:MINGW:*:*): Rename from this ..
