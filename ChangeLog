@@ -1,3 +1,8 @@
+2007-01-15  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (SX-8R:SUPER-UX:*:*): New.
+	* testsuite/config-guess.data: Add a test case.
+
 2007-01-04  Ben Elliston  <bje@gnu.org>
 
 	From Alexander Boettcher <alex@kaffe.org> via Dalibor Topic:

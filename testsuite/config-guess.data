@@ -30,3 +30,4 @@ SX-7	1.0			SUPER-UX	ignored	sx7-nec-superux1.0
 xtensa	2.6.15			Linux		ignored	xtensa-unknown-linux-gnu
 x86_64	1.0			MINGW		ignored	x86_64-pc-mingw32
 i386	1.0			MINGW		ignored	i386-pc-mingw32
+SX-8R	1.0			SUPER-UX	ignored	sx8r-nec-superux1.0
