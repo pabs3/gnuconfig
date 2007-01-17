@@ -1,3 +1,12 @@
+2007-01-18  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Add MeP test cases.
+
+	From Dave Brolley  <brolley@redhat.com>
+	2001-03-19  Ben Elliston  <bje@redhat.com>
+
+	* config.sub (mep, mep-*): Add.
+
 2007-01-15  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (SX-8R:SUPER-UX:*:*): New.
