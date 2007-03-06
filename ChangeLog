@@ -1,3 +1,9 @@
+2007-03-06  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:Interix*:[3456]*): Consolidate all machine
+	possibilities into a single entry with a case statement that
+	examines ${UNAME_MACHINE}. Suggested by <jerker.back@telia.com>.
+
 2007-01-18  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Add MeP test cases.
