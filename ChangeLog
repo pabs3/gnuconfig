@@ -1,3 +1,9 @@
+2007-04-29  Ben Elliston  <bje@gnu.org>
+
+	From Pedro Alves <pedro_alves@portugalmail.pt>:
+	* config.sub (mingw32ce): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2007-03-06  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:Interix*:[3456]*): Consolidate all machine

@@ -112,3 +112,5 @@ xtensa-linux			xtensa-unknown-linux-gnu
 i386-drops1.0			i386-pc-drops1.0
 mep				mep-unknown-elf
 mep-elf				mep-unknown-elf
+mingw32ce			arm-unknown-mingw32ce	
+arm-mingw32ce			arm-unknown-mingw32ce
