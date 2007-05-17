@@ -1,3 +1,9 @@
+2007-05-17  Ben Elliston  <bje@gnu.org>
+
+	From Luke Mewburn <luke@mewburn.net>:
+	* config.guess (i86xen:SunOS:5.*:*): New.
+	* testsuite/config-guess.data: Add test case.
+
 2007-04-29  Ben Elliston  <bje@gnu.org>
 
 	From Pedro Alves <pedro_alves@portugalmail.pt>:
