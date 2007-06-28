@@ -1,3 +1,8 @@
+2007-06-28  Ben Elliston  <bje@gnu.org>
+
+	From M R Swami Reddy <MR.Swami.Reddy@nsc.com>:
+	* config.sub: Rename cr16c to cr16.
+
 2007-05-17  Ben Elliston  <bje@gnu.org>
 
 	From Luke Mewburn <luke@mewburn.net>:
