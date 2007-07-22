@@ -1,3 +1,8 @@
+2007-07-22  Ben Elliston  <bje@gnu.org>
+
+	Reported by Luke Mewburn <luke@mewburn.net>:
+	* config.guess: Fix typo ix86xen -> i86xen.
+
 2007-06-28  Ben Elliston  <bje@gnu.org>
 
 	From M R Swami Reddy <MR.Swami.Reddy@nsc.com>:
