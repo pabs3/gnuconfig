@@ -1,3 +1,9 @@
+2007-07-25  Mike Frysinger  <vapier@gentoo.org>
+
+	* testsuite/config-guess.sh (run_config_guess): Do not prefix with
+	"function" as this is not permitted by POSIX.
+	* testsuite/config-sub.sh (run_config_sub): Likewise.
+
 2007-07-24  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Remove trailing whitespace.
