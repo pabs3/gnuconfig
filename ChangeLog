@@ -1,3 +1,9 @@
+2007-11-19  Marc Gauthier  <marc@tensilica.com>
+
+	* config.guess (xtensa*:Linux:*:*): Accept variants.
+	* config.sub (xtensa*): Accept variants.
+	* testsuite/config-sub.data: Add test case.
+
 2007-07-25  Mike Frysinger  <vapier@gentoo.org>
 
 	* testsuite/config-guess.sh (run_config_guess): Do not prefix with
