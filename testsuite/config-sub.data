@@ -115,3 +115,6 @@ mep				mep-unknown-elf
 mep-elf				mep-unknown-elf
 mingw32ce			arm-unknown-mingw32ce	
 arm-mingw32ce			arm-unknown-mingw32ce
+blackfin			bfin-unknown-linux-gnu
+m68knommu			m68k-unknown-linux-gnu
+parisc				hppa-unknown-linux-gnu

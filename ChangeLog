@@ -1,3 +1,11 @@
+2007-12-05  Steve Kenton  <skenton@ou.edu>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (blackfin, blackfin-*, m68knommu, m68knommu-*,
+	parisc, parisc-*): New Linux-specific aliases for conformity with
+	Linux architecture names.
+	* testsuite/config-sub.data: Add test cases.
+
 2007-11-19  Marc Gauthier  <marc@tensilica.com>
 
 	* config.guess (xtensa*:Linux:*:*): Accept variants.
