@@ -1,3 +1,9 @@
+2007-12-12  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:Interix*:[3456]*): Handle IA64 ${UNAME_MACHINE}.
+	Return ia64-unknown-interix${UNAME_RELEASE}.
+	* testsuite/config-guess.data: Add a test case.
+
 2007-12-05  Lennert Buytenhek  <buytenh@wantstofly.org>
 
 	* config.guess (arm*:Linux:*:*): Determine ABI in use.
