@@ -1,3 +1,8 @@
+2008-01-07  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
+
+	* config.guess (*:AIX:*:[4-9]): Accept UNAME_VERSIONs > 5, for AIX
+	6.1.  Reported by Rainer Tammer <tammer@tammer.net>.
+
 2007-12-12  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:Interix*:[3456]*): Handle IA64 ${UNAME_MACHINE}.
