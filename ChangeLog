@@ -1,3 +1,9 @@
+2008-01-16  Chris Metcalf  <cmetcalf@tilera.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (tile*): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2008-01-08  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update copyright years in version output.

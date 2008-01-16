@@ -118,3 +118,6 @@ arm-mingw32ce			arm-unknown-mingw32ce
 blackfin			bfin-unknown-linux-gnu
 m68knommu			m68k-unknown-linux-gnu
 parisc				hppa-unknown-linux-gnu
+tile				tile-unknown-linux-gnu
+tile64				tile-unknown-linux-gnu
+tile-linux			tile-unknown-linux-gnu
