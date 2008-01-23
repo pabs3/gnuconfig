@@ -1,3 +1,7 @@
+2008-01-23  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Update URL for script location.
+
 2008-01-16  Chris Metcalf  <cmetcalf@tilera.com>
 	    Ben Elliston  <bje@gnu.org>
 
