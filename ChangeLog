@@ -1,3 +1,9 @@
+2008-02-05  Adam Nemet  <anemet@caviumnetworks.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (mips64octeon, mips64octeonel): New machines.
+	* testsuite/config-sub.data: Add test cases.
+
 2008-02-05  Ben Elliston  <bje@gnu.org>
 
 	* config.sub (mips64r5900, mips64r5900el): New machines.

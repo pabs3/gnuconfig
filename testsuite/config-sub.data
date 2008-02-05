@@ -125,3 +125,7 @@ mips64r5900-elf			mips64r5900-unknown-elf
 mips64r5900el-elf		mips64r5900el-unknown-elf
 mips64r5900			mips64r5900-unknown-elf
 mips64r5900el			mips64r5900el-unknown-elf
+mips64octeon			mips64octeon-unknown-elf
+mips64octeonel			mips64octeonel-unknown-elf
+mips64octeon-elf		mips64octeon-unknown-elf
+mips64octeonel-elf		mips64octeonel-unknown-elf
