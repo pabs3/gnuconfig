@@ -1,3 +1,8 @@
+2008-02-05  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (mips64r5900, mips64r5900el): New machines.
+	* testsuite/config-sub.data: Add test cases.
+
 2008-01-23  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update URL for script location.
