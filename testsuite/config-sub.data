@@ -121,6 +121,7 @@ parisc				hppa-unknown-linux-gnu
 tile				tile-unknown-linux-gnu
 tile64				tile-unknown-linux-gnu
 tile-linux			tile-unknown-linux-gnu
+tile-tilera-linux		tile-tilera-linux-gnu
 mips64r5900-elf			mips64r5900-unknown-elf
 mips64r5900el-elf		mips64r5900el-unknown-elf
 mips64r5900			mips64r5900-unknown-elf
