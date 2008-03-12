@@ -1,3 +1,9 @@
+2008-03-12  Alexander Deynichenko <adeynichenko@gmail.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (BePC:Haiku*:*): New.
+	* testsuite/config-guess.data: Add test case.
+
 2008-03-08  Ben Elliston  <bje@gnu.org>
 
 	From Chris Metcalf <cmetcalf@tilera.com>:
