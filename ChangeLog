@@ -1,3 +1,8 @@
+2008-03-26  Will Newton  <will.newton@imgtec.com>
+
+	* config.sub: Add metag-*.
+	* testsuite/config-sub.data: Add test for metag.
+
 2008-03-12  Alexander Deynichenko <adeynichenko@gmail.com>
 	    Ben Elliston  <bje@gnu.org>
 

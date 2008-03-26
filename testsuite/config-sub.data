@@ -130,3 +130,5 @@ mips64octeon			mips64octeon-unknown-elf
 mips64octeonel			mips64octeonel-unknown-elf
 mips64octeon-elf		mips64octeon-unknown-elf
 mips64octeonel-elf		mips64octeonel-unknown-elf
+metag				metag-unknown-none
+metag-linux			metag-unknown-linux-gnu
