@@ -1,3 +1,7 @@
+2008-04-08  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (i*86:Linux:*:*): Remove handling of i386-coff ld.
+
 2008-03-26  Will Newton  <will.newton@imgtec.com>
 
 	* config.sub: Add metag-*.
