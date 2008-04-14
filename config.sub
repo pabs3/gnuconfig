@@ -530,6 +530,10 @@ case $basic_machine in
 		basic_machine=m88k-motorola
 		os=-sysv3
 		;;
+	dicos)
+		basic_machine=i686-pc
+		os=-dicos
+		;;
 	djgpp)
 		basic_machine=i586-pc
 		os=-msdosdjgpp
@@ -1391,6 +1395,9 @@ case $os in
 		;;
 	-zvmoe)
 		os=-zvmoe
+		;;
+	-dicos*)
+		os=-dicos
 		;;
 	-none)
 		;;

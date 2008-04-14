@@ -1,3 +1,8 @@
+2008-04-14  Pedro Alves  <pedro@codesourcery.com>
+
+	* config.sub (dicos): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2008-04-08  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i*86:Linux:*:*): Remove handling of i386-coff ld.

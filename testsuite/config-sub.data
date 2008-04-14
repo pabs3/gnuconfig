@@ -132,3 +132,8 @@ mips64octeon-elf		mips64octeon-unknown-elf
 mips64octeonel-elf		mips64octeonel-unknown-elf
 metag				metag-unknown-none
 metag-linux			metag-unknown-linux-gnu
+dicos				i686-pc-dicos
+i686-dicos			i686-pc-dicos
+i686-ericsson-dicos		i686-ericsson-dicos
+x86_64-dicos			x86_64-pc-dicos
+x86_64-ericsson-dicos		x86_64-ericsson-dicos
