@@ -137,3 +137,5 @@ i686-dicos			i686-pc-dicos
 i686-ericsson-dicos		i686-ericsson-dicos
 x86_64-dicos			x86_64-pc-dicos
 x86_64-ericsson-dicos		x86_64-ericsson-dicos
+cegcc				arm-unknown-cegcc
+arm-cegcc			arm-unknown-cegcc

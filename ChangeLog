@@ -1,3 +1,9 @@
+2008-06-16  Vincent Torri <vtorri@univ-evry.fr>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (cegcc, -cegcc*): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2008-04-14  Pedro Alves  <pedro@codesourcery.com>
 
 	* config.sub (dicos): New.
