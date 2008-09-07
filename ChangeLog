@@ -1,3 +1,9 @@
+2008-09-08  Alan Modra  <amodra@bigpond.net.au>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (z80, z80-*): Handle.
+	* testsuite/config-sub.data: Add a test case.
+
 2008-06-16  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Strip stray whitespace.
