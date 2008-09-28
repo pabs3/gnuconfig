@@ -33,4 +33,5 @@ i386	1.0			MINGW		ignored	i386-pc-mingw32
 SX-8R	1.0			SUPER-UX	ignored	sx8r-nec-superux1.0
 i86xen	5.6			SunOS		ignored	i386-pc-solaris2.6
 IA64	6.0			Interix		ignored	ia64-unknown-interix6.0
-BePC	1.0			Haiku		ignore	i586-pc-haiku
+BePC	1.0			Haiku		ignored	i586-pc-haiku
+padre	2.6.15			Linux		ignore	sparc-unknown-linux-gnu
