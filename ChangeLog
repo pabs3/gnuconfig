@@ -1,4 +1,10 @@
 2008-09-28  Ben Elliston  <bje@gnu.org>
+	    Dann Corbit <DCorbit@connx.com>
+
+	* config.guess (*:Interix*:[3456]*): Handle "genuineintel".
+	* testsuite/config-guess.data: Add a test case.
+
+2008-09-28  Ben Elliston  <bje@gnu.org>
 
 	From boris.seve@drillscan.com.
 	* config.guess (padre:Linux:*:*): New.

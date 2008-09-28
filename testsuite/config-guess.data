@@ -25,6 +25,7 @@ avr32	2.6.15			Linux		ignored	avr32-unknown-linux-gnu
 x86	6.0			Interix		ignored	i586-pc-interix6.0
 macppc	1.0			MirBSD		ignored	powerpc-unknown-mirbsd1.0
 authenticamd	6.0		Interix		ignored	x86_64-unknown-interix6.0
+genuineintel	6.0		Interix		ignored	x86_64-unknown-interix6.0
 SX-8	1.0			SUPER-UX	ignored	sx8-nec-superux1.0
 SX-7	1.0			SUPER-UX	ignored	sx7-nec-superux1.0
 xtensa	2.6.15			Linux		ignored	xtensa-unknown-linux-gnu
@@ -34,4 +35,4 @@ SX-8R	1.0			SUPER-UX	ignored	sx8r-nec-superux1.0
 i86xen	5.6			SunOS		ignored	i386-pc-solaris2.6
 IA64	6.0			Interix		ignored	ia64-unknown-interix6.0
 BePC	1.0			Haiku		ignored	i586-pc-haiku
-padre	2.6.15			Linux		ignore	sparc-unknown-linux-gnu
+padre	2.6.15			Linux		ignored	sparc-unknown-linux-gnu
