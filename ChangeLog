@@ -1,3 +1,9 @@
+2008-12-09  Kieran Bingham  <kieranbingham@gmail.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (sh[24]aeb): Handle big endian variants.
+	* testsuite/config-sub.data: Add test cases.
+
 2008-11-16  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i86pc:SunOS:5.*:*, i86xen:SunOS:5.*:*): No need to
