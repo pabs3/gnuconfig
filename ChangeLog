@@ -1,3 +1,8 @@
+2008-12-11  Joel Sherrill <joel.sherrill@oarcorp.com>
+
+	* config.sub (lm32): New.
+	* testsuite/config-sub.data: Add a test case.
+
 2008-12-09  Kieran Bingham  <kieranbingham@gmail.com>
 	    Ben Elliston  <bje@gnu.org>
 

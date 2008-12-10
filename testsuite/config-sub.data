@@ -144,3 +144,5 @@ sh2aeb				sh2aeb-unknown-none
 sh2aeb-elf			sh2aeb-unknown-elf
 sh4aeb				sh4aeb-unknown-none
 sh4aeb-elf			sh4aeb-unknown-elf
+lm32-elf			lm32-unknown-elf
+lm32				lm32-unknown-none
