@@ -1,3 +1,9 @@
+2008-12-11  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (i86pc:SunOS:5.*:*, i86xen:SunOS:5.*:*): The full
+	path to /usr/bin/echo is necessary to work around the shell
+	builtins for echo that do not handle newlines.  From Ali Bahrami.
+	
 2008-12-11  Joel Sherrill <joel.sherrill@oarcorp.com>
 
 	* config.sub (lm32): New.
