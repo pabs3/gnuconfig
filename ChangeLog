@@ -1,3 +1,9 @@
+2008-12-18  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (i86pc:SunOS:5.*:*, i86xen:SunOS:5.*:*): Remove the
+	need for /usr/bin/echo by improving shell portability.  Thanks to
+	Ralf Wildenhues <Ralf.Wildenhues@gmx.de> for the suggestion.
+
 2008-12-11  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i86pc:SunOS:5.*:*, i86xen:SunOS:5.*:*): The full
