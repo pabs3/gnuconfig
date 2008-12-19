@@ -1,3 +1,8 @@
+2008-12-19  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (NCR*:*:4.2:*, MPRAS*:*:4.2:*): Add detection for
+	NCR MPRAS.  From Lucas Silacci <Lucas.Silacci@Teradata.com>.
+
 2008-12-18  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i86pc:SunOS:5.*:*, i86xen:SunOS:5.*:*): Remove the
