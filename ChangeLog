@@ -1,3 +1,9 @@
+2009-01-19  Robert Millan  <rmh@aybabtu.com>
+
+	* config.sub: Handle -kopensolaris*.
+	* testsuite/config-guess.data: Add test case.
+	* testsuite/config-sub.data: Likewise.
+
 2008-12-19  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (NCR*:*:4.2:*, MPRAS*:*:4.2:*): Add detection for
