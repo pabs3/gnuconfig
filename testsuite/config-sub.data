@@ -147,3 +147,5 @@ sh4aeb-elf			sh4aeb-unknown-elf
 lm32-elf			lm32-unknown-elf
 lm32				lm32-unknown-none
 i686-kopensolaris5.11-gnu	i686-pc-kopensolaris5.11-gnu
+aros				i386-pc-aros
+i386-aros			i386-pc-aros

@@ -39,3 +39,4 @@ BePC	1.0			Haiku		ignored	i586-pc-haiku
 padre	2.6.15			Linux		ignored	sparc-unknown-linux-gnu
 ppc	2.6.9-22		Linux		ignored	powerpc-unknown-linux-gnu
 i686	5.11-686		GNU/kOpenSolaris	ignored	i686-unknown-kopensolaris5.11-gnu
+i386	12.1			AROS		ignored	i386-pc-aros

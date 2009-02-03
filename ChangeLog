@@ -1,3 +1,11 @@
+2009-02-03  Ben Elliston  <bje@gnu.org>
+
+	Report from Przemyslaw Szczygielski.
+	* config.guess (i*86:AROS:*:*): Detect AROS.
+	* config.sub (aros, aros-*): Handle these.
+	* testsuite/config-guess.data: Add test cases.
+	* testsuite/config-sub.data: Likewise.
+
 2009-01-19  Robert Millan  <rmh@aybabtu.com>
 
 	* config.sub: Handle -kopensolaris*.
