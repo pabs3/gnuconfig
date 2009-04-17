@@ -1,3 +1,9 @@
+2009-04-17  Anthony Green  <green@moxielogic.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Handle moxie.
+	* testsuite/config-sub.data: New test case.
+
 2009-02-03  Ben Elliston  <bje@gnu.org>
 
 	Report from Przemyslaw Szczygielski.
