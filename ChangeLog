@@ -1,7 +1,8 @@
 2009-04-17  Eli Zaretskii  <eliz@gnu.org>
 
-        * config.guess (pc:*:*:*): Return i586-pc-msdosdjgpp, for
+	* config.guess (pc:*:*:*): Return i586-pc-msdosdjgpp, for
 	consistency with config.sub.
+	* testsuite/config-guess.data: Add a test case.
 
 2009-04-17  Anthony Green  <green@moxielogic.com>
 	    Ben Elliston  <bje@gnu.org>
