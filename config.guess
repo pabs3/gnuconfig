@@ -84,6 +84,34 @@ if test $# != 0; then
   exit 1
 fi
 
+# Look for newer versions in various paths in the system
+
+cur_v=`echo "$timestamp" | sed s/-//g`
+
+for path in \
+  "$HOME/.config/automake" \
+  /usr/local/share/automake \
+  /usr/share/automake \
+  /usr/share/misc \
+    ; do
+
+    if test -x "$path/config.guess" ; then
+      v=`"$path/config.guess" --time-stamp | sed s/-//g`
+      if test "$v" -gt "$cur_v" ; then
+        cur_v="$v"
+        latest="$path"
+      fi
+    fi
+done
+
+if test "x$latest" != x ; then
+  case $# in
+    0) "$latest/config.guess";;
+    *) "$latest/config.guess" "$@";;
+  esac
+  exit $?
+fi
+
 # CC_FOR_BUILD -- compiler used by this script. Note that the use of a
 # compiler to aid in system detection is discouraged as it requires
 # temporary files to be created and, as you can see below, it is a

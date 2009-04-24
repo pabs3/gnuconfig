@@ -110,6 +110,34 @@ case $# in
     exit 1;;
 esac
 
+# Look for newer versions in various paths in the system
+
+cur_v=`echo "$timestamp" | sed s/-//g`
+
+for path in \
+  "$HOME/.config/automake" \
+  /usr/local/share/automake \
+  /usr/share/automake \
+  /usr/share/misc \
+    ; do
+
+    if test -x "$path/config.sub" ; then
+      v=`"$path/config.sub" --time-stamp | sed s/-//g`
+      if test "$v" -gt "$cur_v" ; then
+        cur_v="$v"
+        latest="$path"
+      fi
+    fi
+done
+
+if test "x$latest" != x ; then
+  case $# in
+    0) "$latest/config.sub";;
+    *) "$latest/config.sub" "$@";;
+  esac
+  exit $?
+fi
+
 # Split fields of configuration type
 # shellcheck disable=SC2162
 IFS="-" read field1 field2 field3 field4 <<EOF
