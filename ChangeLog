@@ -1,3 +1,9 @@
+2009-04-27  Neale Ferguson <neale@sinenomine.net>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (s390x:SunOS:*:*): Add s390x-ibm-solaris*.
+	* testsuite/config-guess.data: Add a test case.
+
 2009-04-17  Eli Zaretskii  <eliz@gnu.org>
 
 	* config.guess (pc:*:*:*): Return i586-pc-msdosdjgpp, for
