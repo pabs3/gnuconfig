@@ -42,3 +42,4 @@ i686	5.11-686		GNU/kOpenSolaris	ignored	i686-unknown-kopensolaris5.11-gnu
 i386	12.1			AROS		ignored	i386-pc-aros
 pc	1.0			ignored		ignored	i586-pc-msdosdjgpp
 s390x	5.6			SunOS		ignored	s390x-ibm-solaris2.6
+8664	1.0			Windows_NT	ignored	x86_64-pc-mks

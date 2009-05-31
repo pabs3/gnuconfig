@@ -1,3 +1,9 @@
+2009-06-01  Ben Elliston  <bje@gnu.org>
+
+	Reported by bob.strahan@hp.com.
+	* config.guess (8664:Windows_NT:*): MKS on x86-64 machines.
+	* testsuite/config-guess.data: Add a test case.
+
 2009-04-27  Neale Ferguson <neale@sinenomine.net>
 	    Ben Elliston  <bje@gnu.org>
 
