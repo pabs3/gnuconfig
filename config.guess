@@ -1004,9 +1004,6 @@ EOF
 	  elf32-i386)
 		TENTATIVE="${UNAME_MACHINE}-pc-linux-gnu"
 		;;
-	  a.out-i386-linux)
-		echo "${UNAME_MACHINE}-pc-linux-gnuaout"
-		exit ;;
 	esac
 	# Determine whether the default compiler is a.out or elf
 	eval $set_cc_for_build

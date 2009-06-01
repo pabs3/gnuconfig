@@ -1,7 +1,12 @@
 2009-06-02  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Drop detection for i386-pc-linux-gnuaout on
+	systems with the a.out executable format.  "Here's 5c, kid".
+
+2009-06-02  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Drop detection for i386-pc-linux-gnuoldld on
-	systems with a pre-BFD linker.  "Here's a nickel, kid .."
+	systems with a pre-BFD linker.  "Here's 5c, kid."
 
 2009-06-01  Ben Elliston  <bje@gnu.org>
 
