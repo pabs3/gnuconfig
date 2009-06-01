@@ -1,3 +1,8 @@
+2009-06-02  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Drop detection for i386-pc-linux-gnuoldld on
+	systems with a pre-BFD linker.  "Here's a nickel, kid .."
+
 2009-06-01  Ben Elliston  <bje@gnu.org>
 
 	Reported by bob.strahan@hp.com.
