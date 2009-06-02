@@ -1,5 +1,9 @@
 2009-06-02  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Factor mips:Linux:*:* and mips64:Linux:*:*.
+
+2009-06-02  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Drop detection for i386-pc-linux-gnuaout on
 	systems with the a.out executable format.  "Here's 5c, kid".
 

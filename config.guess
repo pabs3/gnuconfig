@@ -885,40 +885,17 @@ EOF
     m68*:Linux:*:*)
 	echo ${UNAME_MACHINE}-unknown-linux-gnu
 	exit ;;
-    mips:Linux:*:*)
+    mips:Linux:*:* | mips64:Linux:*:*)
 	eval $set_cc_for_build
 	sed 's/^	//' << EOF >$dummy.c
 	#undef CPU
-	#undef mips
-	#undef mipsel
+	#undef ${UNAME_MACHINE}
+	#undef ${UNAME_MACHINE}el
 	#if defined(__MIPSEL__) || defined(__MIPSEL) || defined(_MIPSEL) || defined(MIPSEL)
-	CPU=mipsel
+	CPU=${UNAME_MACHINE}el
 	#else
 	#if defined(__MIPSEB__) || defined(__MIPSEB) || defined(_MIPSEB) || defined(MIPSEB)
-	CPU=mips
-	#else
-	CPU=
-	#endif
-	#endif
-EOF
-	eval "`$CC_FOR_BUILD -E $dummy.c 2>/dev/null | sed -n '
-	    /^CPU/{
-		s: ::g
-		p
-	    }'`"
-	test x"${CPU}" != x && { echo "${CPU}-unknown-linux-gnu"; exit; }
-	;;
-    mips64:Linux:*:*)
-	eval $set_cc_for_build
-	sed 's/^	//' << EOF >$dummy.c
-	#undef CPU
-	#undef mips64
-	#undef mips64el
-	#if defined(__MIPSEL__) || defined(__MIPSEL) || defined(_MIPSEL) || defined(MIPSEL)
-	CPU=mips64el
-	#else
-	#if defined(__MIPSEB__) || defined(__MIPSEB) || defined(_MIPSEB) || defined(MIPSEB)
-	CPU=mips64
+	CPU=${UNAME_MACHINE}
 	#else
 	CPU=
 	#endif
