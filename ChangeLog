@@ -1,4 +1,4 @@
-2009-06-09  Ben Elliston  <bje@au.ibm.com>
+2009-06-09  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:NetBSD:*:*): Use grep -q, which is supported on
 	this host, instead of the less tidy grep > /dev/null.
