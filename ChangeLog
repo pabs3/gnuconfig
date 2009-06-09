@@ -1,3 +1,9 @@
+2009-06-09  Olli Savia  <ops@iki.fi>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Add detection for LynxOS 4.2.
+	* testsuite/config-guess.data: Add a test case.
+
 2009-06-09  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:NetBSD:*:*): Use grep -q, which is supported on
