@@ -1,3 +1,9 @@
+2009-06-11  Steven G. Johnson  <stevenj.mit@gmail.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (bluegene, -bluegene, -cnk*): New CNK aliases.
+	* testsuite/config-sub.data: Add test cases.
+
 2009-06-09  Olli Savia  <ops@iki.fi>
 	    Ben Elliston  <bje@gnu.org>
 
