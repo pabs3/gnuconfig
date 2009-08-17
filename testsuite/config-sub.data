@@ -152,3 +152,5 @@ i386-aros			i386-pc-aros
 moxie-elf			moxie-unknown-elf
 powerpc-cnk			powerpc-ibm-cnk
 powerpc-bluegene		powerpc-ibm-cnk
+microblaze			microblaze-unknown-none
+microblaze-linux		microblaze-unknown-linux-gnu

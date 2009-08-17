@@ -1,3 +1,8 @@
+2009-08-17  Michael Eager  <eager@eagercon.com>
+
+	* config.sub: Add Microblaze aliases.
+	* testsuite/config-sub.data: Add test cases.
+
 2009-06-11  Steven G. Johnson  <stevenj.mit@gmail.com>
 	    Ben Elliston  <bje@gnu.org>
 
