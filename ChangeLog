@@ -1,3 +1,9 @@
+2009-09-16  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.data: Remove i86xen and i86pc Solaris
+	tests as these triplet checks depend on the system C compiler.
+	Reported by Mike Frysinger.
+
 2009-08-19  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Document where to get the latest version from.
