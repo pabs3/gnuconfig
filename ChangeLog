@@ -1,3 +1,7 @@
+2009-09-18  Jack Howarth  <howarth@bromo.med.uc.edu>
+
+	* config.guess (*:Darwin:*:*): Handle 64-bit compilers on i386.
+
 2009-09-18  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i*86:Linux:*:*): Remove checks for whether the
