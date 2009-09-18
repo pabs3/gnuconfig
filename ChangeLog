@@ -1,3 +1,8 @@
+2009-09-18  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:Linux:*:*): Reorder the Linux architectures so
+	that 'grep :Linux:' matches 'grep :Linux: | sort'.
+
 2009-09-16  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.data: Remove i86xen and i86pc Solaris
