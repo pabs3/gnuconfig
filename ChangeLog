@@ -1,5 +1,11 @@
 2009-09-18  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (i*86:Linux:*:*): Remove checks for whether the
+	default compiler produces a.out binaries.  For all i*86 GNU/Linux
+	systems, the triplet guess is now ${UNAME_MACHINE}-pc-linux-gnu.
+
+2009-09-18  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (*:Linux:*:*): Reorder the Linux architectures so
 	that 'grep :Linux:' matches 'grep :Linux: | sort'.
 
