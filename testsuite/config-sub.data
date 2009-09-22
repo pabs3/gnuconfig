@@ -154,3 +154,5 @@ powerpc-cnk			powerpc-ibm-cnk
 powerpc-bluegene		powerpc-ibm-cnk
 microblaze			microblaze-unknown-none
 microblaze-linux		microblaze-unknown-linux-gnu
+rx				rx-unknown-none
+rx-linux			rx-unknown-linux-gnu

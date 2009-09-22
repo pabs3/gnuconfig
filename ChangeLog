@@ -1,3 +1,9 @@
+2009-09-23  Nick Clifton  <nickc@redhat.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Add support for RX.
+	* testsuite/config-sub.data: Add two test cases for RX.
+
 2009-09-18  Jack Howarth  <howarth@bromo.med.uc.edu>
 
 	* config.guess (*:Darwin:*:*): Handle 64-bit compilers on i386.
