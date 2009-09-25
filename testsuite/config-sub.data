@@ -156,3 +156,4 @@ microblaze			microblaze-unknown-none
 microblaze-linux		microblaze-unknown-linux-gnu
 rx				rx-unknown-none
 rx-linux			rx-unknown-linux-gnu
+picochip			picochip-unknown-none

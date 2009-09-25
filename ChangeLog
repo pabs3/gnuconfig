@@ -1,3 +1,9 @@
+2009-09-25  Hariharan Sandanagobalane  <hariharan@picochip.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Add support for Picochip.
+	* testsuite/config-sub.data: Add test cases.
+
 2009-09-23  Nick Clifton  <nickc@redhat.com>
 	    Ben Elliston  <bje@gnu.org>
 
