@@ -1,3 +1,9 @@
+2009-10-07  Shiki Okasaka  <shiki.okasaka@gmail.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (-es*): Recognize the ES operating system.
+	* testsuite/config-sub.data: Add a test case.
+
 2009-09-25  Hariharan Sandanagobalane  <hariharan@picochip.com>
 	    Ben Elliston  <bje@gnu.org>
 
