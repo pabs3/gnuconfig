@@ -158,3 +158,5 @@ rx				rx-unknown-none
 rx-linux			rx-unknown-linux-gnu
 picochip			picochip-unknown-none
 i386-es				i386-pc-es
+ubicom32			ubicom32-unknown-none
+ubicom32-elf			ubicom32-unknown-elf

@@ -1,3 +1,9 @@
+2009-11-07  Yakup Akbay  <yakbay@ubicom.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Handle ubicom32, ubicom32-*.
+	* testsuite/config-sub.data: Add a test case.
+
 2009-10-07  Shiki Okasaka  <shiki.okasaka@gmail.com>
 	    Ben Elliston  <bje@gnu.org>
 
