@@ -1,3 +1,9 @@
+2009-11-08  Jerker Bäck  <jerker.back@gmail.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:Interix*:*): Allow any uname -r value so that
+	Interix 2.* is detected.
+
 2009-11-07  Yakup Akbay  <yakbay@ubicom.com>
 	    Ben Elliston  <bje@gnu.org>
 
