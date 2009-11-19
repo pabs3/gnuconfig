@@ -1,3 +1,9 @@
+2009-11-19  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (i*86:Linux:*:*): Reintroduce dietlibc detection.
+	(mips:Linux:*:* | mips64:Linux:*:*): Simplfy with grep, not sed,
+	to pull CPU= lines from the preprocessor output.
+
 2009-11-08  Jerker Bäck  <jerker.back@gmail.com>
 	    Ben Elliston  <bje@gnu.org>
 
