@@ -160,3 +160,5 @@ picochip			picochip-unknown-none
 i386-es				i386-pc-es
 ubicom32			ubicom32-unknown-none
 ubicom32-elf			ubicom32-unknown-elf
+i586-auroraux			i586-pc-auroraux
+i586-auroraux5.0		i586-pc-auroraux5.0

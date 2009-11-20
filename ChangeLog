@@ -1,3 +1,12 @@
+2009-11-20  Edward O'Callaghan  <eocallaghan@auroraux.org>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (i86pc:AuroraUX:5.*:*): New.
+	(i86xen:AuroraUX:5.*:*): Likewise.
+	* config.sub (-auroraux, -auroraux*): New.
+	* testsuite/config-guess.data: Add test cases.
+	* testsuite/config-sub.data: Likewise.
+
 2009-11-19  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i*86:Linux:*:*): Reintroduce dietlibc detection.
