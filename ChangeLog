@@ -1,3 +1,8 @@
+2009-12-13  Alfred M. Szmidt  <ams@gnu.org>
+
+	* config.sub (version): Add the year 2009.
+	* config.guess (version): Likewise.
+
 2009-11-20  Edward O'Callaghan  <eocallaghan@auroraux.org>
 	    Ben Elliston  <bje@gnu.org>
 
