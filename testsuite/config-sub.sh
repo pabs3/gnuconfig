@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright 2004, 2005 Free Software Foundation, Inc.
+# Copyright 2004, 2005, 2009 Free Software Foundation, Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads pairs from config-sub.data: an alias and its
@@ -24,12 +24,11 @@ run_config_sub ()
     return $rc
 }
 
-run_config_sub
-rc=$?
-if test $rc -eq 0 ; then
+if run_config_sub ; then
     $verbose || echo "PASS: config.sub checks"
 else
-    test $rc -eq 1 && echo "Unexpected failures."
+    echo "Unexpected failures."
+    exit 1
 fi
 
-exit $rc
+exit 0

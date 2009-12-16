@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright 2004, 2005 Free Software Foundation, Inc.
+# Copyright 2004, 2005, 2009 Free Software Foundation, Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads 5-tuples from config-guess.data: the components of
@@ -8,7 +8,6 @@
 
 verbose=false
 export PATH=`pwd`:$PATH
-IFS="	" # tab
 
 run_config_guess ()
 {
@@ -36,12 +35,11 @@ run_config_guess ()
     return $rc
 }
 
-sed 's/		*/	/g' < config-guess.data | run_config_guess
-rc=$?
-if test $rc -eq 0 ; then
+if run_config_guess < config-guess.data ; then
   $verbose || echo "PASS: config.guess checks"
 else
-  test $rc -eq 1 && echo "Unexpected failures."
+  echo "Unexpected failures."
+  exit 1
 fi
 
-exit $rc
+exit 0
