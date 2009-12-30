@@ -1,3 +1,8 @@
+2009-12-30  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (version): Add 2010.
+	* config.guess (version): Likewise.
+
 2009-12-16  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh: Simplify some shell logic.
