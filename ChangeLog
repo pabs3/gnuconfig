@@ -1,3 +1,9 @@
+2009-12-31  David Barksdale <amatus@google.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (os): Handle nacl.
+	* testsuite/config-sub.data: Add a test case.
+
 2009-12-30  Ben Elliston  <bje@gnu.org>
 
 	* config.sub (version): Add 2010.
