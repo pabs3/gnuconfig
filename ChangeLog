@@ -1,3 +1,9 @@
+2010-01-22  Chris Metcalf  <cmetcalf@tilera.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Handle tilegx-*.
+	* testsuite/config-sub.data: Add a test.
+
 2009-12-31  David Barksdale <amatus@google.com>
 	    Ben Elliston  <bje@gnu.org>
 
