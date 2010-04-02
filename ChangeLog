@@ -1,3 +1,7 @@
+2010-04-03  Wolfram Sang <w.sang@pengutronix.de>
+
+	* config.guess: Use signal names instead of numbers with trap.
+
 2010-03-23  Joseph Myers  <joseph@codesourcery.com>
 
 	* config.sub: Always map c54x-*, c55x-* and c6x-* to corresponding
