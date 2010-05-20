@@ -1,3 +1,7 @@
+2010-05-20  Maxim Kuvyrkov  <maxim@codesourcery.com>
+
+	* config.sub: Recognize *-linux-android*.
+
 2010-04-03  Wolfram Sang <w.sang@pengutronix.de>
 
 	* config.guess: Use signal names instead of numbers with trap.
