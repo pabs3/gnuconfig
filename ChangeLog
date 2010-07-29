@@ -1,3 +1,8 @@
+2010-07-29  Ben Elliston  <bje@gnu.org>
+
+	Patch from Rainer Tammer <tammer@tammer.net>:
+	* config.guess (*:AIX:*:[4567]): Handle AIX 7.x.
+
 2010-05-20  Maxim Kuvyrkov  <maxim@codesourcery.com>
 
 	* config.sub: Recognize *-linux-android*.
