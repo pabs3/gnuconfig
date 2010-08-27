@@ -1,3 +1,9 @@
+2010-08-21  Ben Elliston  <bje@gnu.org>
+
+	From Chris Metcalf <cmetcalf@tilera.com>.
+	* config.guess (tile*:Linux:*:*): New.
+	* testsuite/config-guess.data: Add a test case.
+
 2010-08-13  Ben Elliston  <bje@gnu.org>
 
 	From Thomas YS Liu <nckuhuahua@gmail.com>.

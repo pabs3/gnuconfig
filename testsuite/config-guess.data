@@ -45,3 +45,5 @@ i386	4.2			LynxOS		ignored	i386-unknown-lynxos4.2
 PowerPC	4.2			LynxOS		ignored	powerpc-unknown-lynxos4.2
 i86pc	5.0			AuroraUX	ignored	i386-pc-auroraux5.0
 i86xen	5.0			AuroraUX	ignored	i386-pc-auroraux5.0
+tile	2.6.36			Linux		ignored	tile-tilera-linux-gnu
+tilegx	2.6.36			Linux		ignored	tilegx-tilera-linux-gnu
