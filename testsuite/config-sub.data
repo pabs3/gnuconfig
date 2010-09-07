@@ -198,7 +198,3 @@ tic6x-elf			tic6x-unknown-elf
 tic6x-none-elf			tic6x-none-elf
 tic6x-unknown-elf		tic6x-unknown-elf
 tic6x-uclinux			tic6x-unknown-uclinux
-nds32				nds32-unknown-none
-nds32le				nds32le-unknown-none
-nds32-elf			nds32-unknown-elf
-nds32le-elf			nds32le-unknown-elf

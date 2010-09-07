@@ -4,12 +4,6 @@
 	* config.guess (tile*:Linux:*:*): New.
 	* testsuite/config-guess.data: Add a test case.
 
-2010-08-13  Ben Elliston  <bje@gnu.org>
-
-	From Thomas YS Liu <nckuhuahua@gmail.com>.
-	* config.sub (nds32, nds32le): New.
-	* testsuite/config-sub.data: Add test case.
-
 2010-07-29  Ben Elliston  <bje@gnu.org>
 
 	Patch from Rainer Tammer <tammer@tammer.net>:
