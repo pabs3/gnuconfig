@@ -1,3 +1,9 @@
+2010-09-07  Ben Elliston  <bje@gnu.org>
+
+	From Macpaul Lin <macpaul@andestech.com>.
+	* config.sub (nds32, nds32le, nds32be): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2010-08-21  Ben Elliston  <bje@gnu.org>
 
 	From Chris Metcalf <cmetcalf@tilera.com>.
