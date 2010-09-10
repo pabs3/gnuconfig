@@ -1,3 +1,8 @@
+2010-09-11  Ben Elliston  <bje@gnu.org>
+
+	From Joachim Schmitz <schmitz@hp.com>:
+	* config.sub (neo-tandem, nse-tandem): New.
+
 2010-09-07  Ben Elliston  <bje@gnu.org>
 
 	From Macpaul Lin <macpaul@andestech.com>.
