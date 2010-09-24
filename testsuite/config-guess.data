@@ -47,3 +47,5 @@ i86pc	5.0			AuroraUX	ignored	i386-pc-auroraux5.0
 i86xen	5.0			AuroraUX	ignored	i386-pc-auroraux5.0
 tile	2.6.36			Linux		ignored	tile-tilera-linux-gnu
 tilegx	2.6.36			Linux		ignored	tilegx-tilera-linux-gnu
+NEO-1	1.0			NONSTOP_KERNEL	ignored	neo-tandem-nsk1.0
+NSE-1	1.0			NONSTOP_KERNEL	ignored	nse-tandem-nsk1.0

@@ -1,3 +1,9 @@
+2010-09-24  Ben Elliston  <bje@gnu.org>
+
+	From Joachim Schmitz <schmitz@hp.com>:
+	* config.guess (NEO-?:NONSTOP_KERNEL:*:*): New.
+	* testsuite/config-guess.data: Add test cases.
+
 2010-09-11  Ben Elliston  <bje@gnu.org>
 
 	From Joachim Schmitz <schmitz@hp.com>:
