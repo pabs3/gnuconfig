@@ -539,7 +539,7 @@ case $basic_machine in
 		basic_machine=craynv-cray
 		os=-unicosmp
 		;;
-	cr16)
+	cr16 | cr16-*)
 		basic_machine=cr16-unknown
 		os=-elf
 		;;

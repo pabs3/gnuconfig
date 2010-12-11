@@ -202,3 +202,5 @@ nds32				nds32-unknown-none
 nds32le				nds32le-unknown-none
 nds32-elf			nds32-unknown-elf
 nds32le-elf			nds32le-unknown-elf
+cr16-elf			cr16-unknown-elf
+cr16-random-elf			cr16-unknown-elf
