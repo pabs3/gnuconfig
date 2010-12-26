@@ -1,3 +1,9 @@
+2010-12-26  Ben Elliston  <bje@gnu.org>
+
+	Revert due to problems with the Tru64 shell. From Urs Jan?en.
+	2010-04-03 Wolfram Sang <w.sang@pengutronix.de>
+	* config.guess: Use signal names instead of numbers with trap.
+
 2010-12-11  Masaki Muranaka  <monaka@monami-software.com>
 
 	* config.sub: Accept cr16-*-elf.
