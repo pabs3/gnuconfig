@@ -1,3 +1,8 @@
+2011-01-01  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Update copyright years.
+	* config.sub: Likewise.
+
 2010-12-26  Ben Elliston  <bje@gnu.org>
 
 	Revert due to problems with the Tru64 shell. From Urs Jan?en.
