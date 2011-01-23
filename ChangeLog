@@ -1,3 +1,9 @@
+2011-01-23  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
+
+	* config.guess (version): Bump copyright years.
+	(alpha:OSF1:*:*): Reset EXIT trap before exiting to avoid a
+	spurious non-zero exit status on alphaev67-dec-osf5.1.
+
 2011-01-01  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update copyright years.
