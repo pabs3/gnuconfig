@@ -1,3 +1,11 @@
+2011-02-02  Ben Elliston  <bje@gnu.org>
+	    Paul Eggert  <eggert@cs.ucla.edu>
+
+	* config.guess, config.sub, testsuite/config-sub.data: Eliminate
+	whitespace issues throughout (as found by M-x whitespace-report).
+	Jim Meyering reports that git am complains about spaces before
+	tabs in the Emacs source code.
+
 2011-01-23  Ralf Wildenhues  <Ralf.Wildenhues@gmx.de>
 
 	* config.guess (version): Bump copyright years.

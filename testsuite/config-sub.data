@@ -1,7 +1,7 @@
 arm-coff			arm-unknown-coff
 arm-elf				arm-unknown-elf
 sun3				m68k-sun-sunos4.1.1
-sun4 				sparc-sun-sunos4.1.1
+sun4				sparc-sun-sunos4.1.1
 ibm				i370-ibm-aix
 i386-os2			i386-pc-os2
 os400				powerpc-ibm-os400
