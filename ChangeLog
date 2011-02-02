@@ -258,7 +258,7 @@
 	* config.guess (i86pc:SunOS:5.*:*, i86xen:SunOS:5.*:*): The full
 	path to /usr/bin/echo is necessary to work around the shell
 	builtins for echo that do not handle newlines.  From Ali Bahrami.
-	
+
 2008-12-11  Joel Sherrill <joel.sherrill@oarcorp.com>
 
 	* config.sub (lm32): New.
@@ -569,8 +569,8 @@
 
 2006-03-07  Mike Frysinger  <vapier@gentoo.org>
 
-        * config.sub (sheb, sheb-*): Handle these in addition to shbe.
-        * testsuite/config-sub.data: Add test case.
+	* config.sub (sheb, sheb-*): Handle these in addition to shbe.
+	* testsuite/config-sub.data: Add test case.
 
 2006-03-06  Ben Elliston  <bje@gnu.org>
 
@@ -801,14 +801,14 @@
 	From: Paul Eggert <eggert@CS.UCLA.EDU>
 	To: config-patches@gnu.org
 	Subject: config.guess, config.sub misdiagnose write errors
-	
+
 	config.guess and config.sub sometimes mishandle write errors to
 	stdout: they either ignore the errors, or output invalid
 	diagnostics when they occur.  For a simple (albeit unrealistic)
 	example, on my Solaris 8 (sparc) host, the command "config.guess
 	>&-" exits with status 0; it should exit with status 1, due to the
 	write failure.
-	
+
 	* config.guess: Don't exit with an explicit exit code of 0.
 	* config.sub: Likewise.
 
@@ -922,7 +922,7 @@
 
 	* config.sub (djgpp): Alias to i586-pc-msdosdjgpp.
 	* testsuite/config-sub.data: Add a test case.
-	
+
 2004-10-25  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh: Reduce recurring tabs into a single
@@ -1253,7 +1253,7 @@
 
 	Revert the following due to the demise of MicroBSD:
 
-        2003-01-03  Scott Kamp  <dingo@microbsd.net>
+	2003-01-03  Scott Kamp  <dingo@microbsd.net>
 	* config.guess: Detect MicroBSD operating system on i386 CPUs.
 	* config.sub: Handle aliases for such.
 
@@ -1692,7 +1692,7 @@
 
 2001-11-07  D.J. Barrow  <djbarrow@de.ibm.com>
 
-        * config.sub: Added S/390 31 and 64 bit target.
+	* config.sub: Added S/390 31 and 64 bit target.
 
 2001-11-06  John Marshall  <jmarshall@acm.org>
 
@@ -1802,7 +1802,7 @@
 
 2001-07-27  Niibe Yutaka  <gniibe@m17n.org>
 
-        * config.sub: Recognize sh3eb and sh4eb (big endian) aliases.
+	* config.sub: Recognize sh3eb and sh4eb (big endian) aliases.
 
 2001-07-19  Ben Elliston  <bje@redhat.com>
 
