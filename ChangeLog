@@ -1,3 +1,7 @@
+2011-02-24  Jason Jacques <jtjacques@gmail.com>
+
+	* config.sub (version): Bump copyright years.
+
 2011-02-02  Ben Elliston  <bje@gnu.org>
 	    Paul Eggert  <eggert@cs.ucla.edu>
 
