@@ -211,3 +211,12 @@ xscaleeb-none-elf		armeb-none-elf
 xscaleel-none-elf		armel-none-elf
 thumb-none-elf			arm-none-elf
 strongarm-none-elf		arm-none-elf
+ppc				powerpc-unknown-none
+ppcbe				powerpc-unknown-none
+ppcle				powerpcle-unknown-none
+ppc-elf				powerpc-unknown-elf
+ppcbe-elf			powerpc-unknown-elf
+ppcle-elf			powerpcle-unknown-elf
+ppc-none-elf			powerpc-none-elf
+ppcbe-none-elf			powerpc-none-elf
+ppcle-none-elf			powerpcle-none-elf

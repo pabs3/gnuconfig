@@ -1,5 +1,10 @@
 2011-03-23  Joseph Myers  <joseph@codesourcery.com>
 
+	* config.sub: Map ppcbe to powerpc.
+	* testsuite/config-sub.data: Add test cases.
+
+2011-03-23  Joseph Myers  <joseph@codesourcery.com>
+
 	* config.sub: Map strongarm-*, thumb-* and xscale*-* to
 	corresponding arm targets.
 	* testsuite/config-sub.data: Add test cases.
