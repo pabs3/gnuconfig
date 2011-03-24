@@ -23,9 +23,9 @@ crisv32-linux			crisv32-axis-linux-gnu
 frv-linux			frv-unknown-linux-gnu
 djgpp				i586-pc-msdosdjgpp
 s390-ibm-zvmoe			s390-ibm-zvmoe
-xscale				xscale-unknown-none
-xscaleeb			xscaleeb-unknown-none
-xscaleel			xscaleel-unknown-none
+xscale				arm-unknown-none
+xscaleeb			armeb-unknown-none
+xscaleel			armel-unknown-none
 xbox				i686-pc-mingw32
 maxq				maxq-unknown-none
 maxq-elf			maxq-unknown-elf
@@ -204,3 +204,10 @@ nds32-elf			nds32-unknown-elf
 nds32le-elf			nds32le-unknown-elf
 cr16-elf			cr16-unknown-elf
 cr16-random-elf			cr16-unknown-elf
+thumb				arm-unknown-none
+strongarm			arm-unknown-none
+xscale-none-elf			arm-none-elf
+xscaleeb-none-elf		armeb-none-elf
+xscaleel-none-elf		armel-none-elf
+thumb-none-elf			arm-none-elf
+strongarm-none-elf		arm-none-elf
