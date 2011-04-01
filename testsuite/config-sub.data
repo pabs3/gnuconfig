@@ -220,3 +220,5 @@ ppcle-elf			powerpcle-unknown-elf
 ppc-none-elf			powerpc-none-elf
 ppcbe-none-elf			powerpc-none-elf
 ppcle-none-elf			powerpcle-none-elf
+open8				open8-unknown-none
+open8-elf			open8-unknown-elf
