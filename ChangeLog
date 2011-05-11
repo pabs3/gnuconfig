@@ -1,3 +1,8 @@
+2011-05-11  Hector Oron  <zumbi@debian.org>
+	    Konstantinos Margaritis  <markos@debian.org>
+
+	* config.guess (arm*:Linux:*:*): Add support for gnueabihf.
+
 2011-03-31  Kirk Hays  <khays@hayshaus.com>
 	    Ben Elliston  <bje@gnu.org>
 
