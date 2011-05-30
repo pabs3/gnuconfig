@@ -1,3 +1,13 @@
+2011-05-30  Chris Metcalf  <cmetcalf@tilera.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (tile*:Linux:*:*): Use vendor "unknown", not
+	"tilera", for consistency with other architectures.
+	* config.sub (tile*-*, tilegx-*): Use a more general pattern for
+	"tile" to allow matching tilepro, tilegx32 and other variants.
+	* testsuite/config-guess.data: Update tests.
+	* testsuite/config-sub.data: Likewise.
+
 2011-05-11  Hector Oron  <zumbi@debian.org>
 	    Konstantinos Margaritis  <markos@debian.org>
 
