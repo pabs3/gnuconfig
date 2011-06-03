@@ -222,3 +222,9 @@ ppcbe-none-elf			powerpc-none-elf
 ppcle-none-elf			powerpcle-none-elf
 open8				open8-unknown-none
 open8-elf			open8-unknown-elf
+v850-elf			v850-unknown-elf
+v850e-elf			v850e-unknown-elf
+v850e1-elf			v850e1-unknown-elf
+v850e2-elf			v850e2-unknown-elf
+v850es-elf			v850es-unknown-elf
+v850e2v3-elf			v850e2v3-unknown-elf
