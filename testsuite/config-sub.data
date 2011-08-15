@@ -1,3 +1,7 @@
+32eb-none			32eb-unknown-none
+32el-nacl			32el-unknown-nacl
+64eb-none			64eb-unknown-none
+64el-none			64el-unknown-none
 amd64-cygwin			x86_64-pc-cygwin
 amd64-kfreebsd5.4-gnu		x86_64-pc-kfreebsd5.4-gnu
 amd64-unknown-freebsd5.2	x86_64-unknown-freebsd5.2
@@ -102,6 +106,7 @@ ms1-elf				mt-unknown-elf
 ms1				mt-unknown-none
 mt-elf				mt-unknown-elf
 mt				mt-unknown-none
+nacl				32el-unknown-nacl
 nds32-elf			nds32-unknown-elf
 nds32le-elf			nds32le-unknown-elf
 nds32le				nds32le-unknown-none

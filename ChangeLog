@@ -1,3 +1,9 @@
+2011-08-16  Roland McGrath  <mcgrathr@google.com>
+
+	* config.sub (32eb, 32el, 64eb, 64el): New (pseudo-)CPUs.
+	(nacl): Grok as alias for 32el-unknown-nacl.
+	* testsuite/config.sub: Add tests for those cases.
+
 2011-08-14  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Sort.
