@@ -1,3 +1,8 @@
+2011-08-20  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:FreeBSD:*:*): Switch on ${UNAME_PROCESSOR}.
+	* testsuite/config-guess.data: Remove hard to test FreeBSD cases.
+
 2011-08-16  Roland McGrath  <mcgrathr@google.com>
 
 	* config.sub (32eb, 32el, 64eb, 64el): New (pseudo-)CPUs.
