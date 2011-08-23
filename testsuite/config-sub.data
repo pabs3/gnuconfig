@@ -1,7 +1,3 @@
-32eb-none			32eb-unknown-none
-32el-nacl			32el-unknown-nacl
-64eb-none			64eb-unknown-none
-64el-none			64el-unknown-none
 amd64-cygwin			x86_64-pc-cygwin
 amd64-kfreebsd5.4-gnu		x86_64-pc-kfreebsd5.4-gnu
 amd64-unknown-freebsd5.2	x86_64-unknown-freebsd5.2
@@ -14,6 +10,8 @@ arm-unknown-riscos		arm-unknown-riscos
 aros				i386-pc-aros
 avr32				avr32-unknown-none
 avr32-linux			avr32-unknown-linux-gnu
+be32-none			be32-unknown-none
+be64-none			be64-unknown-none
 bfin				bfin-unknown-none
 bfin-elf			bfin-unknown-elf
 blackfin			bfin-unknown-linux-gnu
@@ -70,6 +68,8 @@ i686-ericsson-dicos		i686-ericsson-dicos
 i686-kopensolaris5.11-gnu	i686-pc-kopensolaris5.11-gnu
 i786-elf			i786-pc-elf
 ibm				i370-ibm-aix
+le32-nacl			le32-unknown-nacl
+le64-none			le64-unknown-none
 lm32-elf			lm32-unknown-elf
 lm32				lm32-unknown-none
 m32c-elf			m32c-unknown-elf
@@ -106,7 +106,7 @@ ms1-elf				mt-unknown-elf
 ms1				mt-unknown-none
 mt-elf				mt-unknown-elf
 mt				mt-unknown-none
-nacl				32el-unknown-nacl
+nacl				le32-unknown-nacl
 nds32-elf			nds32-unknown-elf
 nds32le-elf			nds32le-unknown-elf
 nds32le				nds32le-unknown-none

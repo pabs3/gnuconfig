@@ -1,3 +1,9 @@
+2011-08-23  Roland McGrath  <mcgrathr@google.com>
+
+	* config.sub: Rename 32eb to be32, 32el to le32, 64el to le64, and
+	64eb to be64.
+	* testsuite/config-sub.data: Adjust test cases.
+
 2011-08-20  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:FreeBSD:*:*): Switch on ${UNAME_PROCESSOR}.
