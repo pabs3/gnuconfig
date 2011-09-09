@@ -1,3 +1,9 @@
+2011-09-09  Linas Vepstas  <linasvepstas@gmail.com>
+	    Ben Elliston  <bje@gnu.org>
+
+        * config.sub (hexagon, hexagon-*): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2011-08-23  Roland McGrath  <mcgrathr@google.com>
 
 	* config.sub: Rename 32eb to be32, 32el to le32, 64el to le64, and
