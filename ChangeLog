@@ -1,3 +1,9 @@
+2011-10-08  Joern Rennecke <joern.rennecke@embecosm.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (epiphany): New.
+	* testsuite/config-sub.data: Add new tests.
+
 2011-10-01  Linas Vepstas <linasvepstas@gmail.com>
 	    Ben Elliston  <bje@gnu.org>
 

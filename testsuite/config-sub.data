@@ -38,6 +38,8 @@ cris-linux			cris-axis-linux-gnu
 crisv32-linux			crisv32-axis-linux-gnu
 dicos				i686-pc-dicos
 djgpp				i586-pc-msdosdjgpp
+epiphany			epiphany-unknown-none
+epiphany-elf			epiphany-unknown-elf
 fido-elf			fido-unknown-elf
 fido				fido-unknown-none
 frv-linux			frv-unknown-linux-gnu
