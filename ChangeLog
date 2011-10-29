@@ -1,3 +1,8 @@
+2011-10-29  DJ Delorie  <dj@redhat.com>
+
+	* config.sub (rl78): New.
+	* testsuite/config-sub.data: Add new tests.
+
 2011-10-08  Joern Rennecke <joern.rennecke@embecosm.com>
 	    Ben Elliston  <bje@gnu.org>
 
