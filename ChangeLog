@@ -1,3 +1,9 @@
+2011-11-11  Charles Wilson <cwilso11@users.sourceforge.net>
+
+	* config.guess (i*:MSYS*:*): New.
+	* config.sub: Recognize -msys*.
+	* testsuite/config-guess.data: Add test case.
+
 2011-10-29  DJ Delorie  <dj@redhat.com>
 
 	* config.sub (rl78): New.
