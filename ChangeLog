@@ -1,5 +1,16 @@
 2011-12-29  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (cris:Linux:*:*): Replace fixed CPU name in the
+	triplet with ${UNAME_MACHINE}, as it is identical.
+	(crisv32:Linux:*:*): Likewise.
+	(frv:Linux:*:*): Likewise.
+	(hexagon:Linux:*:*): Likewise.
+	(or32:Linux:*:*): Likewise.
+	(x86_64:Linux:*:*): Likewise.
+	* testsuite/config-guess.data: Add some missing GNU/Linux tests.
+
+2011-12-29  Ben Elliston  <bje@gnu.org>
+
 	* Makefile (check): Test config.guess before config.sub.
 	* testsuite/config-guess.data: Sort.
 

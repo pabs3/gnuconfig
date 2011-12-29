@@ -8,6 +8,7 @@ authenticamd	6.0		Interix		ignored	x86_64-unknown-interix6.0
 avr32	2.6.15			Linux		ignored	avr32-unknown-linux-gnu
 BePC	1.0			Haiku		ignored	i586-pc-haiku
 crayx1	2.5.20			UNICOS/mp	ignored	craynv-cray-unicosmp2.5.X
+cris	2.6.6			Linux		ignored	cris-axis-linux-gnu
 crisv32	2.6.6			Linux		ignored	crisv32-axis-linux-gnu
 EM64T	5.2			Interix		ignored	x86_64-unknown-interix5.2
 frv	2.4.24			Linux		ignored	frv-unknown-linux-gnu
@@ -47,5 +48,6 @@ vax	2.6.15			Linux		ignored	vax-dec-linux-gnu
 x86	5.2			Interix		ignored	i586-pc-interix5.2
 x86	6.0			Interix		ignored	i586-pc-interix6.0
 x86_64	1.0			MINGW		ignored	x86_64-pc-mingw32
+x86_64	2.6.32			Linux		ignored	x86_64-unknown-linux-gnu
 x86_64	1.5.18(0.132/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
 xtensa	2.6.15			Linux		ignored	xtensa-unknown-linux-gnu
