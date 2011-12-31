@@ -1,3 +1,8 @@
+2012-01-01  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Update copyright years.
+	* config.sub: Likewise.
+
 2011-12-30  Ben Elliston  <bje@gnu.org>
 
 	* config.sub: Remove some comments (over 10 years old) that are
