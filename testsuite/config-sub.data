@@ -229,6 +229,7 @@ x86_64-ericsson-dicos		x86_64-ericsson-dicos
 xbox				i686-pc-mingw32
 xc16x-elf			xc16x-unknown-elf
 xc16x				xc16x-unknown-none
+xgate				xgate-unknown-none
 xscale				arm-unknown-none
 xscaleeb			armeb-unknown-none
 xscaleeb-none-elf		armeb-none-elf

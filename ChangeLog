@@ -1,3 +1,9 @@
+2012-01-28  Sean Keys  <skeys@ipdatasys.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Add xgate (Freescale XGATE processor) and m68hcs12x.
+	* testsuite/config-sub.data: Add a test case.
+
 2012-01-01  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update copyright years.
