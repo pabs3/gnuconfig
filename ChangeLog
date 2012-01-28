@@ -1,7 +1,7 @@
 2012-01-28  Bruno Haible  <bruno@clisp.org>
 	    Ben Elliston  <bje@gnu.org>
 
-        * config.guess: Canonicalize CPU-android-linux to CPU-unknown-
+	* config.guess: Canonicalize CPU-android-linux to CPU-unknown-
 	linux-android.
 	* testsuite/config-sub.data: Add test cases.
 
