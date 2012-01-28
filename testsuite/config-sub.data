@@ -4,6 +4,7 @@ amd64-unknown-freebsd5.2	x86_64-unknown-freebsd5.2
 arm-cegcc			arm-unknown-cegcc
 arm-coff			arm-unknown-coff
 arm-elf				arm-unknown-elf
+arm-linux-androideabi		arm-unknown-linux-androideabi
 arm-mingw32ce			arm-unknown-mingw32ce
 arm-riscos			arm-unknown-riscos
 arm-unknown-riscos		arm-unknown-riscos
@@ -66,6 +67,7 @@ i586-auroraux			i586-pc-auroraux
 i586-elf			i586-pc-elf
 i586-rdos			i586-pc-rdos
 i586-skyos			i586-pc-skyos
+i686-android-linux		i686-unknown-linux-android
 i686-dicos			i686-pc-dicos
 i686-elf			i686-pc-elf
 i686-ericsson-dicos		i686-ericsson-dicos
