@@ -1,3 +1,9 @@
+2012-02-10  Ben Elliston  <bje@gnu.org>
+
+	Reported by thom.fitzpatrick@hp.com.
+	* config.guess (x86_64:VMkernel:*:*): New.
+	* testsuite/config-guess.data: Add test case.
+
 2012-01-28  Bruno Haible  <bruno@clisp.org>
 	    Ben Elliston  <bje@gnu.org>
 

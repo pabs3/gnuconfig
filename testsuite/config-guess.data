@@ -49,5 +49,6 @@ x86	5.2			Interix		ignored	i586-pc-interix5.2
 x86	6.0			Interix		ignored	i586-pc-interix6.0
 x86_64	1.0			MINGW		ignored	x86_64-pc-mingw32
 x86_64	2.6.32			Linux		ignored	x86_64-unknown-linux-gnu
+x86_64	2.6.32			VMkernel	ignored	x86_64-unknown-esx
 x86_64	1.5.18(0.132/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
 xtensa	2.6.15			Linux		ignored	xtensa-unknown-linux-gnu
