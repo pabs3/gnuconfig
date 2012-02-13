@@ -1,3 +1,13 @@
+2012-01-16  Marcus Shawcroft  <marcus.shawcroft@arm.com>
+
+	* config.guess  (aarch64:Linux:*:*, aarch64_be:Linux:*:*): New.
+	* config.sub (aarch64-*, aarch64_be-*): New.
+	* testsuite/config-sub.data: Add aarch64-elf, aarch64-linux
+	aarch64-unknown-elf, aarch64-unknown-linux, aarch64_be-elf,
+	aarch64_be-linux, aarch64_be-unknown-elf,
+	aarch64_be-unknown-linux.
+	* testsuite/config-guess.data: Add aarch64, aarch64_be.
+
 2012-02-10  Paul Eggert  <eggert@cs.ucla.edu>
 
 	Fix incorrect FSF snail mail addresses.

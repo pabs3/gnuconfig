@@ -1,6 +1,8 @@
 2064	ignored			z/VM		ignored	s390-ibm-zvmoe
 3	2.3.3			XENIX		SysV	i386-pc-xenix
 8664	1.0			Windows_NT	ignored	x86_64-pc-mks
+aarch64	ignored			Linux		ignored aarch64-unknown-linux-gnu
+aarch64_be	ignored		Linux		ignored aarch64_be-unknown-linux-gnu
 amd64	1.5.12(0.116/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
 arm	ignored			riscos		ignored	arm-unknown-riscos
 arm	ignored			RISCOS		ignored	arm-unknown-riscos
