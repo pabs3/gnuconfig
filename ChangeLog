@@ -1,4 +1,4 @@
-2012-01-16  Marcus Shawcroft  <marcus.shawcroft@arm.com>
+2012-02-14  Marcus Shawcroft  <marcus.shawcroft@arm.com>
 
 	* config.guess  (aarch64:Linux:*:*, aarch64_be:Linux:*:*): New.
 	* config.sub (aarch64-*, aarch64_be-*): New.
