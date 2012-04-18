@@ -139,6 +139,9 @@ pc98-freebsd			i386-pc-freebsd
 picochip			picochip-unknown-none
 powerpc-bluegene		powerpc-ibm-cnk
 powerpc-cnk			powerpc-ibm-cnk
+powerpc-elf-lynxos		powerpc-elf-lynxos
+powerpc-elf-lynxos5		powerpc-elf-lynxos5
+powerpc-xcoff-lynxos178		powerpc-xcoff-lynxos178
 powerpc-haiku			powerpc-unknown-haiku
 ppcbe-elf			powerpc-unknown-elf
 ppcbe-none-elf			powerpc-none-elf

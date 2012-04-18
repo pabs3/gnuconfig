@@ -1,3 +1,9 @@
+2012-04-18  Joel Brobecker  <brobecker@adacore.com>
+
+	* config.sub (*-lynx*178, *-lynx*5): New.
+	* testsuite/config-sub.data: Add powerpc-elf-lynxos,
+	powerpc-elf-lynxos5, powerpc-xcoff-lynxos178 testing.
+
 2012-02-14  Marcus Shawcroft  <marcus.shawcroft@arm.com>
 
 	* config.guess  (aarch64:Linux:*:*, aarch64_be:Linux:*:*): New.
