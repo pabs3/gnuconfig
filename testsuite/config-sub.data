@@ -53,7 +53,7 @@ fido-elf			fido-unknown-elf
 fido				fido-unknown-none
 frv-linux			frv-unknown-linux-gnu
 hexagon-linux			hexagon-unknown-linux-gnu
-hexagon				hexagon-unknown-none
+hexagon				hexagon-unknown-elf
 i386-aros			i386-pc-aros
 i386-drops1.0			i386-pc-drops1.0
 i386-elf			i386-pc-elf

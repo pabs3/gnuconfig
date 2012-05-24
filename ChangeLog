@@ -1,3 +1,9 @@
+2012-05-24  Joe Seymour  <jseymour@codesourcery.com>
+
+	* config.sub (hexagon): Set default operating system to elf.
+	* testsuite/config-sub.data: Change "hexagon" mapping to
+	hexagon-unknown-elf.
+
 2012-04-18  Joel Brobecker  <brobecker@adacore.com>
 
 	* config.sub (*-lynx*178, *-lynx*5): New.
