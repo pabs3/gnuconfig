@@ -1,3 +1,10 @@
+2012-06-10  Dmitriy Fedchenko <xfedch@gmail.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (NSE-?:NONSTOP_KERNEL:*:*): Match NSE-* as the
+	substring can be longer than one character.
+	* testsuite/config-guess.data: Add a new test case.
+
 2012-05-24  Joe Seymour  <jseymour@codesourcery.com>
 
 	* config.sub (hexagon): Set default operating system to elf.
