@@ -1,3 +1,9 @@
+2012-06-17  David Hill  <dhill@mindcry.org>
+
+	* config.guess (*:Bitrig:*:*): New.
+	* config.sub (-bitrig*): Likewise.
+	* testsuite/config-sub.data: Add a test case.
+
 2012-06-10  Dmitriy Fedchenko <xfedch@gmail.com>
 	    Ben Elliston  <bje@gnu.org>
 
