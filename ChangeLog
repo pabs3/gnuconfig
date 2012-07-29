@@ -1,5 +1,9 @@
 2012-07-29  Ben Elliston  <bje@gnu.org>
 
+	* uname: Remove.
+
+2012-07-29  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Remove commented code, circa 1994.
 
 2012-06-17  David Hill  <dhill@mindcry.org>
