@@ -1,3 +1,8 @@
+2012-07-30  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.sh: Incorporate uname.in as a heredoc.
+	* testsuite/uname.in: Remove.
+
 2012-07-29  Ben Elliston  <bje@gnu.org>
 
 	* uname: Remove.

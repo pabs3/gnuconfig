@@ -17,7 +17,14 @@ run_config_guess ()
 	    -e "s,@MACHINE@,$machine," \
 	    -e "s,@RELEASE@,$release," \
 	    -e "s,@SYSTEM@,$system," \
-	    -e "s,@VERSION@,$version," < uname.in > uname
+	    -e "s,@VERSION@,$version," > uname << EOF
+[ \$# -ne 1 ] && exec sh \$0 -s
+[ \$1 = -m ] && echo "@MACHINE@" && exit 0
+[ \$1 = -r ] && echo "@RELEASE@" && exit 0
+[ \$1 = -s ] && echo "@SYSTEM@" && exit 0
+[ \$1 = -v ] && echo "@VERSION@" && exit 0
+[ \$1 = -p ] && echo "Pentium III(TM)-ISA/PCI"
+EOF
 	chmod +x uname
 	output=`sh ../config.guess 2>/dev/null`
 	if test $? != 0 ; then
