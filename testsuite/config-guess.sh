@@ -1,13 +1,13 @@
 #!/bin/sh
 #
-# Copyright 2004, 2005, 2009 Free Software Foundation, Inc.
+# Copyright 2004, 2005, 2009, 2012 Free Software Foundation, Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads 5-tuples from config-guess.data: the components of
 # the simulated uname(1) output and the expected GNU system triplet.
 
 verbose=false
-export PATH=`pwd`:$PATH
+PATH=`pwd`:$PATH
 
 run_config_guess ()
 {
