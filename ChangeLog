@@ -1,3 +1,11 @@
+2012-07-31  Earnie Boyd  <earnie@users.sourceforge.net>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:MINGW64*:*): New.
+	* config.sub (mingw64): Likewise.
+	* testsuite/config-guess.data: Add a test case.
+	* testsuite/config-sub.data: Likewise.
+
 2012-07-30  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh: Incorporate uname.in as a heredoc.

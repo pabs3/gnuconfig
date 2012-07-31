@@ -101,6 +101,7 @@ microblaze-elf			microblaze-unknown-elf
 microblaze-linux		microblaze-unknown-linux-gnu
 microblaze			microblaze-unknown-none
 mingw32ce			arm-unknown-mingw32ce
+mingw64				x86_64-pc-mingw64
 mips64octeonel-elf		mips64octeonel-unknown-elf
 mips64octeon-elf		mips64octeon-unknown-elf
 mips64octeonel			mips64octeonel-unknown-elf
