@@ -1,3 +1,8 @@
+2012-08-14  Alex Smith  <alex@alex-smith.me.uk>
+
+	* config.guess (x86_64:Haiku:*:*): New.
+	* testsuite/config-guess.data: Add a test case.
+
 2012-07-31  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh: Don't export PATH.
