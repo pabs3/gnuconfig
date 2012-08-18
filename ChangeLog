@@ -1,3 +1,8 @@
+2012-08-18  Anthony G. Basile  <blueness@gentoo.org>
+
+	* config.sub (linux-musl*): New.
+	* testsuite/config-sub.data: Add a test case.
+
 2012-08-14  Alex Smith  <alex@alex-smith.me.uk>
 
 	* config.guess (x86_64:Haiku:*:*): New.

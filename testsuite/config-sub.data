@@ -63,6 +63,7 @@ i386-freebsd			i386-pc-freebsd
 i386-haiku			i386-pc-haiku
 i386-linux			i386-pc-linux-gnu
 i386-linux-newlib		i386-pc-linux-newlib
+i386-linux-musl			i386-pc-linux-musl
 i386-netbsd			i386-pc-netbsd
 i386-openbsd			i386-pc-openbsd
 i386-os2			i386-pc-os2
