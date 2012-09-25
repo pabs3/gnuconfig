@@ -1,3 +1,8 @@
+2012-09-25  Theo Markettos  <theo@markettos.org.uk>
+
+	* config.guess (arm:*:riscos:*): Allow arm*.
+	* testsuite/config-guess.data: Add a test case.
+
 2012-08-18  Anthony G. Basile  <blueness@gentoo.org>
 
 	* config.sub (linux-musl*): New.
