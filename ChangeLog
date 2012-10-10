@@ -1,3 +1,8 @@
+2012-10-10  David Holsgrove  <david.holsgrove@xilinx.com>
+
+	* config.sub (microblazeel): New.
+	* testsuite/config-sub.data: Add a test case.
+
 2012-09-25  Theo Markettos  <theo@markettos.org.uk>
 
 	* config.guess (arm:*:riscos:*): Allow arm*.
