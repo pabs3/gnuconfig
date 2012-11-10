@@ -1,5 +1,10 @@
 2012-11-11  Mike Frysinger  <vapier@gentoo.org>
 
+	* Makefile (check-guess, check-sub): New targets.
+	(check): Depend on check-guess and check-sub.
+
+2012-11-11  Mike Frysinger  <vapier@gentoo.org>
+
 	* config.sub (arm): Handle armv6/armv7/armv8 targets.
 	* testsuite/config-sub.data: Add test cases.
 

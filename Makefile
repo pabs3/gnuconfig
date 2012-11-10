@@ -1,4 +1,9 @@
 all:
 
-check:
-	cd testsuite && (sh config-guess.sh; sh config-sub.sh) && rm uname
+check: check-guess check-sub
+
+check-guess:
+	cd testsuite && sh config-guess.sh && rm uname
+
+check-sub:
+	cd testsuite && sh config-sub.sh
