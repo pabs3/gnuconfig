@@ -1,3 +1,8 @@
+2012-11-11  Mike Frysinger  <vapier@gentoo.org>
+
+	* config.sub (arm): Handle armv6/armv7/armv8 targets.
+	* testsuite/config-sub.data: Add test cases.
+
 2012-10-10  David Holsgrove  <david.holsgrove@xilinx.com>
 
 	* config.sub (microblazeel): New.

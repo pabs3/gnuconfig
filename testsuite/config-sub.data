@@ -16,6 +16,9 @@ arm-linux-androideabi		arm-unknown-linux-androideabi
 arm-mingw32ce			arm-unknown-mingw32ce
 arm-riscos			arm-unknown-riscos
 arm-unknown-riscos		arm-unknown-riscos
+armv6-linux-gnu			armv6-unknown-linux-gnu
+armv7a-linux-gnueabi		armv7a-unknown-linux-gnueabi
+armv8b-linux-gnueabi		armv8b-unknown-linux-gnueabi
 aros				i386-pc-aros
 avr32				avr32-unknown-none
 avr32-linux			avr32-unknown-linux-gnu
