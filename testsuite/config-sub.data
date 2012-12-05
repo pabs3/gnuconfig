@@ -161,7 +161,9 @@ ppcle-none-elf			powerpcle-none-elf
 ppcle				powerpcle-unknown-none
 ppc-none-elf			powerpc-none-elf
 ppc				powerpc-unknown-none
-rdos				i386-pc-rdos
+rdos				x86_64-pc-rdos
+rdos32				i386-pc-rdos
+rdos64				x86_64-pc-rdos
 rl78-linux			rl78-unknown-linux-gnu
 rl78				rl78-unknown-none
 rx-linux			rx-unknown-linux-gnu
