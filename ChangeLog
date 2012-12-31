@@ -1,3 +1,7 @@
+2012-12-31  Uwe Stieber  <uwe@kaos-group.de>
+
+	* config.sub (kaos*): Remove.
+
 2012-12-29  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Bring up to GPLv3.
