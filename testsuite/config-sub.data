@@ -264,3 +264,4 @@ xtensa_dc232b-linux		xtensa_dc232b-unknown-linux-gnu
 xtensa-elf			xtensa-unknown-elf
 xtensa-linux			xtensa-unknown-linux-gnu
 z80-coff			z80-unknown-coff
+i386-plan9			i386-pc-plan9
