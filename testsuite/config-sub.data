@@ -121,6 +121,8 @@ mips64vr5900el-elf		mips64vr5900el-unknown-elf
 mips64vr5900-elf		mips64vr5900-unknown-elf
 mips64vr5900el			mips64vr5900el-unknown-elf
 mips64vr5900			mips64vr5900-unknown-elf
+mipsr5900			mipsr5900-unknown-elf
+mipsr5900el			mipsr5900el-unknown-elf
 mips-sde-elf			mips-sde-elf
 mmix-elf			mmix-knuth-elf
 mmix				mmix-knuth-mmixware
