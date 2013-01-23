@@ -1,3 +1,8 @@
+2013-01-23  Sandra Loosemore  <sandra@codesourcery.com>
+
+	* config.sub (nios2eb, nios2el): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2013-01-11  Juergen Urban  <JuergenUrban@gmx.de>
 
 	* config.sub (mips5900, mipsr5900el): New.

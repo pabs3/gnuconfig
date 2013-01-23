@@ -138,6 +138,10 @@ nds32le				nds32le-unknown-none
 nds32				nds32-unknown-none
 nios2-elf			nios2-unknown-elf
 nios2				nios2-unknown-none
+nios2eb-elf			nios2eb-unknown-elf
+nios2eb				nios2eb-unknown-none
+nios2el-elf			nios2el-unknown-elf
+nios2el				nios2el-unknown-none
 nios-elf			nios-unknown-elf
 nios				nios-unknown-none
 open8-elf			open8-unknown-elf
