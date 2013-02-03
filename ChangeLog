@@ -1,3 +1,10 @@
+2013-02-04  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Contract the list of copyright years into the
+	range 1992-2013. Remove "(C)" character sequence from copyright
+	statements. Per http://www.gnu.org/licenses/gpl-howto.html.
+	* config.sub: Likewise.
+
 2013-01-23  Sandra Loosemore  <sandra@codesourcery.com>
 
 	* config.sub (nios2eb, nios2el): New.
