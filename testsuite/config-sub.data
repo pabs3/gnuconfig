@@ -147,6 +147,8 @@ nios				nios-unknown-none
 open8-elf			open8-unknown-elf
 open8				open8-unknown-none
 openrisc-linux			or32-unknown-linux-gnu
+or1k-elf			or1k-unknown-elf
+or1k-linux			or1k-unknown-linux-gnu
 or32-linux			or32-unknown-linux-gnu
 os400				powerpc-ibm-os400
 parisc				hppa-unknown-linux-gnu

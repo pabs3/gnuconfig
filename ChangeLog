@@ -1,3 +1,10 @@
+2013-02-12  Christian Svensson  <blue@cmd.nu>
+
+	* config.guess (or1k:Linux:*:*): New.
+	* config.sub (or1k): Likewise.
+	* testsuite/config-guess.data: Test for or1k:Linux.
+	* testsuite/config-sub.data: Tests for or1k-linux, or1k-elf.
+
 2013-02-04  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Contract the list of copyright years into the
