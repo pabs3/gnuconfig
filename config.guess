@@ -883,6 +883,9 @@ EOF
 	if test "$?" = 0 ; then LIBC="libc1" ; else LIBC="" ; fi
 	echo ${UNAME_MACHINE}-unknown-linux-gnu${LIBC}
 	exit ;;
+    arc:Linux:*:* | arceb:Linux:*:*)
+	echo ${UNAME_MACHINE}-unknown-linux-gnu
+	exit ;;
     arm*:Linux:*:*)
 	eval $set_cc_for_build
 	if echo __ARM_EABI__ | $CC_FOR_BUILD -E - 2>/dev/null \

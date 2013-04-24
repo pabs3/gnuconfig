@@ -1,3 +1,10 @@
+2013-04-24  Mischa Jonker  <mjonker@synopsys.com>
+
+	* config.sub (arceb): New.
+	* config.guess (arc:Linux:*:*, arceb:Linux:*:*): New.
+	* testsuite/config-guess.data: Add test cases.
+	* testsuite/config-sub.data: Add test cases.
+
 2013-04-24  Jim Pryor  <dubiousjim@gmail.com>
 
 	* config.guess (i*86:Linux:*:*): Test for uClibc.

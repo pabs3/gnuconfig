@@ -4,6 +4,8 @@
 aarch64	ignored			Linux		ignored aarch64-unknown-linux-gnu
 aarch64_be	ignored		Linux		ignored aarch64_be-unknown-linux-gnu
 amd64	1.5.12(0.116/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
+arc	ignored			Linux		ignored	arc-unknown-linux-gnu
+arceb	ignored			Linux		ignored	arceb-unknown-linux-gnu
 arm	ignored			riscos		ignored	arm-unknown-riscos
 arm	ignored			RISCOS		ignored	arm-unknown-riscos
 armv4l	ignored			riscos		ignored	arm-unknown-riscos

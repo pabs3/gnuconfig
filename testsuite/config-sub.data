@@ -9,6 +9,8 @@ aarch64_be-unknown-linux	aarch64_be-unknown-linux-gnu
 amd64-cygwin			x86_64-pc-cygwin
 amd64-kfreebsd5.4-gnu		x86_64-pc-kfreebsd5.4-gnu
 amd64-unknown-freebsd5.2	x86_64-unknown-freebsd5.2
+arc-linux			arc-unknown-linux-gnu
+arceb-linux			arceb-unknown-linux-gnu
 arm-cegcc			arm-unknown-cegcc
 arm-coff			arm-unknown-coff
 arm-elf				arm-unknown-elf
