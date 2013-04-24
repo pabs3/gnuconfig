@@ -921,6 +921,11 @@ EOF
 	#ifdef __dietlibc__
 	LIBC=dietlibc
 	#endif
+	#else
+	#include <features.h>
+	#ifdef __UCLIBC__
+	LIBC=uclibc
+	#endif
 EOF
 	eval `$CC_FOR_BUILD -E $dummy.c 2>/dev/null | grep '^LIBC'`
 	echo "${UNAME_MACHINE}-pc-linux-${LIBC}"
