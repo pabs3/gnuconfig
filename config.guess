@@ -2,7 +2,7 @@
 # Attempt to guess a canonical system name.
 #   Copyright 1992-2013 Free Software Foundation, Inc.
 
-timestamp='2013-02-12'
+timestamp='2013-04-24'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -998,7 +998,9 @@ EOF
 	echo ${UNAME_MACHINE}-dec-linux-gnu
 	exit ;;
     x86_64:Linux:*:*)
-	echo ${UNAME_MACHINE}-unknown-linux-gnu
+	LIBC=gnu
+	test -r /lib/libc.so && od -An -S13 /lib/libc.so | grep -q __uClibc_main && LIBC=uclibc
+	echo ${UNAME_MACHINE}-unknown-linux-${LIBC}
 	exit ;;
     xtensa*:Linux:*:*)
 	echo ${UNAME_MACHINE}-unknown-linux-gnu

@@ -1,3 +1,7 @@
+2013-04-24  Jim Pryor  <dubiousjim@gmail.com>
+
+       * config.guess (x86_64:Linux:*:*): Test for uClibc.
+
 2013-02-12  Christian Svensson  <blue@cmd.nu>
 
 	* config.guess (or1k:Linux:*:*): New.
