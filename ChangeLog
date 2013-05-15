@@ -1,3 +1,7 @@
+2013-05-16  Torsten Maehne  <torsten.maehne@gmx.de>
+
+	* config.guess (*:Darwin:*:*): Check for powerpc64.
+
 2013-04-24  Mischa Jonker  <mjonker@synopsys.com>
 
 	* config.sub (arceb): New.
