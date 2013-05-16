@@ -996,7 +996,7 @@ EOF
 	echo powerpc-unknown-linux-${LIBC}
 	exit ;;
     s390:Linux:*:* | s390x:Linux:*:*)
-	echo ${UNAME_MACHINE}-ibm-linux
+	echo ${UNAME_MACHINE}-ibm-linux-${LIBC}
 	exit ;;
     sh64*:Linux:*:*)
 	echo ${UNAME_MACHINE}-unknown-linux-${LIBC}
