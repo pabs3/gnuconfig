@@ -18,6 +18,7 @@ run_config_guess ()
 	    -e "s,@RELEASE@,$release," \
 	    -e "s,@SYSTEM@,$system," \
 	    -e "s,@VERSION@,$version," > uname << EOF
+#!/bin/sh
 [ \$# -ne 1 ] && exec sh \$0 -s
 [ \$1 = -m ] && echo "@MACHINE@" && exit 0
 [ \$1 = -r ] && echo "@RELEASE@" && exit 0

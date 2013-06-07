@@ -1,3 +1,8 @@
+2013-06-08  Basil Peace  <grv87-dev@yandex.ru>
+
+	* testsuite/config-guess.sh: Insert a shebang for /bin/sh into the
+	generated uname script.
+
 2013-06-06  Anton Blanchard  <anton@samba.org>
 
 	* config.guess (ppc64le:Linux:*:*, ppcle:Linux:*:*): New.
