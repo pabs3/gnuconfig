@@ -45,6 +45,8 @@ c6x				tic6x-unknown-coff
 c6x-uclinux			tic6x-unknown-uclinux
 c6x-unknown-coff		tic6x-unknown-coff
 c6x-unknown-elf			tic6x-unknown-elf
+c8051				c8051-unknown-elf
+c8051-elf			c8051-unknown-elf
 cegcc				arm-unknown-cegcc
 cr16-elf			cr16-unknown-elf
 cr16-random-elf			cr16-unknown-elf
