@@ -1,3 +1,9 @@
+2013-08-10  Earnie Boyd  <earnie@users.sourceforge.net>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (mingw32, msys): Default basic_machine to i686.
+	* testsuite/config-sub.data: Add test cases.
+
 2013-08-08  Luis Machado  <lgustavo@codesourcery.com>
 
 	* config.sub (c8051): New.
