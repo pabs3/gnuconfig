@@ -152,6 +152,7 @@ nios2el-elf			nios2el-unknown-elf
 nios2el				nios2el-unknown-none
 nios-elf			nios-unknown-elf
 nios				nios-unknown-none
+nvptx				nvptx-unknown-none
 open8-elf			open8-unknown-elf
 open8				open8-unknown-none
 openrisc-linux			or32-unknown-linux-gnu

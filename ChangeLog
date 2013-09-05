@@ -1,3 +1,9 @@
+2013-09-05  Nathan Sidwell  <nathan@codesourcery.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (nvptx): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2013-08-10  Earnie Boyd  <earnie@users.sourceforge.net>
 	    Ben Elliston  <bje@gnu.org>
 
