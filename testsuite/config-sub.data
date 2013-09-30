@@ -93,6 +93,8 @@ i686-ericsson-dicos		i686-ericsson-dicos
 i686-kopensolaris5.11-gnu	i686-pc-kopensolaris5.11-gnu
 i786-elf			i786-pc-elf
 ibm				i370-ibm-aix
+k1om				k1om-unknown-none
+k1om-linux			k1om-unknown-linux-gnu
 le32-nacl			le32-unknown-nacl
 le64-none			le64-unknown-none
 lm32-elf			lm32-unknown-elf
