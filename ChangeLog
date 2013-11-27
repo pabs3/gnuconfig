@@ -1,3 +1,9 @@
+2013-11-28  Karl Berry  <karl@freefriends.org>
+
+	* config.guess (*:Darwin:*:*): Avoid executing `cc' on OS X 10.9,
+	as it ships with a stub that puts up a graphical alert prompting
+	the user to install developer tools.
+
 2013-10-01  Ben Elliston  <bje@gnu.org>
 
 	Reported by Jö Fahlke <jorrit@jorrit.de>.
