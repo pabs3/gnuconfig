@@ -1,4 +1,4 @@
-2013-11-28  Karl Berry  <karl@freefriends.org>
+2013-11-28  Adam Maxwell <amaxwell@mac.com>
 
 	* config.guess (*:Darwin:*:*): Avoid executing `cc' on OS X 10.9,
 	as it ships with a stub that puts up a graphical alert prompting
