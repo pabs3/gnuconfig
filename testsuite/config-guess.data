@@ -1,11 +1,11 @@
 2064	ignored			z/VM		ignored	s390-ibm-zvmoe
 3	2.3.3			XENIX		SysV	i386-pc-xenix
 8664	1.0			Windows_NT	ignored	x86_64-pc-mks
-aarch64	ignored			Linux		ignored aarch64-unknown-linux-gnu
 aarch64_be	ignored		Linux		ignored aarch64_be-unknown-linux-gnu
+aarch64	ignored			Linux		ignored aarch64-unknown-linux-gnu
 amd64	1.5.12(0.116/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
-arc	ignored			Linux		ignored	arc-unknown-linux-gnu
 arceb	ignored			Linux		ignored	arceb-unknown-linux-gnu
+arc	ignored			Linux		ignored	arc-unknown-linux-gnu
 arm	ignored			riscos		ignored	arm-unknown-riscos
 arm	ignored			RISCOS		ignored	arm-unknown-riscos
 armv4l	ignored			riscos		ignored	arm-unknown-riscos
@@ -54,10 +54,10 @@ tilegx	2.6.36			Linux		ignored	tilegx-unknown-linux-gnu
 vax	2.6.15			Linux		ignored	vax-dec-linux-gnu
 x86	5.2			Interix		ignored	i586-pc-interix5.2
 x86	6.0			Interix		ignored	i586-pc-interix6.0
-x86_64	1.0			MINGW		ignored	x86_64-pc-mingw32
+x86_64	1.0			Haiku		ignored	x86_64-unknown-haiku
 x86_64	1.0			MINGW64		ignored	x86_64-pc-mingw64
+x86_64	1.0			MINGW		ignored	x86_64-pc-mingw32
+x86_64	1.5.18(0.132/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
 x86_64	2.6.32			Linux		ignored	x86_64-unknown-linux-gnu
 x86_64	2.6.32			VMkernel	ignored	x86_64-unknown-esx
-x86_64	1.5.18(0.132/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
-x86_64	1.0			Haiku		ignored	x86_64-unknown-haiku
 xtensa	2.6.15			Linux		ignored	xtensa-unknown-linux-gnu

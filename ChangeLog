@@ -1,5 +1,10 @@
 2014-01-01  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config.guess: Sort.
+	* testsuite/config.sub: Ditto.
+
+2014-01-01  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Update copyright years.
 	* config.sub: Likewise.
 
