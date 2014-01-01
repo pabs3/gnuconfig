@@ -1,3 +1,8 @@
+2014-01-01  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Update copyright years.
+	* config.sub: Likewise.
+
 2013-11-28  Adam Maxwell <amaxwell@mac.com>
 
 	* config.guess (*:Darwin:*:*): Avoid executing `cc' on OS X 10.9,
