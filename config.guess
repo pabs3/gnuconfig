@@ -1379,14 +1379,6 @@ cat >$dummy.c <<EOF
 #endif
 main ()
 {
-#if defined (sony)
-#if defined (MIPSEB)
-  /* BFD wants "bsd" instead of "newsos".  Perhaps BFD should be changed,
-     I don't know....  */
-  printf ("mips-sony-bsd\n"); exit (0);
-#endif
-#endif
-
 #if defined (NeXT)
 #if !defined (__ARCHITECTURE__)
 #define __ARCHITECTURE__ "m68k"
