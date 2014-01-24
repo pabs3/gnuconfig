@@ -12,6 +12,7 @@
 	(ns32k-encore-sysv): Likewise.
 	(ns32k-encore-mach): Likewise.
 	(ns32k-encore-bsd): Likewise.
+	(<arch>-next-nextstep, <arch>-next-openstep): Likewise.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
