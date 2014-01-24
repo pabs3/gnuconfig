@@ -3,6 +3,7 @@
 	* config.guess (arm-acron-riscix): Remove from the C program.
 	(m68k-hp-bsd): Likewise.
 	(i860-alliant-bsd): Likewise.
+	(i386-pc-bsd): Likewise.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
