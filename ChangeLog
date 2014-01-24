@@ -13,6 +13,10 @@
 	(ns32k-encore-mach): Likewise.
 	(ns32k-encore-bsd): Likewise.
 	(<arch>-next-nextstep, <arch>-next-openstep): Likewise.
+	(vax-dec-bsd4.3): Likewise.
+	(vax-dec-bsd4.3reno): Likewise.
+	(vax-dec-bsd): Likewise.
+	(vax-dec-ultrix): Likewise.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
