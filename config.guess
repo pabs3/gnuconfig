@@ -1421,15 +1421,6 @@ main ()
 #endif
 #endif
 
-#if defined (sequent)
-#if defined (i386)
-  printf ("i386-sequent-dynix\n"); exit (0);
-#endif
-#if defined (ns32000)
-  printf ("ns32k-sequent-dynix\n"); exit (0);
-#endif
-#endif
-
 #if defined (vax)
 # if !defined (ultrix)
 #  include <sys/param.h>

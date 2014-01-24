@@ -5,6 +5,8 @@
 	(i860-alliant-bsd): Likewise.
 	(i386-pc-bsd): Likewise.
 	(i386-sequent-ptx): Likewise.
+	(i386-sequent-dynix): Likewise.
+	(n32k-sequent-dynix): Likewise.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
