@@ -1470,10 +1470,6 @@ main ()
 # endif
 #endif
 
-#if defined (alliant) && defined (i860)
-  printf ("i860-alliant-bsd\n"); exit (0);
-#endif
-
   exit (1);
 }
 EOF
