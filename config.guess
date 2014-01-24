@@ -1430,21 +1430,6 @@ main ()
 #endif
 #endif
 
-#if defined (_SEQUENT_)
-    struct utsname un;
-
-    uname(&un);
-
-    if (strncmp(un.version, "V2", 2) == 0) {
-	printf ("i386-sequent-ptx2\n"); exit (0);
-    }
-    if (strncmp(un.version, "V1", 2) == 0) { /* XXX is V1 correct? */
-	printf ("i386-sequent-ptx1\n"); exit (0);
-    }
-    printf ("i386-sequent-ptx\n"); exit (0);
-
-#endif
-
 #if defined (vax)
 # if !defined (ultrix)
 #  include <sys/param.h>
