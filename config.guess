@@ -1371,21 +1371,6 @@ EOF
 	exit ;;
 esac
 
-eval $set_cc_for_build
-cat >$dummy.c <<EOF
-#ifdef _SEQUENT_
-# include <sys/types.h>
-# include <sys/utsname.h>
-#endif
-main ()
-{
-  exit (1);
-}
-EOF
-
-$CC_FOR_BUILD -o $dummy $dummy.c 2>/dev/null && SYSTEM_NAME=`$dummy` &&
-	{ echo "$SYSTEM_NAME"; exit; }
-
 # Apollos put the system type in the environment.
 
 test -d /usr/apollo && { echo ${ISP}-apollo-${SYSTYPE}; exit; }
