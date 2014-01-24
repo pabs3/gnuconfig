@@ -1392,18 +1392,6 @@ main ()
   exit (0);
 #endif
 
-#if defined (MULTIMAX) || defined (n16)
-#if defined (UMAXV)
-  printf ("ns32k-encore-sysv\n"); exit (0);
-#else
-#if defined (CMU)
-  printf ("ns32k-encore-mach\n"); exit (0);
-#else
-  printf ("ns32k-encore-bsd\n"); exit (0);
-#endif
-#endif
-#endif
-
 #if defined (vax)
 # if !defined (ultrix)
 #  include <sys/param.h>

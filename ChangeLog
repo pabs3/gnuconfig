@@ -9,6 +9,9 @@
 	(n32k-sequent-dynix): Likewise.
 	(m68k-sony-newsos): Likewise.
 	(mips-sony-bsd): Likewise.
+	(ns32k-encore-sysv): Likewise.
+	(ns32k-encore-mach): Likewise.
+	(ns32k-encore-bsd): Likewise.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
