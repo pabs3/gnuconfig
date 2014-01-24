@@ -1,5 +1,9 @@
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (m68k-hp-bsd): Remove from the C program.
+
+2014-01-25  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (arm-acron-riscix): Remove from the C program.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>

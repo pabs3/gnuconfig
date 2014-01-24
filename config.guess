@@ -1396,10 +1396,6 @@ main ()
 #endif
 #endif
 
-#if defined (hp300) && !defined (hpux)
-  printf ("m68k-hp-bsd\n"); exit (0);
-#endif
-
 #if defined (NeXT)
 #if !defined (__ARCHITECTURE__)
 #define __ARCHITECTURE__ "m68k"
