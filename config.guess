@@ -1384,15 +1384,6 @@ main ()
   /* BFD wants "bsd" instead of "newsos".  Perhaps BFD should be changed,
      I don't know....  */
   printf ("mips-sony-bsd\n"); exit (0);
-#else
-#include <sys/param.h>
-  printf ("m68k-sony-newsos%s\n",
-#ifdef NEWSOS4
-	"4"
-#else
-	""
-#endif
-	); exit (0);
 #endif
 #endif
 

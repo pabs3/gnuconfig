@@ -7,6 +7,7 @@
 	(i386-sequent-ptx): Likewise.
 	(i386-sequent-dynix): Likewise.
 	(n32k-sequent-dynix): Likewise.
+	(m68k-sony-newsos): Likewise.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
