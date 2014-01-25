@@ -9,23 +9,13 @@
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
-	* config.guess (arm-acron-riscix): Remove from the C program.
-	(m68k-hp-bsd): Likewise.
-	(i860-alliant-bsd): Likewise.
-	(i386-pc-bsd): Likewise.
-	(i386-sequent-ptx): Likewise.
-	(i386-sequent-dynix): Likewise.
-	(n32k-sequent-dynix): Likewise.
-	(m68k-sony-newsos): Likewise.
-	(mips-sony-bsd): Likewise.
-	(ns32k-encore-sysv): Likewise.
-	(ns32k-encore-mach): Likewise.
-	(ns32k-encore-bsd): Likewise.
-	(<arch>-next-nextstep, <arch>-next-openstep): Likewise.
-	(vax-dec-bsd4.3): Likewise.
-	(vax-dec-bsd4.3reno): Likewise.
-	(vax-dec-bsd): Likewise.
-	(vax-dec-ultrix): Likewise.
+	* config.guess (arm-acorn-riscix, m68k-hp-bsd, i860-alliant-bsd)
+	(i386-pc-bsd, i386-sequent-ptx, i386-sequent-dynix)
+	(n32k-sequent-dynix, m68k-sony-newsos, mips-sony-bsd)
+	(ns32k-encore-sysv, ns32k-encore-mach, ns32k-encore-bsd)
+	(<arch>-next-nextstep, <arch>-next-openstep, vax-dec-bsd4.3)
+	(vax-dec-bsd4.3reno, vax-dec-bsd, vax-dec-ultrix): Remove from the
+	C program.
 
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
