@@ -1,5 +1,9 @@
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Remove check for /usr/apollo directory.
+
+2014-01-25  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Remove the C program that detects ancient
 	operating systems without using uname(1).
 

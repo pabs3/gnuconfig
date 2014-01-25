@@ -1371,10 +1371,6 @@ EOF
 	exit ;;
 esac
 
-# Apollos put the system type in the environment.
-
-test -d /usr/apollo && { echo ${ISP}-apollo-${SYSTYPE}; exit; }
-
 cat >&2 <<EOF
 $0: unable to guess system type
 
