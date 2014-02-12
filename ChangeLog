@@ -1,3 +1,8 @@
+2014-02-12  Urs Janssen  <urs@akk.org>
+
+	* config.guess (Linux|GNU|GNU/*): Strip extraneous whitespace
+	inserted by the preprocessor (eg, pgcc -E).
+
 2014-01-25  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Remove check for /usr/apollo directory.
