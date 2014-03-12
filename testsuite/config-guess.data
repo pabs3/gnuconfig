@@ -58,6 +58,7 @@ x86_64	1.0			Haiku		ignored	x86_64-unknown-haiku
 x86_64	1.0			MINGW64		ignored	x86_64-pc-mingw64
 x86_64	1.0			MINGW		ignored	x86_64-pc-mingw32
 x86_64	1.5.18(0.132/4/2)	CYGWIN_NT-5.2	ignored	x86_64-unknown-cygwin
+x86_64	2.0.0(0.271/5/3)	MSYS_NT-6.1	ignored	x86_64-pc-msys
 x86_64	2.6.32			Linux		ignored	x86_64-unknown-linux-gnu
 x86_64	2.6.32			VMkernel	ignored	x86_64-unknown-esx
 xtensa	2.6.15			Linux		ignored	xtensa-unknown-linux-gnu

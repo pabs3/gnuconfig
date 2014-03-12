@@ -1,3 +1,9 @@
+2014-03-13  Ben Elliston  <bje@gnu.org>
+
+	Reported by Dejan Lekic <dejan.lekic@gmail.com>.
+	* config.guess (*:MSYS*:*): Match all machines, not just i*.
+	* testsuite/config-guess.data: Add a test case.
+
 2014-02-12  Urs Janssen  <urs@akk.org>
 
 	* config.guess (Linux|GNU|GNU/*): Strip extraneous whitespace
