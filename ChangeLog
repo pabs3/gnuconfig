@@ -1,3 +1,12 @@
+2014-03-23  Christian Svensson  <blue@cmd.nu>
+
+	* config.guess (openrisc:Linux:*:*): New.
+	* config.guess (or1k*:Linux:*:*): Modified for or1knd.
+	* config.sub (or1knd): New.
+	* testsuite/config-guess.data: Test for or1knd:Linux, openrisc:Linux.
+	* testsuite/config-sub.data: Tests for or1knd-linux, or1knd-elf,
+	or1knd and or1k.
+
 2014-03-13  Ben Elliston  <bje@gnu.org>
 
 	Reported by Dejan Lekic <dejan.lekic@gmail.com>.
