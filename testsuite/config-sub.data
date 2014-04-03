@@ -17,6 +17,7 @@ arm-elf				arm-unknown-elf
 arm-linux-androideabi		arm-unknown-linux-androideabi
 arm-mingw32ce			arm-unknown-mingw32ce
 arm-riscos			arm-unknown-riscos
+arm-tirtos			arm-unknown-tirtos
 arm-unknown-riscos		arm-unknown-riscos
 armv6-linux-gnu			armv6-unknown-linux-gnu
 armv7a-linux-gnueabi		armv7a-unknown-linux-gnueabi

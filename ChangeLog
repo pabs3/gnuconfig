@@ -1,3 +1,9 @@
+2014-04-03  Ashish Kapania  <akapania@ti.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (-tirtos*): New.
+	* testsuite/config-sub.data: Add a test case.
+
 2014-04-03  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.sh (run_config-sub): Quote some variables
