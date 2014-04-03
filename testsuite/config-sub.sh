@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright 2004, 2005, 2009 Free Software Foundation, Inc.
+# Copyright 2004, 2005, 2009, 2014 Free Software Foundation, Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads pairs from config-sub.data: an alias and its
@@ -14,7 +14,7 @@ run_config_sub ()
     rc=0
     while read alias canonical ; do
 	output=`sh ../config.sub $alias`
-	if test $output != $canonical ; then
+	if test "$output" != "$canonical" ; then
 	    echo "FAIL: $alias -> $output, but expected $canonical"
 	    rc=1
 	else
@@ -27,7 +27,6 @@ run_config_sub ()
 if run_config_sub ; then
     $verbose || echo "PASS: config.sub checks"
 else
-    echo "Unexpected failures."
     exit 1
 fi
 

@@ -1,3 +1,8 @@
+2014-04-03  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.sh (run_config-sub): Quote some variables
+	to avoid spurious shell errors when a test case fails.
+
 2014-03-23  Christian Svensson  <blue@cmd.nu>
 
 	* config.guess (openrisc:Linux:*:*): New.
