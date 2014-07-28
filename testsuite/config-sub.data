@@ -142,6 +142,7 @@ mips-sde-elf			mips-sde-elf
 mmix-elf			mmix-knuth-elf
 mmix				mmix-knuth-mmixware
 moxie-elf			moxie-unknown-elf
+moxiebox			moxie-unknown-moxiebox
 ms1-elf				mt-unknown-elf
 ms1				mt-unknown-none
 msys				i686-pc-msys
