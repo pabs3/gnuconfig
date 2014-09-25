@@ -1,3 +1,8 @@
+2014-09-26  Olivier Hainque  <hainque@adacore.com>
+
+	* config.sub (leon, leon[3-9]): New CPUs.
+	* testsuite/config-sub.data: New tests for leon and leon3.
+
 2014-09-11  Palmer Dabbelt  <palmer.dabbelt@eecs.berkeley.edu>
 
 	* config.sub (riscv32, riscv64): New.

@@ -99,6 +99,10 @@ k1om				k1om-unknown-none
 k1om-linux			k1om-unknown-linux-gnu
 le32-nacl			le32-unknown-nacl
 le64-none			le64-unknown-none
+leon-elf			sparc-leon-elf
+leon3-elf			sparc-leon3-elf
+leon-wrs-vxworks		sparc-leon-vxworks
+leon3-vxworks			sparc-leon3-vxworks
 lm32-elf			lm32-unknown-elf
 lm32				lm32-unknown-none
 m32c-elf			m32c-unknown-elf
