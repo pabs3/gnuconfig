@@ -1,3 +1,9 @@
+2014-11-04  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:AIX:*:[4567]): Use /usr/biun/lslpp and not
+	oslevel to determine the OS version number. This gives more a
+	precise version number.	From Michael Felt.
+
 2014-09-26  Olivier Hainque  <hainque@adacore.com>
 
 	* config.sub (leon, leon[3-9]): New CPUs.
