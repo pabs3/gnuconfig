@@ -24,12 +24,12 @@ timestamp='2014-03-23'
 # program.  This Exception is an additional permission under section 7
 # of the GNU General Public License, version 3 ("GPLv3").
 #
-# Originally written by Per Bothner.
+# Originally written by Per Bothner; maintained since 2000 by Ben Elliston.
 #
 # You can get the latest version of this script from:
 # http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD
 #
-# Please send patches with a ChangeLog entry to config-patches@gnu.org.
+# Please send patches to <config-patches@gnu.org>.
 
 
 me=`echo "$0" | sed -e 's,.*/,,'`
