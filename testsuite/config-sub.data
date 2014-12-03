@@ -294,6 +294,7 @@ v850e2v3-elf			v850e2v3-unknown-elf
 v850e-elf			v850e-unknown-elf
 v850-elf			v850-unknown-elf
 v850es-elf			v850es-unknown-elf
+visium-elf			visium-unknown-elf
 x86_64-cygwin			x86_64-pc-cygwin
 x86_64-dicos			x86_64-pc-dicos
 x86_64-ericsson-dicos		x86_64-ericsson-dicos

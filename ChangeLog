@@ -1,3 +1,8 @@
+2014-12-03  Eric Botcazou  <ebotcazou@adacore.com>
+
+	* config.sub (visium): New CPU type.
+	* testsuite/config-sub.data: Add a test case.
+
 2014-11-04  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (*:AIX:*:[4567]): Use /usr/biun/lslpp and not
