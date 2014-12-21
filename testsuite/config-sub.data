@@ -60,6 +60,7 @@ epiphany			epiphany-unknown-none
 fido-elf			fido-unknown-elf
 fido				fido-unknown-none
 frv-linux			frv-unknown-linux-gnu
+ft32-elf			ft32-unknown-elf
 hexagon				hexagon-unknown-elf
 hexagon-linux			hexagon-unknown-linux-gnu
 i386-aros			i386-pc-aros
