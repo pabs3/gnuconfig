@@ -1,3 +1,7 @@
+2014-12-26  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Sort.
+
 2014-12-21  James Bowman  <james.bowman@ftdichip.com>
 
 	* config.sub (ft32): New.

@@ -100,10 +100,10 @@ k1om				k1om-unknown-none
 k1om-linux			k1om-unknown-linux-gnu
 le32-nacl			le32-unknown-nacl
 le64-none			le64-unknown-none
-leon-elf			sparc-leon-elf
 leon3-elf			sparc-leon3-elf
-leon-wrs-vxworks		sparc-leon-vxworks
 leon3-vxworks			sparc-leon3-vxworks
+leon-elf			sparc-leon-elf
+leon-wrs-vxworks		sparc-leon-vxworks
 lm32-elf			lm32-unknown-elf
 lm32				lm32-unknown-none
 m32c-elf			m32c-unknown-elf
@@ -146,8 +146,8 @@ mipsr5900			mipsr5900-unknown-elf
 mips-sde-elf			mips-sde-elf
 mmix-elf			mmix-knuth-elf
 mmix				mmix-knuth-mmixware
-moxie-elf			moxie-unknown-elf
 moxiebox			moxie-unknown-moxiebox
+moxie-elf			moxie-unknown-elf
 ms1-elf				mt-unknown-elf
 ms1				mt-unknown-none
 msys				i686-pc-msys
