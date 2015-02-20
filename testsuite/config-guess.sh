@@ -1,6 +1,7 @@
 #!/bin/sh
 #
-# Copyright 2004, 2005, 2009, 2012 Free Software Foundation, Inc.
+# Copyright 2004, 2005, 2009, 2012, 2015 Free Software Foundation,
+# Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads 5-tuples from config-guess.data: the components of
@@ -12,19 +13,20 @@ PATH=`pwd`:$PATH
 run_config_guess ()
 {
     rc=0
-    while read machine release system version triplet ; do
+    while read machine release system version processor triplet ; do
 	sed \
 	    -e "s,@MACHINE@,$machine," \
 	    -e "s,@RELEASE@,$release," \
 	    -e "s,@SYSTEM@,$system," \
-	    -e "s,@VERSION@,$version," > uname << EOF
+	    -e "s,@VERSION@,$version," \
+	    -e "s,@PROCESSOR@,$processor," > uname << EOF
 #!/bin/sh
 [ \$# -ne 1 ] && exec sh \$0 -s
 [ \$1 = -m ] && echo "@MACHINE@" && exit 0
 [ \$1 = -r ] && echo "@RELEASE@" && exit 0
 [ \$1 = -s ] && echo "@SYSTEM@" && exit 0
 [ \$1 = -v ] && echo "@VERSION@" && exit 0
-[ \$1 = -p ] && echo "Pentium III(TM)-ISA/PCI"
+[ \$1 = -p ] && echo "@PROCESSOR@" && exit 0
 EOF
 	chmod +x uname
 	output=`sh ../config.guess 2>/dev/null`

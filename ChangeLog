@@ -1,3 +1,10 @@
+2015-02-20  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.sh: Read an additional column from the
+	data file giving a value for 'uname -p'.  In most cases, this can
+	be the string 'ignored'.
+	* testsuite/config-guess.data: Add uname -p value for each entry.
+
 2015-01-01  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update copyright years.
