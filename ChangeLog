@@ -1,3 +1,11 @@
+2015-02-21  Taylor R Campbell  <riastradh@NetBSD.org>
+
+	* config.guess (*:NetBSD:*:*): `uname -p' and `sysctl -n
+	hw.machine_arch' have been the same since `uname -p' was
+	introduced in 1998.  `sysctl -n hw.machine_arch' has been around a
+	little longer, since 1997, so fall back to that in the obscure
+	case that someone might still care about that vintage.
+
 2015-02-20  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh: Read an additional column from the
