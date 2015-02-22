@@ -16,6 +16,16 @@ crayx1	2.5.20	UNICOS/mp	ignored	ignored	craynv-cray-unicosmp2.5.X
 cris	2.6.6	Linux	ignored	ignored	cris-axis-linux-gnu
 crisv32	2.6.6	Linux	ignored	ignored	crisv32-axis-linux-gnu
 EM64T	5.2	Interix	ignored	ignored	x86_64-unknown-interix5.2
+evbarm	7.0	NetBSD	ignored	arm	arm-unknown-netbsdelf7.0
+evbarm	7.0	NetBSD	ignored	armeb	armeb-unknown-netbsdelf7.0
+evbarm	7.0	NetBSD	ignored	earmv6	armv6-unknown-netbsdelf7.0-eabi
+evbarm	7.0	NetBSD	ignored	earmv6eb	armv6eb-unknown-netbsdelf7.0-eabi
+evbarm	7.0	NetBSD	ignored	earmv6hf	armv6-unknown-netbsdelf7.0-eabihf
+evbarm	7.0	NetBSD	ignored	earmv6hfeb	armv6eb-unknown-netbsdelf7.0-eabihf
+evbarm	7.0	NetBSD	ignored	earmv7	armv7-unknown-netbsdelf7.0-eabi
+evbarm	7.0	NetBSD	ignored	earmv7eb	armv7eb-unknown-netbsdelf7.0-eabi
+evbarm	7.0	NetBSD	ignored	earmv7hf	armv7-unknown-netbsdelf7.0-eabihf
+evbarm	7.0	NetBSD	ignored	earmv7hfeb	armv7eb-unknown-netbsdelf7.0-eabihf
 frv	2.4.24	Linux	ignored	ignored	frv-unknown-linux-gnu
 genuineintel	6.0	Interix	ignored	ignored	x86_64-unknown-interix6.0
 hexagon	1.0	Linux	ignored	ignored	hexagon-unknown-linux-gnu
