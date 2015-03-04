@@ -69,6 +69,7 @@ cris-linux			cris-axis-linux-gnu
 crisv32-linux			crisv32-axis-linux-gnu
 dicos				i686-pc-dicos
 djgpp				i586-pc-msdosdjgpp
+e2k-linux			e2k-unknown-linux-gnu
 epiphany-elf			epiphany-unknown-elf
 epiphany			epiphany-unknown-none
 fido-elf			fido-unknown-elf

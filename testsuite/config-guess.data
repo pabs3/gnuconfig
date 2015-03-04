@@ -15,6 +15,7 @@ BePC	1.0	Haiku	ignored	ignored	i586-pc-haiku
 crayx1	2.5.20	UNICOS/mp	ignored	ignored	craynv-cray-unicosmp2.5.X
 cris	2.6.6	Linux	ignored	ignored	cris-axis-linux-gnu
 crisv32	2.6.6	Linux	ignored	ignored	crisv32-axis-linux-gnu
+e2k	2.6.32	Linux	ignored	ignored	e2k-unknown-linux-gnu
 EM64T	5.2	Interix	ignored	ignored	x86_64-unknown-interix5.2
 evbarm	7.0	NetBSD	ignored	arm	arm-unknown-netbsdelf7.0
 evbarm	7.0	NetBSD	ignored	armeb	armeb-unknown-netbsdelf7.0
