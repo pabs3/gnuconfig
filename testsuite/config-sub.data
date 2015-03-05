@@ -80,6 +80,7 @@ hexagon				hexagon-unknown-elf
 hexagon-linux			hexagon-unknown-linux-gnu
 i386-aros			i386-pc-aros
 i386-bitrig			i386-pc-bitrig
+i386-cloudabi			i386-pc-cloudabi
 i386-drops1.0			i386-pc-drops1.0
 i386-elf			i386-pc-elf
 i386-es				i386-pc-es
