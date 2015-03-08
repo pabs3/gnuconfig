@@ -1,3 +1,8 @@
+2015-03-08  Brion Vibber  <brion@pobox.com>
+
+	* config.sub (asmjs): Recognize.
+	* testsuite/config-sub.data: Add a test case.
+
 2015-03-06  Ed Schouten  <ed@80386.nl>
 	    Ben Elliston  <bje@gnu.org>
 

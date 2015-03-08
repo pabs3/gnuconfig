@@ -37,6 +37,7 @@ armv7-unknown-netbsdelf7.0-eabi	armv7-unknown-netbsdelf7.0-eabi
 armv7-unknown-netbsdelf7.0-eabihf	armv7-unknown-netbsdelf7.0-eabihf
 armv8b-linux-gnueabi		armv8b-unknown-linux-gnueabi
 aros				i386-pc-aros
+asmjs				asmjs-unknown-none
 avr32				avr32-unknown-none
 avr32-linux			avr32-unknown-linux-gnu
 be32-none			be32-unknown-none
