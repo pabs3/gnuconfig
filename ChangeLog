@@ -1,3 +1,9 @@
+2015-06-30  Alexandre Oliva  <aoliva@redhat.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (x86_64:Linux:*:*): Output 'pc', not 'unknown'.
+	* testsuite/config-guess.data: Update test case.
+
 2015-03-08  Brion Vibber  <brion@pobox.com>
 
 	* config.sub (asmjs): Recognize.
