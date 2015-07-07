@@ -1,3 +1,7 @@
+2015-07-07  Tobias Illenseer <tillense@astrophysik.uni-kiel.de>
+
+	* config.sub (sx?-*): Expand to sx*-* for new sxace CPU.
+
 2015-07-03  宋冬生  <songdongsheng@live.cn>
 
 	* config.guess (*:NetBSD:*:*): Use only the major release and
