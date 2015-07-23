@@ -40,6 +40,8 @@ aros				i386-pc-aros
 asmjs				asmjs-unknown-none
 avr32				avr32-unknown-none
 avr32-linux			avr32-unknown-linux-gnu
+ba-elf				ba-unknown-elf
+ba-linux			ba-unknown-linux-gnu
 be32-none			be32-unknown-none
 be64-none			be64-unknown-none
 bfin				bfin-unknown-none

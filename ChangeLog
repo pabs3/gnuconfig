@@ -1,3 +1,8 @@
+2015-07-24  Branko Drevenšek <brankod@beyondsemi.com>
+
+	* config.sub (ba): Recognise.
+	* testsuite/config-sub.data: Add new tests.
+
 2015-07-07  Tobias Illenseer <tillense@astrophysik.uni-kiel.de>
 
 	* config.sub (sx?-*): Expand to sx*-* for new sxace CPU.
