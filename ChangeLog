@@ -1,3 +1,9 @@
+2015-07-27  Albert Ou  <aou@eecs.berkeley.edu>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (riscv32-*, riscv64-*): Allow company name.
+	* testsuite/config-sub.data: Add test cases.
+
 2015-07-24  Branko Drevenšek <brankod@beyondsemi.com>
 
 	* config.sub (ba): Recognise.
