@@ -227,12 +227,12 @@ ppc				powerpc-unknown-none
 rdos32				i386-pc-rdos
 rdos64				x86_64-pc-rdos
 rdos				x86_64-pc-rdos
-riscv32-elf			riscv32-unknown-elf
 riscv32-company-elf		riscv32-company-elf
+riscv32-elf			riscv32-unknown-elf
 riscv32-linux			riscv32-unknown-linux-gnu
+riscv64-company-elf		riscv64-company-elf
 riscv64-elf			riscv64-unknown-elf
 riscv64-linux			riscv64-unknown-linux-gnu
-riscv64-company-elf		riscv64-company-elf
 rl78-linux			rl78-unknown-linux-gnu
 rl78				rl78-unknown-none
 rx-linux			rx-unknown-linux-gnu
@@ -246,9 +246,9 @@ sh1le-elf			sh1le-unknown-elf
 sh2aeb-elf			sh2aeb-unknown-elf
 sh2aeb				sh2aeb-unknown-none
 sh2a-elf			sh2a-unknown-elf
+sh2eb-elf			sh2eb-unknown-elf
 sh2e-elf			sh2e-unknown-elf
 sh2-elf				sh2-unknown-elf
-sh2eb-elf			sh2eb-unknown-elf
 sh2le-elf			sh2le-unknown-elf
 sh3eb-elf			sh3eb-unknown-elf
 sh3e-elf			sh3e-unknown-elf

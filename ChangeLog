@@ -1,3 +1,7 @@
+2015-08-18  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Sort.
+
 2015-08-18  Rich Felker  <dalias@libc.org>
 	    Ben Elliston  <bje@gnu.org>
 
