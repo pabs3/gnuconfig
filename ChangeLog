@@ -1,3 +1,9 @@
+2015-08-18  Rich Felker  <dalias@libc.org>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Recognise sh2eb.
+	* testsuite/config-sub.data: Add test case.
+
 2015-07-27  Albert Ou  <aou@eecs.berkeley.edu>
 	    Ben Elliston  <bje@gnu.org>
 

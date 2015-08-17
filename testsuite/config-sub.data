@@ -248,6 +248,7 @@ sh2aeb				sh2aeb-unknown-none
 sh2a-elf			sh2a-unknown-elf
 sh2e-elf			sh2e-unknown-elf
 sh2-elf				sh2-unknown-elf
+sh2eb-elf			sh2eb-unknown-elf
 sh2le-elf			sh2le-unknown-elf
 sh3eb-elf			sh3eb-unknown-elf
 sh3e-elf			sh3e-unknown-elf
