@@ -102,6 +102,7 @@ i386-pc-sco5v6			i386-pc-sco5v6
 i386-pc-sco6			i386-pc-sco5v6
 i386-plan9			i386-pc-plan9
 i386-solidbsd			i386-pc-solidbsd
+i386-sortix			i386-pc-sortix
 i486-elf			i486-pc-elf
 i586-auroraux5.0		i586-pc-auroraux5.0
 i586-auroraux			i586-pc-auroraux
@@ -321,6 +322,7 @@ visium-elf			visium-unknown-elf
 x86_64-cygwin			x86_64-pc-cygwin
 x86_64-dicos			x86_64-pc-dicos
 x86_64-ericsson-dicos		x86_64-ericsson-dicos
+x86_64-sortix			x86_64-pc-sortix
 xbox				i686-pc-mingw32
 xc16x-elf			xc16x-unknown-elf
 xc16x				xc16x-unknown-none

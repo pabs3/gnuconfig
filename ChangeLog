@@ -1,3 +1,8 @@
+2015-08-20  Jonas 'Sortie' Termansen  <sortie@maxsi.org>
+
+	* config.guess (*:Sortix:*:*): New.
+	* config.sub (-sortix*): New.
+
 2015-08-18  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Sort.

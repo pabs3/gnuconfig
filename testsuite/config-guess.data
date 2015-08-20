@@ -80,3 +80,5 @@ x86_64	2.0.0(0.271/5/3)	MSYS_NT-6.1	ignored	ignored	x86_64-pc-msys
 x86_64	2.6.32	Linux	ignored	ignored	x86_64-pc-linux-gnu
 x86_64	2.6.32	VMkernel	ignored	ignored	x86_64-unknown-esx
 xtensa	2.6.15	Linux	ignored	ignored	xtensa-unknown-linux-gnu
+i386	1.0	Sortix	ignored	ignored i386-unknown-sortix
+x86_64	1.0	Sortix	ignored	ignored x86_64-unknown-sortix
