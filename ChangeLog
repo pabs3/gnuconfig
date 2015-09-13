@@ -1,3 +1,9 @@
+2015-09-14  Ben Elliston  <bje@gnu.org>
+
+	Reported by Jan Stypka <jasieek@student.agh.edu.pl>.
+	* config.guess (k1om:Linux:*:*): New.
+	* testsuite/config-guess.data: Add a test case.
+
 2015-08-20  Jonas 'Sortie' Termansen  <sortie@maxsi.org>
 
 	* config.guess (*:Sortix:*:*): New.
