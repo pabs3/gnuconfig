@@ -1,3 +1,7 @@
+2015-10-21  Pavel Janík  <pavel@janik.cz>
+
+	* config.guess (pc:*:*:*): Comment tweak.
+
 2015-09-14  Ben Elliston  <bje@gnu.org>
 
 	Reported by Jan Stypka <jasieek@student.agh.edu.pl>.
@@ -411,7 +415,7 @@
 
 2012-02-14  Marcus Shawcroft  <marcus.shawcroft@arm.com>
 
-	* config.guess  (aarch64:Linux:*:*, aarch64_be:Linux:*:*): New.
+	* config.guess (aarch64:Linux:*:*, aarch64_be:Linux:*:*): New.
 	* config.sub (aarch64-*, aarch64_be-*): New.
 	* testsuite/config-sub.data: Add aarch64-elf, aarch64-linux
 	aarch64-unknown-elf, aarch64-unknown-linux, aarch64_be-elf,
