@@ -1,3 +1,11 @@
+2015-11-19  Ben Elliston  <bje@gnu.org>
+
+	Reported by Owen Urkov <owen@asperasoft.com>.
+	* config.guess (amd64:Isilon OneFS:*:*): New.
+	* config.sub (-onefs*): New.
+	* testsuite/config-guess.data: Add a test case.
+	* testsuite/config-sub.data: Likewise.
+
 2015-10-21  Pavel Janík  <pavel@janik.cz>
 
 	* config.guess (pc:*:*:*): Comment tweak.

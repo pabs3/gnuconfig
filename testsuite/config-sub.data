@@ -8,6 +8,7 @@ aarch64-unknown-elf		aarch64-unknown-elf
 aarch64-unknown-linux		aarch64-unknown-linux-gnu
 amd64-cygwin			x86_64-pc-cygwin
 amd64-kfreebsd5.4-gnu		x86_64-pc-kfreebsd5.4-gnu
+amd64-onefs			x86_64-pc-onefs
 amd64-unknown-freebsd5.2	x86_64-unknown-freebsd5.2
 arceb-linux			arceb-unknown-linux-gnu
 arc-linux			arc-unknown-linux-gnu

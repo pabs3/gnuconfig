@@ -9,6 +9,7 @@ amd64   6.1.5_PATCH NetBSD  ignored x86_64  x86_64-unknown-netbsd6.1
 amd64   7.0_BETA NetBSD ignored x86_64  x86_64-unknown-netbsd7.0
 amd64   7.0 NetBSD	ignored x86_64  x86_64-unknown-netbsd7.0
 amd64   7.0_RC1 NetBSD  ignored x86_64  x86_64-unknown-netbsd7.0
+amd64	7.2.1	Isilon\ OneFS	ignored	ignored	x86_64-unknown-onefs
 arceb	ignored	Linux	ignored	ignored	arceb-unknown-linux-gnu
 arc	ignored	Linux	ignored	ignored	arc-unknown-linux-gnu
 arm	ignored	riscos	ignored	ignored	arm-unknown-riscos
