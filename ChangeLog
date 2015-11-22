@@ -1,5 +1,14 @@
 2015-11-22  Ben Elliston  <bje@gnu.org>
 
+	* Makefile (manpages): New target.
+	(doc/config.guess.1): Build man page with help2man.
+	(doc/config.sub.1): Likewise.
+	* doc/config.guess.x: Copied from Autoconf tree.
+	* doc/config.guess.1: Generate.
+	* doc/config.sub.1: Likewise.
+
+2015-11-22  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (usage): Put usage on one line.
 
 2015-11-19  Ben Elliston  <bje@gnu.org>
