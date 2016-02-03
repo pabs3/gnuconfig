@@ -95,6 +95,7 @@ i386-linux-musl			i386-pc-linux-musl
 i386-linux-newlib		i386-pc-linux-newlib
 i386-mingw32			i386-pc-mingw32
 i386-msys			i386-pc-msys
+i386-libertybsd			i386-pc-libertybsd
 i386-netbsd			i386-pc-netbsd
 i386-openbsd			i386-pc-openbsd
 i386-os2			i386-pc-os2
