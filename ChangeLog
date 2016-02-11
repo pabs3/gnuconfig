@@ -1,3 +1,7 @@
+2016-02-11  Urs Janßen  <urs@tin.org>
+
+	* config.guess (*:LibertyBSD:*:*): Fix sed expression.
+
 2016-02-03  Riley Baird  <riley@openmailbox.org>
 
 	* config.guess (*:LibertyBSD:*:*): New.
