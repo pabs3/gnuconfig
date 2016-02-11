@@ -1,3 +1,8 @@
+2016-02-11  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Simplify shell code by removing quotes around
+	fixed strings that contain no expansions.
+
 2016-02-11  Urs Janßen  <urs@tin.org>
 
 	* config.guess (*:LibertyBSD:*:*): Fix sed expression.
