@@ -69,6 +69,7 @@ s390x	5.6	SunOS	ignored	ignored	s390x-ibm-solaris2.6
 SX-7	1.0	SUPER-UX	ignored	ignored	sx7-nec-superux1.0
 SX-8	1.0	SUPER-UX	ignored	ignored	sx8-nec-superux1.0
 SX-8R	1.0	SUPER-UX	ignored	ignored	sx8r-nec-superux1.0
+SX-ACE	1.0	SUPER-UX	ignored	ignored	sxace-nec-superux1.0
 tile	2.6.36	Linux	ignored	ignored	tile-unknown-linux-gnu
 tilegx	2.6.36	Linux	ignored	ignored	tilegx-unknown-linux-gnu
 vax	2.6.15	Linux	ignored	ignored	vax-dec-linux-gnu
