@@ -1,3 +1,9 @@
+2016-03-30  Mike Hommey  <mh+mozilla@glandium.org>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub (-ios): New.
+	* testsuite/config-sub.data: Add a test case (and sort).
+
 2016-03-24  Luis Kornblueh  <luis.kornblueh@mpimet.mpg.de>
 
 	* config.guess (SX-ACE:SUPER-UX:*:*): New.
