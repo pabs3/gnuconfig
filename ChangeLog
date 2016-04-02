@@ -1,3 +1,8 @@
+2016-04-02  Ben Elliston  <bje@gnu.org>
+
+	Silence warning SC1007 from shellcheck.
+	* config.guess: Explicitly set CCOPTS to "" not the empty string.
+
 2016-03-30  Mike Hommey  <mh+mozilla@glandium.org>
 	    Ben Elliston  <bje@gnu.org>
 
