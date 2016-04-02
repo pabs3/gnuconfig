@@ -1,5 +1,13 @@
 2016-04-02  Ben Elliston  <bje@gnu.org>
 
+	Silence warning SC2021 from shellcheck.
+	* config.guess (*:GNU/*:*:*): Use [:upper:] and [:lower:] classes
+	instead of [A-Z] and [a-z]. Putting [] around character ranges in
+	tr is a mistake anyway, as it includes square brackets in the
+	translation.
+
+2016-04-02  Ben Elliston  <bje@gnu.org>
+
 	Silence warning SC2116 from shellcheck.
 	* config.guess (i*86:skyos:*:*): Fix misplaced backquote.
 
