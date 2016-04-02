@@ -1,5 +1,10 @@
 2016-04-02  Ben Elliston  <bje@gnu.org>
 
+	Silence warning SC2116 from shellcheck.
+	* config.guess (i*86:skyos:*:*): Fix misplaced backquote.
+
+2016-04-02  Ben Elliston  <bje@gnu.org>
+
 	Silence warning SC1007 from shellcheck.
 	* config.guess: Explicitly set CCOPTS to "" not the empty string.
 
