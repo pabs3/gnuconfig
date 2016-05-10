@@ -103,6 +103,7 @@ i386-os2			i386-pc-os2
 i386-pc-nacl			i386-pc-nacl
 i386-pc-sco5v6			i386-pc-sco5v6
 i386-pc-sco6			i386-pc-sco5v6
+i386-phoenix			i386-pc-phoenix
 i386-plan9			i386-pc-plan9
 i386-solidbsd			i386-pc-solidbsd
 i386-sortix			i386-pc-sortix

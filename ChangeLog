@@ -1,3 +1,8 @@
+2016-05-10  Jakub Sejdak  <jakub.sejdak@phoesys.com>
+
+	* config.sub (-phoenix*): New.
+	* testsuite/config-sub.data: Add a test case.
+
 2016-04-02  Ben Elliston  <bje@gnu.org>
 
 	Silence warning SC2021 from shellcheck.
