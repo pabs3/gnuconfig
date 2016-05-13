@@ -1,3 +1,7 @@
+2016-05-13  Nick Hudson  <skrll@netbsd.org>
+
+	* config.guess (*:NetBSD:*:*): Always use "netbsdelf" for earm.
+
 2016-05-10  Jakub Sejdak  <jakub.sejdak@phoesys.com>
 
 	* config.sub (-phoenix*): New.
