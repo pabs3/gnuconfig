@@ -75,6 +75,11 @@ crisv32-linux			crisv32-axis-linux-gnu
 dicos				i686-pc-dicos
 djgpp				i586-pc-msdosdjgpp
 e2k-linux			e2k-unknown-linux-gnu
+e500v1-elf			powerpc-unknown-elfspe
+e500v2-elf			powerpc-unknown-elfspe
+e500v2-wrs-vxworks		powerpc-wrs-vxworksspe
+e500v2-vxworksae		powerpc-wrs-vxworksaespe
+e500v2-wrs-linux		powerpc-wrs-linux-gnuspe
 epiphany-elf			epiphany-unknown-elf
 epiphany			epiphany-unknown-none
 fido-elf			fido-unknown-elf

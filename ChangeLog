@@ -1,3 +1,11 @@
+2016-06-14  Jerome Lambourg  <lambourg@adacore.com>
+
+	* config.sub (e500v[12], e500v[12]-*): Decode basic machine as a
+	powerpc alias, and add an "spe" suffix to the OS for e500v1|2 ABI
+	selection.
+	* testsuite/config-sub.data: Add tests for e500v[12]-elf,
+	e500v2-wrs-vxworks, e500v2-vxworksae and e500v2-wrs-linux.
+
 2016-05-15  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Improve help when a system is not recognised.
