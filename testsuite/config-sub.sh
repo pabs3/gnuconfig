@@ -25,7 +25,8 @@ run_config_sub ()
 }
 
 if run_config_sub ; then
-    $verbose || echo "PASS: config.sub checks"
+    numtests=$(wc -l config-sub.data | cut -d' ' -f1)
+    $verbose || echo "PASS: config.sub checks ($numtests tests)"
 else
     exit 1
 fi

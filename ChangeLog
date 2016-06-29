@@ -1,3 +1,8 @@
+2016-06-29  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.sh: Include number of tests in output.
+	* testsuite/config-sub.sh: Likewise.
+
 2016-06-20  Ørjan Malde  <foxyred333@gmail.com>
 
 	* config.sub (-midipix*): New.

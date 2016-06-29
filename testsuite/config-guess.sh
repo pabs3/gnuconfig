@@ -46,7 +46,8 @@ EOF
 }
 
 if run_config_guess < config-guess.data ; then
-  $verbose || echo "PASS: config.guess checks"
+  numtests=$(wc -l config-guess.data | cut -d' ' -f1)
+  $verbose || echo "PASS: config.guess checks ($numtests tests)"
 else
   echo "Unexpected failures."
   exit 1
