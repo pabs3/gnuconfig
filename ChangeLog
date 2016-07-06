@@ -1,3 +1,7 @@
+2016-07-07  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.data: Add ppc64le test case.
+
 2016-07-03  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Add test cases for all single word
