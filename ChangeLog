@@ -1,3 +1,7 @@
+2016-08-28  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Add more retrospective test cases.
+
 2016-08-25  Alan Modra  <amodra@gmail.com>
 
 	* config.sub: Don't match -le and -little for ppc.
