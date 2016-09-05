@@ -59,6 +59,7 @@ armv3l				armv3l-unknown-none
 armv6eb-unknown-netbsdelf7.0	armv6eb-unknown-netbsdelf7.0
 armv6eb-unknown-netbsdelf7.0-eabi	armv6eb-unknown-netbsdelf7.0-eabi
 armv6eb-unknown-netbsdelf7.0-eabihf	armv6eb-unknown-netbsdelf7.0-eabihf
+armv6-cloudabi-eabihf		armv6-unknown-cloudabi-eabihf
 armv6-linux-gnu			armv6-unknown-linux-gnu
 armv6-unknown-netbsdelf7.0	armv6-unknown-netbsdelf7.0
 armv6-unknown-netbsdelf7.0-eabi	armv6-unknown-netbsdelf7.0-eabi
