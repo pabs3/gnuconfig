@@ -66,6 +66,8 @@ PowerPC	4.2	LynxOS	ignored	ignored	powerpc-unknown-lynxos4.2
 ppc	2.6.9-22	Linux	ignored	ignored	powerpc-unknown-linux-gnu
 ppc64	2.6.9-22	Linux	ignored	ignored	powerpc64-unknown-linux-gnu
 ppc64le	3.1.0	Linux	ignored	ignored	powerpc64le-unknown-linux-gnu
+riscv32	ignored	Linux	ignored	ignored	riscv32-unknown-linux-gnu
+riscv64	ignored	Linux	ignored	ignored	riscv64-unknown-linux-gnu
 s390x	5.6	SunOS	ignored	ignored	s390x-ibm-solaris2.6
 SX-7	1.0	SUPER-UX	ignored	ignored	sx7-nec-superux1.0
 SX-8	1.0	SUPER-UX	ignored	ignored	sx8-nec-superux1.0
