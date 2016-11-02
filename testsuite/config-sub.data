@@ -507,6 +507,7 @@ we32k				we32k-unknown-none
 x86_64-cygwin			x86_64-pc-cygwin
 x86_64-dicos			x86_64-pc-dicos
 x86_64-ericsson-dicos		x86_64-ericsson-dicos
+x86_64-fuchsia			x86_64-pc-fuchsia
 x86_64-sortix			x86_64-pc-sortix
 x86				x86-unknown-none
 xbox				i686-pc-mingw32
