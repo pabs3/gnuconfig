@@ -4,8 +4,8 @@
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads pairs from config-sub.data: an alias and its
-# canonical triplet.  The config.sub scripts is invoked and the test
-# checks that the alias expands to the expected canonical triplet.
+# canonical triplet.  config.sub is invoked and the test checks that
+# the alias expands to the expected canonical triplet.
 
 verbose=false
 
