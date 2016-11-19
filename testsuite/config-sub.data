@@ -153,6 +153,7 @@ i386-drops1.0			i386-pc-drops1.0
 i386-elf			i386-pc-elf
 i386-es				i386-pc-es
 i386-freebsd			i386-pc-freebsd
+i386-glidix			i386-pc-glidix
 i386-haiku			i386-pc-haiku
 i386-isc			i386-pc-isc2.2
 i386-libertybsd			i386-pc-libertybsd
@@ -510,6 +511,7 @@ x86_64-cygwin			x86_64-pc-cygwin
 x86_64-dicos			x86_64-pc-dicos
 x86_64-ericsson-dicos		x86_64-ericsson-dicos
 x86_64-fuchsia			x86_64-pc-fuchsia
+x86_64-glidix			x86_64-pc-glidix
 x86_64-sortix			x86_64-pc-sortix
 x86				x86-unknown-none
 xbox				i686-pc-mingw32
