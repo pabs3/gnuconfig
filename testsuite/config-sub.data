@@ -365,7 +365,7 @@ ppcle-none-elf			powerpcle-none-elf
 ppcle				powerpcle-unknown-none
 ppc-none-elf			powerpc-none-elf
 ppc				powerpc-unknown-none
-pru				pru-unknown-none
+pru				pru-unknown-elf
 pru-elf				pru-unknown-elf
 pyramid				pyramid-unknown-none
 rdos32				i386-pc-rdos

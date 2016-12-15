@@ -1,3 +1,8 @@
+2016-12-16  Dimitar Dimitrov  <dimitar@dinux.eu>
+
+	* config.sub (pru, pru-*): Force ELF format.
+	* testsuite/config-sub.data: Update PRU test case.
+
 2016-11-19  Ben Elliston  <bje@gnu.org>
 
 	* config.sub (glidix-*): Recognise.
