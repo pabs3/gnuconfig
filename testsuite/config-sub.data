@@ -512,6 +512,7 @@ x86_64-dicos			x86_64-pc-dicos
 x86_64-ericsson-dicos		x86_64-ericsson-dicos
 x86_64-fuchsia			x86_64-pc-fuchsia
 x86_64-glidix			x86_64-pc-glidix
+x86_64-redox			x86_64-pc-redox
 x86_64-sortix			x86_64-pc-sortix
 x86				x86-unknown-none
 xbox				i686-pc-mingw32

@@ -1,3 +1,8 @@
+2016-12-24  Jeremy Soller  <jackpot51@gmail.com>
+
+       * config.sub (-redox*): New.
+       * testsuite/config-sub.data: Add a test case.
+
 2016-12-16  Dimitar Dimitrov  <dimitar@dinux.eu>
 
 	* config.sub (pru, pru-*): Force ELF format.
