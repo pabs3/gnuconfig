@@ -1,5 +1,10 @@
 2016-12-28  Ben Elliston  <bje@gnu.org>
 
+	* doc/config.guess.1: Regenerate.
+	* doc/config.sub.1: Likewise.
+
+2016-12-28  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-guess.data: Align columns.
 
 2016-12-27  Ben Elliston  <bje@gnu.org>
