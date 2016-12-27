@@ -1,5 +1,9 @@
 2016-12-27  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-sub.data: Align columns.
+
+2016-12-27  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-guess.data: Sort.
 	* testsuite/config-sub.data: Likewise.
 
