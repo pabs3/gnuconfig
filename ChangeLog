@@ -1,5 +1,10 @@
 2016-12-28  Ben Elliston  <bje@gnu.org>
 
+	* Makefile (doc/config.guess.1): Depend on config.guess.
+	(doc/config.sub.1): Depend on config.sub.
+
+2016-12-28  Ben Elliston  <bje@gnu.org>
+
 	* doc/config.guess.1: Regenerate.
 	* doc/config.sub.1: Likewise.
 
