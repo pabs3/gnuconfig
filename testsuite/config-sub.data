@@ -16,8 +16,6 @@ aarch64-unknown-linux		aarch64-unknown-linux-gnu
 abacus				abacus-unknown-none
 adobe68k			m68010-adobe-scout
 alliant				fx80-alliant-none
-altos				m68k-altos-sysv
-altos3068			m68k-altos-sysv
 alpha64				alpha64-unknown-none
 alpha64ev4			alpha64ev4-unknown-none
 alpha64ev56			alpha64ev56-unknown-none
@@ -28,12 +26,14 @@ alphaev4			alphaev4-unknown-none
 alphaev56			alphaev56-unknown-none
 alphaev67			alphaev67-unknown-none
 alphapca56			alphapca56-unknown-none
+altos3068			m68k-altos-sysv
+altos				m68k-altos-sysv
 am33_2.0			am33_2.0-unknown-none
-amd64				x86_64-pc-none
 amd64-cygwin			x86_64-pc-cygwin
 amd64-kfreebsd5.4-gnu		x86_64-pc-kfreebsd5.4-gnu
 amd64-onefs			x86_64-pc-onefs
 amd64-unknown-freebsd5.2	x86_64-unknown-freebsd5.2
+amd64				x86_64-pc-none
 amdahl				580-amdahl-sysv
 amiga				m68k-unknown-none
 arc				arc-unknown-none
@@ -56,10 +56,10 @@ arm-unknown-netbsdelf7.0	arm-unknown-netbsdelf7.0
 arm-unknown-riscos		arm-unknown-riscos
 armv2				armv2-unknown-none
 armv3l				armv3l-unknown-none
+armv6-cloudabi-eabihf		armv6-unknown-cloudabi-eabihf
 armv6eb-unknown-netbsdelf7.0	armv6eb-unknown-netbsdelf7.0
 armv6eb-unknown-netbsdelf7.0-eabi	armv6eb-unknown-netbsdelf7.0-eabi
 armv6eb-unknown-netbsdelf7.0-eabihf	armv6eb-unknown-netbsdelf7.0-eabihf
-armv6-cloudabi-eabihf		armv6-unknown-cloudabi-eabihf
 armv6-linux-gnu			armv6-unknown-linux-gnu
 armv6-unknown-netbsdelf7.0	armv6-unknown-netbsdelf7.0
 armv6-unknown-netbsdelf7.0-eabi	armv6-unknown-netbsdelf7.0-eabi
@@ -365,8 +365,8 @@ ppcle-none-elf			powerpcle-none-elf
 ppcle				powerpcle-unknown-none
 ppc-none-elf			powerpc-none-elf
 ppc				powerpc-unknown-none
-pru				pru-unknown-elf
 pru-elf				pru-unknown-elf
+pru				pru-unknown-elf
 pyramid				pyramid-unknown-none
 rdos32				i386-pc-rdos
 rdos64				x86_64-pc-rdos
@@ -454,8 +454,8 @@ spu				spu-unknown-elf
 st2000				m68k-tandem-none
 strongarm			arm-unknown-none
 strongarm-none-elf		arm-none-elf
-sun3				m68k-sun-sunos4.1.1
 sun386				i386-sun-sunos4.0.2
+sun3				m68k-sun-sunos4.1.1
 sun4				sparc-sun-sunos4.1.1
 sv1				sv1-cray-unicos
 symmetry			i386-sequent-bsd
