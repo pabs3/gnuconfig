@@ -1,3 +1,10 @@
+2017-01-01  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Update copyright years.
+	* config.sub: Likewise.
+	* doc/config.guess.1: Regenerate.
+	* doc/config.sub.1: Likewise.
+
 2016-12-28  Ben Elliston  <bje@gnu.org>
 
 	* Makefile (doc/config.guess.1): Depend on config.guess.
