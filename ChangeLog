@@ -1,3 +1,11 @@
+2017-02-07  Ben Elliston  <bje@gnu.org>
+
+	Reported by Hugues Lefebvre <hugues.lefebvre@lusis.fr>.
+	* config.guess (NSX-?:NONSTOP_KERNEL:*:*): New.
+	* config.sub (nsx-tandem): New.
+	* testsuite/config-guess.data: Add a test case.
+	* testsuite/config-sub.data: Likewise.
+
 2017-01-01  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update copyright years.

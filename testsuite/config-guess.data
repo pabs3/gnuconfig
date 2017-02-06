@@ -58,6 +58,7 @@ NEO-1		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 neo-tandem-nsk1.0
 NSE-1		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nse-tandem-nsk1.0
 NSE-N		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nse-tandem-nsk1.0
 NSE-NN		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nse-tandem-nsk1.0
+NSX-H		 L16			 NONSTOP_KERNEL		 05		 ignored	 nsx-tandem-nskL16
 openrisc	 ignored		 Linux			 ignored	 ignored	 or1k-unknown-linux-gnu
 or1k		 ignored		 Linux			 ignored	 ignored	 or1k-unknown-linux-gnu
 or1knd		 ignored		 Linux			 ignored	 ignored	 or1knd-unknown-linux-gnu
