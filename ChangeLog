@@ -1,3 +1,8 @@
+2017-03-05  Gerald Pfeifer  <gerald@pfeifer.com>
+
+	* config.guess (*:FreeBSD:*:*): Refactor CPU handling.
+	Canonicalize i386-*-freebsd* to i586-*-freebsd*.
+
 2017-02-07  Ben Elliston  <bje@gnu.org>
 
 	Reported by Hugues Lefebvre <hugues.lefebvre@lusis.fr>.
