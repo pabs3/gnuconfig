@@ -507,6 +507,7 @@ v850e						v850e-unknown-none
 v850						v850-unknown-none
 visium-elf					visium-unknown-elf
 visium						visium-unknown-none
+wasm32						wasm32-unknown-none
 we32k						we32k-unknown-none
 x86_64-cygwin					x86_64-pc-cygwin
 x86_64-dicos					x86_64-pc-dicos

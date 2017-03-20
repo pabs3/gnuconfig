@@ -1,3 +1,8 @@
+2017-03-21  Pip Cet  <pipcet@gmail.com>
+
+	* config.sub: Recognise wasm32.
+	* testsuite/config-sub.data: Add a test case.
+
 2017-03-05  Gerald Pfeifer  <gerald@pfeifer.com>
 
 	* config.guess (*:FreeBSD:*:*): Refactor CPU handling.
