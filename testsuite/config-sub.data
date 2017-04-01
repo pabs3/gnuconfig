@@ -191,6 +191,7 @@ i686-kopensolaris5.11-gnu			i686-pc-kopensolaris5.11-gnu
 i786-elf					i786-pc-elf
 i860						i860-unknown-sysv
 i960						i960-unknown-none
+ia16						ia16-unknown-none
 ia64						ia64-unknown-none
 ibm						i370-ibm-aix
 ip2k						ip2k-unknown-none

@@ -1,3 +1,8 @@
+2017-04-02  Andrew Jenner  <andrew@codesourcery.com>
+	    Rask Ingemann Lambertsen  <rask@sygehus.dk>
+
+	* config.sub: Add support for 16-bit Intel x86.
+
 2017-03-21  Pip Cet  <pipcet@gmail.com>
 
 	* config.sub: Recognise wasm32.
