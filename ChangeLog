@@ -1,3 +1,10 @@
+2017-05-11  Ben Elliston  <bje@gnu.org>
+
+	Reported by Hugues Lefebvre <hugues.lefebvre@lusis.fr>.
+	* config.guess (NSX-*:NONSTOP_KERNEL:*:*): Some L-SERIES systems
+	now have more than one letter in the suffix, so match with *.
+	* testsuite/config-guess.data: Add a test case.
+
 2017-04-02  Andrew Jenner  <andrew@codesourcery.com>
 	    Rask Ingemann Lambertsen  <rask@sygehus.dk>
 
