@@ -55,9 +55,12 @@ k1om		 2.6.38			 Linux			 ignored	 ignored	 k1om-unknown-linux-gnu
 macppc		 1.0			 MirBSD			 ignored	 ignored	 powerpc-unknown-mirbsd1.0
 mips64el	 2.6.2			 Linux			 ignored	 ignored	 mips64el-unknown-linux-gnu
 NEO-1		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 neo-tandem-nsk1.0
+NEO-12		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 neo-tandem-nsk1.0
 NSE-1		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nse-tandem-nsk1.0
+NSE-12		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nse-tandem-nsk1.0
 NSE-N		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nse-tandem-nsk1.0
 NSE-NN		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nse-tandem-nsk1.0
+NSR-12		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 nsr-tandem-nsk1.0
 NSX-H		 L16			 NONSTOP_KERNEL		 05		 ignored	 nsx-tandem-nskL16
 NSX-HA		 L16			 NONSTOP_KERNEL		 05		 ignored	 nsx-tandem-nskL16
 openrisc	 ignored		 Linux			 ignored	 ignored	 or1k-unknown-linux-gnu

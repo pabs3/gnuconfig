@@ -1,5 +1,11 @@
 2017-05-11  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (NSR-*:NONSTOP_KERNEL:*:*): Match suffix with *.
+	(NEO-*:NONSTOP_KERNEL:*:*): Likewise.
+	* testsuite/config-guess.data: Add test cases.
+
+2017-05-11  Ben Elliston  <bje@gnu.org>
+
 	Reported by Hugues Lefebvre <hugues.lefebvre@lusis.fr>.
 	* config.guess (NSX-*:NONSTOP_KERNEL:*:*): Some L-SERIES systems
 	now have more than one letter in the suffix, so match with *.
