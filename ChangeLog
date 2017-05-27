@@ -1,3 +1,8 @@
+2017-05-27  Mojca Miklavec  <mojca.miklavec.lists@gmail.com>
+
+	* config.guess (*:Darwin:*:*): Set UNAME_PROCESSOR to powerpc when
+	__POWERPC__ is defined (e.g. when building with gcc -arch ppc).
+
 2017-05-11  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (NSR-*:NONSTOP_KERNEL:*:*): Match suffix with *.
