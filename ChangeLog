@@ -1,3 +1,7 @@
+2017-07-19  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Improve "outdated script" message.
+
 2017-05-27  Mojca Miklavec  <mojca.miklavec.lists@gmail.com>
 
 	* config.guess (*:Darwin:*:*): Set UNAME_PROCESSOR to powerpc when
