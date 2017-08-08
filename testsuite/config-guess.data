@@ -88,6 +88,7 @@ x86		 6.0			 Interix		 ignored	 ignored	 i586-pc-interix6.0
 x86_64		 1.0			 Haiku			 ignored	 ignored	 x86_64-unknown-haiku
 x86_64		 1.0			 MINGW64		 ignored	 ignored	 x86_64-pc-mingw64
 x86_64		 1.0			 MINGW			 ignored	 ignored	 x86_64-pc-mingw32
+x86_64		 1.0			 Redox			 ignored	 ignored	 x86_64-unknown-redox
 x86_64		 1.0			 Sortix			 ignored	 ignored	 x86_64-unknown-sortix
 x86_64		 1.5.18(0.132/4/2)	 CYGWIN_NT-5.2		 ignored	 ignored	 x86_64-unknown-cygwin
 x86_64		 2.0.0(0.271/5/3)	 MSYS_NT-6.1		 ignored	 ignored	 x86_64-pc-msys
