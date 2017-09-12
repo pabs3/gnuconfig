@@ -1,3 +1,16 @@
+2017-09-12  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (maybe_os): Remove -windowsnt*.
+	* config.guess (Alpha\ *:Windows_NT*:*): Remove obsolete case.
+	(21064:Windows_NT:50:3): Likewise.
+	(i*:windows32*:*): Likewise.
+	([345]86:Windows_95:*, [345]86:Windows_98:*): Likewise.
+	([345]86:Windows_NT:*): Likewise.
+	(8664:Windows_NT:*): Likewise.
+	(i*:Windows_NT*:* | Pentium*:Windows_NT*:*): Likewise.
+	(p*:CYGWIN*:*): Likewise.
+	* testsuite/config-guess.data: Remove relevant test cases.
+
 2017-09-10  Ben Elliston  <bje@gnu.org>
 
 	* config.sub: Improve comments.

@@ -2,7 +2,7 @@
 # Configuration validation subroutine script.
 #   Copyright 1992-2017 Free Software Foundation, Inc.
 
-timestamp='2017-09-10'
+timestamp='2017-09-12'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -228,9 +228,6 @@ case $os in
 		;;
 	-ptx*)
 		basic_machine=`echo $1 | sed -e 's/86-.*/86-sequent/'`
-		;;
-	-windowsnt*)
-		os=`echo $os | sed -e 's/windowsnt/winnt/'`
 		;;
 	-psos*)
 		os=-psos

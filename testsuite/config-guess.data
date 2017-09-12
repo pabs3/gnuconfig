@@ -1,6 +1,5 @@
 2064		 ignored		 z/VM			 ignored	 ignored	 s390-ibm-zvmoe
 3		 2.3.3			 XENIX			 SysV		 ignored	 i386-pc-xenix
-8664		 1.0			 Windows_NT		 ignored	 ignored	 x86_64-pc-mks
 aarch64_be	 ignored		 Linux			 ignored	 ignored	 aarch64_be-unknown-linux-gnu
 aarch64		 ignored		 Linux			 ignored	 ignored	 aarch64-unknown-linux-gnu
 amd64		 1.5.12(0.116/4/2)	 CYGWIN_NT-5.2		 ignored	 ignored	 x86_64-unknown-cygwin
@@ -47,7 +46,6 @@ i586		 ignored		 rdos			 ignored	 ignored	 i586-pc-rdos
 i686		 1.0.17(0.48/3/2)	 MSYS_NT-6.0		 ignored	 ignored	 i686-pc-msys
 i686		 5.11-686		 GNU/kOpenSolaris	 ignored	 ignored	 i686-unknown-kopensolaris5.11-gnu
 i686		 5.4-1-686		 GNU/kFreeBSD		 ignored	 ignored	 i686-unknown-kfreebsd5.4-gnu
-i786-pc		 ignored		 windows32		 ignored	 ignored	 i786-pc-mingw32
 i86pc		 5.0			 AuroraUX		 ignored	 ignored	 i386-pc-auroraux5.0
 i86xen		 5.0			 AuroraUX		 ignored	 ignored	 i386-pc-auroraux5.0
 IA64		 6.0			 Interix		 ignored	 ignored	 ia64-unknown-interix6.0
