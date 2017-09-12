@@ -2,7 +2,7 @@
 # Configuration validation subroutine script.
 #   Copyright 1992-2017 Free Software Foundation, Inc.
 
-timestamp='2017-09-12'
+timestamp='2017-09-13'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -1365,7 +1365,7 @@ then
 case $os in
 	# First match some system type aliases that might get confused
 	# with valid system types.
-    	# -solaris* is a basic system type, with this one exception.
+	# -solaris* is a basic system type, with this one exception.
 	-auroraux)
 		os=-auroraux
 		;;
