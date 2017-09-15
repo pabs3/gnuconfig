@@ -172,6 +172,7 @@ i386-pc-sco5					i386-pc-sco3.2v5
 i386-pc-sco5v6					i386-pc-sco5v6
 i386-pc-sco6					i386-pc-sco5v6
 i386-pc-sco					i386-pc-sco3.2v2
+i386-windows					i386-pc-windows
 i386-phoenix					i386-pc-phoenix
 i386-plan9					i386-pc-plan9
 i386-solidbsd					i386-pc-solidbsd
@@ -518,6 +519,7 @@ x86_64-fuchsia					x86_64-pc-fuchsia
 x86_64-glidix					x86_64-pc-glidix
 x86_64-redox					x86_64-pc-redox
 x86_64-sortix					x86_64-pc-sortix
+x86_64-windows					x86_64-pc-windows
 x86						x86-unknown-none
 xbox						i686-pc-mingw32
 xc16x-elf					xc16x-unknown-elf
