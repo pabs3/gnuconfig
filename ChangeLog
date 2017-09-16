@@ -1,3 +1,12 @@
+2017-09-16  Paul Eggert  <eggert@cs.ucla.edu>
+
+	Prefer https: to http: for gnu.org
+	In Gnulib, Emacs, etc. we are changing ftp: and http: URLs to
+	use https:, to help defend against man-in-the-middle attacks.
+	Propagate these changes upstream to the config scripts.
+	* config.guess, config.sub: Use https: URLs in diagnostics
+	and in comments.
+
 2017-09-15  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data (i386-windows): New test case.
@@ -578,7 +587,7 @@
 
 	* config.guess: Contract the list of copyright years into the
 	range 1992-2013. Remove "(C)" character sequence from copyright
-	statements. Per http://www.gnu.org/licenses/gpl-howto.html.
+	statements. Per https://www.gnu.org/licenses/gpl-howto.html.
 	* config.sub: Likewise.
 
 2013-01-23  Sandra Loosemore  <sandra@codesourcery.com>
@@ -1838,7 +1847,7 @@
 	sysctl ((int[]) {CTL_HW, HW_MACHINE_ARCH}, 2, buffer, &bufsize, 0, 0)
 	to return a negative number.
 	Problem reported by Petter Reinholdtsen in:
-	http://lists.gnu.org/archive/html/bug-gnu-utils/2003-02/msg00201.html
+	https://lists.gnu.org/archive/html/bug-gnu-utils/2003-02/msg00201.html
 
 2004-07-19  Ben Elliston  <bje@gnu.org>
 
