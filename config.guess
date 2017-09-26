@@ -1400,8 +1400,20 @@ EOF
 	exit ;;
 esac
 
+echo "$0: unable to guess system type" >&2
+
+case "${UNAME_MACHINE}:${UNAME_SYSTEM}" in
+    mips:Linux | mips64:Linux)
+	# If we got here on MIPS GNU/Linux, output extra information.
+	cat >&2 <<EOF
+
+NOTE: MIPS GNU/Linux systems require a C compiler to fully recognize
+the system type. Please install a C compiler and try again.
+EOF
+	;;
+esac
+
 cat >&2 <<EOF
-$0: unable to guess system type
 
 This script (version $timestamp), has failed to recognize the
 operating system you are using. If your script is old, overwrite *all*

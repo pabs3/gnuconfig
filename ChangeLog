@@ -1,5 +1,10 @@
 2017-09-26  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Output a note that a C compiler may be needed when
+	guessing fails on MIPS GNU/Linux systems.
+
+2017-09-26  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (Local variables): Use 'write-file-functions
 	instead of the deprecated 'write-file-hook (as of Emacs 22.1).
 	* config.sub: Likewise.
