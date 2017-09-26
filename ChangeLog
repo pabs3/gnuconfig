@@ -1,3 +1,9 @@
+2017-09-26  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (Local variables): Use 'write-file-functions
+	instead of the deprecated 'write-file-hook (as of Emacs 22.1).
+	* config.sub: Likewise.
+
 2017-09-16  Paul Eggert  <eggert@cs.ucla.edu>
 
 	Prefer https: to http: for gnu.org
