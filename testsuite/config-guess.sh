@@ -8,7 +8,7 @@
 # the simulated uname(1) output and the expected GNU system triplet.
 
 verbose=false
-PATH=`pwd`:$PATH
+PATH=$(pwd):$PATH
 
 run_config_guess ()
 {
@@ -29,13 +29,13 @@ run_config_guess ()
 [ \$1 = -p ] && echo "@PROCESSOR@" && exit 0
 EOF
 	chmod +x uname
-	output=`sh ../config.guess 2>/dev/null`
+	output=$(sh ../config.guess 2>/dev/null)
 	if test $? != 0 ; then
 	    echo "FAIL: unable to guess $machine:$release:$system:$version"
 	    rc=1
 	    continue
 	fi
-	if test $output != $triplet ; then
+	if test "$output" != "$triplet" ; then
 	    echo "FAIL: $output (expected $triplet)"
 	    rc=1
 	    continue

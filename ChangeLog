@@ -1,3 +1,8 @@
+2017-10-26  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.sh: Fix issues identified by Shellcheck.
+	* testsuite/config-sub.sh: Likewise.
+
 2017-09-26  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Output a note that a C compiler may be needed when
