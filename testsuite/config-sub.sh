@@ -9,11 +9,11 @@
 
 verbose=false
 
-run_config_sub ()
+run_config_sub()
 {
     rc=0
     while read -r alias canonical ; do
-	output=$(sh ../config.sub "$alias")
+	output=$(../config.sub "$alias")
 	if test "$output" != "$canonical" ; then
 	    echo "FAIL: $alias -> $output, but expected $canonical"
 	    rc=1

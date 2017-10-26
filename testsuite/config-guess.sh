@@ -10,7 +10,7 @@
 verbose=false
 PATH=$(pwd):$PATH
 
-run_config_guess ()
+run_config_guess()
 {
     rc=0
     while read machine release system version processor triplet ; do
@@ -29,7 +29,7 @@ run_config_guess ()
 [ \$1 = -p ] && echo "@PROCESSOR@" && exit 0
 EOF
 	chmod +x uname
-	output=$(sh ../config.guess 2>/dev/null)
+	output=$(../config.guess 2>/dev/null)
 	if test $? != 0 ; then
 	    echo "FAIL: unable to guess $machine:$release:$system:$version"
 	    rc=1

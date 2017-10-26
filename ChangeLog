@@ -1,5 +1,10 @@
 2017-10-26  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.sh (run_config_guess): Simplify.
+	* testsuite/config-sub.sh (run_config_sub): Likewise.
+
+2017-10-26  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-guess.sh: Fix issues identified by Shellcheck.
 	* testsuite/config-sub.sh: Likewise.
 
