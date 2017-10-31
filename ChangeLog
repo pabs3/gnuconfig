@@ -1,5 +1,10 @@
 2017-11-01  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (i*86:SYSTEM_V:4.*:*): Remove pattern as this is
+	already matched by i*86:*:4.*:*.
+
+2017-11-01  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (romp-ibm:4.4BSD:*): Correct pattern so that it
 	does not match romp-ibm:BSD:* in the immediately following case.
 

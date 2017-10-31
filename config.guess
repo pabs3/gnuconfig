@@ -1072,7 +1072,7 @@ EOF
     i*86:*DOS:*:*)
 	echo ${UNAME_MACHINE}-pc-msdosdjgpp
 	exit ;;
-    i*86:*:4.*:* | i*86:SYSTEM_V:4.*:*)
+    i*86:*:4.*:*)
 	UNAME_REL=`echo ${UNAME_RELEASE} | sed 's/\/MP$//'`
 	if grep Novell /usr/include/link.h >/dev/null 2>/dev/null; then
 		echo ${UNAME_MACHINE}-univel-sysv${UNAME_REL}
