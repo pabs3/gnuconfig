@@ -608,7 +608,7 @@ EOF
     *:AIX:*:*)
 	echo rs6000-ibm-aix
 	exit ;;
-    ibmrt:4.4BSD:*|romp-ibm:BSD:*)
+    ibmrt:4.4BSD:*|romp-ibm:4.4BSD:*)
 	echo romp-ibm-bsd4.4
 	exit ;;
     ibmrt:*BSD:*|romp-ibm:BSD:*)            # covers RT/PC BSD and
