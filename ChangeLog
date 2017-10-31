@@ -1,3 +1,8 @@
+2017-11-01  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (maybe_os): Remove redundant dpx2*-bull pattern.
+	Already matched by dpx2*.
+
 2017-10-26  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh (run_config_guess): Simplify.
