@@ -1,5 +1,10 @@
 2017-11-01  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Whitespace fixes.
+	* config.sub: Ditto.
+
+2017-11-01  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove redundant dpx2*-bull pattern.
 	Already matched by dpx2*.
 
