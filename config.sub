@@ -2,7 +2,7 @@
 # Configuration validation subroutine script.
 #   Copyright 1992-2017 Free Software Foundation, Inc.
 
-timestamp='2017-11-03'
+timestamp='2017-11-04'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -57,7 +57,7 @@ Usage: $0 [OPTION] CPU-MFR-OPSYS or ALIAS
 
 Canonicalize a configuration name.
 
-Operation modes:
+Options:
   -h, --help         print this help, then exit
   -t, --time-stamp   print date of last modification, then exit
   -v, --version      print version number, then exit
