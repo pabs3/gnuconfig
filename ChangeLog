@@ -1,5 +1,11 @@
 2017-11-03  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Replace old-style `..` command substitution with
+	the more modern $(..) form.
+	* config.sub: Likewise.
+
+2017-11-03  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Remove unnecessary parentheses inside `..` command
 	substitutions to improve clarity.
 
