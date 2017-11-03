@@ -1,3 +1,8 @@
+2017-11-03  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Remove unnecessary parentheses inside `..` command
+	substitutions to improve clarity.
+
 2017-11-01  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (i*86:SYSTEM_V:4.*:*): Remove pattern as this is
