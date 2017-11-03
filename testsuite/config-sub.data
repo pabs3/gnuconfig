@@ -510,7 +510,7 @@ v850						v850-unknown-none
 visium-elf					visium-unknown-elf
 visium						visium-unknown-none
 wasm32						wasm32-unknown-none
-we32k						we32k-unknown-none
+we32k						we32k-att-sysv
 x64-linux					x86_64-pc-linux-gnu
 x86_64-cygwin					x86_64-pc-cygwin
 x86_64-dicos					x86_64-pc-dicos

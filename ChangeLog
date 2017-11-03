@@ -1,5 +1,11 @@
 2017-11-04  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (we32k): Remove duplicate case so that `we32k'
+	properly canonicalises to `we32k-att-sysv'.
+	* testsuite/config-sub.data: Update test case.
+
+2017-11-04  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Improve usage text.
 	* config.sub: Likewise.
 
