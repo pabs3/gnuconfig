@@ -1,5 +1,13 @@
 2017-11-04  Ben Elliston  <bje@gnu.org>
 
+	Revert -- it's too soon to make this change.
+
+	* config.guess: Replace old-style `..` command substitution with
+	the more modern $(..) form.
+	* config.sub: Likewise.
+
+2017-11-04  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (we32k): Remove duplicate case so that `we32k'
 	properly canonicalises to `we32k-att-sysv'.
 	* testsuite/config-sub.data: Update test case.
