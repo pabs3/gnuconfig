@@ -1,3 +1,10 @@
+2017-11-05  Ben Elliston  <bje@gnu.org>
+
+	Also revert -- these parens were there for a reason. :-(
+
+	* config.guess: Remove unnecessary parentheses inside `..` command
+	substitutions to improve clarity.
+
 2017-11-04  Ben Elliston  <bje@gnu.org>
 
 	Revert -- it's too soon to make this change.
