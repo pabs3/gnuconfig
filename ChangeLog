@@ -1,3 +1,9 @@
+2017-11-07  Ben Elliston  <bje@gnu.org>
+
+	Reported by Nelson H. F. Beebe:
+	* config.guess (*:MidnightBSD:*:*): Recognise.
+	* testsuite/config-guess.data: Add a test case.
+
 2017-11-05  Ben Elliston  <bje@gnu.org>
 
 	Also revert -- these parens were there for a reason. :-(

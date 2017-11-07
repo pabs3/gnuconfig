@@ -41,6 +41,7 @@ i386		 12.1			 AROS			 ignored	 ignored	 i386-pc-aros
 i386		 4.2			 LynxOS			 ignored	 ignored	 i386-unknown-lynxos4.2
 i386		 ignored		 VOS			 ignored	 ignored	 i386-stratus-vos
 i586		 1.0			 SolidBSD		 ignored	 ignored	 i586-unknown-solidbsd1.0
+i686		 1.0			 MidnightBSD		 ignored	 ignored	 i686-unknown-midnightbsd1.0
 i586		 5.0.0			 skyos			 ignored	 ignored	 i586-pc-skyos5.0.0
 i586		 ignored		 rdos			 ignored	 ignored	 i586-pc-rdos
 i686		 1.0.17(0.48/3/2)	 MSYS_NT-6.0		 ignored	 ignored	 i686-pc-msys
