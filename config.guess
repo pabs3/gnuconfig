@@ -482,7 +482,7 @@ case "${UNAME_MACHINE}:${UNAME_SYSTEM}:${UNAME_RELEASE}:${UNAME_VERSION}" in
 #endif
 	#if defined (host_mips) && defined (MIPSEB)
 	#if defined (SYSTYPE_SYSV)
-	  printf ("mips-mips-risco0s%ssysv\\n", argv[1]); exit (0);
+	  printf ("mips-mips-riscos%ssysv\\n", argv[1]); exit (0);
 	#endif
 	#if defined (SYSTYPE_SVR4)
 	  printf ("mips-mips-riscos%ssvr4\\n", argv[1]); exit (0);

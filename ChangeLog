@@ -1,5 +1,10 @@
 2017-11-07  Ben Elliston  <bje@gnu.org>
 
+	Thanks to Urs Janßen.
+	* config.guess (mips:*:*:UMIPS | mips:*:*:RISCos): Fix typo.
+
+2017-11-07  Ben Elliston  <bje@gnu.org>
+
 	Reported by Nelson H. F. Beebe:
 	* config.guess (*:MidnightBSD:*:*): Recognise.
 	* testsuite/config-guess.data: Add a test case.
