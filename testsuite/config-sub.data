@@ -50,7 +50,9 @@ arm-elf						arm-unknown-elf
 armle						armle-unknown-none
 arm-linux-androideabi				arm-unknown-linux-androideabi
 arm-mingw32ce					arm-unknown-mingw32ce
+arm-pikeos					arm-unknown-eabi
 arm-riscos					arm-unknown-riscos
+arm-sysgo-pikeos				arm-sysgo-eabi
 arm-tirtos					arm-unknown-tirtos
 arm-unknown-netbsdelf7.0			arm-unknown-netbsdelf7.0
 arm-unknown-riscos				arm-unknown-riscos
@@ -358,6 +360,8 @@ powerpc-elf-lynxos				powerpc-elf-lynxos
 powerpc-haiku					powerpc-unknown-haiku
 powerpcle					powerpcle-unknown-none
 powerpc						powerpc-unknown-none
+powerpc-pikeos					powerpc-unknown-elf
+powerpc-sysgo-pikeos				powerpc-sysgo-elf
 powerpc-xcoff-lynxos178				powerpc-xcoff-lynxos178
 ppcbe-elf					powerpc-unknown-elf
 ppcbe-none-elf					powerpc-none-elf

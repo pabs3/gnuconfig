@@ -1,3 +1,9 @@
+2017-11-23  Olivier Hainque  <hainque@adacore.com>
+
+	* config.sub: Map -pikeos to baremetal.
+	* testsuite/config-sub.data: Add tests for a few pikeos
+	configuration variants.
+
 2017-11-07  Ben Elliston  <bje@gnu.org>
 
 	Thanks to Urs Janßen.
