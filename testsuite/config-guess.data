@@ -52,6 +52,7 @@ i86xen		 5.0			 AuroraUX		 ignored	 ignored	 i386-pc-auroraux5.0
 IA64		 6.0			 Interix		 ignored	 ignored	 ia64-unknown-interix6.0
 k1om		 2.6.38			 Linux			 ignored	 ignored	 k1om-unknown-linux-gnu
 macppc		 1.0			 MirBSD			 ignored	 ignored	 powerpc-unknown-mirbsd1.0
+mips		 1.0			 OSF1			 ignored	 ignored	 mips-dec-osf1
 mips64el	 2.6.2			 Linux			 ignored	 ignored	 mips64el-unknown-linux-gnu
 NEO-1		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 neo-tandem-nsk1.0
 NEO-12		 1.0			 NONSTOP_KERNEL		 ignored	 ignored	 neo-tandem-nsk1.0

@@ -1,3 +1,8 @@
+2017-12-17  Henry Bent  <henry.r.bent@gmail.com>
+
+	* config.guess (mips:OSF1:*:*): Recognise.
+	* testsuite/config-guess.data: Add a test case.
+
 2017-11-23  Olivier Hainque  <hainque@adacore.com>
 
 	* config.sub: Map -pikeos to baremetal.
