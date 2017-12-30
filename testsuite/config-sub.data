@@ -5,10 +5,12 @@ a29k						a29k-unknown-none
 a29khif						a29k-amd-udi
 aarch64						aarch64-unknown-none
 aarch64_be					aarch64_be-unknown-none
+aarch64_be-bme					aarch64_be-unknown-bme
 aarch64_be-elf					aarch64_be-unknown-elf
 aarch64_be-linux				aarch64_be-unknown-linux-gnu
 aarch64_be-unknown-elf				aarch64_be-unknown-elf
 aarch64_be-unknown-linux			aarch64_be-unknown-linux-gnu
+aarch64-bme					aarch64-unknown-bme
 aarch64-elf					aarch64-unknown-elf
 aarch64-linux					aarch64-unknown-linux-gnu
 aarch64-unknown-elf				aarch64-unknown-elf
