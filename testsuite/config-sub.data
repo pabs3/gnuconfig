@@ -323,6 +323,7 @@ nios-elf					nios-unknown-elf
 nios						nios-unknown-none
 ns16k						ns16k-unknown-none
 ns32k						ns32k-unknown-none
+nsv-tandem-nsk					nsv-tandem-nsk
 nsx-tandem-nsk					nsx-tandem-nsk
 nvptx						nvptx-unknown-none
 open8-elf					open8-unknown-elf

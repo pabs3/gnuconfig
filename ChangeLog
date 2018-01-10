@@ -1,3 +1,11 @@
+2018-01-11  Randall S. Becker  <rsbecker@nexbridge.com>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (NSV-*:NONSTOP_KERNEL:*:*): New.
+	* config.sub (nsv-tandem): New.
+	* testsuite/config-guess.data: Add a test case.
+	* testsuite/config-sub.data: Likewise.
+
 2018-01-01  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Update copyright years.
