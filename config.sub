@@ -800,9 +800,6 @@ case $basic_machine in
 		basic_machine=m68k-`echo $basic_machine | sed 's/^[^-]*-//'`
 		os=-linux
 		;;
-	m88k-omron*)
-		basic_machine=m88k-omron
-		;;
 	magnum | m3230)
 		basic_machine=mips-mips
 		os=-sysv

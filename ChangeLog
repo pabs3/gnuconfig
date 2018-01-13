@@ -1,5 +1,11 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove duplicate m88k-omron* case.
+	Found by Shellcheck.
+	* testsuite/config-sub.data: Add a test case.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove pdp10 case as it is handled above.
 	Found by Shellcheck.
 

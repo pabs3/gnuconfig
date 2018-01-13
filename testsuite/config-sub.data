@@ -226,6 +226,7 @@ m68000						m68000-unknown-none
 m68k						m68k-unknown-none
 m68knommu					m68k-unknown-linux-gnu
 m88k						m88k-unknown-none
+m88k-omron					m88k-omron-luna
 maxq-elf					maxq-unknown-elf
 maxq						maxq-unknown-none
 mb-elf						mb-unknown-elf
