@@ -371,9 +371,10 @@ powerpc-elf-lynxos				powerpc-elf-lynxos
 powerpc-haiku					powerpc-unknown-haiku
 powerpcle					powerpcle-unknown-none
 powerpc-pikeos					powerpc-unknown-elf
-powerpc					powerpc-unknown-none
+powerpc						powerpc-unknown-none
 powerpc-sysgo-pikeos				powerpc-sysgo-elf
 powerpc-xcoff-lynxos178				powerpc-xcoff-lynxos178
+ppc-beos					powerpc-be-beos
 ppcbe-elf					powerpc-unknown-elf
 ppcbe-none-elf					powerpc-none-elf
 ppcbe						powerpc-unknown-none

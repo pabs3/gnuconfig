@@ -1,12 +1,17 @@
 2018-01-14  Ben Elliston  <bje@gnu.org>
 
-	* config.sub (maybe_os): Remove duplicated pattern -haiku*.
+	* config.sub (maybe_os): Remove duplicate pattern -beos*.
+	* testsuite/config-sub.data: Add a test.
+
+2018-01-14  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (maybe_os): Remove duplicate pattern -haiku*.
 	(basic_machine): Don't match haiku in the manufacturer field.
 	* testsuite/config-sub.data: Add a test.
 
 2018-01-14  Ben Elliston  <bje@gnu.org>
 
-	* config.sub (maybe_os): Remove duplicated pattern -opened* which
+	* config.sub (maybe_os): Remove duplicate pattern -opened* which
 	prevents the more specific case matching on line 1427.
 	* testsuite/config-sub.data: Add a test.
 
