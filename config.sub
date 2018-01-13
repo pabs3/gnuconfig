@@ -1531,9 +1531,6 @@ case $os in
 	-es1800*)
 		os=-ose
 		;;
-	-xenix)
-		os=-xenix
-		;;
 	-*mint | -mint[0-9]* | -*MiNT | -MiNT[0-9]*)
 		os=-mint
 		;;

@@ -1,5 +1,11 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove second and duplicate *-xenix case
+	as only the first will match. Found by Shellcheck.
+	* testsuite/config-sub.data: Add test case.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove hppa-next which can never match
 	due to an earlier pattern. Found by Shellcheck.
 	* testsuite/config-sub.data: Add test cases.

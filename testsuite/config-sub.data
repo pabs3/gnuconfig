@@ -184,6 +184,7 @@ i386-solidbsd					i386-pc-solidbsd
 i386-sortix					i386-pc-sortix
 i386-udk					i386-pc-udk
 i386-vsta					i386-pc-vsta
+i386-xenix					i386-pc-xenix
 i486-elf					i486-pc-elf
 i586-auroraux5.0				i586-pc-auroraux5.0
 i586-auroraux					i586-pc-auroraux
