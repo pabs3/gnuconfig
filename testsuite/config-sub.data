@@ -443,6 +443,7 @@ shle-elf					shle-unknown-elf
 shle						shle-unknown-none
 sh						sh-unknown-none
 sh-toppers					sh-unknown-toppers
+simso-wrs					sparclite-wrs-vxworks
 sparc64b-linux					sparc64b-unknown-linux-gnu
 sparc64b					sparc64b-unknown-none
 sparc64-linux					sparc64-unknown-linux-gnu
@@ -454,6 +455,7 @@ sparc86x					sparc86x-unknown-none
 sparc-haiku					sparc-unknown-haiku
 sparclet					sparclet-unknown-none
 sparclite					sparclite-unknown-none
+sparclite-wrs					sparclite-wrs-vxworks
 sparc						sparc-sun-sunos4.1.1
 sparcv8						sparcv8-unknown-none
 sparcv9b					sparcv9b-unknown-none

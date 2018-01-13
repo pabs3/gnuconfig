@@ -1,5 +1,11 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove sparclite-wrs pattern as it is
+	matched by sparclite-* above. Found by Shellcheck.
+	* testsuite/config-sub.data: Add test cases.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove -rtmk-nova* pattern as it is
 	matched by -rtmk* immediately preceding it. Found by Shellcheck.
 
