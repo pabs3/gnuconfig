@@ -1244,9 +1244,6 @@ case $basic_machine in
 		basic_machine=a29k-wrs
 		os=-vxworks
 		;;
-	wasm32)
-		basic_machine=wasm32-unknown
-		;;
 	w65*)
 		basic_machine=w65-wdc
 		os=-none

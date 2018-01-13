@@ -1,5 +1,10 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove duplicate wasm32 case as it is
+	matched above. Found by Shellcheck.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove duplicate -osfrose* and -osf*
 	cases as these are matched above by -osf*. Found by Shellcheck.
 
