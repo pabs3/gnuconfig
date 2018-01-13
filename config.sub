@@ -1098,10 +1098,6 @@ case $basic_machine in
 	sequent)
 		basic_machine=i386-sequent
 		;;
-	sh)
-		basic_machine=sh-hitachi
-		os=-hms
-		;;
 	sh5el)
 		basic_machine=sh5le-unknown
 		;;
