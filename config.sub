@@ -1263,14 +1263,6 @@ case $basic_machine in
 		basic_machine=ymp-cray
 		os=-unicos
 		;;
-	z8k-*-coff)
-		basic_machine=z8k-unknown
-		os=-sim
-		;;
-	z80-*-coff)
-		basic_machine=z80-unknown
-		os=-sim
-		;;
 	none)
 		basic_machine=none-none
 		os=-none
