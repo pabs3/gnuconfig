@@ -1,5 +1,9 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove duplicate case for z8k.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove duplicate case for sh.
 	* testsuite/config-sub.data: Add test cases for sh and sh-elf.
 
