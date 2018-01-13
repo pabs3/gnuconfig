@@ -149,6 +149,7 @@ hppa2.0						hppa2.0-unknown-none
 hppa2.0n					hppa2.0n-unknown-none
 hppa64						hppa64-unknown-none
 hppa						hppa-unknown-none
+hppa-next					hppa-next-nextstep
 i370						i370-ibm-mvs
 i386-aros					i386-pc-aros
 i386-bitrig					i386-pc-bitrig
