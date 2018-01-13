@@ -1,5 +1,5 @@
 1750a						1750a-unknown-none
-386bsd						i386-unknown-bsd
+386bsd						i386-pc-bsd
 580						580-unknown-none
 a29k						a29k-unknown-none
 a29khif						a29k-amd-udi
@@ -151,8 +151,10 @@ hppa64						hppa64-unknown-none
 hppa						hppa-unknown-none
 hppa-next					hppa-next-nextstep
 i370						i370-ibm-mvs
+i386-386bsd					i386-pc-bsd
 i386-aros					i386-pc-aros
 i386-bitrig					i386-pc-bitrig
+i386-bsd					i386-pc-bsd
 i386-cloudabi					i386-pc-cloudabi
 i386-drops1.0					i386-pc-drops1.0
 i386-elf					i386-pc-elf

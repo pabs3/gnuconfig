@@ -1,5 +1,10 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Clean up 386BSD.
+	* testsuite/config-sub.data: Adjust test cases.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-guess.data: Sort.
 	* testsuite/config-sub.data: Likewise.
 
