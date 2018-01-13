@@ -1,5 +1,11 @@
 2018-01-14  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove duplicated pattern -opened* which
+	prevents the more specific case matching on line 1427.
+	* testsuite/config-sub.data: Add a test.
+
+2018-01-14  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove first and duplicate -none*
 	case. This is matched further down. Found by Shellcheck.
 
