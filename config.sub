@@ -1461,12 +1461,6 @@ case $os in
 	-wince*)
 		os=-wince
 		;;
-	-osfrose*)
-		os=-osfrose
-		;;
-	-osf*)
-		os=-osf
-		;;
 	-utek*)
 		os=-bsd
 		;;
