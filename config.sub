@@ -774,7 +774,7 @@ case $basic_machine in
 		basic_machine=i386-mach
 		os=-mach
 		;;
-	i386-vsta | vsta)
+	vsta)
 		basic_machine=i386-unknown
 		os=-vsta
 		;;

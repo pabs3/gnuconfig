@@ -1,5 +1,11 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove i386-vsta which can never match
+	due to an earlier pattern (but retain vsta). Found by Shellcheck.
+	* testsuite/config-sub.data: Add test cases.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove second and duplicate -aros*
 	case. Only the first will match. Found by Shellcheck.
 

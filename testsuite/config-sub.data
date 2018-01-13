@@ -182,6 +182,7 @@ i386-plan9					i386-pc-plan9
 i386-solidbsd					i386-pc-solidbsd
 i386-sortix					i386-pc-sortix
 i386-udk					i386-pc-udk
+i386-vsta					i386-pc-vsta
 i486-elf					i486-pc-elf
 i586-auroraux5.0				i586-pc-auroraux5.0
 i586-auroraux					i586-pc-auroraux
@@ -516,6 +517,7 @@ v850e						v850e-unknown-none
 v850						v850-unknown-none
 visium-elf					visium-unknown-elf
 visium						visium-unknown-none
+vsta						i386-unknown-vsta
 wasm32						wasm32-unknown-none
 we32k						we32k-att-sysv
 x64-linux					x86_64-pc-linux-gnu
