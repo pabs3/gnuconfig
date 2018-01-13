@@ -408,6 +408,7 @@ score						score-unknown-elf
 sde-elf						mipsisa32-sde-elf
 sh						sh-unknown-none
 sh-elf						sh-unknown-elf
+sh-hms						sh-hitachi-hms
 sh1-elf						sh1-unknown-elf
 sh1le-elf					sh1le-unknown-elf
 sh1						sh1-unknown-none

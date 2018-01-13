@@ -1405,7 +1405,7 @@ case $os in
 	-nto*)
 		os=`echo $os | sed -e 's|nto|nto-qnx|'`
 		;;
-	-sim | -es1800* | -hms* | -xray | -os68k* | -v88r* \
+	-sim | -es1800* | -xray | -os68k* | -v88r* \
 	      | -windows* | -osx | -abug | -netware* | -os9* \
 	      | -macos* | -mpw* | -magic* | -mmixware* | -mon960* | -lnews*)
 		;;
