@@ -1108,9 +1108,6 @@ case $basic_machine in
 	sh5el)
 		basic_machine=sh5le-unknown
 		;;
-	sh64)
-		basic_machine=sh64-unknown
-		;;
 	sparclite-wrs | simso-wrs)
 		basic_machine=sparclite-wrs
 		os=-vxworks
