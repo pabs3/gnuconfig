@@ -1,5 +1,10 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.data: Sort.
+	* testsuite/config-sub.data: Likewise.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove sparclite-wrs pattern as it is
 	matched by sparclite-* above. Found by Shellcheck.
 	* testsuite/config-sub.data: Add test cases.
