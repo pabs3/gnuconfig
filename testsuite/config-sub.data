@@ -198,6 +198,7 @@ i686-android-linux				i686-unknown-linux-android
 i686-dicos					i686-pc-dicos
 i686-elf					i686-pc-elf
 i686-ericsson-dicos				i686-ericsson-dicos
+i686-haiku					i686-pc-haiku
 i686-kopensolaris5.11-gnu			i686-pc-kopensolaris5.11-gnu
 i786-elf					i786-pc-elf
 i860						i860-unknown-sysv

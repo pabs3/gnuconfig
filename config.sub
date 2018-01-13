@@ -1406,7 +1406,7 @@ case $os in
 		os=`echo $os | sed -e 's|nto|nto-qnx|'`
 		;;
 	-sim | -es1800* | -hms* | -xray | -os68k* | -v88r* \
-	      | -windows* | -osx | -abug | -netware* | -os9* | -beos* | -haiku* \
+	      | -windows* | -osx | -abug | -netware* | -os9* | -beos* \
 	      | -macos* | -mpw* | -magic* | -mmixware* | -mon960* | -lnews*)
 		;;
 	-mac*)
@@ -1623,9 +1623,6 @@ case $basic_machine in
 		;;
 	*-be)
 		os=-beos
-		;;
-	*-haiku)
-		os=-haiku
 		;;
 	*-ibm)
 		os=-aix
