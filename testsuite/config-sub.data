@@ -355,7 +355,7 @@ os400						powerpc-ibm-os400
 parisc						hppa-unknown-linux-gnu
 pc98-freebsd					i386-pc-freebsd
 pdp10						pdp10-unknown-tops20
-pdp11						pdp11-unknown-none
+pdp11						pdp11-dec-none
 picochip					picochip-unknown-none
 pjl						pjl-unknown-none
 pj						pj-unknown-none

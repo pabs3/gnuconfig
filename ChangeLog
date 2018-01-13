@@ -1,5 +1,11 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (basic_machine): Remove first pdp11 case so that the
+	second, specialised case will match instead. Found by Shellcheck.
+	* testsuite/config-sub.data: Adjust test case.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Clean up 386BSD.
 	* testsuite/config-sub.data: Adjust test cases.
 
@@ -10,8 +16,8 @@
 
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
-	* config.sub (maybe_os): Remove sparclite-wrs pattern as it is
-	matched by sparclite-* above. Found by Shellcheck.
+	* config.sub (basic_machine): Remove sparclite-wrs pattern as it
+	is matched by sparclite-* above. Found by Shellcheck.
 	* testsuite/config-sub.data: Add test cases.
 
 2018-01-13  Ben Elliston  <bje@gnu.org>
