@@ -1,5 +1,10 @@
 2018-01-13  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (maybe_os): Remove duplicate patterns for sparc,
+	sparcv8, sparcv9, sparcv9b and sparcv9v. Found by Shellcheck.
+
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove cases z8k-*-coff and z80-*-coff as
 	these are never matched. Found by Shellcheck.
 
