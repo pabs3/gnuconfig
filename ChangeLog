@@ -1,3 +1,8 @@
+2018-01-13  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (maybe_os): Remove second and duplicate *-next
+	case. Only the first will match. Found by Shellcheck.
+
 2018-01-11  Randall S. Becker  <rsbecker@nexbridge.com>
 	    Ben Elliston  <bje@gnu.org>
 
