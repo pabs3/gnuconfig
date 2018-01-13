@@ -1302,10 +1302,6 @@ case $basic_machine in
 	vax)
 		basic_machine=vax-dec
 		;;
-	pdp10)
-		# there are many clones, so DEC is not a safe bet
-		basic_machine=pdp10-unknown
-		;;
 	pdp11)
 		basic_machine=pdp11-dec
 		;;
