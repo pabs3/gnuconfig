@@ -1355,6 +1355,10 @@ case $os in
 	-gnu/linux*)
 		os=`echo $os | sed -e 's|gnu/linux|linux-gnu|'`
 		;;
+	# es1800 is here to avoid being matched by es* (a different OS)
+	-es1800*)
+		os=-ose
+		;;
 	# Now accept the basic system types.
 	# The portable systems comes first.
 	# Each alternative MUST end in a * to match a version number.
@@ -1402,7 +1406,7 @@ case $os in
 	-nto*)
 		os=`echo $os | sed -e 's|nto|nto-qnx|'`
 		;;
-	-sim | -es1800* | -xray | -os68k* | -v88r* \
+	-sim | -xray | -os68k* | -v88r* \
 	      | -windows* | -osx | -abug | -netware* | -os9* \
 	      | -macos* | -mpw* | -magic* | -mmixware* | -mon960* | -lnews*)
 		;;
@@ -1489,9 +1493,6 @@ case $os in
 	-sysv*)
 		;;
 	-ose*)
-		os=-ose
-		;;
-	-es1800*)
 		os=-ose
 		;;
 	-*mint | -mint[0-9]* | -*MiNT | -MiNT[0-9]*)

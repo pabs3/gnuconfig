@@ -133,6 +133,7 @@ e500v2-wrs-linux				powerpc-wrs-linux-gnuspe
 e500v2-wrs-vxworks				powerpc-wrs-vxworksspe
 epiphany-elf					epiphany-unknown-elf
 epiphany					epiphany-unknown-none
+es1800						m68k-ericsson-ose
 fido-elf					fido-unknown-elf
 fido						fido-unknown-none
 fr30						fr30-unknown-none
@@ -226,6 +227,7 @@ m32rle						m32rle-unknown-none
 m32r						m32r-unknown-none
 m68000						m68000-unknown-none
 m68k						m68k-unknown-none
+m68k-es1800					m68k-unknown-ose
 m68knommu					m68k-unknown-linux-gnu
 m88k						m88k-unknown-none
 m88k-omron					m88k-omron-luna
@@ -355,6 +357,8 @@ or1k						or1k-unknown-none
 or32-linux					or32-unknown-linux-gnu
 or32						or32-unknown-coff
 os400						powerpc-ibm-os400
+ose68k						m68k-ericsson-ose
+ose						m68k-ericsson-ose
 parisc						hppa-unknown-linux-gnu
 pc98-freebsd					i386-pc-freebsd
 pdp10						pdp10-unknown-tops20

@@ -1,5 +1,10 @@
 2018-01-14  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (os): Move -es1800* case above -es*.
+	* testsuite/config-sub.data: Add several test cases.
+
+2018-01-14  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (os): Remove overlapping pattern -svr4*.
 
 2018-01-14  Ben Elliston  <bje@gnu.org>
