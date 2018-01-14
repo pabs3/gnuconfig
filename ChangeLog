@@ -1,5 +1,9 @@
 2018-01-14  Ben Elliston  <bje@gnu.org>
 
+	* config.sub (os): Remove overlapping pattern -svr4*.
+
+2018-01-14  Ben Elliston  <bje@gnu.org>
+
 	* config.sub (maybe_os): Remove duplicate pattern -hms*.
 	* testsuite/config-sub.data: Add a test.
 

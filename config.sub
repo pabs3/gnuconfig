@@ -1349,9 +1349,6 @@ case $os in
 	-solaris)
 		os=-solaris2
 		;;
-	-svr4*)
-		os=-sysv4
-		;;
 	-unixware*)
 		os=-sysv4.2uw
 		;;
@@ -1479,7 +1476,7 @@ case $os in
 	-oss*)
 		os=-sysv3
 		;;
-	-svr4)
+	-svr4*)
 		os=-sysv4
 		;;
 	-svr3)
