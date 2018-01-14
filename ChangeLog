@@ -1,3 +1,8 @@
+2018-01-15  Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Double quote variables to silence warning SC2086
+	(double quote to prevent globbing and word splitting).
+
 2018-01-14  Ben Elliston  <bje@gnu.org>
 
 	* config.sub (os): Move -es1800* case above -es*.
