@@ -1,5 +1,10 @@
 2018-01-16  Ben Elliston  <bje@gnu.org>
 
+	* config.guess: Use double quotes on any remaining unquoted
+	variables to prevent globbing and word splitting.
+
+2018-01-16  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Change most ${foo} expansions to "$foo" to:
 	(1) double quote to prevent globbing and word splitting; and
 	(2) remove extraneous braces.

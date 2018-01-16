@@ -138,7 +138,7 @@ Linux|GNU|GNU/*)
 	# We could probably try harder.
 	LIBC=gnu
 
-	eval $set_cc_for_build
+	eval "$set_cc_for_build"
 	cat <<-EOF > "$dummy.c"
 	#include <features.h>
 	#if defined(__UCLIBC__)
@@ -149,7 +149,7 @@ Linux|GNU|GNU/*)
 	LIBC=gnu
 	#endif
 	EOF
-	eval `$CC_FOR_BUILD -E "$dummy.c" 2>/dev/null | grep '^LIBC' | sed 's, ,,g'`
+	eval "`$CC_FOR_BUILD -E "$dummy.c" 2>/dev/null | grep '^LIBC' | sed 's, ,,g'`"
 	;;
 esac
 
@@ -169,8 +169,8 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 	# portion of the name.  We always set it to "unknown".
 	sysctl="sysctl -n hw.machine_arch"
 	UNAME_MACHINE_ARCH=`(uname -p 2>/dev/null || \
-	    /sbin/$sysctl 2>/dev/null || \
-	    /usr/sbin/$sysctl 2>/dev/null || \
+	    "/sbin/$sysctl" 2>/dev/null || \
+	    "/usr/sbin/$sysctl" 2>/dev/null || \
 	    echo unknown)`
 	case "$UNAME_MACHINE_ARCH" in
 	    armeb) machine=armeb-unknown ;;
@@ -181,7 +181,7 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 	    earmv*)
 		arch=`echo "$UNAME_MACHINE_ARCH" | sed -e 's,^e\(armv[0-9]\).*$,\1,'`
 		endian=`echo "$UNAME_MACHINE_ARCH" | sed -ne 's,^.*\(eb\)$,\1,p'`
-		machine="$arch""$endian"-unknown
+		machine="${arch}${endian}"-unknown
 		;;
 	    *) machine="$UNAME_MACHINE_ARCH"-unknown ;;
 	esac
@@ -192,7 +192,7 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 		os=netbsdelf
 		;;
 	    arm*|i386|m68k|ns32k|sh3*|sparc|vax)
-		eval $set_cc_for_build
+		eval "$set_cc_for_build"
 		if echo __ELF__ | $CC_FOR_BUILD -E - 2>/dev/null \
 			| grep -q __ELF__
 		then
@@ -319,7 +319,7 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 	# A Tn.n version is a released field test version.
 	# A Xn.n version is an unreleased experimental baselevel.
 	# 1.2 uses "1.2" for uname -r.
-	echo "$UNAME_MACHINE"-dec-osf`echo "$UNAME_RELEASE" | sed -e 's/^[PVTX]//' | tr ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz`
+	echo "$UNAME_MACHINE"-dec-osf"`echo "$UNAME_RELEASE" | sed -e 's/^[PVTX]//' | tr ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz`"
 	# Reset EXIT trap before exiting to avoid spurious non-zero exit code.
 	exitcode=$?
 	trap '' 0
@@ -370,19 +370,19 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 	    sparc) echo sparc-icl-nx7; exit ;;
 	esac ;;
     s390x:SunOS:*:*)
-	echo "$UNAME_MACHINE"-ibm-solaris2`echo "$UNAME_RELEASE" | sed -e 's/[^.]*//'`
+	echo "$UNAME_MACHINE"-ibm-solaris2"`echo "$UNAME_RELEASE" | sed -e 's/[^.]*//'`"
 	exit ;;
     sun4H:SunOS:5.*:*)
-	echo sparc-hal-solaris2`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`
+	echo sparc-hal-solaris2"`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`"
 	exit ;;
     sun4*:SunOS:5.*:* | tadpole*:SunOS:5.*:*)
-	echo sparc-sun-solaris2`echo "$UNAME_RELEASE" | sed -e 's/[^.]*//'`
+	echo sparc-sun-solaris2"`echo "$UNAME_RELEASE" | sed -e 's/[^.]*//'`"
 	exit ;;
     i86pc:AuroraUX:5.*:* | i86xen:AuroraUX:5.*:*)
 	echo i386-pc-auroraux"$UNAME_RELEASE"
 	exit ;;
     i86pc:SunOS:5.*:* | i86xen:SunOS:5.*:*)
-	eval $set_cc_for_build
+	eval "$set_cc_for_build"
 	SUN_ARCH=i386
 	# If there is a compiler, see if it is configured for 64-bit objects.
 	# Note that the Sun cc does not turn __LP64__ into 1 like gcc does.
@@ -395,13 +395,13 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 		SUN_ARCH=x86_64
 	    fi
 	fi
-	echo "$SUN_ARCH"-pc-solaris2`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`
+	echo "$SUN_ARCH"-pc-solaris2"`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`"
 	exit ;;
     sun4*:SunOS:6*:*)
 	# According to config.sub, this is the proper way to canonicalize
 	# SunOS6.  Hard to guess exactly what SunOS6 will be like, but
 	# it's likely to be more like Solaris than SunOS4.
-	echo sparc-sun-solaris3`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`
+	echo sparc-sun-solaris3"`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`"
 	exit ;;
     sun4*:SunOS:*:*)
 	case "`/usr/bin/arch -k`" in
@@ -410,7 +410,7 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 		;;
 	esac
 	# Japanese Language versions have a version number like `4.1.3-JL'.
-	echo sparc-sun-sunos`echo "$UNAME_RELEASE"|sed -e 's/-/_/'`
+	echo sparc-sun-sunos"`echo "$UNAME_RELEASE"|sed -e 's/-/_/'`"
 	exit ;;
     sun3*:SunOS:*:*)
 	echo m68k-sun-sunos"$UNAME_RELEASE"
@@ -475,7 +475,7 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 	echo clipper-intergraph-clix"$UNAME_RELEASE"
 	exit ;;
     mips:*:*:UMIPS | mips:*:*:RISCos)
-	eval $set_cc_for_build
+	eval "$set_cc_for_build"
 	sed 's/^	//' << EOF > "$dummy.c"
 #ifdef __cplusplus
 #include <stdio.h>  /* for printf() prototype */
@@ -499,7 +499,7 @@ case "$UNAME_MACHINE:$UNAME_SYSTEM:$UNAME_RELEASE:$UNAME_VERSION" in
 EOF
 	$CC_FOR_BUILD -o "$dummy" "$dummy.c" &&
 	  dummyarg=`echo "$UNAME_RELEASE" | sed -n 's/\([0-9]*\).*/\1/p'` &&
-	  SYSTEM_NAME=`$dummy $dummyarg` &&
+	  SYSTEM_NAME=`"$dummy" "$dummyarg"` &&
 	    { echo "$SYSTEM_NAME"; exit; }
 	echo mips-mips-riscos"$UNAME_RELEASE"
 	exit ;;
@@ -554,7 +554,7 @@ EOF
 	echo m68k-tektronix-bsd
 	exit ;;
     *:IRIX*:*:*)
-	echo mips-sgi-irix`echo "$UNAME_RELEASE"|sed -e 's/-/_/g'`
+	echo mips-sgi-irix"`echo "$UNAME_RELEASE"|sed -e 's/-/_/g'`"
 	exit ;;
     ????????:AIX?:[12].1:2)   # AIX 2.2.1 or AIX 2.1.1 is RT/PC AIX.
 	echo romp-ibm-aix     # uname -m gives an 8 hex-code CPU id
@@ -572,7 +572,7 @@ EOF
 	exit ;;
     *:AIX:2:3)
 	if grep bos325 /usr/include/stdio.h >/dev/null 2>&1; then
-		eval $set_cc_for_build
+		eval "$set_cc_for_build"
 		sed 's/^		//' << EOF > "$dummy.c"
 		#include <sys/systemcfg.h>
 
@@ -653,7 +653,7 @@ EOF
 		    esac
 		fi
 		if [ "$HP_ARCH" = "" ]; then
-		    eval $set_cc_for_build
+		    eval "$set_cc_for_build"
 		    sed 's/^		//' << EOF > "$dummy.c"
 
 		#define _HPUX_SOURCE
@@ -693,7 +693,7 @@ EOF
 	esac
 	if [ "$HP_ARCH" = hppa2.0w ]
 	then
-	    eval $set_cc_for_build
+	    eval "$set_cc_for_build"
 
 	    # hppa2.0w-hp-hpux* has a 64-bit kernel and a compiler generating
 	    # 32-bit code.  hppa64-hp-hpux* has the same kernel and a compiler
@@ -719,7 +719,7 @@ EOF
 	echo ia64-hp-hpux"$HPUX_REV"
 	exit ;;
     3050*:HI-UX:*:*)
-	eval $set_cc_for_build
+	eval "$set_cc_for_build"
 	sed 's/^	//' << EOF > "$dummy.c"
 	#include <unistd.h>
 	int
@@ -841,7 +841,7 @@ EOF
 	    i386)
 		UNAME_PROCESSOR=i586 ;;
 	esac
-	echo "$UNAME_PROCESSOR"-unknown-freebsd`echo "$UNAME_RELEASE"|sed -e 's/[-(].*//'`
+	echo "$UNAME_PROCESSOR"-unknown-freebsd"`echo "$UNAME_RELEASE"|sed -e 's/[-(].*//'`"
 	exit ;;
     i*:CYGWIN*:*)
 	echo "$UNAME_MACHINE"-pc-cygwin
@@ -877,15 +877,15 @@ EOF
 	echo x86_64-unknown-cygwin
 	exit ;;
     prep*:SunOS:5.*:*)
-	echo powerpcle-unknown-solaris2`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`
+	echo powerpcle-unknown-solaris2"`echo "$UNAME_RELEASE"|sed -e 's/[^.]*//'`"
 	exit ;;
     *:GNU:*:*)
 	# the GNU system
-	echo `echo "$UNAME_MACHINE"|sed -e 's,[-/].*$,,'`-unknown-"$LIBC"`echo "$UNAME_RELEASE"|sed -e 's,/.*$,,'`
+	echo "`echo "$UNAME_MACHINE"|sed -e 's,[-/].*$,,'`-unknown-$LIBC`echo "$UNAME_RELEASE"|sed -e 's,/.*$,,'`"
 	exit ;;
     *:GNU/*:*:*)
 	# other systems with GNU libc and userland
-	echo "$UNAME_MACHINE"-unknown-`echo "$UNAME_SYSTEM" | sed 's,^[^/]*/,,' | tr "[:upper:]" "[:lower:]"``echo "$UNAME_RELEASE"|sed -e 's/[-(].*//'`-"$LIBC"
+	echo "$UNAME_MACHINE-unknown-`echo "$UNAME_SYSTEM" | sed 's,^[^/]*/,,' | tr "[:upper:]" "[:lower:]"``echo "$UNAME_RELEASE"|sed -e 's/[-(].*//'`-$LIBC"
 	exit ;;
     i*86:Minix:*:*)
 	echo "$UNAME_MACHINE"-pc-minix
@@ -915,7 +915,7 @@ EOF
 	echo "$UNAME_MACHINE"-unknown-linux-"$LIBC"
 	exit ;;
     arm*:Linux:*:*)
-	eval $set_cc_for_build
+	eval "$set_cc_for_build"
 	if echo __ARM_EABI__ | $CC_FOR_BUILD -E - 2>/dev/null \
 	    | grep -q __ARM_EABI__
 	then
@@ -964,7 +964,7 @@ EOF
 	echo "$UNAME_MACHINE"-unknown-linux-"$LIBC"
 	exit ;;
     mips:Linux:*:* | mips64:Linux:*:*)
-	eval $set_cc_for_build
+	eval "$set_cc_for_build"
 	sed 's/^	//' << EOF > "$dummy.c"
 	#undef CPU
 	#undef ${UNAME_MACHINE}
@@ -979,7 +979,7 @@ EOF
 	#endif
 	#endif
 EOF
-	eval `$CC_FOR_BUILD -E "$dummy.c" 2>/dev/null | grep '^CPU'`
+	eval "`$CC_FOR_BUILD -E "$dummy.c" 2>/dev/null | grep '^CPU'`"
 	test "x$CPU" != x && { echo "$CPU-unknown-linux-$LIBC"; exit; }
 	;;
     mips64el:Linux:*:*)
@@ -1093,7 +1093,7 @@ EOF
 	    *Pentium)	     UNAME_MACHINE=i586 ;;
 	    *Pent*|*Celeron) UNAME_MACHINE=i686 ;;
 	esac
-	echo "$UNAME_MACHINE"-unknown-sysv"$UNAME_RELEASE""$UNAME_SYSTEM""$UNAME_VERSION"
+	echo "$UNAME_MACHINE-unknown-sysv${UNAME_RELEASE}${UNAME_SYSTEM}{$UNAME_VERSION}"
 	exit ;;
     i*86:*:3.2:*)
 	if test -f /usr/options/cb.name; then
@@ -1278,11 +1278,11 @@ EOF
 	exit ;;
     *:Darwin:*:*)
 	UNAME_PROCESSOR=`uname -p` || UNAME_PROCESSOR=unknown
-	eval $set_cc_for_build
+	eval "$set_cc_for_build"
 	if test "$UNAME_PROCESSOR" = unknown ; then
 	    UNAME_PROCESSOR=powerpc
 	fi
-	if test `echo "$UNAME_RELEASE" | sed -e 's/\..*//'` -le 10 ; then
+	if test "`echo "$UNAME_RELEASE" | sed -e 's/\..*//'`" -le 10 ; then
 	    if [ "$CC_FOR_BUILD" != no_compiler_found ]; then
 		if (echo '#ifdef __LP64__'; echo IS_64BIT_ARCH; echo '#endif') | \
 		       (CCOPTS="" $CC_FOR_BUILD -E - 2>/dev/null) | \
@@ -1380,7 +1380,7 @@ EOF
 	echo mips-sei-seiux"$UNAME_RELEASE"
 	exit ;;
     *:DragonFly:*:*)
-	echo "$UNAME_MACHINE"-unknown-dragonfly`echo "$UNAME_RELEASE"|sed -e 's/[-(].*//'`
+	echo "$UNAME_MACHINE"-unknown-dragonfly"`echo "$UNAME_RELEASE"|sed -e 's/[-(].*//'`"
 	exit ;;
     *:*VMS:*:*)
 	UNAME_MACHINE=`(uname -p) 2>/dev/null`
@@ -1393,7 +1393,7 @@ EOF
 	echo i386-pc-xenix
 	exit ;;
     i*86:skyos:*:*)
-	echo "$UNAME_MACHINE"-pc-skyos`echo "$UNAME_RELEASE" | sed -e 's/ .*$//'`
+	echo "$UNAME_MACHINE"-pc-skyos"`echo "$UNAME_RELEASE" | sed -e 's/ .*$//'`"
 	exit ;;
     i*86:rdos:*:*)
 	echo "$UNAME_MACHINE"-pc-rdos
