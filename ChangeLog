@@ -1,3 +1,8 @@
+2018-01-16  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Quote $dummy.c, $dummy.o and $dummy to prevent
+	globbing and word splitting in the filename.
+
 2018-01-15  Ben Elliston  <bje@gnu.org>
 
 	* config.sub: Double quote variables to silence warning SC2086
