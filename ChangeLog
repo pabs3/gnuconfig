@@ -1,3 +1,8 @@
+2018-01-26  Henri Menke  <henrimenke@gmail.com>
+
+	* config.guess: Try to detect musl libc on GNU/Linux systems using
+	ldd --version.
+
 2018-01-16  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Use double quotes on any remaining unquoted
