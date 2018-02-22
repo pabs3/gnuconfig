@@ -33,6 +33,7 @@ altos						m68k-altos-sysv
 am33_2.0					am33_2.0-unknown-none
 amd64-cygwin					x86_64-pc-cygwin
 amd64-kfreebsd5.4-gnu				x86_64-pc-kfreebsd5.4-gnu
+amd64-midnightbsd0.7				x86_64-pc-midnightbsd0.7
 amd64-onefs					x86_64-pc-onefs
 amd64-unknown-freebsd5.2			x86_64-unknown-freebsd5.2
 amd64						x86_64-pc-none
