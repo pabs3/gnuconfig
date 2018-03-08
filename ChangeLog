@@ -1,3 +1,8 @@
+2018-03-08  Paul Eggert  <eggert@cs.ucla.edu>
+
+	* config.guess: Use before-save-hook not write-file-functions.
+	* config.sub: Ditto.
+
 2018-03-01  Ben Elliston  <bje@gnu.org>
 
 	Revert:
