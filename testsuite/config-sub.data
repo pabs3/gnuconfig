@@ -568,3 +568,7 @@ xtensa						xtensa-unknown-none
 z80-coff					z80-unknown-coff
 z80						z80-unknown-none
 z8k						z8k-unknown-none
+m9s12z						s12z-unknown-none
+m68hcs12z					s12z-unknown-none
+hcs12z						s12z-unknown-none
+s12z						s12z-unknown-none

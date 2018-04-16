@@ -1,3 +1,8 @@
+2018-04-16  John Darrington <john@darrington.wattle.id.au>
+
+	* config.sub (s12z, hcs12z, m68hcs12z, m9s12z): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2018-03-08  Paul Eggert  <eggert@cs.ucla.edu>
 
 	* config.guess: Use before-save-hook not write-file-functions.
