@@ -1,4 +1,8 @@
-2018-04-16  John Darrington <john@darrington.wattle.id.au>
+2018-04-16  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Sort.
+
+2018-04-16  John Darrington  <john@darrington.wattle.id.au>
 
 	* config.sub (s12z, hcs12z, m68hcs12z, m9s12z): New.
 	* testsuite/config-sub.data: Add test cases.
