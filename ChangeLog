@@ -1,3 +1,8 @@
+2018-04-16  Mao Han  <han_mao@c-sky.com>
+
+	* config.sub (csky, csky-*): Recognise.
+	* testsuite/config-sub.data: Add a test case.
+
 2018-04-16  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Sort.
