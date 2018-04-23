@@ -66,6 +66,7 @@ armv6eb-unknown-netbsdelf7.0			armv6eb-unknown-netbsdelf7.0
 armv6eb-unknown-netbsdelf7.0-eabi		armv6eb-unknown-netbsdelf7.0-eabi
 armv6eb-unknown-netbsdelf7.0-eabihf		armv6eb-unknown-netbsdelf7.0-eabihf
 armv6-linux-gnu					armv6-unknown-linux-gnu
+armv6m						armv6m-unknown-none
 armv6-unknown-netbsdelf7.0			armv6-unknown-netbsdelf7.0
 armv6-unknown-netbsdelf7.0-eabi			armv6-unknown-netbsdelf7.0-eabi
 armv6-unknown-netbsdelf7.0-eabihf		armv6-unknown-netbsdelf7.0-eabihf
@@ -75,10 +76,15 @@ armv7-apple-ios					armv7-apple-ios
 armv7eb-unknown-netbsdelf7.0			armv7eb-unknown-netbsdelf7.0
 armv7eb-unknown-netbsdelf7.0-eabi		armv7eb-unknown-netbsdelf7.0-eabi
 armv7eb-unknown-netbsdelf7.0-eabihf		armv7eb-unknown-netbsdelf7.0-eabihf
+armv7m						armv7m-unknown-none
+armv7r						armv7r-unknown-none
 armv7-unknown-netbsdelf7.0			armv7-unknown-netbsdelf7.0
 armv7-unknown-netbsdelf7.0-eabi			armv7-unknown-netbsdelf7.0-eabi
 armv7-unknown-netbsdelf7.0-eabihf		armv7-unknown-netbsdelf7.0-eabihf
+armv8a						armv8a-unknown-none
 armv8b-linux-gnueabi				armv8b-unknown-linux-gnueabi
+armv8m						armv8m-unknown-none
+armv8r						armv8r-unknown-none
 aros						i386-pc-aros
 asmjs						asmjs-unknown-none
 avr32						avr32-unknown-none

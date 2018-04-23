@@ -1,3 +1,8 @@
+2018-04-24  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub (arm6m, armv[78][arm]): Recognise.
+	* testsuite/config-sub.data: Add tests.
+
 2018-04-16  Mao Han  <han_mao@c-sky.com>
 
 	* config.sub (csky, csky-*): Recognise.
