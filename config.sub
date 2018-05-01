@@ -114,29 +114,29 @@ esac
 # Here we must recognize all the valid KERNEL-OS combinations.
 maybe_os=`echo "$1" | sed 's/^\(.*\)-\([^-]*-[^-]*\)$/\2/'`
 case $maybe_os in
-  nto-qnx* | linux-gnu* | linux-android* | linux-dietlibc | linux-newlib* | \
-  linux-musl* | linux-uclibc* | uclinux-uclibc* | uclinux-gnu* | kfreebsd*-gnu* | \
-  knetbsd*-gnu* | netbsd*-gnu* | netbsd*-eabi* | \
-  kopensolaris*-gnu* | cloudabi*-eabi* | \
-  storm-chaos* | os2-emx* | rtmk-nova*)
-    os=-$maybe_os
-    basic_machine=`echo "$1" | sed 's/^\(.*\)-\([^-]*-[^-]*\)$/\1/'`
-    ;;
-  android-linux)
-    os=-linux-android
-    basic_machine=`echo "$1" | sed 's/^\(.*\)-\([^-]*-[^-]*\)$/\1/'`-unknown
-    ;;
-  *)
-    basic_machine=`echo "$1" | sed 's/-[^-]*$//'`
-    case $1 in
-      *-*)
-	  os=`echo "$1" | sed 's/.*-/-/'`
-	  ;;
-      *)
-	  os=
-	  ;;
-    esac
-    ;;
+    nto-qnx* | linux-gnu* | linux-android* | linux-dietlibc | linux-newlib* | \
+	linux-musl* | linux-uclibc* | uclinux-uclibc* | uclinux-gnu* | kfreebsd*-gnu* | \
+	knetbsd*-gnu* | netbsd*-gnu* | netbsd*-eabi* | \
+	kopensolaris*-gnu* | cloudabi*-eabi* | \
+	storm-chaos* | os2-emx* | rtmk-nova*)
+	os=-$maybe_os
+	basic_machine=`echo "$1" | sed 's/^\(.*\)-\([^-]*-[^-]*\)$/\1/'`
+	;;
+    android-linux)
+	os=-linux-android
+	basic_machine=`echo "$1" | sed 's/^\(.*\)-\([^-]*-[^-]*\)$/\1/'`-unknown
+	;;
+    *)
+	basic_machine=`echo "$1" | sed 's/-[^-]*$//'`
+	case $1 in
+	    *-*)
+		os=`echo "$1" | sed 's/.*-/-/'`
+		;;
+	    *)
+		os=
+		;;
+	esac
+	;;
 esac
 
 ### Let's recognize common machines as not being operating systems so
