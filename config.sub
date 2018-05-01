@@ -128,9 +128,14 @@ case $maybe_os in
     ;;
   *)
     basic_machine=`echo "$1" | sed 's/-[^-]*$//'`
-    if [ "$basic_machine" != "$1" ]
-    then os=`echo "$1" | sed 's/.*-/-/'`
-    else os=; fi
+    case $1 in
+      *-*)
+	  os=`echo "$1" | sed 's/.*-/-/'`
+	  ;;
+      *)
+	  os=
+	  ;;
+    esac
     ;;
 esac
 
