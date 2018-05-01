@@ -334,6 +334,8 @@ nds32-elf					nds32-unknown-elf
 nds32le-elf					nds32le-unknown-elf
 nds32le						nds32le-unknown-none
 nds32						nds32-unknown-none
+nfp						nfp-unknown-none
+nfp-elf						nfp-unknown-elf
 nios2eb-elf					nios2eb-unknown-elf
 nios2eb						nios2eb-unknown-none
 nios2el-elf					nios2el-unknown-elf
