@@ -15,3 +15,6 @@ check-guess:
 
 check-sub:
 	cd testsuite && sh config-sub.sh
+
+shellcheck:
+	shellcheck -e SC2006 -f gcc config.guess config.sub
