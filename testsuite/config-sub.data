@@ -58,6 +58,7 @@ arm-riscos					arm-unknown-riscos
 arm-sysgo-pikeos				arm-sysgo-eabi
 arm-tirtos					arm-unknown-tirtos
 arm-unknown-netbsdelf7.0			arm-unknown-netbsdelf7.0
+arm-unknown-none-eabi				arm-unknown-none-eabi
 arm-unknown-riscos				arm-unknown-riscos
 armv2						armv2-unknown-none
 armv3l						armv3l-unknown-none
@@ -70,6 +71,7 @@ armv6m						armv6m-unknown-none
 armv6-unknown-netbsdelf7.0			armv6-unknown-netbsdelf7.0
 armv6-unknown-netbsdelf7.0-eabi			armv6-unknown-netbsdelf7.0-eabi
 armv6-unknown-netbsdelf7.0-eabihf		armv6-unknown-netbsdelf7.0-eabihf
+armv6-unknown-none-eabi				armv6-unknown-none-eabi
 armv7a						armv7a-unknown-none
 armv7a-linux-gnueabi				armv7a-unknown-linux-gnueabi
 armv7-apple-ios					armv7-apple-ios
@@ -77,6 +79,7 @@ armv7eb-unknown-netbsdelf7.0			armv7eb-unknown-netbsdelf7.0
 armv7eb-unknown-netbsdelf7.0-eabi		armv7eb-unknown-netbsdelf7.0-eabi
 armv7eb-unknown-netbsdelf7.0-eabihf		armv7eb-unknown-netbsdelf7.0-eabihf
 armv7m						armv7m-unknown-none
+armv7m-unknown-none-eabi				armv7m-unknown-none-eabi
 armv7r						armv7r-unknown-none
 armv7-unknown-netbsdelf7.0			armv7-unknown-netbsdelf7.0
 armv7-unknown-netbsdelf7.0-eabi			armv7-unknown-netbsdelf7.0-eabi
