@@ -1,3 +1,7 @@
+2018-05-05  Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Pass the -r option to 'read'.
+
 2018-05-05  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Properly recognise configuration types with four
