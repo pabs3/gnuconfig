@@ -1,3 +1,8 @@
+2018-05-05  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Properly recognise configuration types with four
+	components. Re-work the old logic to simplify the shell code.
+
 2018-05-04  Ben Elliston  <bje@gnu.org>
 
 	* Makefile (shellcheck): New.
