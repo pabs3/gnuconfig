@@ -1360,7 +1360,7 @@ esac
 
 # Decode manufacturer-specific aliases for certain operating systems.
 
-if [ x"$os" != x"" ]
+if [ x$os != x ]
 then
 case $os in
 	# First match some system type aliases that might get confused
