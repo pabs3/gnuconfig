@@ -1,3 +1,7 @@
+2018-05-14  Ben Elliston  <bje@gnu.org>
+
+	* Makefile (shellcheck): Include testsuite/*.sh scripts.
+
 2018-05-14  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Don't prepend $os with '-' everywhere. Include it in
