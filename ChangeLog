@@ -1,5 +1,12 @@
 2018-05-19  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (set_cc_for_build): Guard against $CC_FOR_BUILD,
+	$HOST_CC and $CC being undefined by using ${var-} style expansion.
+	(*:NetBSD:*:*): Likewise for $abi.
+	* testsuite/config-guess.sh: Run config.guess under `sh -eu'.
+
+2018-05-19  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-guess.sh: Set -eu for robustness. Run
 	config.guess under `sh -e' to catch more problems.
 	* testsuite/config-sub.sh: Run config.sub under `sh -eu'.
