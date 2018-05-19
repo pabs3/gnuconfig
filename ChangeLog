@@ -1,5 +1,9 @@
 2018-05-19  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-sub.data: Sort.
+
+2018-05-19  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (set_cc_for_build): Guard against $CC_FOR_BUILD,
 	$HOST_CC and $CC being undefined by using ${var-} style expansion.
 	(*:NetBSD:*:*): Likewise for $abi.
