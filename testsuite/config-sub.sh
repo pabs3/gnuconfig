@@ -1,19 +1,21 @@
-#!/bin/sh
+#!/bin/bash
 #
-# Copyright 2004, 2005, 2009, 2014 Free Software Foundation, Inc.
+# Copyright 2004, 2005, 2009, 2014, 2018 Free Software Foundation,
+# Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads pairs from config-sub.data: an alias and its
 # canonical triplet.  config.sub is invoked and the test checks that
 # the alias expands to the expected canonical triplet.
 
+set -eu
 verbose=false
 
 run_config_sub()
 {
     rc=0
     while read -r alias canonical ; do
-	output=$(../config.sub "$alias")
+	output=$(sh -eu ../config.sub "$alias")
 	if test "$output" != "$canonical" ; then
 	    echo "FAIL: $alias -> $output, but expected $canonical"
 	    rc=1

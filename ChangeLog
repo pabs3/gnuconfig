@@ -1,3 +1,9 @@
+2018-05-19  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.sh: Set -eu for robustness. Run
+	config.guess under `sh -e' to catch more problems.
+	* testsuite/config-sub.sh: Run config.sub under `sh -eu'.
+
 2018-05-19  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Cordon off single component aliases.
