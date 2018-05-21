@@ -124,6 +124,7 @@ c8051						c8051-unknown-elf
 c8051-elf					c8051-unknown-elf
 cegcc						arm-unknown-cegcc
 clipper						clipper-unknown-none
+clipper-clix					clipper-intergraph-clix
 cr16-elf					cr16-unknown-elf
 cr16-random-elf					cr16-unknown-elf
 cris-linux					cris-axis-linux-gnu
@@ -241,6 +242,7 @@ m68000						m68000-unknown-none
 m68hcs12z					s12z-unknown-none
 m68k-es1800					m68k-unknown-ose
 m68k						m68k-unknown-none
+m68k-mint					m68k-atari-mint
 m68knommu					m68k-unknown-linux-gnu
 m88k						m88k-unknown-none
 m88k-omron					m88k-omron-luna
