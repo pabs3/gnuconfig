@@ -164,7 +164,7 @@ case $1 in
 			| c[123]* | convex* | sun | crds | omron* | dg | ultra | tti* \
 			| harris | dolphin | highlevel | gould | cbm | ns | masscomp \
 			| apple | axis | knuth | cray | microblaze* \
-			| sim | cisco | oki | wec | winbond)
+			| sim | cisco | oki | wec | wrs | winbond)
 				basic_machine=$field1-$field2
 				os=
 				;;
@@ -571,10 +571,6 @@ case $os in
 		os=cnk
 		;;
 	scout)
-		;;
-	wrs)
-		os=vxworks
-		basic_machine=$1
 		;;
 	chorusos*)
 		os=chorusos
@@ -1748,6 +1744,9 @@ case $basic_machine in
 		;;
 	*-atari*)
 		os=mint
+		;;
+	*-wrs)
+		os=vxworks
 		;;
 	*)
 		os=none
