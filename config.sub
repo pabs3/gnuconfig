@@ -607,9 +607,6 @@ case $os in
 	isc)
 		os=isc2.2
 		;;
-	clix*)
-		basic_machine=clipper-intergraph
-		;;
 	lynx*178)
 		os=lynxos178
 		;;
@@ -624,10 +621,6 @@ case $os in
 		;;
 	psos*)
 		os=psos
-		;;
-	mint | mint[0-9]*)
-		basic_machine=m68k-atari
-		os=mint
 		;;
 esac
 
@@ -1586,6 +1579,9 @@ case $basic_machine in
 	c8051-*)
 		os=elf
 		;;
+	clipper-intergraph)
+		os=clix
+		;;
 	hexagon-*)
 		os=elf
 		;;
@@ -1778,6 +1774,9 @@ case $basic_machine in
 				;;
 			genix*)
 				vendor=ns
+				;;
+			clix*)
+				vendor=intergraph
 				;;
 			mvs* | opened*)
 				vendor=ibm

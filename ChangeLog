@@ -1,5 +1,10 @@
 2018-05-23  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Don't force basic_machine based on $os just for
+	"mint" and "clix".
+
+2018-05-23  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: No more OS-driven substitution of -pc with sed.
 
 2018-05-23  John Ericson  <john.ericson@obsidian.systems>
