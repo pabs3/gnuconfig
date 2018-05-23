@@ -1,3 +1,7 @@
+2018-05-23  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Cordon off two-component aliases.
+
 2018-05-21  John Ericson  <john.ericson@obsidian.systems>
 
 	* testsuite/config-sub.data: Add clipper-clix and m68k-mint tests.

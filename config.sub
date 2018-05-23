@@ -2,7 +2,7 @@
 # Configuration validation subroutine script.
 #   Copyright 1992-2018 Free Software Foundation, Inc.
 
-timestamp='2018-05-19'
+timestamp='2018-05-23'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -149,8 +149,30 @@ case $1 in
 		esac
 		;;
 	*-*)
-		basic_machine=$field1
-		os=$field2
+		# Second component is usually, but not always the OS
+		case $field2 in
+			# Prevent following clause from handling this valid os
+			sun*os*)
+				basic_machine=$field1
+				os=$field2
+				;;
+			# Manufacturers
+			dec* | mips* | sequent* | encore* | pc532* | sgi* | sony* \
+			| att* | 7300* | 3300* | delta* | motorola* | sun[234]* \
+			| unicom* | ibm* | next | hp | isi* | apollo | altos* \
+			| convergent* | ncr* | news | 32* | 3600* | 3100* | hitachi* \
+			| c[123]* | convex* | sun | crds | omron* | dg | ultra | tti* \
+			| harris | dolphin | highlevel | gould | cbm | ns | masscomp \
+			| apple | axis | knuth | cray | microblaze* \
+			| sim | cisco | oki | wec | winbond)
+				basic_machine=$field1-$field2
+				os=
+				;;
+			*)
+				basic_machine=$field1
+				os=$field2
+				;;
+		esac
 		;;
 	*)
 		# Convert single-component short-hands not valid as part of
@@ -545,25 +567,8 @@ esac
 ### recognize some manufacturers as not being operating systems, so we
 ### can provide default operating systems below.
 case $os in
-	sun*os*)
-		# Prevent following clause from handling this invalid input.
-		;;
-	dec* | mips* | sequent* | encore* | pc532* | sgi* | sony* | \
-	att* | 7300* | 3300* | delta* | motorola* | sun[234]* | \
-	unicom* | ibm* | next | hp | isi* | apollo | altos* | \
-	convergent* | ncr* | news | 32* | 3600* | 3100* | hitachi* |\
-	c[123]* | convex* | sun | crds | omron* | dg | ultra | tti* | \
-	harris | dolphin | highlevel | gould | cbm | ns | masscomp | \
-	apple | axis | knuth | cray | microblaze*)
-		os=
-		basic_machine=$1
-		;;
 	bluegene*)
 		os=cnk
-		;;
-	sim | cisco | oki | wec | winbond)
-		os=
-		basic_machine=$1
 		;;
 	scout)
 		;;
