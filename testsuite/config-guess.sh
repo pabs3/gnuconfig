@@ -1,4 +1,7 @@
-# Copyright 2004, 2005, 2009, 2012, 2015, 2018 Free Software Foundation, Inc.
+#!/bin/bash
+#
+# Copyright 2004, 2005, 2009, 2012, 2015, 2018 Free Software
+# Foundation, Inc.
 # Contributed by Ben Elliston <bje@gnu.org>.
 #
 # This test reads 5-tuples from config-guess.data: the components of
