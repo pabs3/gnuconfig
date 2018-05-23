@@ -1,5 +1,9 @@
 2018-05-23  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: No more OS-driven substitution of -pc with sed.
+
+2018-05-23  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: Simplify *-wrs handling.
 
 2018-05-23  John Ericson  <john.ericson@obsidian.systems>
