@@ -431,6 +431,7 @@ s390-ibm-zvmoe					s390-ibm-zvmoe
 score-elf					score-unknown-elf
 score						score-unknown-elf
 sde-elf						mipsisa32-sde-elf
+sequent-ptx					i386-sequent-ptx
 sh1-elf						sh1-unknown-elf
 sh1le-elf					sh1le-unknown-elf
 sh1						sh1-unknown-none
@@ -564,8 +565,11 @@ x86_64-dicos					x86_64-pc-dicos
 x86_64-ericsson-dicos				x86_64-ericsson-dicos
 x86_64-fuchsia					x86_64-pc-fuchsia
 x86_64-glidix					x86_64-pc-glidix
+x86_64-pc-ptx					x86_64-pc-ptx
+x86_64-ptx					x86_64-pc-ptx
 x86_64-redox					x86_64-pc-redox
 x86_64-sortix					x86_64-pc-sortix
+x86_64-unknown-ptx				x86_64-sequent-ptx
 x86_64-windows					x86_64-pc-windows
 x86						x86-unknown-none
 xbox						i686-pc-mingw32

@@ -1,3 +1,7 @@
+2018-05-24  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Add tests for Sequent and DYNIX/ptx.
+
 2018-05-24  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Consolidate $os checking.
