@@ -1,3 +1,7 @@
+2018-05-24  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Consolidate $os checking.
+
 2018-05-23  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Don't force basic_machine based on $os just for
