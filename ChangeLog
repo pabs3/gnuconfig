@@ -1,3 +1,9 @@
+2018-06-26  Sevan Janiyan  <venture37@geeklan.co.uk>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.guess (*:Minix:*:*): Accept any machine.
+	* testsuite/config-guess.data: Add a test case.
+
 2018-06-22  Palmer Dabbelt  <palmer@sifive.com>
 
 	* config.sub: Add riscv-* as an alias for riscv32-*.
