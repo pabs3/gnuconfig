@@ -422,11 +422,11 @@ riscv64-elf					riscv64-unknown-elf
 riscv64-hcos					riscv64-unknown-hcos
 riscv64-linux					riscv64-unknown-linux-gnu
 riscv64						riscv64-unknown-none
-riscv-company-elf				riscv32-company-elf
-riscv-company-hcos				riscv32-company-hcos
-riscv-elf					riscv32-unknown-elf
-riscv-linux					riscv32-unknown-linux-gnu
-riscv						riscv32-unknown-none
+riscv-company-elf				riscv-company-elf
+riscv-company-hcos				riscv-company-hcos
+riscv-elf					riscv-unknown-elf
+riscv-linux					riscv-unknown-linux-gnu
+riscv						riscv-unknown-none
 rl78-linux					rl78-unknown-linux-gnu
 rl78						rl78-unknown-none
 rx-linux					rx-unknown-linux-gnu

@@ -1,3 +1,9 @@
+2018-07-03  Liviu Ionescu <ilg@livius.net>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Do not rewrite riscv -> riscv32.
+	* testsuite/config-sub.data: Adjust tests.
+
 2018-06-26  Sevan Janiyan  <venture37@geeklan.co.uk>
 	    Ben Elliston  <bje@gnu.org>
 
