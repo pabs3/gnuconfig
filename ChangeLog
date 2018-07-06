@@ -1,3 +1,7 @@
+2018-07-06  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (set_cc_for_build): Suppress possible mkdir output.
+
 2018-07-03  Liviu Ionescu <ilg@livius.net>
 	    Ben Elliston  <bje@gnu.org>
 
