@@ -1,3 +1,11 @@
+2018-07-12  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Replace large 'set_cc_for_build' shell variable,
+	that is executed via eval, with a POSIX shell function.
+	* Makefile (shellcheck): Ignore SC2039 diagnostics ("In POSIX sh,
+	RANDOM is undefined") and SC2172 ("Trapping signals by number is
+	not well defined. Prefer signal names").
+
 2018-07-06  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (set_cc_for_build): Suppress possible mkdir output.
