@@ -739,6 +739,7 @@ case $basic_machine in
 	| mipsr5900-* | mipsr5900el-* \
 	| mipstx39-* | mipstx39el-* \
 	| mmix-* \
+	| moxie-* \
 	| mt-* \
 	| msp430-* \
 	| nds32-* | nds32le-* | nds32be-* \
@@ -1262,9 +1263,6 @@ case $basic_machine in
 		;;
 	pmac | pmac-mpw)
 		basic_machine=powerpc-apple
-		;;
-	*-unknown)
-		# Make sure to match an already-canonicalized machine name.
 		;;
 	*)
 		echo Invalid configuration \`"$1"\': machine \`"$basic_machine"\' not recognized 1>&2

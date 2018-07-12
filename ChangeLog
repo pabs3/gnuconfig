@@ -1,3 +1,7 @@
+2018-07-13  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Don't recognize every *-unknown as a basic_machine.
+
 2018-07-12  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: Replace large 'set_cc_for_build' shell variable,
