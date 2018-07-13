@@ -1,5 +1,12 @@
 2018-07-13  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.sh: Strip off spaces around pipe
+	delimiter as test data is read in.
+	(run_config_guess): Set IFS to '|'.
+	* testsuite/config-guess.data: Use ' | ' as the delimeter.
+
+2018-07-13  Ben Elliston  <bje@gnu.org>
+
 	* config.guess (set_cc_for_build): Disable SC2039 ("In POSIX sh,
 	RANDOM is undefined").
 	* Makefile (shellcheck): Don't disable SC2039 globally.

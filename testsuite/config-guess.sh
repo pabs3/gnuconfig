@@ -14,7 +14,7 @@ PATH=$(pwd):$PATH
 run_config_guess()
 {
     rc=0
-    while read machine release system version processor triplet ; do
+    while IFS='|' read -r machine release system version processor triplet ; do
 	sed \
 	    -e "s,@MACHINE@,$machine," \
 	    -e "s,@RELEASE@,$release," \
@@ -46,7 +46,7 @@ EOF
     return $rc
 }
 
-if run_config_guess < config-guess.data ; then
+if sed 's, | ,|,g' < config-guess.data | run_config_guess ; then
   numtests=$(wc -l config-guess.data | cut -d' ' -f1)
   $verbose || echo "PASS: config.guess checks ($numtests tests)"
 else
