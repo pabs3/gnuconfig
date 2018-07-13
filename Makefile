@@ -17,4 +17,4 @@ check-sub:
 	cd testsuite && sh config-sub.sh
 
 shellcheck:
-	shellcheck -e SC2006,SC2039,SC2172 -f gcc config.guess config.sub testsuite/*.sh
+	shellcheck -e SC2006,SC2039 -f gcc config.guess config.sub testsuite/*.sh

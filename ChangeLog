@@ -1,3 +1,8 @@
+2018-07-13  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Disable SC2154 and SC2172 Shellcheck warnings.
+	* Makefile (shellcheck): Don't disable SC2172 globally.
+
 2018-07-13  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Don't recognize every *-unknown as a basic_machine.
