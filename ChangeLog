@@ -1,5 +1,11 @@
 2018-07-13  Ben Elliston  <bje@gnu.org>
 
+	* config.guess (set_cc_for_build): Disable SC2039 ("In POSIX sh,
+	RANDOM is undefined").
+	* Makefile (shellcheck): Don't disable SC2039 globally.
+
+2018-07-13  Ben Elliston  <bje@gnu.org>
+
 	* config.guess: Disable SC2154 and SC2172 Shellcheck warnings.
 	* Makefile (shellcheck): Don't disable SC2172 globally.
 

@@ -101,6 +101,7 @@ trap 'exitcode=$?; test -z "$tmp" || rm -fr "$tmp"; exit $exitcode' 0
 
 set_cc_for_build() {
     : "${TMPDIR=/tmp}"
+    # shellcheck disable=SC2039
     { tmp=`(umask 077 && mktemp -d "$TMPDIR/cgXXXXXX") 2>/dev/null` && test -n "$tmp" && test -d "$tmp" ; } ||
 	{ test -n "$RANDOM" && tmp=$TMPDIR/cg$$-$RANDOM && (umask 077 && mkdir "$tmp" 2>/dev/null) ; } ||
 	{ tmp=$TMPDIR/cg-$$ && (umask 077 && mkdir "$tmp" 2>/dev/null) && echo "Warning: creating insecure temp directory" >&2 ; } ||
