@@ -1,3 +1,7 @@
+2018-07-15  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.data: Sort.
+
 2018-07-13  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh: Strip off spaces around pipe

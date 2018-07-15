@@ -35,8 +35,8 @@ evbarm | 7.0 | NetBSD | ignored | earmv7hfeb | armv7eb-unknown-netbsdelf7.0-eabi
 frv | 2.4.24 | Linux | ignored | ignored | frv-unknown-linux-gnu
 genuineintel | 6.0 | Interix | ignored | ignored | x86_64-unknown-interix6.0
 hexagon | 1.0 | Linux | ignored | ignored | hexagon-unknown-linux-gnu
-i386 | 1.0 | Minix | ignored | ignored | i386-unknown-minix
 i386 | 1.0 | MINGW | ignored | ignored | i386-pc-mingw32
+i386 | 1.0 | Minix | ignored | ignored | i386-unknown-minix
 i386 | 1.0 | Sortix | ignored | ignored | i386-unknown-sortix
 i386 | 12.1 | AROS | ignored | ignored | i386-pc-aros
 i386 | 4.2 | LynxOS | ignored | ignored | i386-unknown-lynxos4.2
