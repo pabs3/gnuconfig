@@ -1,3 +1,8 @@
+2018-07-18  Mikaël Urankar  <mikael.urankar@gmail.com>
+
+	* config.guess (arm*:FreeBSD:*:*): New.
+	* testsuite/config-guess.data: Add a test case.
+
 2018-07-15  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.data: Sort.
