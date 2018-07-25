@@ -1,3 +1,8 @@
+2018-07-25  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Fix some more i386-pc-* defaults.
+	* testsuite/config-sub.data: Update.
+
 2018-07-18  Ben Elliston  <bje@gnu.org>
 
 	From Apostolos Syropoulos <asyropoulos@gmail.com>:

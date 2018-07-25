@@ -561,7 +561,7 @@ v850e						v850e-unknown-none
 v850						v850-unknown-none
 visium-elf					visium-unknown-elf
 visium						visium-unknown-none
-vsta						i386-unknown-vsta
+vsta						i386-pc-vsta
 wasm32						wasm32-unknown-none
 we32k						we32k-att-sysv
 x64-linux					x86_64-pc-linux-gnu
