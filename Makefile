@@ -11,10 +11,10 @@ doc/config.sub.1: config.sub
 	help2man -N --name "validate and canonicalize a configuration triplet" --output=$@ ./config.sub
 
 check-guess:
-	cd testsuite && sh config-guess.sh && rm uname
+	cd testsuite && bash config-guess.sh && rm uname
 
 check-sub:
-	cd testsuite && sh config-sub.sh
+	cd testsuite && bash config-sub.sh
 
 shellcheck:
 	shellcheck -e SC2006 -f gcc config.guess config.sub testsuite/*.sh

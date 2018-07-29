@@ -1,3 +1,7 @@
+2018-07-30  Ben Elliston  <bje@gnu.org>
+
+	* Makefile (check-guess, check-sub): Run tests under bash.
+
 2018-07-25  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Fix some more i386-pc-* defaults.
