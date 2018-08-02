@@ -1,3 +1,9 @@
+2018-08-02  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Fix SC2234 diagnostic from Shellcheck ("Remove
+	superfluous (..) around test command". Also remove redirection as
+	test(1) should never produce any output.
+
 2018-07-30  Ben Elliston  <bje@gnu.org>
 
 	* Makefile (check-guess, check-sub): Run tests under bash.
