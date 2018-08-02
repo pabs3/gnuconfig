@@ -13,24 +13,24 @@ verbose=false
 
 run_config_sub()
 {
-    rc=0
-    while read -r alias canonical ; do
-	output=$(sh -eu ../config.sub "$alias")
-	if test "$output" != "$canonical" ; then
-	    echo "FAIL: $alias -> $output, but expected $canonical"
-	    rc=1
-	else
-	    $verbose && echo "PASS: $alias"
-	fi
-    done < config-sub.data
-    return $rc
+	rc=0
+	while read -r alias canonical ; do
+		output=$(sh -eu ../config.sub "$alias")
+		if test "$output" != "$canonical" ; then
+			echo "FAIL: $alias -> $output, but expected $canonical"
+			rc=1
+		else
+			$verbose && echo "PASS: $alias"
+		fi
+	done < config-sub.data
+	return $rc
 }
 
 if run_config_sub ; then
-    numtests=$(wc -l config-sub.data | cut -d' ' -f1)
-    $verbose || echo "PASS: config.sub checks ($numtests tests)"
+	numtests=$(wc -l config-sub.data | cut -d' ' -f1)
+	$verbose || echo "PASS: config.sub checks ($numtests tests)"
 else
-    exit 1
+	exit 1
 fi
 
 exit 0
