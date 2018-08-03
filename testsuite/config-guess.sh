@@ -13,7 +13,7 @@ PATH=$(pwd):$PATH
 
 run_config_guess()
 {
-	rc=0
+	local -i rc=0
 	while IFS='|' read -r machine release system version processor triplet ; do
 		sed \
 			-e "s,@MACHINE@,$machine," \

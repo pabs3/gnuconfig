@@ -13,7 +13,7 @@ verbose=false
 
 run_config_sub()
 {
-	rc=0
+	local -i rc=0
 	while read -r alias canonical ; do
 		output=$(sh -eu ../config.sub "$alias")
 		if test "$output" != "$canonical" ; then

@@ -1,3 +1,8 @@
+2018-08-03  John Ericson  <john.ericson@obsidian.systems>
+
+	* testsuite/config-guess.sh: Make 'rc' a local variable.
+	* testsuite/config-sub.sh: Likewise.
+
 2018-08-02  John Ericson  <john.ericson@obsidian.systems>
 
 	* testsuite/config-guess.sh: Re-indent with tabs.
