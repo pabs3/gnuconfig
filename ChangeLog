@@ -1,5 +1,10 @@
 2018-08-08  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Don't need 'os=${os:-none}' defaults because that is
+	already the default.
+
+2018-08-08  John Ericson  <john.ericson@obsidian.systems>
+
 	* testsuiteb/config-sub.sh (run_config_sub_idempotent): New.
 	* config.sub: Fixes to pass the testsuite.
 

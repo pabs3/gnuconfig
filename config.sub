@@ -658,13 +658,11 @@ case $basic_machine in
 		;;
 	m6811 | m68hc11 | m6812 | m68hc12 | m68hcs12x | nvptx | picochip)
 		basic_machine=$basic_machine-unknown
-		os=${os:-none}
 		;;
 	m88110 | m680[12346]0 | m683?2 | m68360 | m5200 | v70 | w65)
 		;;
 	m9s12z | m68hcs12z | hcs12z | s12z)
 		basic_machine=s12z-unknown
-		os=${os:-none}
 		;;
 	m9s12z-* | m68hcs12z-* | hcs12z-* | s12z-*)
 		basic_machine=s12z-`echo "$basic_machine" | sed 's/^[^-]*-//'`
@@ -677,7 +675,6 @@ case $basic_machine in
 		;;
 	xgate)
 		basic_machine=$basic_machine-unknown
-		os=${os:-none}
 		;;
 	xgate-*)
 		;;
@@ -1233,7 +1230,6 @@ case $basic_machine in
 		;;
 	none)
 		basic_machine=none-none
-		os=${os:-none}
 		;;
 
 # Here we handle the default manufacturer of certain CPU types.  It is in
