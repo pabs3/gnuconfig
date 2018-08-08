@@ -1193,7 +1193,7 @@ case $basic_machine in
 		;;
 	tile*)
 		basic_machine=$basic_machine-unknown
-		os=linux-gnu
+		os=${os:-linux-gnu}
 		;;
 	tx39)
 		basic_machine=mipstx39-unknown

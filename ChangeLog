@@ -1,6 +1,10 @@
 2018-08-08  John Ericson  <john.ericson@obsidian.systems>
 
-	* config.sub (abacus, asmjs): Combine some redundant case arms.
+	* config.sub (tile*): Only set 'os' to -linux-gnu if unset.
+
+2018-08-08  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub (abacus, asmjs): Combine these redundant case arms.
 
 2018-08-08  John Ericson  <john.ericson@obsidian.systems>
 
