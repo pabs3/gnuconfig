@@ -1,3 +1,8 @@
+2018-08-08  John Ericson  <john.ericson@obsidian.systems>
+
+	* testsuiteb/config-sub.sh (run_config_sub_idempotent): New.
+	* config.sub: Fixes to pass the testsuite.
+
 2018-08-03  John Ericson  <john.ericson@obsidian.systems>
 
 	* testsuite/config-guess.sh: Make 'rc' a local variable.
