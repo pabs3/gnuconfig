@@ -1,5 +1,10 @@
 2018-08-08  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Eliminate some dead code for SH targets.
+	* testsuite/config-sub.data: Add tests for sh2ele and sh2ele-elf.
+
+2018-08-08  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub (tile*): Only set 'os' to -linux-gnu if unset.
 
 2018-08-08  John Ericson  <john.ericson@obsidian.systems>

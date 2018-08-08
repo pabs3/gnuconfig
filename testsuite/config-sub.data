@@ -454,6 +454,8 @@ sh2le						sh2le-unknown-none
 sh2						sh2-unknown-none
 sh3eb-elf					sh3eb-unknown-elf
 sh3e-elf					sh3e-unknown-elf
+sh2ele-elf					sh2ele-unknown-elf
+sh2ele						sh2ele-unknown-none
 sh3ele-elf					sh3ele-unknown-elf
 sh3ele						sh3ele-unknown-none
 sh3-elf						sh3-unknown-elf
