@@ -1,5 +1,9 @@
 2018-08-08  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub (abacus, asmjs): Combine some redundant case arms.
+
+2018-08-08  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: Don't need 'os=${os:-none}' defaults because that is
 	already the default.
 

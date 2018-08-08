@@ -569,12 +569,14 @@ case $basic_machine in
 	1750a | 580 \
 	| a29k \
 	| aarch64 | aarch64_be \
+	| abacus \
 	| alpha | alphaev[4-8] | alphaev56 | alphaev6[78] | alphapca5[67] \
 	| alpha64 | alpha64ev[4-8] | alpha64ev56 | alpha64ev6[78] | alpha64pca5[67] \
 	| am33_2.0 \
 	| arc | arceb \
 	| arm | arm[bl]e | arme[lb] | armv[2-8] | armv[3-8][lb] | armv6m | armv[78][arm] \
 	| avr | avr32 \
+	| asmjs \
 	| ba \
 	| be32 | be64 \
 	| bfin \
@@ -798,9 +800,6 @@ case $basic_machine in
 	3b*)
 		basic_machine=we32k-att
 		;;
-	abacus)
-		basic_machine=abacus-unknown
-		;;
 	alliant | fx80)
 		basic_machine=fx80-alliant
 		;;
@@ -815,9 +814,6 @@ case $basic_machine in
 		;;
 	amiga | amiga-*)
 		basic_machine=m68k-unknown
-		;;
-	asmjs)
-		basic_machine=asmjs-unknown
 		;;
 	blackfin-*)
 		basic_machine=bfin-`echo "$basic_machine" | sed 's/^[^-]*-//'`
