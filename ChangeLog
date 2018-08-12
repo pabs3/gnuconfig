@@ -1,3 +1,8 @@
+2018-08-12  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub (basic_machine): Move up manufacturer-defaulting
+	patterns.
+
 2018-08-08  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Eliminate some dead code for SH targets.
