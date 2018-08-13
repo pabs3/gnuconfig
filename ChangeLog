@@ -1,5 +1,9 @@
 2018-08-13  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Combine match arms.
+
+2018-08-13  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub (craynv): Move back as a basic_machine pattern.
 	* testsuite/config-sub.data: Add test case.
 
