@@ -127,6 +127,7 @@ clipper						clipper-unknown-none
 clipper-clix					clipper-intergraph-clix
 cr16-elf					cr16-unknown-elf
 cr16-random-elf					cr16-unknown-elf
+crds						m68k-crds-unos
 cris-linux					cris-axis-linux-gnu
 crisv32-linux					crisv32-axis-linux-gnu
 csky-linux					csky-unknown-linux-gnu
@@ -153,6 +154,7 @@ frv						frv-unknown-none
 frv-linux					frv-unknown-linux-gnu
 ft32-elf					ft32-unknown-elf
 ft32						ft32-unknown-none
+fx80						fx80-alliant-none
 h8300						h8300-unknown-none
 h8500						h8500-unknown-none
 hcs12z						s12z-unknown-none
@@ -429,6 +431,7 @@ riscv-linux					riscv-unknown-linux-gnu
 riscv						riscv-unknown-none
 rl78-linux					rl78-unknown-linux-gnu
 rl78						rl78-unknown-none
+roadrunner					i386-sun-sunos4.0.2
 rx-linux					rx-unknown-linux-gnu
 rx						rx-unknown-none
 s12z						s12z-unknown-none
@@ -447,6 +450,8 @@ sh2a						sh2a-unknown-none
 sh2eb-elf					sh2eb-unknown-elf
 sh2eb						sh2eb-unknown-none
 sh2e-elf					sh2e-unknown-elf
+sh2ele-elf					sh2ele-unknown-elf
+sh2ele						sh2ele-unknown-none
 sh2-elf						sh2-unknown-elf
 sh2e						sh2e-unknown-none
 sh2le-elf					sh2le-unknown-elf
@@ -454,8 +459,6 @@ sh2le						sh2le-unknown-none
 sh2						sh2-unknown-none
 sh3eb-elf					sh3eb-unknown-elf
 sh3e-elf					sh3e-unknown-elf
-sh2ele-elf					sh2ele-unknown-elf
-sh2ele						sh2ele-unknown-none
 sh3ele-elf					sh3ele-unknown-elf
 sh3ele						sh3ele-unknown-none
 sh3-elf						sh3-unknown-elf
@@ -511,7 +514,9 @@ spu						spu-unknown-elf
 st2000						m68k-tandem-none
 strongarm					arm-unknown-none
 strongarm-none-elf				arm-none-elf
+sun2						m68000-sun-sunos3
 sun386						i386-sun-sunos4.0.2
+sun386i						i386-sun-sunos4.0.2
 sun3						m68k-sun-sunos4.1.1
 sun4						sparc-sun-sunos4.1.1
 sv1						sv1-cray-unicos
@@ -549,6 +554,7 @@ tile-unknown-linux				tile-unknown-linux-gnu
 tron						tron-unknown-none
 ubicom32-elf					ubicom32-unknown-elf
 ubicom32					ubicom32-unknown-none
+unos						m68k-crds-unos
 v850e1-elf					v850e1-unknown-elf
 v850e1						v850e1-unknown-none
 v850e2-elf					v850e2-unknown-elf
