@@ -190,6 +190,14 @@ case $1 in
 				basic_machine=m68010-adobe
 				os=scout
 				;;
+			alliant)
+				basic_machine=fx80-alliant
+				os=
+				;;
+			altos | altos3068)
+				basic_machine=m68k-altos
+				os=
+				;;
 			am29k)
 				basic_machine=a29k-none
 				os=bsd
@@ -234,9 +242,33 @@ case $1 in
 				basic_machine=arm-unknown
 				os=cegcc
 				;;
+			convex-c1)
+				basic_machine=c1-convex
+				os=bsd
+				;;
+			convex-c2)
+				basic_machine=c2-convex
+				os=bsd
+				;;
+			convex-c32)
+				basic_machine=c32-convex
+				os=bsd
+				;;
+			convex-c34)
+				basic_machine=c34-convex
+				os=bsd
+				;;
+			convex-c38)
+				basic_machine=c38-convex
+				os=bsd
+				;;
 			cray)
 				basic_machine=j90-cray
 				os=unicos
+				;;
+			crds | unos)
+				basic_machine=m68k-crds
+				os=
 				;;
 			delta88)
 				basic_machine=m88k-motorola
@@ -454,9 +486,17 @@ case $1 in
 				basic_machine=m68k-bull
 				os=sysv2
 				;;
+			st2000)
+				basic_machine=m68k-tandem
+				os=
+				;;
 			stratus)
 				basic_machine=i860-stratus
 				os=sysv4
+				;;
+			sun2)
+				basic_machine=m68000-sun
+				os=
 				;;
 			sun2os3)
 				basic_machine=m68000-sun
@@ -466,6 +506,10 @@ case $1 in
 				basic_machine=m68000-sun
 				os=sunos4
 				;;
+			sun3)
+				basic_machine=m68k-sun
+				os=
+				;;
 			sun3os3)
 				basic_machine=m68k-sun
 				os=sunos3
@@ -473,6 +517,10 @@ case $1 in
 			sun3os4)
 				basic_machine=m68k-sun
 				os=sunos4
+				;;
+			sun4)
+				basic_machine=sparc-sun
+				os=
 				;;
 			sun4os3)
 				basic_machine=sparc-sun
@@ -485,6 +533,10 @@ case $1 in
 			sun4sol2)
 				basic_machine=sparc-sun
 				os=solaris2
+				;;
+			sun386 | sun386i | roadrunner)
+				basic_machine=i386-sun
+				os=
 				;;
 			sv1)
 				basic_machine=sv1-cray
@@ -565,6 +617,9 @@ case $basic_machine in
 	craynv)
 		basic_machine=craynv-cray
 		os=${os:-unicosmp}
+		;;
+	fx80)
+		basic_machine=fx80-alliant
 		;;
 	w89k)
 		basic_machine=hppa1.1-winbond
@@ -843,12 +898,6 @@ case $basic_machine in
 	3b*)
 		basic_machine=we32k-att
 		;;
-	alliant | fx80)
-		basic_machine=fx80-alliant
-		;;
-	altos | altos3068)
-		basic_machine=m68k-altos
-		;;
 	amd64)
 		basic_machine=x86_64-pc
 		;;
@@ -879,32 +928,9 @@ case $basic_machine in
 		basic_machine=c90-cray
 		os=${os:-unicos}
 		;;
-	convex-c1)
-		basic_machine=c1-convex
-		os=bsd
-		;;
-	convex-c2)
-		basic_machine=c2-convex
-		os=bsd
-		;;
-	convex-c32)
-		basic_machine=c32-convex
-		os=bsd
-		;;
-	convex-c34)
-		basic_machine=c34-convex
-		os=bsd
-		;;
-	convex-c38)
-		basic_machine=c38-convex
-		os=bsd
-		;;
 	cr16 | cr16-*)
 		basic_machine=cr16-unknown
 		os=${os:-elf}
-		;;
-	crds | unos)
-		basic_machine=m68k-crds
 		;;
 	crisv32 | crisv32-* | etraxfs*)
 		basic_machine=crisv32-axis
@@ -1211,23 +1237,8 @@ case $basic_machine in
 	spur)
 		basic_machine=spur-unknown
 		;;
-	st2000)
-		basic_machine=m68k-tandem
-		;;
 	strongarm-* | thumb-*)
 		basic_machine=arm-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	sun2)
-		basic_machine=m68000-sun
-		;;
-	sun3 | sun3-*)
-		basic_machine=m68k-sun
-		;;
-	sun4)
-		basic_machine=sparc-sun
-		;;
-	sun386 | sun386i | roadrunner)
-		basic_machine=i386-sun
 		;;
 	tile*-*)
 		;;
