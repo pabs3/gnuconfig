@@ -2,7 +2,7 @@
 # Configuration validation subroutine script.
 #   Copyright 1992-2018 Free Software Foundation, Inc.
 
-timestamp='2018-08-12'
+timestamp='2018-08-13'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
@@ -237,10 +237,6 @@ case $1 in
 			cray)
 				basic_machine=j90-cray
 				os=unicos
-				;;
-			craynv)
-				basic_machine=craynv-cray
-				os=unicosmp
 				;;
 			delta88)
 				basic_machine=m88k-motorola
@@ -566,6 +562,10 @@ esac
 case $basic_machine in
 	# Here we handle the default manufacturer of certain CPU types.  It is in
 	# some cases the only manufacturer, in others, it is the most popular.
+	craynv)
+		basic_machine=craynv-cray
+		os=${os:-unicosmp}
+		;;
 	w89k)
 		basic_machine=hppa1.1-winbond
 		;;

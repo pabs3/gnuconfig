@@ -130,6 +130,7 @@ cr16-random-elf					cr16-unknown-elf
 crds						m68k-crds-unos
 cris-linux					cris-axis-linux-gnu
 crisv32-linux					crisv32-axis-linux-gnu
+craynv						craynv-cray-unicosmp
 csky-linux					csky-unknown-linux-gnu
 d10v						d10v-unknown-none
 d30v						d30v-unknown-none
