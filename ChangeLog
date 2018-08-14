@@ -1,5 +1,10 @@
 2018-08-14  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub (sequent): Make this a one-component alias.
+	* testsuite/config-sub.data (sequent-ptx): Adjust test case.
+
+2018-08-14  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: Move some erroneous foo-* aliases to be single
 	component aliases.
 

@@ -507,6 +507,10 @@ case $1 in
 				basic_machine=mips-sei
 				os=seiux
 				;;
+			sequent)
+				basic_machine=i386-sequent
+				os=
+				;;
 			sps7)
 				basic_machine=m68k-bull
 				os=sysv2
@@ -1233,9 +1237,6 @@ case $basic_machine in
 	sde)
 		basic_machine=mipsisa32-sde
 		os=${os:-elf}
-		;;
-	sequent)
-		basic_machine=i386-sequent
 		;;
 	sh5el)
 		basic_machine=sh5le-unknown
