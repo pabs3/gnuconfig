@@ -1,3 +1,8 @@
+2018-08-14  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Move some erroneous foo-* aliases to be single
+	component aliases.
+
 2018-08-13  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Add legacy test cases for cydra,
