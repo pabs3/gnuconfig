@@ -122,6 +122,7 @@ c6x-unknown-coff				tic6x-unknown-coff
 c6x-unknown-elf					tic6x-unknown-elf
 c8051						c8051-unknown-elf
 c8051-elf					c8051-unknown-elf
+c90						c90-cray-unicos
 cegcc						arm-unknown-cegcc
 clipper						clipper-unknown-none
 clipper-clix					clipper-intergraph-clix
@@ -140,8 +141,13 @@ dec3100						mips-dec-ultrix4.2
 decstation					mips-dec-ultrix4.2
 decstation-3100					mips-dec-ultrix4.2
 decstatn					mips-dec-ultrix4.2
+decsystem10					pdp10-dec-tops10
+dec10						pdp10-dec-tops10
+decsystem20					pdp10-dec-tops20
+dec20					pdp10-dec-tops20
 dicos						i686-pc-dicos
 djgpp						i586-pc-msdosdjgpp
+dpx2xxx						m68k-bull-sysv3
 dlx						dlx-unknown-none
 dsp16xx						dsp16xx-unknown-none
 e2k						e2k-unknown-none
@@ -151,6 +157,10 @@ e500v2-elf					powerpc-unknown-elfspe
 e500v2-vxworksae				powerpc-wrs-vxworksaespe
 e500v2-wrs-linux				powerpc-wrs-linux-gnuspe
 e500v2-wrs-vxworks				powerpc-wrs-vxworksspe
+elxsi						elxsi-elxsi-bsd
+encore						ns32k-encore-bsd
+umax						ns32k-encore-bsd
+mmax						ns32k-encore-bsd
 epiphany-elf					epiphany-unknown-elf
 epiphany					epiphany-unknown-none
 es1800						m68k-ericsson-ose
@@ -162,6 +172,7 @@ frv-linux					frv-unknown-linux-gnu
 ft32-elf					ft32-unknown-elf
 ft32						ft32-unknown-none
 fx80						fx80-alliant-none
+genix						ns32k-ns-genix
 h8300						h8300-unknown-none
 h8500						h8500-unknown-none
 hcs12z						s12z-unknown-none
@@ -170,6 +181,10 @@ hexagon-linux					hexagon-unknown-linux-gnu
 hppa1.0						hppa1.0-unknown-none
 hppa2.0						hppa2.0-unknown-none
 hppa2.0n					hppa2.0n-unknown-none
+hp3k900 					hppa1.0-hp-hpux
+hp900						hppa1.0-hp-hpux
+hp9k200 					m68000-hp-hpux
+hp9k310 					m68000-hp-hpux
 hppa64						hppa64-unknown-none
 hppa						hppa-unknown-none
 hppa-next					hppa-next-nextstep
@@ -231,6 +246,10 @@ ia64						ia64-unknown-none
 ibm						i370-ibm-aix
 ip2k						ip2k-unknown-none
 iq2000						iq2000-unknown-none
+iris						mips-sgi-irix4
+iris4d						mips-sgi-irix4
+j90						j90-cray-unicos
+j90-unicos					j90-cray-unicos
 k1om						k1om-unknown-none
 k1om-linux					k1om-unknown-linux-gnu
 le32						le32-unknown-none

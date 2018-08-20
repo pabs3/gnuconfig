@@ -1,3 +1,7 @@
+2018-08-20  John Ericson  <john.ericson@obsidian.systems>
+
+	* testsuite/config-sub.data: Add legacy test cases.
+
 2018-08-14  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub (sequent): Make this a one-component alias.
