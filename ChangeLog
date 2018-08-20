@@ -1,5 +1,12 @@
 2018-08-20  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Move the big patterns to the bottom in preparation
+	for de-duplication. It causes Shellcheck to see more overlapping
+	patterns. Fix miscellaneous problems identified by Shellcheck.
+	* testsuite/config-sub.data: Adjust tests.
+
+2018-08-20  John Ericson  <john.ericson@obsidian.systems>
+
 	* testsuite/config-sub.data: Add legacy test cases.
 
 2018-08-14  John Ericson  <john.ericson@obsidian.systems>

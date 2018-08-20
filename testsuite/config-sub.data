@@ -128,6 +128,7 @@ clipper						clipper-unknown-none
 clipper-clix					clipper-intergraph-clix
 cr16-elf					cr16-unknown-elf
 cr16-random-elf					cr16-unknown-elf
+crx						crx-unknown-elf
 crds						m68k-crds-unos
 cris-linux					cris-axis-linux-gnu
 crisv32-linux					crisv32-axis-linux-gnu
@@ -284,12 +285,13 @@ mep-elf						mep-unknown-elf
 mep						mep-unknown-elf
 metag-linux					metag-unknown-linux-gnu
 metag						metag-unknown-none
-microblazeel-elf				microblazeel-unknown-elf
-microblaze-elf					microblaze-unknown-elf
-microblazeel-linux				microblazeel-unknown-linux-gnu
-microblazeel					microblazeel-unknown-none
-microblaze-linux				microblaze-unknown-linux-gnu
-microblaze					microblaze-unknown-none
+microblazeel-elf				microblazeel-xilinx-elf
+microblazeel-foobar-elf				microblazeel-foobar-elf
+microblaze-elf					microblaze-xilinx-elf
+microblazeel-linux				microblazeel-xilinx-linux-gnu
+microblazeel					microblazeel-xilinx-none
+microblaze-linux				microblaze-xilinx-linux-gnu
+microblaze					microblaze-xilinx-none
 mingw32ce					arm-unknown-mingw32ce
 mingw32						i686-pc-mingw32
 mingw64						x86_64-pc-mingw64
