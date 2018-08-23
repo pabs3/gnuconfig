@@ -1,3 +1,7 @@
+2018-08-23  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Finish moving big patterns to the bottom.
+
 2018-08-20  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Move the big patterns to the bottom in preparation
