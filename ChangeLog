@@ -1,3 +1,9 @@
+2018-08-24  Ben Elliston  <bje@gnu.org>
+
+	From Justin Hibbits:
+	* config.sub (powerpcspe, powerpcspe-*): New.
+	* testsuite/config-sub.data: Add test cases.
+
 2018-08-24  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Consolidate *-pc handling.
