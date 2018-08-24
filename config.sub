@@ -702,13 +702,6 @@ case $basic_machine in
 		basic_machine=xps100-honeywell
 		;;
 
-	# We use `pc' rather than `unknown'
-	# because (1) that's what they normally are, and
-	# (2) the word "unknown" tends to confuse beginning users.
-	i*86 | x86_64)
-	  basic_machine=$basic_machine-pc
-	  ;;
-
 	# Recognize the various machine names and aliases which stand
 	# for a CPU type and a company and sometimes even an OS.
 	3b1 | 7300 | 7300-att | att-7300 | pc7300 | safari | unixpc)
@@ -716,9 +709,6 @@ case $basic_machine in
 		;;
 	3b*)
 		basic_machine=we32k-att
-		;;
-	amd64)
-		basic_machine=x86_64-pc
 		;;
 	blackfin-*)
 		basic_machine=bfin-`echo "$basic_machine" | sed 's/^[^-]*-//'`
@@ -912,9 +902,6 @@ case $basic_machine in
 	pc532 | pc532-*)
 		basic_machine=ns32k-pc532
 		;;
-	pc98)
-		basic_machine=i386-pc
-		;;
 	pc98-*)
 		basic_machine=i386-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
@@ -1022,9 +1009,6 @@ case $basic_machine in
 		basic_machine=hppa1.1-winbond
 		os=proelf
 		;;
-	x64)
-		basic_machine=x86_64-pc
-		;;
 	xscale-* | xscalee[bl]-*)
 		basic_machine=`echo "$basic_machine" | sed 's/^xscale/arm/'`
 		;;
@@ -1058,6 +1042,21 @@ case $basic_machine in
 
 	xscaleel)
 		basic_machine=armel-unknown
+		;;
+
+	# We use `pc' rather than `unknown'
+	# because (1) that's what they normally are, and
+	# (2) the word "unknown" tends to confuse beginning users.
+	i*86 | x86_64)
+		basic_machine=$basic_machine-pc
+		;;
+	# These rules are duplicated from below for sake of the special case above;
+	# i.e. things that normalized to x86 arches should also default to "pc"
+	pc98)
+		basic_machine=i386-pc
+		;;
+	x64 | amd64)
+		basic_machine=x86_64-pc
 		;;
 
 	# Recognize the cannonical CPU Types that limit and/or modify the

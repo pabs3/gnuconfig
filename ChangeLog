@@ -1,5 +1,9 @@
 2018-08-24  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Consolidate *-pc handling.
+
+2018-08-24  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub (cr16-*): Do not clobber vendor.
 	* testsuite/config-sub.data (cr16-random-elf): Adjust test case.
 
