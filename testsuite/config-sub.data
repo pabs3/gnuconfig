@@ -126,6 +126,7 @@ c90						c90-cray-unicos
 cegcc						arm-unknown-cegcc
 clipper						clipper-unknown-none
 clipper-clix					clipper-intergraph-clix
+cr16						cr16-unknown-elf
 cr16-elf					cr16-unknown-elf
 cr16-random-elf					cr16-unknown-elf
 crx						crx-unknown-elf
@@ -160,6 +161,7 @@ e500v2-wrs-linux				powerpc-wrs-linux-gnuspe
 e500v2-wrs-vxworks				powerpc-wrs-vxworksspe
 elxsi						elxsi-elxsi-bsd
 encore						ns32k-encore-bsd
+etraxfs						crisv32-axis-none
 umax						ns32k-encore-bsd
 mmax						ns32k-encore-bsd
 epiphany-elf					epiphany-unknown-elf
@@ -470,6 +472,7 @@ rx-linux					rx-unknown-linux-gnu
 rx						rx-unknown-none
 s12z						s12z-unknown-none
 s390-ibm-zvmoe					s390-ibm-zvmoe
+s390x-ibm-zvmoe					s390x-ibm-zvmoe
 score-elf					score-unknown-elf
 score						score-unknown-elf
 sde-elf						mipsisa32-sde-elf
