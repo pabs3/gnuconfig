@@ -128,7 +128,7 @@ clipper						clipper-unknown-none
 clipper-clix					clipper-intergraph-clix
 cr16						cr16-unknown-elf
 cr16-elf					cr16-unknown-elf
-cr16-random-elf					cr16-unknown-elf
+cr16-random-elf					cr16-random-elf
 crx						crx-unknown-elf
 crds						m68k-crds-unos
 cris-linux					cris-axis-linux-gnu

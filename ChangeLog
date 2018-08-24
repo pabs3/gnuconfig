@@ -1,5 +1,10 @@
 2018-08-24  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub (cr16-*): Do not clobber vendor.
+	* testsuite/config-sub.data (cr16-random-elf): Adjust test case.
+
+2018-08-24  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: Consolidate some *-* patterns above big patterns.
 
 2018-08-24  Ben Elliston  <bje@gnu.org>

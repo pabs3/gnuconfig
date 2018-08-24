@@ -1065,8 +1065,11 @@ case $basic_machine in
 	amd64-*)
 		basic_machine=x86_64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
-	cr16 | cr16-*)
+	cr16)
 		basic_machine=cr16-unknown
+		os=${os:-elf}
+		;;
+	cr16-*)
 		os=${os:-elf}
 		;;
 	crisv32 | crisv32-* | etraxfs*)
