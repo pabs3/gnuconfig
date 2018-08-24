@@ -1,3 +1,7 @@
+2018-08-24  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Consolidate some *-* patterns above big patterns.
+
 2018-08-24  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.data: Add more tests.
