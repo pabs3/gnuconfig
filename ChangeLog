@@ -1,3 +1,12 @@
+2018-08-28  John Ericson  <john.ericson@obsidian.systems>
+
+	* config.sub: Remove duplicates in the huge `case basic_machine
+	in` arms. These patterns whitelist canonical CPU types that are
+	allowed with any vendor. The former arm accepts a provided vendor,
+	and the latter arm defaults a vendor when none is provided. Split
+	`case $basic_machine in` in to two, and then pre-default the
+	missing vendor so that only the explicit-vendor rules are needed.
+
 2018-08-24  Ben Elliston  <bje@gnu.org>
 
 	From Justin Hibbits:
