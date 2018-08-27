@@ -1,5 +1,12 @@
 2018-08-28  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Remove redundant patterns from second `case
+	$basic_machine in`. The second case only needs to handle patterns
+	of the form *-*. We can drop some patterns without a change in
+	functionality.
+
+2018-08-28  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: Remove duplicates in the huge `case basic_machine
 	in` arms. These patterns whitelist canonical CPU types that are
 	allowed with any vendor. The former arm accepts a provided vendor,

@@ -1072,28 +1072,17 @@ case $basic_machine in
 	amd64-*)
 		basic_machine=x86_64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
-	cr16)
-		basic_machine=cr16-unknown
-		os=${os:-elf}
-		;;
 	cr16-*)
 		os=${os:-elf}
 		;;
-	crisv32 | crisv32-* | etraxfs*)
+	crisv32-* | etraxfs*-*)
 		basic_machine=crisv32-axis
 		;;
-	cris | cris-* | etrax*)
+	cris-* | etrax*-*)
 		basic_machine=cris-axis
 		;;
 	crx-*)
 		os=${os:-elf}
-		;;
-	crx)
-		basic_machine=crx-unknown
-		os=${os:-elf}
-		;;
-	m9s12z | m68hcs12z | hcs12z | s12z)
-		basic_machine=s12z-unknown
 		;;
 	m9s12z-* | m68hcs12z-* | hcs12z-* | s12z-*)
 		basic_machine=s12z-`echo "$basic_machine" | sed 's/^[^-]*-//'`
@@ -1113,17 +1102,13 @@ case $basic_machine in
 	nsx-tandem)
 		basic_machine=nsx-tandem
 		;;
-	s390 | s390-*)
+	s390-*)
 		basic_machine=s390-ibm
 		;;
-	s390x | s390x-*)
+	s390x-*)
 		basic_machine=s390x-ibm
 		;;
 	tile*-*)
-		os=${os:-linux-gnu}
-		;;
-	tile*)
-		basic_machine=$basic_machine-unknown
 		os=${os:-linux-gnu}
 		;;
 
