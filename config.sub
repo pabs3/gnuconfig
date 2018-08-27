@@ -639,17 +639,10 @@ case $1 in
 		;;
 esac
 
-# Decode aliases for certain CPU-COMPANY combinations.
+# Decode 1-component or ad-hoc basic machines
 case $basic_machine in
 	# Here we handle the default manufacturer of certain CPU types.  It is in
 	# some cases the only manufacturer, in others, it is the most popular.
-	craynv)
-		basic_machine=craynv-cray
-		os=${os:-unicosmp}
-		;;
-	fx80)
-		basic_machine=fx80-alliant
-		;;
 	w89k)
 		basic_machine=hppa1.1-winbond
 		;;
@@ -659,32 +652,8 @@ case $basic_machine in
 	op60c)
 		basic_machine=hppa1.1-oki
 		;;
-	romp)
-		basic_machine=romp-ibm
-		;;
-	mmix)
-		basic_machine=mmix-knuth
-		;;
-	rs6000)
-		basic_machine=rs6000-ibm
-		;;
-	vax)
-		basic_machine=vax-dec
-		;;
-	pdp11)
-		basic_machine=pdp11-dec
-		;;
-	we32k)
-		basic_machine=we32k-att
-		;;
-	cydra)
-		basic_machine=cydra-cydrome
-		;;
-	i370-ibm* | ibm*)
+	ibm*)
 		basic_machine=i370-ibm
-		;;
-	orion)
-		basic_machine=orion-highlevel
 		;;
 	orion105)
 		basic_machine=clipper-highlevel
@@ -692,14 +661,8 @@ case $basic_machine in
 	mac | mpw | mac-mpw)
 		basic_machine=m68k-apple
 		;;
-	microblaze | microblazeel)
-		basic_machine=$basic_machine-xilinx
-		;;
 	pmac | pmac-mpw)
 		basic_machine=powerpc-apple
-		;;
-	xps | xps100)
-		basic_machine=xps100-honeywell
 		;;
 
 	# Recognize the various machine names and aliases which stand
@@ -710,26 +673,9 @@ case $basic_machine in
 	3b*)
 		basic_machine=we32k-att
 		;;
-	blackfin-*)
-		basic_machine=bfin-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		os=linux
-		;;
 	bluegene*)
 		basic_machine=powerpc-ibm
 		os=cnk
-		;;
-	c54x-*)
-		basic_machine=tic54x-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	c55x-*)
-		basic_machine=tic55x-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	c6x-*)
-		basic_machine=tic6x-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	c90)
-		basic_machine=c90-cray
-		os=${os:-unicos}
 		;;
 	decsystem10* | dec10*)
 		basic_machine=pdp10-dec
@@ -743,21 +689,9 @@ case $basic_machine in
 	      | 3300-motorola | delta-motorola)
 		basic_machine=m68k-motorola
 		;;
-	dpx20 | dpx20-*)
-		basic_machine=rs6000-bull
-		os=${os:-bosx}
-		;;
 	dpx2*)
 		basic_machine=m68k-bull
 		os=sysv3
-		;;
-	e500v[12])
-		basic_machine=powerpc-unknown
-		os=$os"spe"
-		;;
-	e500v[12]-*)
-		basic_machine=powerpc-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		os=$os"spe"
 		;;
 	encore | umax | mmax)
 		basic_machine=ns32k-encore
@@ -838,25 +772,12 @@ case $basic_machine in
 	leon-*|leon[3-9]-*)
 		basic_machine=sparc-`echo "$basic_machine" | sed 's/-.*//'`
 		;;
-	m68knommu-*)
-		basic_machine=m68k-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		os=linux
-		;;
 	miniframe)
 		basic_machine=m68000-convergent
 		;;
 	*mint | mint[0-9]* | *MiNT | *MiNT[0-9]*)
 		basic_machine=m68k-atari
 		os=mint
-		;;
-	mips3*-*)
-		basic_machine=`echo "$basic_machine" | sed -e 's/mips3/mips64/'`
-		;;
-	mips3*)
-		basic_machine=`echo "$basic_machine" | sed -e 's/mips3/mips64/'`-unknown
-		;;
-	ms1-*)
-		basic_machine=`echo "$basic_machine" | sed -e 's/ms1-/mt-/'`
 		;;
 	news-3600 | risc-news)
 		basic_machine=mips-sony
@@ -889,71 +810,19 @@ case $basic_machine in
 		basic_machine=hppa1.1-hitachi
 		os=hiuxwe2
 		;;
-	parisc-*)
-		basic_machine=hppa-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		os=linux
-		;;
 	pbd)
 		basic_machine=sparc-tti
 		;;
 	pbb)
 		basic_machine=m68k-tti
 		;;
-	pc532 | pc532-*)
+	pc532)
 		basic_machine=ns32k-pc532
-		;;
-	pc98-*)
-		basic_machine=i386-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	pentium | p5 | k5 | k6 | nexgen | viac3)
-		basic_machine=i586-pc
-		;;
-	pentiumpro | p6 | 6x86 | athlon | athlon_*)
-		basic_machine=i686-pc
-		;;
-	pentiumii | pentium2 | pentiumiii | pentium3)
-		basic_machine=i686-pc
-		;;
-	pentium4)
-		basic_machine=i786-pc
-		;;
-	pentium-* | p5-* | k5-* | k6-* | nexgen-* | viac3-*)
-		basic_machine=i586-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	pentiumpro-* | p6-* | 6x86-* | athlon-*)
-		basic_machine=i686-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	pentiumii-* | pentium2-* | pentiumiii-* | pentium3-*)
-		basic_machine=i686-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	pentium4-*)
-		basic_machine=i786-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
 	pn)
 		basic_machine=pn-gould
 		;;
 	power)	basic_machine=power-ibm
-		;;
-	ppc | ppcbe)	basic_machine=powerpc-unknown
-		;;
-	ppc-* | ppcbe-*)
-		basic_machine=powerpc-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	ppcle | powerpclittle)
-		basic_machine=powerpcle-unknown
-		;;
-	ppcle-* | powerpclittle-*)
-		basic_machine=powerpcle-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	ppc64)	basic_machine=powerpc64-unknown
-		;;
-	ppc64-*) basic_machine=powerpc64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
-	ppc64le | powerpc64little)
-		basic_machine=powerpc64le-unknown
-		;;
-	ppc64le-* | powerpc64little-*)
-		basic_machine=powerpc64le-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
 	ps2)
 		basic_machine=i386-ibm
@@ -974,21 +843,12 @@ case $basic_machine in
 		basic_machine=mipsisa32-sde
 		os=${os:-elf}
 		;;
-	sh5el)
-		basic_machine=sh5le-unknown
-		;;
-	sh5el-*)
-		basic_machine=sh5le-`echo "$basic_machine" | sed 's/^[^-]*-//'`
-		;;
 	simso-wrs)
 		basic_machine=sparclite-wrs
 		os=vxworks
 		;;
 	spur)
 		basic_machine=spur-unknown
-		;;
-	strongarm-* | thumb-*)
-		basic_machine=arm-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
 	tx39)
 		basic_machine=mipstx39-unknown
@@ -1066,12 +926,137 @@ case $basic_machine in
 		;;
 esac
 
+# Decode basic machines in the full and proper CPU-Company form.
 case $basic_machine in
-	# Recognize the cannonical CPU Types that limit and/or modify the
-	# company names they are paired with.
+	# Here we handle the default manufacturer of certain CPU types in cannonical form. It is in
+	# some cases the only manufacturer, in others, it is the most popular.
+	craynv-unknown)
+		basic_machine=craynv-cray
+		os=${os:-unicosmp}
+		;;
+	c90-unknown | c90-cray)
+		basic_machine=c90-cray
+		os=${os:-unicos}
+		;;
+	fx80-unknown)
+		basic_machine=fx80-alliant
+		;;
+	romp-unknown)
+		basic_machine=romp-ibm
+		;;
+	mmix-unknown)
+		basic_machine=mmix-knuth
+		;;
+	microblaze-unknown | microblazeel-unknown)
+		basic_machine=`echo "$basic_machine" | sed 's/-.*//'`-xilinx
+		;;
+	rs6000-unknown)
+		basic_machine=rs6000-ibm
+		;;
+	vax-unknown)
+		basic_machine=vax-dec
+		;;
+	pdp11-unknown)
+		basic_machine=pdp11-dec
+		;;
+	we32k-unknown)
+		basic_machine=we32k-att
+		;;
+	cydra-unknown)
+		basic_machine=cydra-cydrome
+		;;
+	i370-ibm*)
+		basic_machine=i370-ibm
+		;;
+	orion-unknown)
+		basic_machine=orion-highlevel
+		;;
+	xps-unknown | xps100-unknown)
+		basic_machine=xps100-honeywell
+		;;
+
+	# Here we normalize CPU types with a missing or matching vendor
+	dpx20-unknown | dpx20-bull)
+		basic_machine=rs6000-bull
+		os=${os:-bosx}
+		;;
+
+	# Here we normalize CPU types irrespective of the vendor
 	amd64-*)
 		basic_machine=x86_64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
+	blackfin-*)
+		basic_machine=bfin-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		os=linux
+		;;
+	c54x-*)
+		basic_machine=tic54x-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	c55x-*)
+		basic_machine=tic55x-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	c6x-*)
+		basic_machine=tic6x-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	e500v[12]-*)
+		basic_machine=powerpc-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		os=$os"spe"
+		;;
+	mips3*-*)
+		basic_machine=mips64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	ms1-*)
+		basic_machine=mt-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	m68knommu-*)
+		basic_machine=m68k-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		os=linux
+		;;
+	m9s12z-* | m68hcs12z-* | hcs12z-* | s12z-*)
+		basic_machine=s12z-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	parisc-*)
+		basic_machine=hppa-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		os=linux
+		;;
+	pentium-* | p5-* | k5-* | k6-* | nexgen-* | viac3-*)
+		basic_machine=i586-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	pentiumpro-* | p6-* | 6x86-* | athlon-* | athalon_*-*)
+		basic_machine=i686-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	pentiumii-* | pentium2-* | pentiumiii-* | pentium3-*)
+		basic_machine=i686-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	pentium4-*)
+		basic_machine=i786-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	pc98-*)
+		basic_machine=i386-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	ppc-* | ppcbe-*)
+		basic_machine=powerpc-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	ppcle-* | powerpclittle-*)
+		basic_machine=powerpcle-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	ppc64-*) basic_machine=powerpc64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	ppc64le-* | powerpc64little-*)
+		basic_machine=powerpc64le-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	sh5e[lb]-*)
+		basic_machine=`echo "$basic_machine" | sed 's/^\(sh.\)e\(.\)-/\1\2e-/'`
+		;;
+	strongarm-* | thumb-*)
+		basic_machine=arm-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	x64-*)
+		basic_machine=x86_64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+
+	# Recognize the cannonical CPU Types that limit and/or modify the
+	# company names they are paired with.
 	cr16-*)
 		os=${os:-elf}
 		;;
@@ -1083,9 +1068,6 @@ case $basic_machine in
 		;;
 	crx-*)
 		os=${os:-elf}
-		;;
-	m9s12z-* | m68hcs12z-* | hcs12z-* | s12z-*)
-		basic_machine=s12z-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
 	neo-tandem)
 		basic_machine=neo-tandem
