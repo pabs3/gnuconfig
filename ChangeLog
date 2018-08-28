@@ -1,5 +1,11 @@
 2018-08-28  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: Parse basic_machine into cpu and vendor. This adds
+	more lines, but makes a bunch of code simpler and easier to read.
+	sed(1) is used a lot less, for example.
+
+2018-08-28  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: More deduplication and organize more basic machines.
 
 2018-08-28  John Ericson  <john.ericson@obsidian.systems>
