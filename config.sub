@@ -769,9 +769,6 @@ case $basic_machine in
 			;;
 		esac
 		;;
-	leon-*|leon[3-9]-*)
-		basic_machine=sparc-`echo "$basic_machine" | sed 's/-.*//'`
-		;;
 	miniframe)
 		basic_machine=m68000-convergent
 		;;
@@ -803,9 +800,6 @@ case $basic_machine in
 		basic_machine=hppa1.1-oki
 		os=proelf
 		;;
-	openrisc | openrisc-*)
-		basic_machine=or32-unknown
-		;;
 	pa-hitachi)
 		basic_machine=hppa1.1-hitachi
 		os=hiuxwe2
@@ -833,12 +827,6 @@ case $basic_machine in
 	rtpc | rtpc-*)
 		basic_machine=romp-ibm
 		;;
-	sb1)
-		basic_machine=mipsisa64sb1-unknown
-		;;
-	sb1el)
-		basic_machine=mipsisa64sb1el-unknown
-		;;
 	sde)
 		basic_machine=mipsisa32-sde
 		os=${os:-elf}
@@ -846,15 +834,6 @@ case $basic_machine in
 	simso-wrs)
 		basic_machine=sparclite-wrs
 		os=vxworks
-		;;
-	spur)
-		basic_machine=spur-unknown
-		;;
-	tx39)
-		basic_machine=mipstx39-unknown
-		;;
-	tx39el)
-		basic_machine=mipstx39el-unknown
 		;;
 	tower | tower-32)
 		basic_machine=m68k-ncr
@@ -869,39 +848,14 @@ case $basic_machine in
 		basic_machine=hppa1.1-winbond
 		os=proelf
 		;;
-	xscale-* | xscalee[bl]-*)
-		basic_machine=`echo "$basic_machine" | sed 's/^xscale/arm/'`
-		;;
 	none)
 		basic_machine=none-none
 		;;
-
-	c54x)
-		basic_machine=tic54x-unknown
-		;;
-	c55x)
-		basic_machine=tic55x-unknown
-		;;
-	c6x)
-		basic_machine=tic6x-unknown
-		;;
-	leon | leon[3-9])
+	leon|leon[3-9])
 		basic_machine=sparc-$basic_machine
 		;;
-	m88110 | m680[12346]0 | m683?2 | m68360 | m5200 | v70)
-		;;
-	ms1)
-		basic_machine=mt-unknown
-		;;
-	strongarm | thumb | xscale)
-		basic_machine=arm-unknown
-		;;
-	xscaleeb)
-		basic_machine=armeb-unknown
-		;;
-
-	xscaleel)
-		basic_machine=armel-unknown
+	leon-*|leon[3-9]-*)
+		basic_machine=sparc-`echo "$basic_machine" | sed 's/-.*//'`
 		;;
 
 	*-*)
@@ -1015,6 +969,9 @@ case $basic_machine in
 	m9s12z-* | m68hcs12z-* | hcs12z-* | s12z-*)
 		basic_machine=s12z-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
+	openrisc-*)
+		basic_machine=or32-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
 	parisc-*)
 		basic_machine=hppa-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		os=linux
@@ -1045,14 +1002,32 @@ case $basic_machine in
 	ppc64le-* | powerpc64little-*)
 		basic_machine=powerpc64le-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
+	sb1-*)
+		basic_machine=mipsisa64sb1-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	sb1el-*)
+		basic_machine=mipsisa64sb1el-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
 	sh5e[lb]-*)
 		basic_machine=`echo "$basic_machine" | sed 's/^\(sh.\)e\(.\)-/\1\2e-/'`
+		;;
+	spur)
+		basic_machine=spur-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
 	strongarm-* | thumb-*)
 		basic_machine=arm-`echo "$basic_machine" | sed 's/^[^-]*-//'`
 		;;
+	tx39)
+		basic_machine=mipstx39-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	tx39el)
+		basic_machine=mipstx39el-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
 	x64-*)
 		basic_machine=x86_64-`echo "$basic_machine" | sed 's/^[^-]*-//'`
+		;;
+	xscale-* | xscalee[bl]-*)
+		basic_machine=`echo "$basic_machine" | sed 's/^xscale/arm/'`
 		;;
 
 	# Recognize the cannonical CPU Types that limit and/or modify the

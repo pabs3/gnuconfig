@@ -1,5 +1,9 @@
 2018-08-28  John Ericson  <john.ericson@obsidian.systems>
 
+	* config.sub: More deduplication and organize more basic machines.
+
+2018-08-28  John Ericson  <john.ericson@obsidian.systems>
+
 	* config.sub: Deduplicate and organize more basic machines.
 
 2018-08-28  John Ericson  <john.ericson@obsidian.systems>
