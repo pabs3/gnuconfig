@@ -1,3 +1,7 @@
+2018-08-29  Mikaël Urankar  <mikael.urankar@gmail.com>
+
+	* config.guess (arm:FreeBSD:*:*): Match on 'arm' not 'arm*'.
+
 2018-08-28  John Ericson  <john.ericson@obsidian.systems>
 
 	* config.sub: Parse basic_machine into cpu and vendor. This adds
