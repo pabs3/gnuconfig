@@ -1,3 +1,7 @@
+2018-10-17  Urs Janßen <urs@tin.org>
+
+	* config.sub: Fix comment typos.
+
 2018-08-29  Mikaël Urankar  <mikael.urankar@gmail.com>
 
 	* config.guess (arm:FreeBSD:*:*): Match on 'arm' not 'arm*'.
