@@ -1384,7 +1384,7 @@
 	Fix incorrect FSF snail mail addresses.
 	* config.guess, config.sub: Replace (slightly wrong) snail mail
 	addresses with a URL, as per current GNU coding standards.
-	See <http://sourceware.org/bugzilla/show_bug.cgi?id=13673#c5>.
+	See <https://sourceware.org/bugzilla/show_bug.cgi?id=13673#c5>.
 
 2012-02-10  Ben Elliston  <bje@gnu.org>
 
