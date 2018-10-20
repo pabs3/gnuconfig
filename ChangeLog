@@ -1,3 +1,7 @@
+2018-10-20  Peter Kokot  <peterkokot@gmail.com>
+
+	* config.sub: Direct diagnostic output to standard error.
+
 2018-10-17  Urs Janßen <urs@tin.org>
 
 	* config.sub: Fix comment typos.
