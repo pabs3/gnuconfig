@@ -2,7 +2,7 @@
 3 | 2.3.3 | XENIX | SysV | ignored | i386-pc-xenix
 aarch64_be | ignored | Linux | ignored | ignored | aarch64_be-unknown-linux-gnu
 aarch64 | ignored | Linux | ignored | ignored | aarch64-unknown-linux-gnu
-amd64 | 1.5.12(0.116/4/2) | CYGWIN_NT-5.2 | ignored | ignored | x86_64-unknown-cygwin
+amd64 | 1.5.12(0.116/4/2) | CYGWIN_NT-5.2 | ignored | ignored | x86_64-pc-cygwin
 amd64 | 6.1.4 | NetBSD | ignored | x86_64 | x86_64-unknown-netbsd6.1
 amd64 | 6.1.5_PATCH | NetBSD | ignored | x86_64 | x86_64-unknown-netbsd6.1
 amd64 | 7.0_BETA | NetBSD | ignored | x86_64 | x86_64-unknown-netbsd7.0
@@ -94,7 +94,7 @@ x86_64 | 1.0 | MINGW64 | ignored | ignored | x86_64-pc-mingw64
 x86_64 | 1.0 | MINGW | ignored | ignored | x86_64-pc-mingw32
 x86_64 | 1.0 | Redox | ignored | ignored | x86_64-unknown-redox
 x86_64 | 1.0 | Sortix | ignored | ignored | x86_64-unknown-sortix
-x86_64 | 1.5.18(0.132/4/2) | CYGWIN_NT-5.2 | ignored | ignored | x86_64-unknown-cygwin
+x86_64 | 1.5.18(0.132/4/2) | CYGWIN_NT-5.2 | ignored | ignored | x86_64-pc-cygwin
 x86_64 | 2.0.0(0.271/5/3) | MSYS_NT-6.1 | ignored | ignored | x86_64-pc-msys
 x86_64 | 2.6.32 | Linux | ignored | ignored | x86_64-pc-linux-gnu
 x86_64 | 2.6.32 | VMkernel | ignored | ignored | x86_64-unknown-esx

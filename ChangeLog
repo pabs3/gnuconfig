@@ -1,3 +1,9 @@
+2018-10-26  Ben Elliston  <bje@gnu.org>
+
+	* config.guess (amd64:CYGWIN*:*:* | x86_64:CYGWIN*:*:*): Set
+	manufacturer to 'pc'.
+	* testsuite/config-guess.data: Update test cases.
+
 2018-10-20  Peter Kokot  <peterkokot@gmail.com>
 
 	* config.sub: Direct diagnostic output to standard error.
