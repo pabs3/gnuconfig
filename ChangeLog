@@ -1,3 +1,8 @@
+2018-11-20  Andrew Stubbs  <ams@codesourcery.com>
+
+	* config.sub (amdgnu-amdhsa): Recognise.
+	* testsuite/config-sub.data: Test amdgcn-amdhsa.
+
 2018-10-26  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (amd64:CYGWIN*:*:* | x86_64:CYGWIN*:*:*): Set
