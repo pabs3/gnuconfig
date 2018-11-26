@@ -36,6 +36,7 @@ amd64-kfreebsd5.4-gnu				x86_64-pc-kfreebsd5.4-gnu
 amd64-midnightbsd0.7				x86_64-pc-midnightbsd0.7
 amd64-onefs					x86_64-pc-onefs
 amd64-unknown-freebsd5.2			x86_64-unknown-freebsd5.2
+amd64-unknown-unleashed1.1			x86_64-unknown-unleashed1.1
 amd64						x86_64-pc-none
 amdahl						580-amdahl-sysv
 amdgcn-amdhsa					amdgcn-unknown-amdhsa

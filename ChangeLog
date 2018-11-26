@@ -1,3 +1,10 @@
+2018-11-26  Lauri Tirkkonen  <lotheac@iki.fi>
+
+	* config.guess (*:Unleashed:*:*): New.
+	* config.sub (unleashed*): New.
+	* testsuite/config-sub.data: Add a test case.
+	* testsuite/config-guess.data: Likewise.
+
 2018-11-20  Andrew Stubbs  <ams@codesourcery.com>
 
 	* config.sub (amdgnu-amdhsa): Recognise.

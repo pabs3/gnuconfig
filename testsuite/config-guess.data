@@ -2,6 +2,7 @@
 3 | 2.3.3 | XENIX | SysV | ignored | i386-pc-xenix
 aarch64_be | ignored | Linux | ignored | ignored | aarch64_be-unknown-linux-gnu
 aarch64 | ignored | Linux | ignored | ignored | aarch64-unknown-linux-gnu
+amd64 | 1.1 | Unleashed | ignored | ignored | amd64-unknown-unleashed1.1
 amd64 | 1.5.12(0.116/4/2) | CYGWIN_NT-5.2 | ignored | ignored | x86_64-pc-cygwin
 amd64 | 6.1.4 | NetBSD | ignored | x86_64 | x86_64-unknown-netbsd6.1
 amd64 | 6.1.5_PATCH | NetBSD | ignored | x86_64 | x86_64-unknown-netbsd6.1
