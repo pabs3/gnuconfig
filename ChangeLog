@@ -1,3 +1,9 @@
+2018-12-16  Ben Elliston  <bje@gnu.org>
+
+	Revert 2018-05-05 change.
+	* config.sub: Don't pass the -r option to 'read'. Solaris 10 sh
+	does not support -r.
+
 2018-12-07  Ben Elliston  <bje@gnu.org>
 
 	* config.guess: No need to explicitly save $? in the EXIT trap
