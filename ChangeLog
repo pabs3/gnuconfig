@@ -1,3 +1,10 @@
+2019-01-01  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Update copyright years.
+	* config.sub: Likewise.
+	* doc/config.guess.1: Regenerate.
+	* doc/config.sub.1: Likewise.
+
 2018-12-30  Keno Fischer  <keno@juliacomputing.com>
 
 	* config.sub (*-emscripten): Recognise.
