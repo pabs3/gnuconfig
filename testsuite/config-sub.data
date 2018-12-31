@@ -92,6 +92,7 @@ armv8m						armv8m-unknown-none
 armv8r						armv8r-unknown-none
 aros						i386-pc-aros
 asmjs						asmjs-unknown-none
+asmjs-emscripten				asmjs-unknown-emscripten
 avr32						avr32-unknown-none
 avr32-linux					avr32-unknown-linux-gnu
 avr						avr-unknown-none
@@ -613,6 +614,7 @@ visium-elf					visium-unknown-elf
 visium						visium-unknown-none
 vsta						i386-pc-vsta
 wasm32						wasm32-unknown-none
+wasm32-emscripten				wasm32-unknown-emscripten
 we32k						we32k-att-sysv
 x64						x86_64-pc-none
 x64-linux					x86_64-pc-linux-gnu

@@ -1,3 +1,8 @@
+2018-12-30  Keno Fischer  <keno@juliacomputing.com>
+
+	* config.sub (*-emscripten): Recognise.
+	* testsute/config-sub.data: Add test cases.
+
 2018-12-21  Ben Elliston  <bje@gnu.org>
 
 	Revert 2018-07-18 change:
