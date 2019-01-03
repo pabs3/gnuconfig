@@ -1,5 +1,7 @@
 2019-01-03  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.data: Add a test for ARM Linux.
+
 	* testsuite/config-guess.data: Add new tests for Solaris on i386
 	and SPARC machines.
 
