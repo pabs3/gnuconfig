@@ -1,5 +1,10 @@
 2019-01-03  Ben Elliston  <bje@gnu.org>
 
+	* testsuite/config-guess.data: Add new tests for Solaris on i386
+	and SPARC machines.
+
+2019-01-03  Ben Elliston  <bje@gnu.org>
+
 	* testsuite/config-guess.sh (run_config_guess): Set CC_FOR_BUILD
 	to no_compiler_found so that we don't erroneously use the compiler
 	of the host running the testsuite.
