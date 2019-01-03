@@ -14,8 +14,8 @@ arceb | ignored | Linux | ignored | ignored | arceb-unknown-linux-gnu
 arc | ignored | Linux | ignored | ignored | arc-unknown-linux-gnu
 arm | ignored | riscos | ignored | ignored | arm-unknown-riscos
 arm | ignored | RISCOS | ignored | ignored | arm-unknown-riscos
-arm | 12.0 | FreeBSD | ignored | armv6 | armv6-unknown-freebsd12.0-gnueabi
-arm | 12.0 | FreeBSD | ignored | armv7 | armv7-unknown-freebsd12.0-gnueabi
+arm | 12.0 | FreeBSD | ignored | armv6 | armv6-unknown-freebsd12.0-gnueabihf
+arm | 12.0 | FreeBSD | ignored | armv7 | armv7-unknown-freebsd12.0-gnueabihf
 armv4l | ignored | riscos | ignored | ignored | arm-unknown-riscos
 authenticamd | 6.0 | Interix | ignored | ignored | x86_64-unknown-interix6.0
 avr32 | 2.6.15 | Linux | ignored | ignored | avr32-unknown-linux-gnu

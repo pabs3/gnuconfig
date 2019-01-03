@@ -30,7 +30,7 @@ run_config_guess()
 [ \$1 = -p ] && echo "@PROCESSOR@" && exit 0
 EOF
 		chmod +x uname
-		output=$(sh -eu ../config.guess 2>/dev/null)
+		output=$(CC_FOR_BUILD=no_compiler_found sh -eu ../config.guess 2>/dev/null)
 		if test $? != 0 ; then
 			echo "FAIL: unable to guess $machine:$release:$system:$version"
 			rc=1
