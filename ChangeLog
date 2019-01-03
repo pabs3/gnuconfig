@@ -1,3 +1,7 @@
+2019-01-03  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.data: Add more test cases.
+
 2019-01-03  Rainer Orth  <ro@CeBiTec.Uni-Bielefeld.DE>
 
 	* config.guess (sun4*:SunOS:5.*:*): Return sparcv9-sun-solaris2.*
