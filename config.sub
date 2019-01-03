@@ -111,6 +111,7 @@ case $# in
 esac
 
 # Split fields of configuration type
+# shellcheck disable=SC2162
 IFS="-" read field1 field2 field3 field4 <<EOF
 $1
 EOF
@@ -918,6 +919,7 @@ case $basic_machine in
 		;;
 
 	*-*)
+	    	# shellcheck disable=SC2162
 		IFS="-" read cpu vendor <<EOF
 $basic_machine
 EOF
