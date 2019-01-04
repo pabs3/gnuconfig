@@ -1,3 +1,8 @@
+2019-01-04  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (mips64eb): Recognise.
+	* testsuite/config-sub.data: Add a test case for mips64eb.
+
 2019-01-03  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.data: Add more test cases.

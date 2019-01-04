@@ -301,6 +301,7 @@ mingw32ce					arm-unknown-mingw32ce
 mingw32						i686-pc-mingw32
 mingw64						x86_64-pc-mingw64
 mips16						mips16-unknown-elf
+mips64eb					mips64eb-unknown-elf
 mips64el					mips64el-unknown-elf
 mips64						mips64-unknown-elf
 mips64octeonel-elf				mips64octeonel-unknown-elf
