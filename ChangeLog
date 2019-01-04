@@ -1,3 +1,7 @@
+2019-01-05  Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Move v70, w65 and others into sort order.
+
 2019-01-04  Ben Elliston  <bje@gnu.org>
 
 	* config.sub (mips64eb): Recognise.
