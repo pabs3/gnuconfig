@@ -1231,7 +1231,8 @@ case $cpu-$vendor in
 			| riscv | riscv32 | riscv64 \
 			| rl78 | romp | rs6000 | rx \
 			| score \
-			| sh | sh[1234] | sh[24]a | sh[24]ae[lb] | sh[23]e | she[lb] | sh[lb]e \
+			| sh | shl \
+			| sh[1234] | sh[24]a | sh[24]ae[lb] | sh[23]e | she[lb] | sh[lb]e \
 			| sh[1234]e[lb] |  sh[12345][lb]e | sh[23]ele | sh64 | sh64le \
 			| sparc | sparc64 | sparc64b | sparc64v | sparc86x | sparclet \
 			| sparclite \

@@ -526,6 +526,8 @@ sheb						sheb-unknown-none
 sh-elf						sh-unknown-elf
 sh-elf						sh-unknown-elf
 sh-hms						sh-hitachi-hms
+shl						shl-unknown-none
+shl-elf						shl-unknown-elf
 shle-elf					shle-unknown-elf
 shle						shle-unknown-none
 sh						sh-unknown-none
