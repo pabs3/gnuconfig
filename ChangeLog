@@ -1,3 +1,12 @@
+2019-01-15  Ben Elliston  <bje@gnu.org>
+
+	Revert:
+	2019-01-03  Rainer Orth  <ro@CeBiTec.Uni-Bielefeld.DE>
+
+	* config.guess (sun4*:SunOS:5.*:*): Return sparcv9-sun-solaris2.*
+	with 64-bit compiler.
+	(tadpole*:SunOS:5.*:*): Likewise.
+
 2019-01-05  Ben Elliston  <bje@gnu.org>
 
 	* config.sub (shl): Recognise.
