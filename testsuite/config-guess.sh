@@ -20,7 +20,7 @@ run_config_guess()
 			-e "s,@RELEASE@,$release," \
 			-e "s,@SYSTEM@,$system," \
 			-e "s,@VERSION@,$version," \
-			-e "s,@PROCESSOR@,$processor," > uname << EOF
+			-e "s,@PROCESSOR@,$processor," > ./uname << EOF
 #!/bin/sh
 [ \$# -ne 1 ] && exec sh \$0 -s
 [ \$1 = -m ] && echo "@MACHINE@" && exit 0
