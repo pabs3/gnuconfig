@@ -1,3 +1,7 @@
+2019-02-19  Urs Janßen <urs@tin.org>
+
+	* config.guess (i*86:*:5:[678]*): Fix Unixware output.
+
 2019-01-20  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-guess.sh (run_config_guess): For clarity, write
