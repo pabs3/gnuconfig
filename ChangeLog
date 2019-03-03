@@ -1,3 +1,8 @@
+2019-03-04  Urs Janßen <urs@tin.org>
+
+	* config.guess (m68k-sony-newsos, mips-dec-ultrix3): Restore C
+	program that detects these systems.
+
 2019-02-19  Urs Janßen <urs@tin.org>
 
 	* config.guess (i*86:*:5:[678]*): Fix Unixware output.
