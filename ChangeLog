@@ -1,3 +1,7 @@
+2019-03-08  YunQiang Su  <ysu@wavecomp.com>
+
+	* config.guess (mips:Linux:*:*): Detect ISA R6.
+
 2019-03-04  Urs Janßen <urs@tin.org>
 
 	* config.guess (m68k-sony-newsos, mips-dec-ultrix3): Restore C
