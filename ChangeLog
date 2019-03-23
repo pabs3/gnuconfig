@@ -1,12 +1,5 @@
 2019-03-23  Ben Elliston  <bje@gnu.org>
 
-	* Makefile (check-guess): Don't remove uname here.
-	* testsuite/config-guess.sh (run_config_guess): Remove dummy uname
-	script if the test passes (if not, the script is left behind for
-	inspection).
-
-2019-03-23  Ben Elliston  <bje@gnu.org>
-
 	* testsuite/config-sub.sh (run_one_config_sub): New.
 	(run_one_config_sub_idempotent): Likewise.
 	(run_config_sub): Parallelise test cases.
