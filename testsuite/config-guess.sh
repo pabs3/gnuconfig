@@ -42,6 +42,8 @@ EOF
 			continue
 		fi
 		$verbose && echo "PASS: $triplet"
+		# only remove uname dummy script if the test passes
+		rm uname
 	done
 	return $rc
 }
