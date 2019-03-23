@@ -1,3 +1,10 @@
+2019-03-23  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.sh (run_one_config_sub): New.
+	(run_one_config_sub_idempotent): Likewise.
+	(run_config_sub): Parallelise test cases.
+	(run_config_sub_idempotent): Likewise.
+
 2019-03-08  YunQiang Su  <ysu@wavecomp.com>
 
 	* config.guess (mips:Linux:*:*): Detect ISA R6.

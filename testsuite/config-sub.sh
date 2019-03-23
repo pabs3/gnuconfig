@@ -11,39 +11,79 @@
 set -eu
 shopt -s lastpipe
 verbose=false
+maxprocs=16
+
+# Run a single config.sub invocation.
+run_one_config_sub()
+{
+	alias=$1
+	canonical=$2
+	output=$(sh -eu ../config.sub "$alias")
+	if test "$output" != "$canonical" ; then
+	    echo "FAIL: $alias -> $output, but expected $canonical"
+	    return 1
+	else
+	    $verbose && echo "PASS: $alias -> $canonical"
+	fi
+	return 0
+}
 
 run_config_sub()
 {
-	local -i rc=0
+    	local -i rc=0 jobs=0
 	numtests=0
 	name="checks"
 	while read -r alias canonical ; do
-		output=$(sh -eu ../config.sub "$alias")
-		if test "$output" != "$canonical" ; then
-			echo "FAIL: $alias -> $output, but expected $canonical"
-			rc=1
-		else
-			$verbose && echo "PASS: $alias -> $canonical"
+		run_one_config_sub "$alias" "$canonical" &
+		numtests+=1 jobs+=1
+	    	if [ $jobs -eq $maxprocs ] ; then
+		     	for pid in $(jobs -p) ; do
+		    	    	wait "$pid"
+				rc=$((rc || $?))
+			done
+			jobs=0
 		fi
-		numtests+=1
 	done < config-sub.data
+	for pid in $(jobs -p) ; do
+	    	wait "$pid"
+		rc=$((rc || $?))
+	done
 	return $rc
+}
+
+# Run a single config.sub invocation for idempotency checks.
+run_one_config_sub_idempotent()
+{
+    canonical=$1
+    output=$(sh -eu ../config.sub "$canonical")
+    if test "$output" != "$canonical" ; then
+	echo "FAIL: $canonical -> $output, but $canonical should map to itself"
+	return 1
+    else
+	$verbose && echo "PASS: $canonical -> $canonical"
+    fi
+    return 0
 }
 
 run_config_sub_idempotent()
 {
-	local -i rc=0
+	local -i rc=0 jobs=0
 	numtests=0
 	name="idempotency checks"
 	sed -r 's/\t+/\t/g' < config-sub.data | cut -f 2 | uniq | while read -r canonical ; do
-		output=$(sh -eu ../config.sub "$canonical")
-		if test "$output" != "$canonical" ; then
-			echo "FAIL: $canonical -> $output, but $canonical should map to itself"
-			rc=1
-		else
-			$verbose && echo "PASS: $canonical -> $canonical"
+		run_one_config_sub_idempotent "$canonical" &
+		numtests+=1 jobs+=1
+	    	if [ $jobs -eq $maxprocs ] ; then
+		     	for pid in $(jobs -p) ; do
+		    	    	wait "$pid"
+				rc=$((rc || $?))
+			done
+			jobs=0
 		fi
-		numtests+=1
+	done
+	for pid in $(jobs -p) ; do
+	    	wait "$pid"
+		rc=$((rc || $?))
 	done
 	return $rc
 }
