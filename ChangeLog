@@ -1,3 +1,7 @@
+2019-03-29  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Sort.
+
 2019-03-29  Urs Janßen  <urs@tin.org>
 	    Ben Elliston  <bje@gnu.org>
 
