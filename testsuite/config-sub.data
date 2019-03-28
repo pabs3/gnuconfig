@@ -216,6 +216,7 @@ i386-midipix					i386-pc-midipix
 i386-mingw32					i386-pc-mingw32
 i386-msys					i386-pc-msys
 i386-netbsd					i386-pc-netbsd
+i386-next-openstep4				i386-next-openstep4
 i386-openbsd					i386-pc-openbsd
 i386-os2					i386-pc-os2
 i386-pc-nacl					i386-pc-nacl
@@ -277,6 +278,8 @@ m68hcs12z					s12z-unknown-none
 m68k-es1800					m68k-unknown-ose
 m68k						m68k-unknown-none
 m68k-mint					m68k-atari-mint
+m68k-next-openstep3				m68k-next-openstep3
+m68k-next-openstep4				m68k-next-openstep4
 m68knommu					m68k-unknown-linux-gnu
 m88k						m88k-unknown-none
 m88k-omron					m88k-omron-luna

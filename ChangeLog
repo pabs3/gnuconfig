@@ -1,3 +1,10 @@
+2019-03-29  Urs Janßen  <urs@tin.org>
+	    Ben Elliston  <bje@gnu.org>
+
+	* config.sub: Recognize m68k-next-openstep* as openstep*, not
+	nextstep3.
+	* testsuite/config-sub.data: Add test cases.
+
 2019-03-23  Ben Elliston  <bje@gnu.org>
 
 	* testsuite/config-sub.sh (run_one_config_sub): New.
@@ -9,12 +16,12 @@
 
 	* config.guess (mips:Linux:*:*): Detect ISA R6.
 
-2019-03-04  Urs Janßen <urs@tin.org>
+2019-03-04  Urs Janßen  <urs@tin.org>
 
 	* config.guess (m68k-sony-newsos, mips-dec-ultrix3): Restore C
 	program that detects these systems.
 
-2019-02-19  Urs Janßen <urs@tin.org>
+2019-02-19  Urs Janßen  <urs@tin.org>
 
 	* config.guess (i*86:*:5:[678]*): Fix Unixware output.
 
@@ -125,7 +132,7 @@
 
 	* config.sub: Direct diagnostic output to standard error.
 
-2018-10-17  Urs Janßen <urs@tin.org>
+2018-10-17  Urs Janßen  <urs@tin.org>
 
 	* config.sub: Fix comment typos.
 
