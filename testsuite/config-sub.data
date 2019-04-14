@@ -620,6 +620,9 @@ visium-elf					visium-unknown-elf
 visium						visium-unknown-none
 vsta						i386-pc-vsta
 wasm32-emscripten				wasm32-unknown-emscripten
+wasm64-emscripten				wasm64-unknown-emscripten
+wasm32-wasi					wasm32-unknown-wasi
+wasm64-wasi					wasm64-unknown-wasi
 wasm32						wasm32-unknown-none
 we32k						we32k-att-sysv
 x64-linux					x86_64-pc-linux-gnu
