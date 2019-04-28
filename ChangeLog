@@ -1,3 +1,8 @@
+2019-04-28  Urs Janßen  <urs@tin.org>
+
+	* config.guess: Use utsname version instead of preprocessor macros
+	on vax-dec-ultrix and mips-dec-ultrix versions >= 3.0.
+
 2019-04-14  John Ericson <git@johnericson.me>
 
 	* config.sub (wasm64, wasi): Recognise.
