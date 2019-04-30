@@ -1,3 +1,8 @@
+2019-05-01  Paul Eggert  <eggert@cs.ucla.edu>
+
+	* config.guess: Remove space after "#endif", as Gnulib and some
+	other downstream projects frown on trailing white space.
+
 2019-04-28  Urs Janßen  <urs@tin.org>
 
 	* config.guess: Use utsname version instead of preprocessor macros

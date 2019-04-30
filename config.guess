@@ -1580,7 +1580,7 @@ main ()
   printf ("mips-dec-ultrix%s\n", un.release); exit (0);
 #else
   printf ("mips-dec-ultrix\n"); exit (0);
-#endif  
+#endif
 #endif
 #endif
 
