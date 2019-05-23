@@ -106,6 +106,8 @@ be64-none					be64-unknown-none
 bfin						bfin-unknown-none
 bfin-elf					bfin-unknown-elf
 blackfin					bfin-unknown-linux-gnu
+bpf						bpf-unknown-none
+bpf-elf						bpf-unknown-elf
 c4x						c4x-unknown-coff
 c54x-coff					tic54x-unknown-coff
 c54x-none-coff					tic54x-none-coff

@@ -1,3 +1,8 @@
+2019-05-23  Jose E. Marchesi  <jose.marchesi@oracle.com>
+
+	* config.sub (bpf): Recognise.
+	* testsuite/config-sub.data: Add test cases.
+
 2019-05-01  Paul Eggert  <eggert@cs.ucla.edu>
 
 	* config.guess: Remove space after "#endif", as Gnulib and some
